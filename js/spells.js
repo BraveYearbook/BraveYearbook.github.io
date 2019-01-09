@@ -1,4 +1,4 @@
-"use strict";
+"use strict"; 
 
 const JSON_DIR = "data/spells/";
 const JSON_LIST_NAME = "spell";
