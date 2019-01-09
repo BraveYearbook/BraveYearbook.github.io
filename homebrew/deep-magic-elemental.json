@@ -1,0 +1,771 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "dmem",
+				"abbreviation": "DM:EM",
+				"full": "Deep Magic 14: Elemental Magic",
+				"authors": [
+					"Greg Marks"
+				],
+				"convertedBy": [
+                    "Tagger94"
+                ],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753
+	},
+	"subclass": [
+		{
+			"class": "Wizard",
+			"name": "Elementalist",
+			"subclassFeatures": [
+				[
+					{
+						"name": "Elementalist",
+						"entries": [
+							"You focus your arcane studies on the power inherent to one of the Elemental Planes. Sometimes mistaken for evokers, Elementalists believe in the superiority of their chosen element above all others, and they aren’t shy about making that fact known. Elementalists are often secluded researchers, or they sign on with groups who appreciate their singular talents.",
+							{
+								"name": "Elemental Savant",
+								"entries": [
+									"Beginning when you select this tradition at 2nd level, choose one element from the Elemental Focus table. That element becomes the focus of your study. You can speak, read, and write the language associated with your focus, and the associated damage type is used by features you gain later."
+								]
+							},
+							{
+								"name": "Elemental Focus",
+								"entries": [
+									{
+										"type": "table",
+										"colLabels": [
+											"Element",
+											"Language",
+											"Damage Type"
+										],
+										"colStyles": [
+											"col-xs-1",
+											"col-xs-1",
+											"col-xs-2"
+										],
+										"rows": [
+											[
+												"Air",
+												"Auran",
+												"Lightning or Thunder (choose one)"
+											],
+											[
+												"Earth",
+												"Terran",
+												"Acid"
+											],
+											[
+												"Fire",
+												"Ignan",
+												"Fire"
+											],
+											[
+												"Water",
+												"Aquan",
+												"Cold"
+											]
+										]
+									},
+									"Some spells resonate with your focus element. They might deal the associated damage type, manipulate the element in question, or otherwise embody an elemental theme. Work with your GM to determine whether a given spell resonates with your focus. The gold and time you must spend to copy a spell resonant with your chosen element into your spellbook is halved. When you gain a level, one of the two spells you learn for gaining a level can be an elemental magic spell even if you’ve never encountered the spell before. Similarly, when you learn a new cantrip, it can be an elemental magic cantrip even if you’ve never encountered it."
+								]
+							},
+							{
+								"name": "Elemental Mastery",
+								"entries": [
+									"Starting at 2nd level, you learn magical techniques, called masteries, to channel elemental magic into your being and spells.",
+									"<i>Masteries</i>. You learn two masteries of your choice, which are detailed in the “Masteries” section.",
+									"You learn one additional mastery of your choice at 6th, 10th, and 14th levels. Each time you learn a new mastery, you can also replace one mastery you know with a different one.",
+									"<i>Saving Throws</i>. Some of your masteries require your target to make saving throws to resist the mastery’s effects. When you use such an effect from this class, the DC equals your wizard spell save DC."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Substitue Elements",
+								"entries": [
+									"Beginning at 6th level, you can draw elemental magic through your damage dealing spells and change the damage type to the one associated with your elemental focus."
+								]
+							},
+							{
+								"name": "Elemental Mastery",
+								"entries": [
+									"You learn a third Elemental Mastery. You can also replace one mastery you know with a diffrent one."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Absorb Elements",
+								"entries": [
+									"Starting at 10th level, when you would take damage of the type associated with your elemental focus, you can use your reaction to take no damage, and you regain a number of hit points equal to half the damage that you would have taken.",
+									"You can use this ability before any resistance or immunity you have applies. You can use this ability a number of times equal to your Intelligence modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+								]
+							},
+							{
+								"name": "Elemental Mastery",
+								"entries": [
+									"You learn a fourth Elemental Mastery. You can also replace one mastery you know with a diffrent one."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Irresistible Strike",
+								"entries": [
+									"At 14th level, your elemental damage spells are unstoppable. When you cast a spell that deals damage of the type associated with your elemental focus, you can ignore immunity to that damage type.",
+									"You can use this ability a number of times equal to your Intelligence modifier (minimum of 1), and you regain all expended uses when you finish a long rest."
+								]
+							},
+							{
+								"name": "Elemental Mastery",
+								"entries": [
+									"You learn a fifth Elemental Mastery. You can also replace one mastery you know with a diffrent one."
+								]
+							}
+						]
+					}
+				]
+			],
+			"source": "dmem",
+			"shortName": "Elementalist"
+		}
+	],
+	"optionalfeature": [
+		{
+			"name": "Elemental Adaptation",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 14,
+					"class": {
+						"name": "Elementalist Wizard"
+					}
+				}
+			],
+			"entries": [
+				"You add plane shift to your spellbook if you don’t already have it, and you can cast it once with this mastery without expending a spell slot.",
+				"When you cast plane shift using this mastery, you can only travel to the elemental plane associated with your elemental focus or to the Material Plane. While on that elemental plane, you can survive there with no fear of the hostile natural environment. You don’t take damage from the normal conditions of the plane, you can breathe normally, and you can use your speed to move in a manner appropriate to the plane (flying for air, burrowing for earth, or swimming for water). You regain the ability to cast plane shift with this mastery when you finish a long rest."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		},
+		{
+			"name": "Elemental Binding",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 10,
+					"class": {
+						"name": "Elementalist Wizard"
+					}
+				}
+			],
+			"entries": [
+				"You add planar binding to your spellbook if you don’t already have it, and you can cast it once with this mastery without expending a spell slot. When you cast the spell in this way, you must target an elemental creature associated with your elemental focus. If the elemental fails its saving throw, it gains temporary hit points equal to your wizard level. You regain the ability to cast planar binding with this mastery when you finish a long rest."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		},
+		{
+			"name": "Elemental Bulwark",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 6,
+					"class": {
+						"name": "Elementalist Wizard"
+					}
+				}
+			],
+			"entries": [
+				"You gain resistance to the damage type associated with your elemental focus, and you have advantage on Constitution saving throws made to maintain concentration on spells that resonate with your elemental focus."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		},
+		{
+			"name": "Elemental Command",
+			"prerequisite": [
+				{
+					"class": {
+						"name": "Elementalist Wizard"
+					}
+				}
+			],
+			"entries": [
+				"As an action, you can target an elemental creature that you can see within 30 feet. The elemental must succeed on a Wisdom saving throw or be charmed for up to one hour as long as you maintain concentration as if concentrating on a spell. If you or your companions damage the charmed elemental or take harmful actions against it, the charmed condition ends immediately. A creature that succeeds on its saving throw, or if this ability ends for it, is immune to being charmed by you for 24 hours."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		},
+		{
+			"name": "Elemental Erosion",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 10,
+					"class": {
+						"name": "Elementalist Wizard"
+					}
+				}
+			],
+			"entries": [
+				"After you damage a target with a spell of 1st level or higher that deals the damage type associated with your elemental focus, the target becomes vulnerable to that damage type until the end of your next turn. You can use this ability twice. You regain all expended uses when you finish a short or long rest."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		},
+		{
+			"name": "Ignite",
+			"prerequisite": [
+				{
+					"class": {
+						"name": "Elementalist Wizard"
+					}
+				}
+			],
+			"entries": [
+				"When you deal fire damage to a target with a spell of 1st level or higher, you can use a bonus action to cause the target to catch fire. Unless a creature takes an action to douse the flames, at the start of its next turn, the target takes half the damage it originally took from the spell and the flames go out. If you damage more than one target with the spell, choose a target to catch fire."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		},
+		{
+			"name": "Intensified Element",
+			"prerequisite": [
+				{
+					"class": {
+						"name": "Elementalist Wizard"
+					}
+				}
+			],
+			"entries": [
+				"When you damage a target with a spell that deals the damage type associated with your elemental focus, you ignore any resistance the target has to that damage type."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		},
+		{
+			"name": "Overwhelming Onslaught",
+			"prerequisite": [
+				{
+					"type": "prereqLevel",
+					"level": 14,
+					"class": {
+						"name": "Elementalist Wizard"
+					}
+				}
+			],
+			"entries": [
+				"When you damage a target with a spell of 1st level or higher that deals the damage type associated with your elemental focus, you can weave a lingering aura of elemental energy around it. At the start of its turn, the creature must make a Constitution saving throw. On a failed save, it takes 4d6 damage of the type dealt by the spell and is stunned until the start of its next turn, or half as much damage and the effect ends on a successful one.",
+				"You can use this ability twice. You regain all expended uses when you finish a short or long rest."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		},
+		{
+			"name": "Stony Refuge",
+			"prerequisite": [
+				{
+					"class": {
+						"name": "Elementalist Wizard"
+					}
+				}
+			],
+			"entries": [
+				"When you cast a spell of 1st level or higher, you can use a bonus action to create a slab of stone that interposes itself between you and one creature of your choice. Until the end of your next turn, the slab provides half cover against the chosen creature."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		},
+		{
+			"name": "Sweeping Swell",
+			"prerequisite": [
+				{
+					"class": {
+						"name": "Elementalist Wizard"
+					}
+				}
+			],
+			"entries": [
+				"When you cast a spell of 1st level or higher, you can use a bonus action to create a sweeping wave of water to push a target you can see within 20 feet. The creature must succeed on a Strength saving throw or be pushed 5 feet in the direction of your choice and knocked prone."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		},
+		{
+			"name": "Wind Blast",
+			"entries": [
+				"When you cast a spell of 1st level or higher, you can use a bonus action to create a line of wind that is 20-foot long and 5-foot wide. Each creature in the line must make a Strength saving throw or take 1d6 slashing damage and be pushed 10 feet away from you in the direction of the line."
+			],
+			"source": "dmem",
+			"featureType": "EM"
+		}
+	],
+	"spell": [
+		{
+			"name": "Acid Rain",
+			"level": 5,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 150
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of acid"
+			},
+			"duration": [
+				{
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+			],
+			"classes": {
+				"fromClassList": [
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+					},
+					{
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+				]
+			},
+			"source": "dmem",
+			"entries": [
+                "You unleash a storm of swirling acid in a cylinder 20-foot wide and 30-foot high centered on a point you can see. The area is heavily obscured by driving rainfall. A creature that starts its turn in or enters the area for the first time must make a Dexterity saving throw. On a failed save, the creature takes 6d6 acid damage, or half as much damage on a successful one. When a creature leaves the area, it takes 3d6 acid damage at the start of its next turn."
+            ],
+            "entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 7th level or higher, the initial damage increases by 2d6, and the secondary damage increases by 1d6 for every two slot levels above 5th."
+                    ]
+                }
+            ]
+		},
+		{
+			"name": "Blizzard",
+			"level": 7,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 100
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+			],
+			"classes": {
+				"fromClassList": [
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+					},
+					{
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+				]
+			},
+			"source": "dmem",
+			"entries": [
+				"A howling storm of thick snow and ice crystals appears in a 40-foot wide, 40-foot high cylinder. The area is heavily obscured by swirling snow. When the storm appears, each creature in the area must make a Constitution saving throw. A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one. A creature must also make this save when it enters the area for the first time or ends its turn there.",
+				"A creature who takes cold damage from this spell has disadvantage on Constitution saving throws made to maintain concentration until the start of its next turn."
+            ]
+		},
+		{
+			"name": "Caustic Torrent",
+			"level": 8,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "line",
+				"distance": {
+					"type": "feet",
+					"amount": 60
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a chip of bone pitted by acid"
+			},
+			"duration": [
+				{
+                    "type": "instance"
+                }
+			],
+			"classes": {
+				"fromClassList": [
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+					},
+					{
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+				]
+			},
+			"source": "dmem",
+			"entries": [
+				"A swirling jet of acid sprays from you in a direction you choose. The acid fills a line that is 60-foot long and 5-foot wide. Each creature in the area must make a Dexterity saving throw. A creature takes 14d6 acid damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hit points by this spell is killed, and its body is liquefied. The line releases toxic fumes, and each creature other than you within 5 feet of the line is poisoned for 1 minute. A poisoned creature can make a Constitution saving throw at the end of its turn, ending the effect on itself on a success."
+            ]
+		},
+		{
+			"name": "Drown",
+			"level": 6,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "water from the lunds of a drowned creature"
+			},
+			"duration": [
+				{
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+			],
+			"classes": {
+				"fromClassList": [
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+					},
+					{
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+				]
+			},
+			"source": "dmem",
+			"entries": [
+				"Water swirls up in a sphere around a creature you can see within range, forcing itself into the creature’s mouth and nose. The creature must make a Strength saving throw. On a failed save, it is stunned until the start of its next turn by the water entering its lungs. On a successful save, the creature isn’t affected.",
+				"An affected creature can’t speak and begins to suffocate. As an action, the creature can try to cough the water out of its lungs by repeating the saving throw. On a success, the spell ends. A creature that can breathe water isn’t affected by this spell."
+            ]
+		},
+		{
+			"name": "Earthskimmer",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a piece of shale or slate"
+			},
+			"duration": [
+				{
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+			],
+			"classes": {
+				"fromClassList": [
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+					},
+					{
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+				]
+			},
+			"source": "dmem",
+			"entries": [
+				"You cause earth and stone to rise up beneath your feet, lifting you up to 5 feet. For the duration, you can use your movement to cause the slab to skim along the ground or another solid surface at a speed of 60 feet. This movement ignores difficult terrain. If you are pushed or moved against your will by any means other than teleporting, the slab moves with you.",
+				"When you take the Dash action, until the end of your turn you can enter the space of a creature up to one size larger than yourself, and the creature must make a Strength saving throw. A creature takes 4d6 bludgeoning damage on a failed save and is knocked prone, or half as much damage and isn’t knocked prone on a successful one."
+            ]
+		},
+		{
+			"name": "Entomb",
+			"level": 6,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a chip of granite"
+			},
+			"duration": [
+				{
+                    "type": "timed",
+                    "duration": {
+                        "type": "hours",
+                        "amount": 8
+                    }
+                }
+			],
+			"classes": {
+				"fromClassList": [
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+					},
+					{
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+				]
+			},
+			"source": "dmem",
+			"entries": [
+				"You cause slabs of rock to burst out of the ground or another stone surface to form a 10-foot cube within range. When the cube forms, a creature inside must succeed on a Dexterity saving throw or be trapped in the stone tomb. The tomb is airtight, with enough air for a single Medium or Small creature to breathe for 8 hours. Divide the time evenly between the number of creatures trapped within. A Large creature counts as four Medium creatures. If the creature is still trapped inside when the air runs out, it begins to suffocate.",
+				"The tomb has an AC 18 and 50 hit points. It is resistant to fire, cold, lightning, bludgeoning, and slashing damage, is immune to poison and psychic damage, and is vulnerable to thunder damage. When reduced to 0 hit points, the tomb crumbles into harmless powder."
+            ]
+		},
+		{
+			"name": "Flame Wave",
+			"level": 4,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "cone",
+				"distance": {
+					"type": "feet",
+					"amount": 40
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a drop of tar, pitch, or oil"
+			},
+			"duration": [
+				{
+                    "type": "instant"
+                }
+			],
+			"classes": {
+				"fromClassList": [
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+					},
+					{
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+				]
+			},
+			"source": "dmem",
+			"entries": [
+				"A rushing burst of fire rips out from you in a rolling wave, filling a 40-foot cone. Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes 6d8 fire damage and is pushed 20 feet away from you, or takes half as much damage and isn’t pushed on a successful one."
+			],
+			"entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 5th level or higher, the damage increases by 1d8 for each slot level above 4th."
+                    ]
+                }
+            ]
+		},
+		{
+			"name": "Frostbite",
+			"level": 5,
+			"school": "V",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a strip of dried flesh that has been frozen at least once"
+			},
+			"duration": [
+				{
+                    "type": "timed",
+                    "duration": {
+                        "type": "minute",
+                        "amount": 1
+                    },
+                    "concentration": true
+                }
+			],
+			"classes": {
+				"fromClassList": [
+					{
+                        "name": "Sorcerer",
+                        "source": "PHB"
+                    },
+                    {
+                        "name": "Warlock",
+                        "source": "PHB"
+					},
+					{
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+				]
+			},
+			"source": "dmem",
+			"entries": [
+				"You cause biting cold to settle around a creature you can see. The creature must succeed on a Constitution saving throw or take 4d8 cold damage, be reduced to half speed, and suffer disadvantage on attack rolls and ability checks. Creatures who are immune to cold damage are unaffected by this spell.",
+				"For the duration, the target must repeat the saving throw at the start of its turn. If the target passes three saving throws against the spell, the spell ends. If no targets are affected, the spell ends immediately."
+			],
+			"entriesHigherLevel": [
+                {
+                    "type": "entries",
+                    "name": "At Higher Levels",
+                    "entries": [
+                        "When you cast this spell using a spell slot of 6th level or higher, you can target two additional creatures for every slot level above 5th."
+                    ]
+                }
+            ]
+		}
+	]
+}
