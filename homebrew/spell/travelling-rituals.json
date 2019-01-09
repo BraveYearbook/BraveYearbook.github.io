@@ -428,53 +428,6 @@
             ]
         },
         {
-            "name": "Warm or Cool Cloak",
-            "source": "ertw",
-            "level": 1,
-            "school": "T",
-            "time": [
-                {
-                    "number": 1,
-                    "unit": "minute"
-                }
-            ],
-            "range": {
-                "type": "point",
-                "distance": {
-                    "type": "touch"
-                }
-            },
-            "components": {
-                "v": true,
-                "s": true,
-                "m": "a cloak"
-            },
-            "duration": [
-                {
-                    "type": "timed",
-                    "duration": {
-                        "type": "hour",
-                        "amount": 24
-                    },
-                    "concentration": true
-                }
-            ],
-            "meta": {
-                "ritual": true
-            },
-            "classes": {
-                "fromClassList": [
-                    {
-                        "name": "Wizard",
-                        "source": "PHB"
-                    }
-                ]
-            },
-            "entries": [
-                "You perform this ritual and touch one cloak. That cloak becomes magically enchanted to become warm and comfortable to the wearer, perfectly adjusting to match the wearers ideal body temperature. This effect only affects the inside of the cloak. The exterior of the cloak remains the same temperature of the air around the wearer."
-            ]
-        },
-        {
             "name": "Detect North",
             "source": "ertw",
             "level": 1,
