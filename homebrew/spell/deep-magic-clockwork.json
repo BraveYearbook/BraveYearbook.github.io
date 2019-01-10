@@ -1,0 +1,391 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "dmcm",
+				"abbreviation": "DM:CM",
+				"full": "Deep Magic 1: Clockword Magic",
+				"authors": [
+					"Greg Marks"
+				],
+				"convertedBy": [
+					"Tagger94"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1537874753
+	},
+	"spell": [
+		{
+			"name": "Absolute Command",
+			"level": 4,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a pair of small gloves fitted with a conduit and worth 100 gp"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "dmcm",
+			"entries": [
+				"You can control a construct you have built with a challenge rating of 6 or less. You can manipulate objects with your construct as precisely as its construction allows, and you perceive its surroundings through its sensory inputs as if you inhabited its body.",
+				"The construct uses the caster’s Proiciency bonus (modified by the construct’s Strength and Dexterity scores). You can use the manipulators of the construct to perform any number of skill-based tasks, using the construct’s Strength and Dexterity modiiers when using skills based on those particular abilities.",
+				"Your body remains immobile, as if paralyzed, for the duration of the spell. The construct must remain within 100 feet of you. If it moves beyond this distance, the spell immediately ends and the caster’s mind returns to his or her body."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"When you cast this spell using higher-level spell slots, you may control a construct with a challenge rating 2 higher for each slot level you use above 4th. The construct’s range also increases by 10 feet for each slot level."
+					]
+				}
+			]
+		},
+		{
+			"name": "Analyze Device",
+			"level": 0,
+			"school": "D",
+			"time": [
+				{
+					"number": 1,
+					"unit": "hour"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a complete set of clockworker’s tools"
+			},
+			"duration": [
+				{
+					"type": "instant"
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "dmcm",
+			"entries": [
+				"You discover all mechanical properties, mechanisms, and functions of a single construct or clockwork device, including how to activate or deactivate those functions, if appropriate."
+			]
+		},
+		{
+			"name": "Animate Construct",
+			"level": 1,
+			"school": "T",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 30
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a construct body of appropriate size"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "dmcm",
+			"entries": [
+				"This spell animates a carefully prepared construct of Tiny size. The object acts immediately, on your turn, and can atack your opponents to the best of its ability. You can direct it not to atack, to atack particular enemies, or to perform other actions. You choose the object to animate, and you can change that choice each time you cast the spell. The cost of the body to be animated is 10 gp x its hit points. The body can be reused any number of times, provided it isn’t severely damaged or destroyed.",
+				"If no prepared construct body is available, you can animate a mass of loose metal or stone instead. Before casting, the loose objects must be arranged in a suitable shape (taking up to a minute), and the construct’s hit points are halved.",
+				"An animated construct has a Constitution of 10, Intelligence and Wisdom 3, and Charisma 1. Other characteristics are determined by the construct’s size as follows.",
+				{
+					"type": "table",
+					"caption": "Animated Object Statistics",
+					"colLabels": [
+						"Size",
+						"HP",
+						"AC",
+						"Attack",
+						"Str",
+						"Dex",
+						"Spell Slot"
+					],
+					"colStyles": [
+						"col-2",
+						"col-1 text-align-center",
+						"col-1 text-align-center",
+						"col-6",
+						"col-1 text-align-center",
+						"col-1 text-align-center",
+						"col-1 text-align-center"
+					],
+					"rows": [
+						[
+							"{@creature animated construct (tiny)|phb|Tiny}",
+							"15",
+							"12",
+							"{@hit +3} to hit, {@damage 1d4 + 4} damage",
+							"{@dice 1d20-3|4}",
+							"{@dice 1d20+3|16}",
+							"1st"
+						],
+						[
+							"{@creature animated construct (small)|phb|Small}",
+							"25",
+							"13",
+							"{@hit +4} to hit, {@damage 1d8 + 2} damage",
+							"{@dice 1d20-2|6}",
+							"{@dice 1d20+2|14}",
+							"2nd"
+						],
+						[
+							"{@creature animated construct (medium)|phb|Medium}",
+							"40",
+							"14",
+							"{@hit +5} to hit, {@damage 2d6 + 1} damage",
+							"{@dice 1d20+0|10}",
+							"{@dice 1d20+1|12}",
+							"3rd"
+						],
+						[
+							"{@creature animated construct (large)|phb|Large}",
+							"50",
+							"15",
+							"{@hit +6} to hit, {@damage 2d10 + 2} damage",
+							"{@dice 1d20+2|14}",
+							"{@dice 1d20+0|10}",
+							"4th"
+						],
+						[
+							"{@creature animated construct (huge)|phb|Huge}",
+							"80",
+							"16",
+							"{@hit +8} to hit, {@damage 2d12 + 4} damage",
+							"{@dice 1d20+18|18}",
+							"{@dice 1d20-1|8}",
+							"5th"
+						],
+						[
+							"{@creature animated construct (gargantuan)|phb|Gargantuan}",
+							"100",
+							"17",
+							"{@hit +10} to hit, {@damage 4d8 + +6} damage",
+							"{@dice 1d20+5|20}",
+							"{@dice 1d20-2|6}",
+							"6th"
+						]
+					]
+				}
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Casting this spell using higher level spell slots allows you to increase the size of the construct animated, as shown on the table."
+					 ]
+				}
+			]
+		},
+		{
+			"name": "Armored Heart",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "touch"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "5 gp worth of mithral dust sprinkled on the target’s skin"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "round",
+						"amount": 1
+					}
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "dmcm",
+			"entries": [
+				"The targeted creature gains resistance to bludgeoning, slashing, and piercing damage. This resistance can be overcome with adamantine or magical weapons."
+			]
+		},
+		{
+			"name": "Armored Shell",
+			"level": 1,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "action"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": "a rivet"
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "hour",
+						"amount": 1
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "dmcm",
+			"entries": [
+				"This spell creates a suit of magical studded leather armor (AC 12). It does not grant you proiciency in its use. Casters without the appropriate armor proiciency suffer disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity and cannot cast spells."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"Casting armored shell using a higher-level spell slot creates stronger armor: a chain shirt (AC 13) at level 2, scale mail (AC 14) at level 3, chain mail (AC 16) at level 4, and plate armor (AC 18) at level 5."
+					]
+				}
+			]
+		},
+		{
+			"name": "Call the Hunter",
+			"level": 8,
+			"school": "C",
+			"time": [
+				{
+					"number": 1,
+					"unit": "minute"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "feet",
+					"amount": 90
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 10
+					},
+					"concentration": true
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+			},
+			"source": "dmcm",
+			"entries": [
+				"You detach a portion of your soul to become the embodiment of justice in the form of a clockwork outsider known as a Zelekhut who will serve at your commands for the duration, so long as those commands are consistent with its desire to punish wrongdoers. You may give the creature commands as a bonus action; it acts either immediately before or after you."
+			]
+		}
+	]
+}
