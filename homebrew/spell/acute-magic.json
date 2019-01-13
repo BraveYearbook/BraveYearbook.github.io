@@ -1,0 +1,127 @@
+{
+    "_meta": {
+        "sources": [
+            {
+                "json": "am",
+                "abbreviation": "AM",
+                "full": "Acute Magic",
+                "authors": [
+                    "Tagger"
+                ],
+                "convertedBy": [
+                    "Tagger"
+                ],
+                "version": "2.0",
+                "url": "",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 1542063914
+    },
+    "spell": [
+        {
+            "name": "True Name",
+            "level": 5,
+            "school": "D",
+            "source": "am",
+            "page": 1,
+            "meta": {
+                "ritual": false
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 30
+                }
+            },
+            "components": {
+                "v": true,
+                "s":true,
+                "m": "a small slip of paper and powdered ruby worth 1,000 gp, sprinkled over the paper and consumed by the spell",
+                "cost": 1000,
+                "consume": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+            },
+            "entries": [
+                "You attempt to learn the True Name of one creature that you can see withing range by reaching into knowledge from a higher plane. The target must succeed on a Charisma saving throw. On a failed save, the target's True Name is written on the slip of paper.",
+                "A True Name appears as a set of points connected in an intricate pattern. This pattern is impossible to copy with the use of the Copy True Name spell. Additionally, the name cannot be spoken out loud since it is a concept before words.",
+                "The true name of a creature or object imparts some knowledge of how it interacts with the world. Certain aspects can be divined by studying the true name or holding it in your mind. As a bonus action, you can study the true name and hold it in your mind for a number of rounds equal to twice your intelligence modifier (minimum 2).",
+                {
+                    "type": "list",
+                    "items": [
+                        "By spending a bonus action, you can know if the owner of a true name is above half health.",
+                        "By spending an action, you can cast True Strike on the owner with an infinite range.",
+                        "By spending 1 minute focusing, you can know what plane the owner is on. The owner can resist with a Wisdom saving throw.",
+                        "By spending 1 minute focusing, you can know what race the owner is, what type of spell caster it is, and any curses or boons it possess.",
+                        "By spending 1 minute focusing, you can cast Identify on the owner without having to have the owner present.",
+                        "The True Name of a mundane object gives you advantage in crafting it."
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Copy True Name",
+            "level": 4,
+            "school": "D",
+            "source": "am",
+            "page": 1,
+            "meta": {
+                "ritual": true
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "action"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "touch"
+                }
+            },
+            "components": {
+                "v": true,
+                "s":true,
+                "m": "a small slip of paper and powdered ruby worth 1,000 gp, sprinkled over the paper and consumed by the spell",
+                "cost": 1000,
+                "consume": true
+            },
+            "duration": [
+                {
+                    "type": "instant"
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+					{
+						"name": "Wizard",
+						"source": "PHB"
+					}
+				]
+            },
+            "entries": [
+                "You touch a True Name and perfectly copy it onto another slip of paper."
+            ]
+        }
+    ]
+}

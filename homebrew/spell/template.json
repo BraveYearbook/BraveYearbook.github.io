@@ -45,7 +45,26 @@
             ]
         }
     ],
-    "classes": {},
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Cleric",
+                "source": "PHB"
+            },
+            {
+                "name": "Warlock",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
+    },
     "entries": [
         ""
     ],
