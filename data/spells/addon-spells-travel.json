@@ -21,7 +21,7 @@
     "spell": [
         {
             "name": "Mystic Cooking Fire",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "C",
             "time": [
@@ -68,7 +68,7 @@
         },
         {
             "name": "Earth to Sausages",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "T",
             "time": [
@@ -110,7 +110,7 @@
         },
         {
             "name": "Chill Provisions",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "V",
             "time": [
@@ -156,7 +156,7 @@
         },
         {
             "name": "Magic Spit",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "C",
             "time": [
@@ -202,7 +202,7 @@
         },
         {
             "name": "Refill Waterskin",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "C",
             "time": [
@@ -243,7 +243,7 @@
         },
         {
             "name": "Summon Umbrella",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "C",
             "time": [
@@ -290,7 +290,7 @@
         },
         {
             "name": "Summon Parasol",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 2,
             "school": "C",
             "time": [
@@ -336,7 +336,7 @@
         },
         {
             "name": "Waterproof Tent",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "T",
             "time": [
@@ -382,7 +382,7 @@
         },
         {
             "name": "Warm or Cool Cloak",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "T",
             "time": [
@@ -429,7 +429,7 @@
         },
         {
             "name": "Detect North",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "D",
             "time": [
@@ -475,7 +475,7 @@
         },
         {
             "name": "Endless String",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 2,
             "school": "C",
             "time": [
@@ -522,7 +522,7 @@
         },
         {
             "name": "Mystic Cartography",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 2,
             "school": "D",
             "time": [
@@ -568,7 +568,7 @@
         },
         {
             "name": "Reveal the Way",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 3,
             "school": "D",
             "time": [
@@ -610,7 +610,7 @@
         },
         {
             "name": "Conceal Campsite",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 5,
             "school": "I",
             "time": [
@@ -657,7 +657,7 @@
         },
         {
             "name": "Appledrab's Candle-click",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "T",
             "time": [
@@ -703,7 +703,7 @@
         },
         {
             "name": "Featherbed",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 1,
             "school": "T",
             "time": [
@@ -748,7 +748,7 @@
         },
         {
             "name": "Boundary Ward",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 3,
             "school": "D",
             "time": [
@@ -794,7 +794,7 @@
         },
         {
             "name": "Summon Groom",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 2,
             "school": "C",
             "time": [
@@ -841,7 +841,7 @@
         },
         {
             "name": "Levitate Wagon",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 4,
             "school": "T",
             "time": [
@@ -887,7 +887,7 @@
         },
         {
             "name": "Waterproof Wagon",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 2,
             "school": "T",
             "time": [
@@ -933,7 +933,7 @@
         },
         {
             "name": "Dry Laundry",
-            "source": "ertw",
+            "source": "ERTW",
             "level": 2,
             "school": "V",
             "time": [

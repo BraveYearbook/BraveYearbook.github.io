@@ -6,8 +6,9 @@
 		"For example, add \"My Homebrew.json\" to the \"toImport\" array below, and have a valid JSON homebrew file in this (\"homebrew/\") directory."
 	],
 	"toImport": [
-		"class/deep-magic-battle.json",
-		"spell/travelling-rituals.json",
-		"spell/deep-magic-clockwork.json"
+		"spell/deep-magic-1-clockwork.json",
+		"spell/deep-magic-13-dragon.json",
+		"spell/deep-magic-14-elemental.json",
+		"spell/deep-magic-16-time.json"
 	]
 }

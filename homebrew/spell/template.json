@@ -1,0 +1,61 @@
+{
+    "name": "Name",
+    "level": 0,
+    "school": "A",
+    "source": "dm1",
+    "page": 1,
+    "meta": {
+        "ritual": false
+    },
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point | radius | cone | line",
+        "distance": {
+            "type": "feet | touch | self | sight",
+            "amount": 30
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true,
+        "m": "a tiny strip of white cloth"
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "minute",
+                "amount": 1
+            },
+            "concentration": true
+        },
+        {
+            "type": "instant"
+        },
+        {
+            "type": "permanent",
+            "ends": [
+                "dispel",
+                "trigger"
+            ]
+        }
+    ],
+    "classes": {},
+    "entries": [
+        ""
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                ""
+            ]
+        }
+    ]
+}
