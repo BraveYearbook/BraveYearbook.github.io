@@ -13,23 +13,16 @@ const sourceFilter = getSourceFilter();
 const pantheonFilter = new Filter({
 	header: "Pantheon",
 	items: [
-		"Celtic",
-		"Dawn War",
-		"Dragonlance",
-		"Drow",
-		"Dwarven",
-		"Eberron",
-		"Egyptian",
-		"Elven",
-		"Faerûnian",
-		"Forgotten Realms",
-		"Gnomish",
-		"Greek",
-		"Greyhawk",
-		"Halfling",
-		"Nonhuman",
-		"Norse",
-		"Orc"
+		"The Sovereign Host",
+		"The Dark Six",
+		"The Silver Flame",
+		"The Blood of Vol",
+		"Cults of the Dragon Below",
+		"Faiths of the Quori",
+		"Elven Ancestors",
+		"Alternative Pantheons",
+		"Druid Sects",
+		"Faiths of Warforged"
 	]
 });
 const categoryFilter = new Filter({
@@ -38,9 +31,6 @@ const categoryFilter = new Filter({
 		STR_NONE,
 		"Other Faiths of Eberron",
 		"The Dark Six",
-		"The Gods of Evil",
-		"The Gods of Good",
-		"The Gods of Neutrality",
 		"The Sovereign Host"
 	]
 });
