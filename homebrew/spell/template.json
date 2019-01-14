@@ -2,7 +2,7 @@
     "name": "Name",
     "level": 0,
     "school": "A",
-    "source": "dm1",
+    "source": "ertw",
     "page": 1,
     "meta": {
         "ritual": false
@@ -14,23 +14,28 @@
         }
     ],
     "range": {
-        "type": "point | radius | cone | line",
+        "type": "point|special|line|cube|cone|radius|sphere|hemisphere",
         "distance": {
-            "type": "feet | touch | self | sight",
+            "type": "feet|miles|self|touch|special|unlimited|plane|sight",
             "amount": 30
         }
     },
     "components": {
         "v": true,
         "s": true,
-        "m": "a tiny strip of white cloth"
+        "m": {
+            "text": "25 gp worth of powdered silver, which the spell consumes",
+            "cost": 0,
+            "consume": false
+        }
     },
     "duration": [
         {
-            "type": "timed",
+            "type": "timed|instant|permanent|special",
             "duration": {
-                "type": "minute",
-                "amount": 1
+                "type": "minute|hour|turn|round|week|day|year",
+                "amount": 1,
+                "upTo": true
             },
             "concentration": true
         },
@@ -40,9 +45,11 @@
         {
             "type": "permanent",
             "ends": [
-                "dispel",
-                "trigger"
+                "dispel", "trigger", "discharge"
             ]
+        },
+        {
+            "type": "special"
         }
     ],
     "classes": {
@@ -53,6 +60,22 @@
             },
             {
                 "name": "Cleric",
+                "source": "PHB"
+            },
+            {
+                "name": "Druid",
+                "source": "PHB"
+            },
+            {
+                "name": "Paladin",
+                "source": "PHB"
+            },
+            {
+                "name": "Ranger",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
                 "source": "PHB"
             },
             {
@@ -76,5 +99,41 @@
                 ""
             ]
         }
-    ]
+    ],
+    "opposedCheck": [
+        "strength", "constitution", "dexterity", "intelligence", "wisdom", "charisma"
+    ],
+    "savingThrow": [
+        "strength",
+        "dexterity",
+        "constitution",
+        "intelligence",
+        "wisdom",
+        "charisma"
+    ],
+    "spellAttack": [
+        "M",
+        "R",
+        "O"
+    ],
+    "conditionInflict": [
+        "blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"
+    ],
+    "damageInflict": [
+        "acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"
+    ],
+    "damageImmune": [
+        "acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"
+    ],
+    "damageResist": [
+        "acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"
+    ],
+    "damageVulnerable": [
+        "acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"
+    ],
+    "scalingEffects": false,
+    "permanentEffects": false,
+    "isHeal": false,
+    "races": [],
+    "otherSources": []
 }

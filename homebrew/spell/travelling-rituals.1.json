@@ -16,18 +16,14 @@
                 "targetSchema": "1.0.0"
             }
         ],
-        "dateAdded": 1547482086702
+        "dateAdded": 1542063914
     },
     "spell": [
         {
             "name": "Mystic Cooking Fire",
+            "source": "ertw",
             "level": 1,
             "school": "C",
-            "source": "ertw",
-            "page": 4,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -51,11 +47,13 @@
                     "type": "timed",
                     "duration": {
                         "type": "hour",
-                        "amount": 10,
-                        "upTo": true
+                        "amount": 10
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -70,13 +68,9 @@
         },
         {
             "name": "Earth to Sausages",
+            "source": "ertw",
             "level": 1,
             "school": "T",
-            "source": "ertw",
-            "page": 4,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -99,6 +93,9 @@
                     "type": "permanent"
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -113,13 +110,9 @@
         },
         {
             "name": "Chill Provisions",
+            "source": "ertw",
             "level": 1,
             "school": "V",
-            "source": "ertw",
-            "page": 4,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -134,17 +127,21 @@
             },
             "components": {
                 "v": true,
-                "s": true
+                "s": true,
+                "m": true
             },
             "duration": [
                 {
                     "type": "timed",
                     "duration": {
-                        "type": "hour",
-                        "amount": 24
+                        "type": "day",
+                        "amount": 1
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -159,13 +156,9 @@
         },
         {
             "name": "Magic Spit",
+            "source": "ertw",
             "level": 1,
             "school": "C",
-            "source": "ertw",
-            "page": 4,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -187,11 +180,13 @@
                     "type": "timed",
                     "duration": {
                         "type": "hour",
-                        "amount": 10,
-                        "upTo": true
+                        "amount": 10
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -207,13 +202,9 @@
         },
         {
             "name": "Refill Waterskin",
+            "source": "ertw",
             "level": 1,
             "school": "C",
-            "source": "ertw",
-            "page": 1,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -235,6 +226,9 @@
                     "type": "instant"
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -249,13 +243,9 @@
         },
         {
             "name": "Summon Umbrella",
+            "source": "ertw",
             "level": 1,
             "school": "C",
-            "source": "ertw",
-            "page": 5,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -278,12 +268,14 @@
                     "type": "timed",
                     "duration": {
                         "type": "hour",
-                        "amount": 24,
-                        "upTo": true
+                        "amount": 24
                     },
                     "concentration": true
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -298,13 +290,9 @@
         },
         {
             "name": "Summon Parasol",
+            "source": "ertw",
             "level": 2,
             "school": "C",
-            "source": "ertw",
-            "page": 5,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -327,11 +315,13 @@
                     "type": "timed",
                     "duration": {
                         "type": "hour",
-                        "amount": 1,
-                        "upTo": true
+                        "amount": 1
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -346,13 +336,9 @@
         },
         {
             "name": "Waterproof Tent",
+            "source": "ertw",
             "level": 1,
             "school": "T",
-            "source": "ertw",
-            "page": 5,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -375,11 +361,13 @@
                     "type": "timed",
                     "duration": {
                         "type": "hour",
-                        "amount": 24,
-                        "upTo": true
+                        "amount": 24
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -394,13 +382,9 @@
         },
         {
             "name": "Warm or Cool Cloak",
+            "source": "ertw",
             "level": 1,
             "school": "T",
-            "source": "ertw",
-            "page": 5,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -423,12 +407,14 @@
                     "type": "timed",
                     "duration": {
                         "type": "hour",
-                        "amount": 24,
-                        "upTo": true
+                        "amount": 24
                     },
                     "concentration": true
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -443,13 +429,9 @@
         },
         {
             "name": "Detect North",
+            "source": "ertw",
             "level": 1,
             "school": "D",
-            "source": "ertw",
-            "page": 6,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -476,6 +458,9 @@
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -490,13 +475,9 @@
         },
         {
             "name": "Endless String",
+            "source": "ertw",
             "level": 2,
             "school": "C",
-            "source": "ertw",
-            "page": 6,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -523,6 +504,9 @@
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -538,13 +522,9 @@
         },
         {
             "name": "Mystic Cartography",
+            "source": "ertw",
             "level": 2,
             "school": "D",
-            "source": "ertw",
-            "page": 6,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -571,6 +551,9 @@
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -585,17 +568,13 @@
         },
         {
             "name": "Reveal the Way",
+            "source": "ertw",
             "level": 3,
             "school": "D",
-            "source": "ertw",
-            "page": 6,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
-                    "unit": "action"
+                    "unit": "minute"
                 }
             ],
             "range": {
@@ -614,6 +593,9 @@
                     "type": "instant"
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -628,13 +610,9 @@
         },
         {
             "name": "Conceal Campsite",
+            "source": "ertw",
             "level": 5,
             "school": "I",
-            "source": "ertw",
-            "page": 7,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 10,
@@ -657,11 +635,13 @@
                     "type": "timed",
                     "duration": {
                         "type": "hour",
-                        "amount": 8,
-                        "upTo": true
+                        "amount": 8
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -677,13 +657,9 @@
         },
         {
             "name": "Appledrab's Candle-click",
-            "level": 1,
-            "school": "V",
             "source": "ertw",
-            "page": 7,
-            "meta": {
-                "ritual": true
-            },
+            "level": 1,
+            "school": "T",
             "time": [
                 {
                     "number": 1,
@@ -710,6 +686,9 @@
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -724,13 +703,9 @@
         },
         {
             "name": "Featherbed",
+            "source": "ertw",
             "level": 1,
             "school": "T",
-            "source": "ertw",
-            "page": 7,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 10,
@@ -756,6 +731,9 @@
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -765,18 +743,14 @@
                 ]
             },
             "entries": [
-                "When you cast this ritual you enchant a bedroll to make it as comfortable as a feather bed for the duration of the night. As a result of this enchantment you experience incredibly good sleep. You may gain the benefits of a full night of sleep after just 6 hours, rather than 8. As elves do not sleep, this spell can not enhance their sleep. Their trance ability is not compatible with the effects of this spell."
+                "When you cast this ritual you enchant your bedroll to make it as comfortable as a feather bed for the duration of the night. As a result of this enchantment you experience incredibly good sleep. You may gain the benefits of a full night of sleep after just 6 hours, rather than 8. As elves do not sleep, this spell can not enhance their sleep. Their trance ability is not compatible with the effects of this spell."
             ]
         },
         {
             "name": "Boundary Ward",
+            "source": "ertw",
             "level": 3,
             "school": "D",
-            "source": "ertw",
-            "page": 7,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 10,
@@ -803,6 +777,9 @@
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -812,18 +789,14 @@
                 ]
             },
             "entries": [
-                "When you cast this spell you enchant a circular locus around your current location, centred on yourself. If any creature larger than a mouse crosses this line either on land or in the air in the next 8 hours, you magically sense the intrusion, even if you are asleep. You may choose to wake up when this effect is triggered."
+                "When you cast this ritual you enchant a circular locus around your current location, centred on yourself. If any creature larger than a mouse crosses this line either on land or in the air in the next 8 hours, you magically sense the intrusion, even if you are asleep. You may choose to wake up when this effect is triggered."
             ]
         },
         {
             "name": "Summon Groom",
+            "source": "ertw",
             "level": 2,
             "school": "C",
-            "source": "ertw",
-            "page": 8,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -846,11 +819,13 @@
                     "type": "timed",
                     "duration": {
                         "type": "hour",
-                        "amount": 1,
-                        "upTo": true
+                        "amount": 1
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -865,14 +840,10 @@
             ]
         },
         {
-            "name": "Tenser's Floating Wagon",
-            "level": 4,
-            "school": "C",
+            "name": "Levitate Wagon",
             "source": "ertw",
-            "page": 8,
-            "meta": {
-                "ritual": false
-            },
+            "level": 4,
+            "school": "T",
             "time": [
                 {
                     "number": 10,
@@ -895,11 +866,13 @@
                     "type": "timed",
                     "duration": {
                         "type": "hour",
-                        "amount": 1,
-                        "upTo": true
+                        "amount": 1
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -914,13 +887,9 @@
         },
         {
             "name": "Waterproof Wagon",
+            "source": "ertw",
             "level": 2,
             "school": "T",
-            "source": "ertw",
-            "page": 8,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -943,11 +912,13 @@
                     "type": "timed",
                     "duration": {
                         "type": "hour",
-                        "amount": 24,
-                        "upTo": true
+                        "amount": 24
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {
@@ -957,18 +928,14 @@
                 ]
             },
             "entries": [
-                "When you cast this spell, target one wagon that you can touch. The spell causes the wagon to become completely impervious to water for the duration of the spell, even though the physical material that the wagon is made from may contain physical holes or other damage that would normally allow water to pass through unimpeded."
+                "When you cast this spell, target one wagon that you can touch. The spell causes the wagon to become completely impervious to water for the duration of the ritual effect, even though the physical material that the wagon is made from may contain physical holes or other damage that would normally allow water to pass through unimpeded."
             ]
         },
         {
             "name": "Dry Laundry",
+            "source": "ertw",
             "level": 2,
             "school": "V",
-            "source": "ertw",
-            "page": 8,
-            "meta": {
-                "ritual": true
-            },
             "time": [
                 {
                     "number": 1,
@@ -995,6 +962,9 @@
                     }
                 }
             ],
+            "meta": {
+                "ritual": true
+            },
             "classes": {
                 "fromClassList": [
                     {

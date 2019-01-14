@@ -1,0 +1,350 @@
+{
+    "deity": [
+        {
+            "name": "The Silver Flame",
+            "alignment": [
+                "L",
+                "G"
+            ],
+            "title": "Deity of protection and good",
+            "pantheon": "Eberron",
+            "category": "Other Faiths of Eberron",
+            "domains": [
+                "Life",
+                "Light",
+                "Protection",
+                "War"
+            ],
+            "symbol": "Flame drawn on silver or molded from silver",
+            "source": "FE",
+            "page": 22,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                }
+            ]
+        },
+        {
+            "name": "The Blood of Vol",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "title": "Philosophy of immortality and undeath",
+            "pantheon": "Eberron",
+            "category": "Other Faiths of Eberron",
+            "domains": [
+                "Arcana",
+                "Blood",
+                "Death",
+                "Life",
+                "Grave"
+            ],
+            "symbol": "Stylized dragon skull on red teardrop gem",
+            "source": "FE",
+            "page": 46,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "Cults of the Dragon Below",
+            "alignment": [
+                "N",
+                "E"
+            ],
+            "title": "Deities of madness",
+            "pantheon": "Eberron",
+            "category": "Other Faiths of Eberron",
+            "domains": [
+                "Corruption",
+                "Passion",
+                "Trickery"
+            ],
+            "symbol": "Varies",
+            "source": "FE",
+            "page": 52,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "The Path of Light",
+            "altNames": [
+                "Il-Yannah"
+            ],
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "title": "Philosophy of light and self-improvement",
+            "pantheon": "Eberron",
+            "category": "Other Faiths of Eberron",
+            "domains": [
+                "Knowledge",
+                "Life",
+                "Light",
+                "Dream"
+            ],
+            "symbol": "Brilliant crystal",
+            "source": "FE",
+            "page": 28,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "Dreaming Dark",
+            "altNames": [
+                "The Darkness that Dreams",
+                "Il-Lashtavar"
+            ],
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "pantheon": "Eberron",
+            "category": "Other Faiths of Eberron",
+            "domains": [
+                "Dream"
+            ],
+            "symbol": "An eye under a wing",
+            "source": "FE",
+            "page": 27
+        },
+        {
+            "name": "The Undying Court",
+            "alignment": [
+                "N",
+                "G"
+            ],
+            "title": "Elven ancestors",
+            "pantheon": "Eberron",
+            "category": "Other Faiths of Eberron",
+            "domains": [
+                "Repose",
+                "Knowledge",
+                "Life"
+            ],
+            "symbol": "Varies",
+            "source": "FE",
+            "page": 50,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "XGE",
+                    "page": 19
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "Keepers of the Path",
+            "altNames": [
+                "Tairnadal",
+                "Spirits of the Past"
+            ],
+            "alignment": [
+                "N"
+            ],
+            "title": "Elven ancestors",
+            "pantheon": "Eberron",
+            "category": "Other Faiths of Eberron",
+            "domains": [
+                "Knowledge",
+                "War"
+            ],
+            "symbol": "Varies",
+            "source": "FE",
+            "page": 61,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "Three Faces of War",
+            "altNames": [
+                "Dol Arrah",
+                "Dol Dorn",
+                "Mockery"
+            ],
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "title": "The three faced god",
+            "pantheon": "Eberron",
+            "category": "Other Faiths of Eberron",
+            "domains": [
+                "Protection",
+                "Trickery",
+                "War"
+            ],
+            "symbol": "Varies",
+            "source": "KCAA",
+            "page": 58
+        },
+        {
+            "name": "The Restful Watch",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "title": "Aureon's Judgement",
+            "pantheon": "Eberron",
+            "category": "Other Faiths of Eberron",
+            "domains": [
+                "Knowledge",
+                "Protection",
+                "Repose"
+            ],
+            "symbol": "Varies",
+            "source": "KCAA",
+            "page": 58
+        },
+        {
+            "name": "The Gatekeepers",
+            "alignment": [
+                "L",
+                "G"
+            ],
+            "pantheon": "Eberron",
+            "category": "Druids of Eberron",
+            "symbol": "None",
+            "source": "FE",
+            "page": 43
+        },
+        {
+            "name": "The Children of Winter",
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "pantheon": "Eberron",
+            "category": "Druids of Eberron",
+            "symbol": "None",
+            "source": "FE",
+            "page": 42
+        },
+        {
+            "name": "Ashbound",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "pantheon": "Eberron",
+            "category": "Druids of Eberron",
+            "symbol": "None",
+            "source": "FE",
+            "page": 41
+        },
+        {
+            "name": "Wardens of the Woods",
+            "alignment": [
+                "L",
+                "G"
+            ],
+            "pantheon": "Eberron",
+            "category": "Druids of Eberron",
+            "symbol": "None",
+            "source": "FE",
+            "page": 41
+        },
+        {
+            "name": "Reforged",
+            "title":"Philosophy of warforged sentience",
+            "alignment": [
+                "L",
+                "G"
+            ],
+            "pantheon": "Eberron",
+            "category": "Warforged Faith",
+            "symbol": "None",
+            "source": "FE",
+            "page": 41
+        },
+        {
+            "name": "Lord of Blades",
+            "title":"Hatred for human-kind",
+            "alignment": [
+                "L",
+                "E"
+            ],
+            "pantheon": "Eberron",
+            "category": "Warforged Faith",
+            "domains": [
+                "Creation",
+                "Forge",
+                "Order",
+                "War"
+            ],
+            "symbol": "Spike warforged hand",
+            "source": "FE",
+            "page": 35,
+            "additionalSources": [
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "The Becoming God",
+            "alignment": [
+                "N"
+            ],
+            "pantheon": "Eberron",
+            "category": "Warforged Faith",
+            "domains": [
+                "Aspirant",
+                "Creation",
+                "Forge",
+                "Knowledge"
+            ],
+            "symbol": "Spike warforged hand",
+            "source": "FE",
+            "page": 35,
+            "additionalSources": [
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        }
+    ]
+}

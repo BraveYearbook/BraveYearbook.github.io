@@ -1,5 +1,5 @@
 {
-	"deity": [
+	"ignore_deity_old": [
 		{
 			"name": "The Daghdha",
 			"alignment": [
@@ -7392,5 +7392,313 @@
 				"Gnomes believe that Urdlen exerts influence on their lives when they experience jealousy, greed, petulance, or envy. Individuals are more likely to fall prey to these feelings when they don't spend enough time in activities with others, and so tales of Urdlen serve as a somber reminder of the importance of participating in society."
 			]
 		}
-	]
+	],
+	"deity": [
+        {
+			"name": "The Sovereign Host",
+			"title": "Pantheon of Divine Hosts",
+            "alignment": [
+                "L",
+                "G"
+            ],
+            "pantheon": "Eberron",
+            "category": "The Sovereign Host",
+            "domains": [
+                "Sovereign Speaker",
+                "Any of the hosted Domains"
+            ],
+            "symbol": "Gold and blue diamond cut with six spikes",
+            "entries": [
+                "Followers who devote themselves to the broad pantheon of the Host refer to themselves as ‘Vassals’ and draw divine power from the pantheon as a whole, rather than from a single deity.",
+                {
+                    "type": "entries",
+                    "name": "Doctrine of Universal Sovereignty",
+                    "entries": [
+                        {
+                            "type": "quote",
+                            "entries": [
+                                "As is the world, so are the gods. As are the gods, so is the world."
+                            ],
+                            "by": "Priest of The Sovereign Host",
+                            "from": "Tome of Sovereignty"
+                        },
+                        "This doctrine is the founding principle for worshippers of the Sovereign Host. It indicates that the gods of the Host are omnipresent, existing in all things. While deities might manifest through spells or followers, the deities of the Host do not speak directly to followers or present themselves in physical forms. The lowliest of the faithful is as surrounded by the Sovereign Host’s power as the most devout clergy. To worshippers of the Host, every detail of the world is proof of their deities’ manifestation."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Doctrine of the Divine Host",
+                    "entries": [
+                        {
+                            "type": "quote",
+                            "entries": [
+                                "The Sovereign Host is one name, and speaks with one voice. The gods are the letters of that name, and the sounds of that voice."
+                            ],
+                            "by": "Priest of The Sovereign Host",
+                            "from": "Tome of Sovereignty"
+                        },
+                        "Vassals of the Host know that if the Host is in all things, no one deity of the Host should be raised above the others. Faith in the Host is polytheistic in practice, with Vassals asking the appropriate deity for aid as it applies to that deity’s purview."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Loose Hierarchy",
+                    "entries": [
+                        "The Sovereign Host does not have a rigid church structure at almost any level. Even the term ‘priest’ can be applied by general community agreement and can refer to a number of roles within the faith. Any general guidance for Vassals of the host tends to come from councils whose membership and selection process varies by region. These councils are the local authority for resolving disputes or disciplining wayward faithful, and as a result have a measure of political power."
+                    ]
+                },
+                {
+                    "type": "entries",
+                    "name": "Vassal Adventurers",
+                    "entries": [
+                        "Even adventurers who do not draw divine power from the Sovereign Host might pray to its various deities in appropriate situations. Clerics and other divinely inspired adventurers in Eberron keep the faith’s core tenets, chief among these being to spread the faith and protect the faithful. Vassals often have a friendly and accepting view of other faiths, believing them to simply be worship of specific aspects that fall under the Host’s broad purview."
+                    ]
+                }
+            ],
+            "source": "FE",
+            "page": 7
+        },
+        {
+            "name": "Arawai",
+            "alignment": [
+                "N",
+                "G"
+            ],
+            "title": "Goddess of fertility",
+            "pantheon": "Eberron",
+            "category": "The Sovereign Host",
+            "domains": [
+                "Life",
+                "Nature"
+            ],
+            "symbol": "Sheaf of wheat tied with green ribbon",
+            "source": "FE",
+            "page": 8,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "Aureon",
+            "alignment": [
+                "L",
+                "N"
+            ],
+            "title": "God of law and knowledge",
+            "pantheon": "Eberron",
+            "category": "The Sovereign Host",
+            "domains": [
+                "Arcana",
+                "Knowledge",
+                "Order"
+            ],
+            "symbol": "Open tome",
+            "source": "FE",
+            "page": 8,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "GGR"
+                },
+                {
+                    "source": "SCAG"
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "Balinor",
+            "alignment": [
+                "N"
+            ],
+            "title": "God of beasts and the hunt",
+            "pantheon": "Eberron",
+            "category": "The Sovereign Host",
+            "domains": [
+                "Life",
+                "Nature",
+                "Tempest"
+            ],
+            "symbol": "Pair of antlers",
+            "source": "FE",
+            "page": 8,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "Boldrei",
+            "alignment": [
+                "L",
+                "G"
+            ],
+            "title": "Goddess of community and home",
+            "pantheon": "Eberron",
+            "category": "The Sovereign Host",
+            "domains": [
+                "Life",
+                "Passion",
+                "Protection"
+            ],
+            "symbol": "Fire in a stone hearth",
+            "source": "FE",
+            "page": 8,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "Dol Arrah",
+            "alignment": [
+                "L",
+                "G"
+            ],
+            "title": "Goddess of sunlight and honor",
+            "pantheon": "Eberron",
+            "category": "The Sovereign Host",
+            "domains": [
+                "Light",
+                "War"
+            ],
+            "symbol": "Rising sun",
+            "source": "FE",
+            "page": 12,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                }
+            ]
+        },
+        {
+            "name": "Dol Dorn",
+            "alignment": [
+                "C",
+                "G"
+            ],
+            "title": "God of strength at arms",
+            "pantheon": "Eberron",
+            "category": "The Sovereign Host",
+            "domains": [
+                "War"
+            ],
+            "symbol": "Longsword crossed over a shield",
+            "source": "FE",
+            "page": 13,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                }
+            ]
+        },
+        {
+            "name": "Kol Korran",
+            "alignment": [
+                "N"
+            ],
+            "title": "God of trade and wealth",
+            "pantheon": "Eberron",
+            "category": "The Sovereign Host",
+            "domains": [
+                "Trickery",
+                "Trade"
+            ],
+            "symbol": "Nine-sided gold coin",
+            "source": "FE",
+            "page": 15,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        },
+        {
+            "name": "Olladra",
+            "alignment": [
+                "N",
+                "G"
+            ],
+            "title": "Goddess of good fortune",
+            "pantheon": "Eberron",
+            "category": "The Sovereign Host",
+            "domains": [
+                "Life",
+                "Trickery"
+            ],
+            "symbol": "Domino",
+            "source": "FE",
+            "page": 15,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                }
+            ]
+        },
+        {
+            "name": "Onatar",
+            "alignment": [
+                "N",
+                "G"
+            ],
+            "title": "God of craft",
+            "pantheon": "Eberron",
+            "category": "The Sovereign Host",
+            "domains": [
+                "Creation",
+                "Forge",
+                "Knowledge"
+            ],
+            "symbol": "Crossed hammer and tongs",
+            "source": "FE",
+            "page": 15,
+            "additionalSources": [
+                {
+                    "source": "PHB",
+                    "page": 296
+                },
+                {
+                    "source": "XGE",
+                    "page": 18
+                },
+                {
+                    "source": "KCAA",
+                    "page": 58
+                }
+            ]
+        }
+    ]
 }
