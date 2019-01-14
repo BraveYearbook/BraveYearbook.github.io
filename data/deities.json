@@ -7394,311 +7394,786 @@
 		}
 	],
 	"deity": [
-        {
+		{
 			"name": "The Sovereign Host",
 			"title": "Pantheon of Divine Hosts",
-            "alignment": [
-                "L",
-                "G"
-            ],
-            "pantheon": "Eberron",
-            "category": "The Sovereign Host",
-            "domains": [
-                "Sovereign Speaker",
-                "Any of the hosted Domains"
-            ],
-            "symbol": "Gold and blue diamond cut with six spikes",
-            "entries": [
-                "Followers who devote themselves to the broad pantheon of the Host refer to themselves as ‘Vassals’ and draw divine power from the pantheon as a whole, rather than from a single deity.",
-                {
-                    "type": "entries",
-                    "name": "Doctrine of Universal Sovereignty",
-                    "entries": [
-                        {
-                            "type": "quote",
-                            "entries": [
-                                "As is the world, so are the gods. As are the gods, so is the world."
-                            ],
-                            "by": "Priest of The Sovereign Host",
-                            "from": "Tome of Sovereignty"
-                        },
-                        "This doctrine is the founding principle for worshippers of the Sovereign Host. It indicates that the gods of the Host are omnipresent, existing in all things. While deities might manifest through spells or followers, the deities of the Host do not speak directly to followers or present themselves in physical forms. The lowliest of the faithful is as surrounded by the Sovereign Host’s power as the most devout clergy. To worshippers of the Host, every detail of the world is proof of their deities’ manifestation."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Doctrine of the Divine Host",
-                    "entries": [
-                        {
-                            "type": "quote",
-                            "entries": [
-                                "The Sovereign Host is one name, and speaks with one voice. The gods are the letters of that name, and the sounds of that voice."
-                            ],
-                            "by": "Priest of The Sovereign Host",
-                            "from": "Tome of Sovereignty"
-                        },
-                        "Vassals of the Host know that if the Host is in all things, no one deity of the Host should be raised above the others. Faith in the Host is polytheistic in practice, with Vassals asking the appropriate deity for aid as it applies to that deity’s purview."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Loose Hierarchy",
-                    "entries": [
-                        "The Sovereign Host does not have a rigid church structure at almost any level. Even the term ‘priest’ can be applied by general community agreement and can refer to a number of roles within the faith. Any general guidance for Vassals of the host tends to come from councils whose membership and selection process varies by region. These councils are the local authority for resolving disputes or disciplining wayward faithful, and as a result have a measure of political power."
-                    ]
-                },
-                {
-                    "type": "entries",
-                    "name": "Vassal Adventurers",
-                    "entries": [
-                        "Even adventurers who do not draw divine power from the Sovereign Host might pray to its various deities in appropriate situations. Clerics and other divinely inspired adventurers in Eberron keep the faith’s core tenets, chief among these being to spread the faith and protect the faithful. Vassals often have a friendly and accepting view of other faiths, believing them to simply be worship of specific aspects that fall under the Host’s broad purview."
-                    ]
-                }
-            ],
-            "source": "FE",
-            "page": 7
-        },
-        {
-            "name": "Arawai",
-            "alignment": [
-                "N",
-                "G"
-            ],
-            "title": "Goddess of fertility",
-            "pantheon": "Eberron",
-            "category": "The Sovereign Host",
-            "domains": [
-                "Life",
-                "Nature"
-            ],
-            "symbol": "Sheaf of wheat tied with green ribbon",
-            "source": "FE",
-            "page": 8,
-            "additionalSources": [
-                {
-                    "source": "PHB",
-                    "page": 296
-                },
-                {
-                    "source": "KCAA",
-                    "page": 58
-                }
-            ]
-        },
-        {
-            "name": "Aureon",
-            "alignment": [
-                "L",
-                "N"
-            ],
-            "title": "God of law and knowledge",
-            "pantheon": "Eberron",
-            "category": "The Sovereign Host",
-            "domains": [
-                "Arcana",
-                "Knowledge",
-                "Order"
-            ],
-            "symbol": "Open tome",
-            "source": "FE",
-            "page": 8,
-            "additionalSources": [
-                {
-                    "source": "PHB",
-                    "page": 296
-                },
-                {
-                    "source": "GGR"
-                },
-                {
-                    "source": "SCAG"
-                },
-                {
-                    "source": "KCAA",
-                    "page": 58
-                }
-            ]
-        },
-        {
-            "name": "Balinor",
-            "alignment": [
-                "N"
-            ],
-            "title": "God of beasts and the hunt",
-            "pantheon": "Eberron",
-            "category": "The Sovereign Host",
-            "domains": [
-                "Life",
-                "Nature",
-                "Tempest"
-            ],
-            "symbol": "Pair of antlers",
-            "source": "FE",
-            "page": 8,
-            "additionalSources": [
-                {
-                    "source": "PHB",
-                    "page": 296
-                },
-                {
-                    "source": "KCAA",
-                    "page": 58
-                }
-            ]
-        },
-        {
-            "name": "Boldrei",
-            "alignment": [
-                "L",
-                "G"
-            ],
-            "title": "Goddess of community and home",
-            "pantheon": "Eberron",
-            "category": "The Sovereign Host",
-            "domains": [
-                "Life",
-                "Passion",
-                "Protection"
-            ],
-            "symbol": "Fire in a stone hearth",
-            "source": "FE",
-            "page": 8,
-            "additionalSources": [
-                {
-                    "source": "PHB",
-                    "page": 296
-                },
-                {
-                    "source": "KCAA",
-                    "page": 58
-                }
-            ]
-        },
-        {
-            "name": "Dol Arrah",
-            "alignment": [
-                "L",
-                "G"
-            ],
-            "title": "Goddess of sunlight and honor",
-            "pantheon": "Eberron",
-            "category": "The Sovereign Host",
-            "domains": [
-                "Light",
-                "War"
-            ],
-            "symbol": "Rising sun",
-            "source": "FE",
-            "page": 12,
-            "additionalSources": [
-                {
-                    "source": "PHB",
-                    "page": 296
-                }
-            ]
-        },
-        {
-            "name": "Dol Dorn",
-            "alignment": [
-                "C",
-                "G"
-            ],
-            "title": "God of strength at arms",
-            "pantheon": "Eberron",
-            "category": "The Sovereign Host",
-            "domains": [
-                "War"
-            ],
-            "symbol": "Longsword crossed over a shield",
-            "source": "FE",
-            "page": 13,
-            "additionalSources": [
-                {
-                    "source": "PHB",
-                    "page": 296
-                }
-            ]
-        },
-        {
-            "name": "Kol Korran",
-            "alignment": [
-                "N"
-            ],
-            "title": "God of trade and wealth",
-            "pantheon": "Eberron",
-            "category": "The Sovereign Host",
-            "domains": [
-                "Trickery",
-                "Trade"
-            ],
-            "symbol": "Nine-sided gold coin",
-            "source": "FE",
-            "page": 15,
-            "additionalSources": [
-                {
-                    "source": "PHB",
-                    "page": 296
-                },
-                {
-                    "source": "KCAA",
-                    "page": 58
-                }
-            ]
-        },
-        {
-            "name": "Olladra",
-            "alignment": [
-                "N",
-                "G"
-            ],
-            "title": "Goddess of good fortune",
-            "pantheon": "Eberron",
-            "category": "The Sovereign Host",
-            "domains": [
-                "Life",
-                "Trickery"
-            ],
-            "symbol": "Domino",
-            "source": "FE",
-            "page": 15,
-            "additionalSources": [
-                {
-                    "source": "PHB",
-                    "page": 296
-                }
-            ]
-        },
-        {
-            "name": "Onatar",
-            "alignment": [
-                "N",
-                "G"
-            ],
-            "title": "God of craft",
-            "pantheon": "Eberron",
-            "category": "The Sovereign Host",
-            "domains": [
-                "Creation",
-                "Forge",
-                "Knowledge"
-            ],
-            "symbol": "Crossed hammer and tongs",
-            "source": "FE",
-            "page": 15,
-            "additionalSources": [
-                {
-                    "source": "PHB",
-                    "page": 296
-                },
-                {
-                    "source": "XGE",
-                    "page": 18
-                },
-                {
-                    "source": "KCAA",
-                    "page": 58
-                }
-            ]
-        }
-    ]
+			"alignment": [
+				"L",
+				"G"
+			],
+			"pantheon": "Eberron",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Sovereign Speaker",
+				"Any of the hosted Domains"
+			],
+			"symbol": "Gold and blue diamond cut with six spikes",
+			"symbolImg": {
+				"type": "image",
+				"href": {
+					"url": "https://vignette.wikia.nocookie.net/eberron/images/4/4d/Octogram.jpg"
+				},
+				"title": "Symbol"
+			},
+			"entries": [
+				"Followers who devote themselves to the broad pantheon of the Host refer to themselves as ‘Vassals’ and draw divine power from the pantheon as a whole, rather than from a single deity.",
+				{
+					"type": "entries",
+					"name": "Doctrine of Universal Sovereignty",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"As is the world, so are the gods. As are the gods, so is the world."
+							],
+							"from": "Tome of Sovereignty"
+						},
+						"This doctrine is the founding principle for worshippers of the Sovereign Host. It indicates that the gods of the Host are omnipresent, existing in all things. While deities might manifest through spells or followers, the deities of the Host do not speak directly to followers or present themselves in physical forms. The lowliest of the faithful is as surrounded by the Sovereign Host’s power as the most devout clergy. To worshippers of the Host, every detail of the world is proof of their deities’ manifestation."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Doctrine of the Divine Host",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"The Sovereign Host is one name, and speaks with one voice. The gods are the letters of that name, and the sounds of that voice."
+							],
+							"from": "Tome of Sovereignty"
+						},
+						"Vassals of the Host know that if the Host is in all things, no one deity of the Host should be raised above the others. Faith in the Host is polytheistic in practice, with Vassals asking the appropriate deity for aid as it applies to that deity’s purview."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Loose Hierarchy",
+					"entries": [
+						"The Sovereign Host does not have a rigid church structure at almost any level. Even the term ‘priest’ can be applied by general community agreement and can refer to a number of roles within the faith. Any general guidance for Vassals of the host tends to come from councils whose membership and selection process varies by region. These councils are the local authority for resolving disputes or disciplining wayward faithful, and as a result have a measure of political power."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Vassal Adventurers",
+					"entries": [
+						"Even adventurers who do not draw divine power from the Sovereign Host might pray to its various deities in appropriate situations. Clerics and other divinely inspired adventurers in Eberron keep the faith’s core tenets, chief among these being to spread the faith and protect the faithful. Vassals often have a friendly and accepting view of other faiths, believing them to simply be worship of specific aspects that fall under the Host’s broad purview."
+					]
+				}
+			],
+			"source": "FE",
+			"page": 7
+		},
+		{
+			"name": "Arawai",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of fertility",
+			"pantheon": "Eberron",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Life",
+				"Nature"
+			],
+			"symbol": "Sheaf of wheat tied with green ribbon",
+			"source": "FE",
+			"page": 8,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"Most often called upon as a goddess of fertility and the harvest, Arawai also has influence in regard to the wilds—surviving and navigating—rather than incorporating oneself into nature.",
+				{
+					"type": "entries",
+					"name": "Sacrifices of Crops",
+					"entries": [
+						"Farmers or other supplicants often sacrifice produce to Arawai, seeking a better harvest in the future."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of Arawai",
+					"entries": [
+						"Arawai’s followers concern themselves with furthering the interests of the goddess’s pantheon, such as protecting farmland, combating famine, or saving the faithful from the dangers of the wild."
+					]
+				}
+			]
+		},
+		{
+			"name": "Aureon",
+			"alignment": [
+				"L",
+				"N"
+			],
+			"title": "God of law and knowledge",
+			"pantheon": "Eberron",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Arcana",
+				"Knowledge",
+				"Order"
+			],
+			"symbol": "Open tome",
+			"source": "FE",
+			"page": 8,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "GGR"
+				},
+				{
+					"source": "SCAG"
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"This god enjoys a broad pantheon of lore, law, and knowledge. He is a god of magic, but only magic as it is harnessed and controlled dutifully by mortals. Lawful society and rational thought are the most common themes of Aureon’s everyday influence.",
+				{
+					"type": "entries",
+					"name": "Practical Worship",
+					"entries": [
+						"Supplicants of Aureon can sacrifice almost anything, as long as its value demonstrates a desire for understanding. Temples of Aureon are functional, often housing the best library the community can muster."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of Aureon",
+					"entries": [
+						"Followers who specifically revere Aureon are often well-educated in some capacity and prioritize rational thinking above emotion. Adventurers take a special interest in bringing lawbreakers to justice, addressing instances of wild magic, or discovering new or lost knowledge."
+					]
+				}
+			]
+		},
+		{
+			"name": "Balinor",
+			"alignment": [
+				"N"
+			],
+			"title": "God of beasts and the hunt",
+			"pantheon": "Eberron",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Life",
+				"Nature",
+				"Tempest"
+			],
+			"symbol": "Pair of antlers",
+			"source": "FE",
+			"page": 8,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"A patron of hunters, Balinor is not like the savage deities of the hunt in other worlds. The god applauds hunting for sustenance and survival, never for bloodlust, sport, or out of vanity.",
+				{
+					"type": "entries",
+					"name": "Offerings of Meat",
+					"entries": [
+						"Meat offered to Balinor pleases the deity, but only if the beast was already slain for a useful purpose. The better the cut, the more highly regarded the offering."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of Balinor",
+					"entries": [
+						"Vassals who particularly revere Balinor are often former hunters and trackers. They are called to protect civilization from wild beasts and monsters, and to hunt to provide for communities in need."
+					]
+				}
+			]
+		},
+		{
+			"name": "Boldrei",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Goddess of community and home",
+			"pantheon": "Eberron",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Life",
+				"Passion",
+				"Protection"
+			],
+			"symbol": "Fire in a stone hearth",
+			"source": "FE",
+			"page": 8,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"While her husband Aureon’s focus on law forms the basis for civilized society, the goddess Boldrei forms the basis for life in those societies. She is the goddess of hearth, home, and the ties that bind the people of a civilization together.",
+				{
+					"type": "entries",
+					"name": "Civil Ceremonies",
+					"entries": [
+						"Boldrei is honored in any event that represents a community’s interpersonal ties. This can refer to weddings or even government observances."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of Boldrei",
+					"entries": [
+						"Most followers of Boldrei serve the community as officials or even guards, remaining close to their hometown. Some are called beyond a town’s borders, perhaps to spread the faith or to focus their efforts on the establishment of new communities or to soothe problems in others."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dol Arrah",
+			"alignment": [
+				"L",
+				"G"
+			],
+			"title": "Goddess of sunlight and honor",
+			"pantheon": "Eberron",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Light",
+				"War"
+			],
+			"symbol": "Rising sun",
+			"source": "FE",
+			"page": 12,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				}
+			],
+			"entries": [
+				"A goddess of both literal and spiritual light, Dol Arrah is a patron of righteousness in all things. She is closely bound with the other deities of the Host, bringing the ‘light’ of law, knowledge, understanding, self-sacrifice, and truth to the world.",
+				{
+					"type": "entries",
+					"name": "Shrines to the Dawn",
+					"entries": [
+						"Holy sites to Dol Arrah are built facing east, open to the rising sun’s light. Even farmers might make sacrifices at a shrine to Dol Arrah, knowing that her gift of light is just as important to the harvest as rain or rich soil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of Dol Arrah",
+					"entries": [
+						"Dol Arrah’s followers concern themselves to the causes of righteousness in all their forms. This can be the defense of the weak, the fight for justice, or even the negotiation of peace."
+					]
+				}
+			]
+		},
+		{
+			"name": "Dol Dorn",
+			"alignment": [
+				"C",
+				"G"
+			],
+			"title": "God of strength at arms",
+			"pantheon": "Eberron",
+			"category": "The Sovereign Host",
+			"domains": [
+				"War"
+			],
+			"symbol": "Longsword crossed over a shield",
+			"source": "FE",
+			"page": 13,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				}
+			],
+			"entries": [
+				"It is said that Dol Dorn is the one who drove the Dark Six out of the pantheon. He is the patron god of those who take up a life of battle and competition, whether they be soldiers or athletes.",
+				{
+					"type": "entries",
+					"name": "Just Cause and Honorable Sport",
+					"entries": [
+						"Dol Dorn does not bless all those who fight or compete, merely the ones who do so correctly. Just cause and sportsmanship are the sure path to Dol Dorn’s favor, though he also hears the prayers of those honorable competitors who strain under the yoke of unfair and selfish rule."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of Dol Dorn",
+					"entries": [
+						"Followers of this god seek out worthy challenges and competition. Dol Dorn especially favors those who support the disadvantaged, tipping the scales or boldly facing overwhelming odds."
+					]
+				}
+			]
+		},
+		{
+			"name": "Kol Korran",
+			"alignment": [
+				"N"
+			],
+			"title": "God of trade and wealth",
+			"pantheon": "Eberron",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Trickery",
+				"Trade"
+			],
+			"symbol": "Nine-sided gold coin",
+			"source": "FE",
+			"page": 15,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"A god of wealth and commerce, a patron of merchants and trade. While others of the pantheon are often paragons of virtue and justice, Kol Korran is also a patron of thieves and selfenrichment. He is not an evil god, but one whose moral standards are flexible enough to see how a dash of greed fits into the grand weave of society’s tapestry.",
+				{
+					"type": "entries",
+					"name": "Spend Money to Make Money",
+					"entries": [
+						"Sacrifices to Kol Korran usually involves melting down coins or precious metals, giving up wealth in hand for the possibility of better reward in the future."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of Kol Korran",
+					"entries": [
+						"Kol Korran’s followers are mostly made up of merchants or those with a background in trade. Adventurers devoted to Kol Korran are arbiters of commerce, advisors to people of business, and the seeker of valuable treasures."
+					]
+				}
+			]
+		},
+		{
+			"name": "Olladra",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "Goddess of good fortune",
+			"pantheon": "Eberron",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Life",
+				"Trickery"
+			],
+			"symbol": "Domino",
+			"source": "FE",
+			"page": 15,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				}
+			],
+			"entries": [
+				"Olladra is a goddess of luck—and like the concept itself, she is just as unpredictable. A giver of good fortune and a goddess of gamblers, celebrations, and performance.",
+				{
+					"type": "entries",
+					"name": "Sacrifices of Chance",
+					"entries": [
+						"Olladra especially enjoys offerings of things gained by happenstance, such as a valuable item found on the street or money won by chance. Her shrines are often rich and well-funded by the offerings of her supplicants and the good fortune of her clergy."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of Olladra",
+					"entries": [
+						"Olladra doesn’t bid her followers to focus on any particular aspect of the world as her representatives. They are mainly instructed to seek out great risk, and that allowing their faith in Olladra to carry them through is a supreme act of worship. Risk doesn’t mean uncalculated risk, however; it is just as meaningful to carefully plan and know the danger as it is to dive blindly into the fray."
+					]
+				}
+			]
+		},
+		{
+			"name": "Onatar",
+			"alignment": [
+				"N",
+				"G"
+			],
+			"title": "God of craft",
+			"pantheon": "Eberron",
+			"category": "The Sovereign Host",
+			"domains": [
+				"Creation",
+				"Forge",
+				"Knowledge"
+			],
+			"symbol": "Crossed hammer and tongs",
+			"source": "FE",
+			"page": 15,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "XGE",
+					"page": 18
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"A god of craft, fire, and forge, it is Onatar’s pantheon of tools and creation that allows the intelligent races to distinguish themselves from monsters and beasts. Of all the Host, he is becoming the most popular among the new sentient race of warforged.",
+				{
+					"type": "entries",
+					"name": "Rites of Invention",
+					"entries": [
+						"Rather than destroying a precious object as a sacrifice, Onatar bids his followers to craft and create to honor him. Many temples of Onatar include a working forge."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of Onatar",
+					"entries": [
+						"Onatar favors those who seek out new knowledge and new techniques. Adventurers honor Onatar by coming up with new ideas and solutions, or applying their skill in a craft to solve problems and help others."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Dark Six",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "Dark remains of the schism",
+			"pantheon": "Eberron",
+			"category": "The Dark Six",
+			"domains": [
+				"Twisted",
+				"Any of the hosted Domains"
+			],
+			"symbol": "Dark metal prongs",
+			"source": "FE",
+			"page": 16,
+			"entries": [
+				"Like a lurking shadow of the Sovereign Host, the Dark Six are an evil reflection of the Host’s goodness. Where the Host’s pantheon represents civilization’s ability to create something greater than our individual natures, the Six emphasize the most primal and selfish instincts. While most followers of the Host honor the entire pantheon, followers of the Six are much more likely to focus on one deity that appeals to them.",
+				{
+					"type": "entries",
+					"name": "The Schism",
+					"entries": [
+						"The Dark Six and the Sovereign Host were once part of a unified pantheon, but the Host disavowed the Six for their evil schemes. The nature or efficacy of the Schism is a subject of theological debate, as the Schism did nothing to strip the Dark Six of any actual divine power. Some believe the distinction between the Host and the Six is one between the trappings of civilization and the wild; others think the Schism is in name only, a means for the Host to consolidate power and discourage their Vassals from calling upon the Six for aid in their endeavors."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A Twisted Doctrine",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"As is the world, so are the gods. As are the gods, so is the world."
+							],
+							"from": "Tome of Six Shadows"
+						},
+						"This is the foundational doctrine to followers of the Sovereign Host and of the Dark Six. While the church of the Host believes the gods and the world at large are both civilized, good, and righteous, followers of the Six believe in the doctrine very differently. The world is base, cruel, selfish, and deceptive—and the gods of the Six reflect that."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wartime Efforts",
+					"entries": [
+						"During the Last War, followers of the Six coordinated a strong effort to make invoking the Six more common, cultivating the belief that desperate times called for desperate prayers. While confederacy between the churches of the Six have eroded with the war’s end, so too has the rigid taboo against prayers to the Six. While the Dark Six are still generally disapproved of or opposed by most other faiths, they have successfully carved out their niche in the public consciousness."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A Competition of Supremacy, Not Exclusion",
+					"entries": [
+						"Followers of the Six can still be found making a quick prayer to the nine deities of the Host on occasion. While disciples and vassals engage in physical or theological struggles for the supremacy of their respective pantheons, they do not pretend the other pantheon isn’t real or even useful. Their argument is one of worldview, and which of these pantheons best represents the world as it truly is."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Devourer",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of nature's wrath",
+			"pantheon": "Eberron",
+			"category": "The Dark Six",
+			"domains": [
+				"Tempest"
+			],
+			"symbol": "Bundle of five sharpened bones",
+			"source": "FE",
+			"page": 17,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				}
+			],
+			"entries": [
+				"Brother to the Host deity Arawai, the Devourer is a god of natural destruction and pestilence. His influence ravages crops, floods rivers, and drags ships beneath storm-tossed waves.",
+				{
+					"type": "entries",
+					"name": "Shrines and Sacrifices of Water",
+					"entries": [
+						"Holy places constructed to the Devourer are often linked to water: open-roofed temples, ship compartments, and sites built adjacent to bodies of water are common. This is often because sacrifices to the Devourer involve casting the sacrifice into the water...even living creatures."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of Devourer",
+					"entries": [
+						"Many adventurers of the Devourer have some knowledge of the sea, including those who were former slaves on ship crews. Followers believe in protecting fields, bodies of water, or seafarers if honor is given to the Devourer—or causing loss, destruction, or misfortune if it is not."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Fury",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "Goddess of wrath and madness",
+			"pantheon": "Eberron",
+			"category": "The Dark Six",
+			"domains": [
+				"Passion",
+				"War"
+			],
+			"symbol": "Winged wyrm with woman's head and upper body",
+			"source": "FE",
+			"page": 17,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"Offspring of Arawai and the Devourer, the Fury lost her true name as she became indistinguishable from her rage. Passion and emotion to the extreme are her purview.",
+				{
+					"type": "entries",
+					"name": "Rage Against Civilization",
+					"entries": [
+						"The Fury finds followers among those who despite the idea of a civilized society. Barbarians and monsters are common followers of the goddess, as are anyone who allows their passions to consume their everyday lives."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of the Fury",
+					"entries": [
+						"Followers of the Fury can come from many backgrounds—even skilled artisans. Those trained in combat are sometimes veterans of the Last War who prayed to the Fury to give them the edge in combat, or survivors whose grief over fallen comrades has consumed them."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Keeper",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of greed and death",
+			"pantheon": "Eberron",
+			"category": "The Dark Six",
+			"domains": [
+				"Death",
+				"Greed"
+			],
+			"symbol": "Dragonshard stone in the shape of a fang",
+			"source": "FE",
+			"page": 18,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"Son of Ollandra and Onatar and brother to Kol Korran, the Keeper is a deity of selfish greed. The desire to possess all things extends into both the spiritual and physical realms.",
+				{
+					"type": "entries",
+					"name": "Greed in Death",
+					"entries": [
+						"The Keeper can waylay souls on the way to the afterlife, and as such is a popular deity of cults surrounding death, the undead, and necromancy."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of the Keeper",
+					"entries": [
+						"Those who are never satisfied with what they have honor the Keeper. Rogues, ambitious nobles, and the like are common followers. Necromancers and others who dominate the dead are also often followers of this deity."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Mockery",
+			"alignment": [
+				"N",
+				"E"
+			],
+			"title": "God of violence and treachery",
+			"pantheon": "Eberron",
+			"category": "The Dark Six",
+			"domains": [
+				"Trickery",
+				"War"
+			],
+			"symbol": "Five blood-spattered tools",
+			"source": "FE",
+			"page": 19,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"Also called the Betrayer, the Mockery is the brother of Dol Arrah and Dol Dorn. As his brothers represent honorable war and righteous cause, the Mockery is a patron of assassination, murder, betrayal, and wars for unjust causes.",
+				{
+					"type": "entries",
+					"name": "Revelry in Bloodshed",
+					"entries": [
+						"Shrines to the Mockery are torturous horrors, with skin and gore hung on walls and chains. The sites are kept bloody, maintained by priests to keep their ghoulish appearance."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of the Mockery",
+					"entries": [
+						"Assassins and other rogues invoke the Mockery before a kill, but any who fight for selfish causes are welcomed. Violent revenge is encouraged, and followers of the Mockery take a special interest in destabilizing the churches of Dol Arrah and Dol Dorn."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Shadow",
+			"alignment": [
+				"C",
+				"E"
+			],
+			"title": "God of dark magic",
+			"pantheon": "Eberron",
+			"category": "The Dark Six",
+			"domains": [
+				"Arcana",
+				"Corruption",
+				"Knowledge"
+			],
+			"symbol": "Obsidian tower",
+			"source": "FE",
+			"page": 20,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"The god Aureon is the patron of structured arcane magic. But the price of this power was godhood for Aureon’s shadow, which manifested as a deity of corruption and dark power. While Aureon’s pantheon of law and the quest to harness magic was noble, the Shadow oversees ambition and magic harnessed for power.",
+				{
+					"type": "entries",
+					"name": "Duality and Temptation",
+					"entries": [
+						"The church of the Shadow seeks to twist good into evil, using normally mundane or righteous tools to serve selfish purposes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of the Shadow",
+					"entries": [
+						"Spellcasters of all kinds populate the ranks of the Shadow’s worshippers, including spellcasting monsters and those who wield wild magic or other forms of taboo sorcery. Adventurers of the Shadow take an interest in discovering hidden artifacts and lore, especially when such things are considered distasteful or forbidden by society at large."
+					]
+				}
+			]
+		},
+		{
+			"name": "The Traveler",
+			"alignment": [
+				"C",
+				"N"
+			],
+			"title": "Deity of chaos and change",
+			"pantheon": "Eberron",
+			"category": "The Dark Six",
+			"domains": [
+				"Creation",
+				"Forge",
+				"Knowledge",
+				"Trickery"
+			],
+			"symbol": "Four crossed, rune-inscribed bones",
+			"source": "FE",
+			"page": 21,
+			"additionalSources": [
+				{
+					"source": "PHB",
+					"page": 296
+				},
+				{
+					"source": "KCAA",
+					"page": 58
+				}
+			],
+			"entries": [
+				"The only god of the Host or the Six said to walk in actual physical form upon the world, the Traveler has no familial ties with other deities, and it walks in myriad forms to match its obscure origins. The Traveler is a patron of chaos, adaptation, and transformation.",
+				{
+					"type": "entries",
+					"name": "Subversive Church.",
+					"entries": [
+						"The church of the Traveler is full of wanderers, some of them adopting fake identities for years at a time. The overarching goal of the church is to introduce change—a task that often puts them at odds with societal norms and the social order."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of the Traveler",
+					"entries": [
+						"As a deity of change and transformation, it’s no surprise that creatures with an innate ability to transform are drawn to the deity’s sects. Changelings, shifters, full lycanthropes, and other transformative creatures find refuge among the church’s ranks and even form their own distinct theological sects. Tricksters and others who seek to prompt change in society with craft rather than destruction are similarly popular in the Traveler’s church."
+					]
+				}
+			]
+		}
+	]
 }
