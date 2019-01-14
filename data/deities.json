@@ -7,20 +7,12 @@
 				"L",
 				"G"
 			],
-			"pantheon": "Eberron",
-			"category": "The Sovereign Host",
+			"pantheon": "The Sovereign Host",
 			"domains": [
 				"Sovereign Speaker",
 				"Any of the hosted Domains"
 			],
-			"symbolImg": {
-				"type": "image",
-				"title": "Symbol",
-				"href": {
-					"type": "external",
-					"url": "https://aberrantrising.files.wordpress.com/2008/12/99863.png&h=100"
-				}
-			},
+			"symbol": "Octogram divided into 8 points",
 			"entries": [
 				"Followers who devote themselves to the broad pantheon of the Host refer to themselves as ‘Vassals’ and draw divine power from the pantheon as a whole, rather than from a single deity.",
 				{
@@ -76,8 +68,7 @@
 				"G"
 			],
 			"title": "Goddess of fertility",
-			"pantheon": "Eberron",
-			"category": "The Sovereign Host",
+			"pantheon": "The Sovereign Host",
 			"domains": [
 				"Life",
 				"Nature"
@@ -120,8 +111,7 @@
 				"N"
 			],
 			"title": "God of law and knowledge",
-			"pantheon": "Eberron",
-			"category": "The Sovereign Host",
+			"pantheon": "The Sovereign Host",
 			"domains": [
 				"Arcana",
 				"Knowledge",
@@ -170,8 +160,7 @@
 				"N"
 			],
 			"title": "God of beasts and the hunt",
-			"pantheon": "Eberron",
-			"category": "The Sovereign Host",
+			"pantheon": "The Sovereign Host",
 			"domains": [
 				"Life",
 				"Nature",
@@ -215,8 +204,7 @@
 				"G"
 			],
 			"title": "Goddess of community and home",
-			"pantheon": "Eberron",
-			"category": "The Sovereign Host",
+			"pantheon": "The Sovereign Host",
 			"domains": [
 				"Life",
 				"Passion",
@@ -260,8 +248,7 @@
 				"G"
 			],
 			"title": "Goddess of sunlight and honor",
-			"pantheon": "Eberron",
-			"category": "The Sovereign Host",
+			"pantheon": "The Sovereign Host",
 			"domains": [
 				"Light",
 				"War"
@@ -300,8 +287,7 @@
 				"G"
 			],
 			"title": "God of strength at arms",
-			"pantheon": "Eberron",
-			"category": "The Sovereign Host",
+			"pantheon": "The Sovereign Host",
 			"domains": [
 				"War"
 			],
@@ -338,8 +324,7 @@
 				"N"
 			],
 			"title": "God of trade and wealth",
-			"pantheon": "Eberron",
-			"category": "The Sovereign Host",
+			"pantheon": "The Sovereign Host",
 			"domains": [
 				"Trickery",
 				"Trade"
@@ -382,8 +367,7 @@
 				"G"
 			],
 			"title": "Goddess of good fortune",
-			"pantheon": "Eberron",
-			"category": "The Sovereign Host",
+			"pantheon": "The Sovereign Host",
 			"domains": [
 				"Life",
 				"Trickery"
@@ -422,8 +406,7 @@
 				"G"
 			],
 			"title": "God of craft",
-			"pantheon": "Eberron",
-			"category": "The Sovereign Host",
+			"pantheon": "The Sovereign Host",
 			"domains": [
 				"Creation",
 				"Forge",
@@ -471,8 +454,7 @@
 				"E"
 			],
 			"title": "Dark remains of the schism",
-			"pantheon": "Eberron",
-			"category": "The Dark Six",
+			"pantheon": "The Dark Six",
 			"domains": [
 				"Twisted",
 				"Any of the hosted Domains"
@@ -526,8 +508,7 @@
 				"E"
 			],
 			"title": "God of nature's wrath",
-			"pantheon": "Eberron",
-			"category": "The Dark Six",
+			"pantheon": "The Dark Six",
 			"domains": [
 				"Tempest"
 			],
@@ -565,8 +546,7 @@
 				"E"
 			],
 			"title": "Goddess of wrath and madness",
-			"pantheon": "Eberron",
-			"category": "The Dark Six",
+			"pantheon": "The Dark Six",
 			"domains": [
 				"Passion",
 				"War"
@@ -609,8 +589,7 @@
 				"E"
 			],
 			"title": "God of greed and death",
-			"pantheon": "Eberron",
-			"category": "The Dark Six",
+			"pantheon": "The Dark Six",
 			"domains": [
 				"Death",
 				"Greed"
@@ -653,8 +632,7 @@
 				"E"
 			],
 			"title": "God of violence and treachery",
-			"pantheon": "Eberron",
-			"category": "The Dark Six",
+			"pantheon": "The Dark Six",
 			"domains": [
 				"Trickery",
 				"War"
@@ -697,8 +675,7 @@
 				"E"
 			],
 			"title": "God of dark magic",
-			"pantheon": "Eberron",
-			"category": "The Dark Six",
+			"pantheon": "The Dark Six",
 			"domains": [
 				"Arcana",
 				"Corruption",
@@ -742,8 +719,7 @@
 				"N"
 			],
 			"title": "Deity of chaos and change",
-			"pantheon": "Eberron",
-			"category": "The Dark Six",
+			"pantheon": "The Dark Six",
 			"domains": [
 				"Creation",
 				"Forge",
@@ -783,17 +759,20 @@
 		},
 		{
 			"name": "The Silver Flame",
+			"altNames": [
+				"The Purified"
+			],
 			"alignment": [
 				"L",
 				"G"
 			],
 			"title": "Deity of protection and good",
-			"pantheon": "Eberron",
-			"category": "Other Faiths of Eberron",
+			"pantheon": "The Silver Flame",
 			"domains": [
 				"Life",
 				"Light",
 				"Protection",
+				"Silver Flame Exorcist",
 				"War"
 			],
 			"symbol": "Flame drawn on silver or molded from silver",
@@ -804,6 +783,43 @@
 					"source": "PHB",
 					"page": 296
 				}
+			],
+			"entries": [
+				"Unlike the Sovereign Host or the Dark Six, followers of the Silver Flame have no arguments over whether their chosen deity is the creator, if it better represents the intrinsic nature of the world, or any other such theological esoterica. The Silver Flame acknowledges that it is post-creation, a divine presence whose origin places it apart from the Nine-and-Six. Born of the couatl sacrificing themselves to bind demonic forces, the Flame was mysterious and unapproachable for thousands of years. Finally, the paladin Tira Miron joined with the Flame and became its voice and semi-divine representative.",
+				{
+					"type": "entries",
+					"name": "The Tenet of Purity.",
+					"entries": [
+						{
+							"type": "quote",
+							"entries": [
+								"Burn the corruption and taint of evil from all Eberron. Other gods have begun the creation, but it is the Silver Flame, by searing wickedness and darkness from their imperfect world, that must complete it."
+							]
+						},
+						"This is the core mantra of the Silver Flame, and summarizes much of their worldview. It is a belief of duty, one that acknowledges the Silver Flame is a relatively new divinity that nevertheless holds an essential place in the balance between good and evil."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Degrees of Evil",
+					"entries": [
+						"All evil must one day be destroyed, but the church of the Silver Flame recognizes varying degrees of evil. As such, certain forms of evil take higher priority for the Purified: alien entities from outside Eberron; unnatural evils such as undead or lycanthropes; creatures of innate evil, such as hags; creatures who choose to follow evil; and the ‘evil within,’ the soul’s innate temptation to perform evil acts."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A Church of Dedication",
+					"entries": [
+						"Unlike the Host or the Six, the Silver Flame’s primary concern is not polite offerings to the appropriate deity in the appropriate situation. To follow the Silver Flame is to fervently believe and participate in its goal of actively erasing evil from the world. This has diluted somewhat with time, as populations are raised in belief of the Silver Flame instead of coming from other faiths to dedicate themselves to the Flame’s cause."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Purified Adventures",
+					"entries": [
+						"Clerics and paladins of the Silver Flame focus little on scripture and rote; their faith is proven by the actions they take to combat evil and the stalwart, unshakeable nature of their faith. Adventurers of the Silver Flame destroy evil or expose its ugly nature to the world wherever they go, or wherever they feel they are called."
+					]
+				}
 			]
 		},
 		{
@@ -813,8 +829,7 @@
 				"N"
 			],
 			"title": "Philosophy of immortality and undeath",
-			"pantheon": "Eberron",
-			"category": "Other Faiths of Eberron",
+			"pantheon": "The Blood of Vol",
 			"domains": [
 				"Arcana",
 				"Blood",
@@ -834,6 +849,44 @@
 					"source": "KCAA",
 					"page": 58
 				}
+			],
+			"entries": [
+				"Unlike theological differences of opinion between other pantheons, such as disagreements on the importance of particular deities or a deity’s relationship with the nature of the world, those who ascribe to the doctrine of the Blood of Vol do not believe in other pantheons at all. They literally refuse to believe in the concept of outside divine beings, seeking only to unlock the divine potential within themselves.",
+				{
+					"type": "entries",
+					"name": "The Divinity Within",
+					"entries": [
+						"Seekers pray to themselves, believing that each being holds divine potential and must be bold enough to embrace it. Perhaps there is some truth to this concept, as Seekers praying to their own potential certainly wield magic just as effectively as clerics of other faiths. The goal of Seekers is to tap into their potential to achieve living (not undead) immortality, to create a personal afterlife instead of the grim fate that would normally await all souls."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Secretive Leadership",
+					"entries": [
+						"Most Seekers in the faith don’t know that the matriarch of the religion, Lady Vol, is secretly still active and is the final authority to her followers. This lich queen is served directly by select groups of followers who have been initiated into the knowledge of her existence, notably the Crimson Covenant and the Order of the Emerald Claw. Though part of the overall Blood of Vol, this so-called ‘Queen of Death’ wields the Order and other operatives with her own goals in mind."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Rituals of Blood",
+					"entries": [
+						"Seekers believe that the key to divinity is in the blood, and therefore only the living can discover the truth of the Divinity Within. This means that undead, constructs, and similar creatures can never attain divinity in the eyes of the Seekers. Rituals often involve bloodletting and even blood consumption, and magical barrels have been created to preserve blood for future rituals or for magical purposes."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Unfortunate Undead",
+					"entries": [
+						"Many Seekers use undead to their own ends, and many respected members of the Blood of Vol are intelligent undead of considerable power (mummies, liches, and the like). This gives some the impression that the Blood of Vol is an inherently evil religion when it is not. Seekers see the use of animated corpses as a thing of pragmatism, not of good or evil. Intelligent undead are pitied, not censured; nor is becoming undead a Seeker’s aspiration. Intelligent undead have sacrificed their chance to ever fully embrace the Divinity Within in order to provide leadership and guidance to others."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Seeker Adventures",
+					"entries": [
+						"No one kind of adventurer is more or less likely to be a Seeker than any of the others. The Blood of Vol is widespread throughout Khorvaire. Depending on one’s upbringing, an adventurer might be born into the faith or discover it later on. The only unifying factor is that each ascribes to the concept of the Divinity Within. As such, intelligent undead and warforged are unlikely to be Seekers or be accepted by them."
+					]
+				}
 			]
 		},
 		{
@@ -843,8 +896,7 @@
 				"E"
 			],
 			"title": "Deities of madness",
-			"pantheon": "Eberron",
-			"category": "Other Faiths of Eberron",
+			"pantheon": "Cults of the Dragon Below",
 			"domains": [
 				"Corruption",
 				"Passion",
@@ -862,6 +914,30 @@
 					"source": "KCAA",
 					"page": 58
 				}
+			],
+			"entries": [
+				"Khyber, the subterranean realm named for one of the three Progenitor Dragons of creation myth, is a place of darkness and madness. When Khyber encroaches on the world of Eberron, sometimes a touch of that madness is left behind.",
+				{
+					"type": "entries",
+					"name": "Varying Cults",
+					"entries": [
+						"Cults of the Dragon Below are numerous and varied, most of them centered in the Shadow Marches. The only thing that they have in common is a devotion to the plane of Khyber or to patron creatures of that realm."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A Thread of Madness",
+					"entries": [
+						"Exposure to Khyber is an exposure to insanity, and no devotee of that realm is what most would consider fully sane. Their madness can be subtle, displaying only in great distress or in their twisted worldview. Other cults of the Dragon Below embrace complete depravity, engaging in rage, cannibalism, and an existence of frenzied terror."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of the Cults",
+					"entries": [
+						"The goals of Khyber’s devotees can be as varied as the hosts of creatures present in the realm. Some who ascribe to the cults of the Dragon Below simply wish to spread its madness or whatever twisted ideology it has inspired within them. Others have creatures or groups of creatures as patrons from the twisted realm, acting as their emissaries and lackeys in Eberron."
+					]
+				}
 			]
 		},
 		{
@@ -874,8 +950,7 @@
 				"N"
 			],
 			"title": "Philosophy of light and self-improvement",
-			"pantheon": "Eberron",
-			"category": "Other Faiths of Eberron",
+			"pantheon": "Faiths of the Quori",
 			"domains": [
 				"Knowledge",
 				"Life",
@@ -894,6 +969,16 @@
 					"source": "KCAA",
 					"page": 58
 				}
+			],
+			"entries": [
+				"The majority of those dedicated to the Path of Light are kalashtar, for few other races understand the nature of Dal Quor well enough to comprehend the true nature of the conflict emerging from the realm of dreams. Most of these faithful believe that defeating the Dreaming Dark will not bring victory. Instead, they use meditation and prayer as tools to push the transformation of il-Lashtavar into il-Yannah. Some kalashtar, usually the youngest in the community, have become disillusioned with this pacifistic path and urge their fellows to confront the Inspired in open battle.",
+				{
+					"type": "entries",
+					"name": "Adventurers of the Path of Light",
+					"entries": [
+						"Those who follow the Path of Light are often clerics of the Knowledge, Light, or Dream domains. A great many are also trained as monks, with the Way of the Sun Soul and the Way of Sheshantol being the traditions commonly taught in the monastery fortresses of Adar. Sometimes the more zealous among the adherents takes up the Oath of Devotion as an ardent paladin."
+					]
+				}
 			]
 		},
 		{
@@ -906,14 +991,25 @@
 				"L",
 				"E"
 			],
-			"pantheon": "Eberron",
-			"category": "Other Faiths of Eberron",
+			"pantheon": "Faiths of the Quori",
 			"domains": [
 				"Dream"
 			],
 			"symbol": "An eye under a wing",
 			"source": "FE",
-			"page": 27
+			"page": 27,
+			"entries": [
+				"The quori that control the Dreaming Dark believe they can sustain il-Lashtavar by controlling the dreams of mortals. The society they have built in Reidra serves as both a colony of Dal Quor on Eberron and as an experiment of how they might be able to openly influence mortals for their own ends. Though the Inspired relentlessly search for a way to make Dal Quor once again coterminous with Eberron, their plans purposely advance slowly. They know that they currently hold the advantage and are cautious lest they lose it to their rivals: the kalashtar.",
+				"The Inspired rarely have clerics among their number, but some draw upon the spiritual might of il-Lashtavar through the domain of Dreams. Most of the Inspired are trained as Way of Shadow monks or Quori Nightmare sorcerers.",
+				{
+					"type": "entries",
+					"name": "The Path of Inspiration",
+					"entries": [
+						"The quori that serve il-Lashtavar need mortal hosts capable of containing their spirit in order to manifest in Eberron. The Inspired of Reidra use the philosophy of the Path of Inspiration to groom humans to serve this purpose. The Path of Inspiration guides disciples towards enlightenment, promising that the faithful will be able to become il-altas, or Great Spirits. The Inspired are held up as examples of what this transformation looks like - mortal beings that are vessels for powerful spirits. In this way the Inspired are able to rule openly and cultivate their Chosen, humans ready to serve the quori.",
+						"Though the faith is technically false, the influence of Dal Quor can allow those dedicated to the Path of Inspiration to draw power as true clerics would. Most are drawn to the domains of knowledge or dreams. Chosen that serve as warriors for the Dreaming Dark are often fighters or Path of the Zealot barbarians."
+					]
+				}
+			]
 		},
 		{
 			"name": "The Undying Court",
@@ -922,8 +1018,7 @@
 				"G"
 			],
 			"title": "Elven ancestors",
-			"pantheon": "Eberron",
-			"category": "Other Faiths of Eberron",
+			"pantheon": "Elven Ancestors",
 			"domains": [
 				"Repose",
 				"Knowledge",
@@ -945,6 +1040,37 @@
 					"source": "KCAA",
 					"page": 58
 				}
+			],
+			"entries": [
+				"Often misunderstood by the uninitiated, the Undying Court on Aerenal is at its heart a form of ancestor worship. In the elven land, communion with spirits of the dead is far from uncommon. Some ancestors still walk in physical form—the collective term for these undead is the Undying Court.",
+				{
+					"type": "entries",
+					"name": "Undead of a Diffrent Kind",
+					"entries": [
+						"Most undead are animated by energy from a plane of death and darkness. The Undying Court are ‘Deathless’—distinct from traditional undead, the Deathless are animated by positive energy. In fact, the Undying Court and its devotees loathe undead who prey on the living. Unlike rotted undead, Deathless appear more withered or mummified."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Rites of Transition",
+					"entries": [
+						"The greatest goal for an Aereni elf is to be selected for the rituals that turn them into one of the Deathless. Believers in the Undying Court spend their lives attempting to gain this honor, usually by gaining renown, living lives of great spirituality, and so on."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A Varying Faith",
+					"entries": [
+						"Because there are many Deathless across many families, there is no single scripture or tenet universal to all Aereni. The Undying Court are revered as spiritual and practical advisers but tend not to hold direct secular power. Instead, they are honored for their guidance and are especially important within the structure of their respective family groups."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Adventurers of the Undying Court",
+					"entries": [
+						"Those who act as priests (called soungraloi) of the Undying Court prioritize giving spiritual guidance and assistance to others over their own journey toward the Rites of Transition. In all their travels, faithful of the Undying Court look to learn the advice and will of their ancestors and to fulfill those desires. Some are direct servants of one or more specific members of the Undying Court."
+					]
+				}
 			]
 		},
 		{
@@ -957,8 +1083,7 @@
 				"N"
 			],
 			"title": "Elven ancestors",
-			"pantheon": "Eberron",
-			"category": "Other Faiths of Eberron",
+			"pantheon": "Elven ancestors",
 			"domains": [
 				"Knowledge",
 				"War"
@@ -975,6 +1100,9 @@
 					"source": "KCAA",
 					"page": 58
 				}
+			],
+			"entries":[
+				"This group of elves do not wish to become undying, believing that souls do not go to an afterlife but are instead reincarnated. Study, veneration, and emulation of past ancestors are the path for the living to unlock memories of their past lives, and the spiritual wisdom associated with them."
 			]
 		},
 		{
@@ -989,8 +1117,7 @@
 				"N"
 			],
 			"title": "The three faced god",
-			"pantheon": "Eberron",
-			"category": "Other Faiths of Eberron",
+			"pantheon": "Alternative Pantheons",
 			"domains": [
 				"Protection",
 				"Trickery",
@@ -998,7 +1125,10 @@
 			],
 			"symbol": "Varies",
 			"source": "KCAA",
-			"page": 58
+			"page": 58,
+			"entries":[
+				"Many soldiers of the Five Nations worship the Three Faces of War, a single god whom they believe has three faces, represented by Dol Arrah, Dol Dorn, and the Mockery. War priests of this soldier’s religion have access to the Protection, Trickery, and War domains, not recognizing Dol Arrah's role in the Sovereign Host as the sun goddess, instead focusing on her compassionate, defensive approach to war."
+			]
 		},
 		{
 			"name": "The Restful Watch",
@@ -1006,9 +1136,8 @@
 				"L",
 				"N"
 			],
-			"title": "Aureon's Judgement",
-			"pantheon": "Eberron",
-			"category": "Other Faiths of Eberron",
+			"title": "Aureon's judgement",
+			"pantheon": "Alternative Pantheons",
 			"domains": [
 				"Knowledge",
 				"Protection",
@@ -1016,7 +1145,10 @@
 			],
 			"symbol": "Varies",
 			"source": "KCAA",
-			"page": 58
+			"page": 58,
+			"entries":[
+				"Followers of this faith believe that Aureon judges souls upon their passage from Dolurrh and those he deems worthy are entrusted to the Keeper's safekeeping. Priests of this faith have access to the Knowledge and Protection domains, as well as the Repose variant of the Grave domain, downplaying Aureon's role as a god of magic, and having a much more benevolent interpretation of the Keeper that does not include the more commonly accepted view of the dark god hoarding souls for his own greed. Rather, they insist that the souls the Keeper has are under his sincere stewardship."
+			]
 		},
 		{
 			"name": "The Gatekeepers",
@@ -1024,11 +1156,27 @@
 				"L",
 				"G"
 			],
-			"pantheon": "Eberron",
-			"category": "Druids of Eberron",
+			"pantheon": "Druid Sects",
 			"symbol": "None",
 			"source": "FE",
-			"page": 43
+			"page": 43,
+			"entries": [
+				"For the Gatekeepers, a great doom has already come. The black dragon Vvaraak, the Scaled Apostate, foresaw a great incursion from Xoriat and taught the orcs and half-orcs of western Khorvaire the druidic arts. When aberrant daelkyr flooded into the world, it was the Gatekeepers who sacrificed most of their number to stem the tide and ultimately close the gate to Xoriat.",
+				{
+					"type": "entries",
+					"name": "A Battle-Ready Sect",
+					"entries": [
+						"Though considered a druidic sect, most of the Gatekeepers are martial warriors. From observatories they watch the movement of the planes, always wary of times when the Material Plane and others like Xoriat and Mabar are coterminous, as bloody experience dictates such times are when dark forces will seep into the world."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Gatekeeper Adventurers",
+					"entries": [
+						"Following in the footsteps of their predecessors, many orcs and half-orcs are proud to join the ranks of the Gatekeepers. Whatever their heritage, Gatekeepers dedicate themselves to combatting aberrations, fiends, and undead in Eberron, as well as the organizations that align themselves with such creatures."
+					]
+				}
+			]
 		},
 		{
 			"name": "The Children of Winter",
@@ -1036,11 +1184,34 @@
 				"L",
 				"E"
 			],
-			"pantheon": "Eberron",
-			"category": "Druids of Eberron",
+			"pantheon": "Druid Sects",
 			"symbol": "None",
 			"source": "FE",
-			"page": 42
+			"page": 42,
+			"entries": [
+				"Everything dies. Where other druid sects see life and reincarnation as a cycle, the Children of Winter see a piece of clockwork—ultimately fated to wind down until it stops. The Children of Winter are merely here to make sure the gears keep ticking.",
+				{
+					"type": "entries",
+					"name": "Servants of Rot",
+					"entries": [
+						"The Children of Winter are often seen as evil, and not without reason. A key site of worship for the Children is the Gloaming, an area of the southern Eldeen Reaches that acts as a manifest zone of Mabar—the plane of endless night and negative energy. Many Children manifest powers of rot, pestilence, and general anti-life."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "The Day of Mourning",
+					"entries": [
+						"When a mysterious cataclysm was visited upon Cyre, many Children of Winter took it as a sign that their days of waiting for the end of all things was coming to an end. Since the Day of Mourning, more and more members of the Children of Winter believe they will play a key role in hastening the ultimate destruction of the world."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Children of Winter Adventurers",
+					"entries": [
+						"The Children of Winter do have some varied beliefs — some still hold to the idea that the great doom comes with patience, not interference. In general, the Children of Winter are a dangerous group who believe only the strong survive in a fated, unforgiving world."
+					]
+				}
+			]
 		},
 		{
 			"name": "Ashbound",
@@ -1048,11 +1219,34 @@
 				"L",
 				"N"
 			],
-			"pantheon": "Eberron",
-			"category": "Druids of Eberron",
+			"pantheon": "Druid Sects",
 			"symbol": "None",
 			"source": "FE",
-			"page": 41
+			"page": 41,
+			"entries": [
+				"Where the Wardens are satisfied with the belief that civilization and nature can coexist, the Ashbound would rather not leave such a thing to chance. The Ashbound often reject everything from manufactured armor to crafted clothing, tending to believe that natural purity is a more important ideal than convenience.",
+				{
+					"type": "entries",
+					"name": "Individualism",
+					"entries": [
+						"Ashbound are a smaller sect, and as such each individual or group is welcome to establish their own belief space within the system’s rather wide orthodoxy. Some Ashbound completely reject the use of weapons, choosing to use only unarmed combat—one of the reasons this wild sect is popular with shifters."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "United Cause",
+					"entries": [
+						"Though they sneer at the Wardens of the Wood as naïve, the Ashbound share the Wardens’ aggression toward planar outsiders. Aberrations and fiends are popular targets for aggressive Ashbound patrols."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Ashbound Adventurers",
+					"entries": [
+						"Adventurers following the beliefs of the Ashbound often find the wider world challenging to deal with, as they are often called to go into cities or are forced to use transportation technologies in the course of their quests. Usually the shadow of a great threat, such as a fiendish incursion, are suitable motivators for an Ashbound to tolerate such things."
+					]
+				}
+			]
 		},
 		{
 			"name": "Wardens of the Woods",
@@ -1060,11 +1254,34 @@
 				"L",
 				"G"
 			],
-			"pantheon": "Eberron",
-			"category": "Druids of Eberron",
+			"pantheon": "Druid Sects",
 			"symbol": "None",
 			"source": "FE",
-			"page": 41
+			"page": 41,
+			"entries": [
+				"Thousands of years ago in the Eldeen Reaches, a greatpine tree gained sentience. Calling itself Oalian, it remains to this day the High Druid of the Wardens of the Wood. Greenheart, capital of the Eldeen Reaches, is Oalian’s home and the spiritual hub of the Wardens.",
+				{
+					"type": "entries",
+					"name": "A Belief in Harmony",
+					"entries": [
+						"Wardens are the largest druid sect, likely because of their belief that civilization and its technologies can live in harmony with the natural world. They are comfortable in cities as much as the wilderness, and do not look down on others for taking advantage of the marvels of technology."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Wardens against Outsiders",
+					"entries": [
+						"The Wardens’ belief in natural harmony has its sharp edge; they are fierce opponents of creatures from outside nature, such as aberrations."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Warden Adventurers",
+					"entries": [
+						"Wardens of the Wood often set themselves to spreading the teachings of Oalian beyond the borders of the Eldeen Reaches. More than this, many Wardens seek out rumors of aberrations and other unnatural occurrences, hoping to keep such intrusions away from the natural harmony of Eberron."
+					]
+				}
+			]
 		},
 		{
 			"name": "Reforged",
@@ -1073,11 +1290,34 @@
 				"L",
 				"G"
 			],
-			"pantheon": "Eberron",
-			"category": "Warforged Faith",
+			"pantheon": "Faiths of Warforged",
 			"symbol": "None",
 			"source": "FE",
-			"page": 41
+			"page": 41,
+			"entries": [
+				"The Reforged is not a deity, but a way of thinking. Warforged who seek to embrace the fact that they are living, sentient creatures capable of emotion follow in the footsteps of Hatchet, the warforged sage who founded this philosophy. The reverence for Hatchet among the Reforged rivals that of a deity’s Chosen or a great prophet.",
+				{
+					"type": "entries",
+					"name": "The Birth-day",
+					"entries": [
+						"The only holy day for a Reforged is their ‘birth-day,’ a celebration when a warforged embraces their dedication to the maxims of the Reforged or celebrates this occasion with each passing year. On a warforged’s first birth-day, friends and fellow followers gather in a simple celebration. The warforged lack a biological sex, but one dedicating themselves to the Reforged may identify with a chosen gender and mark the celebration with a naming, clothing, or other expressions."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Temples of the Reforged",
+					"entries": [
+						"The Reforged do not have an organized church hierarchy and don’t have established temples per se, but they certainly operate centers dedicated to their way of thinking. Often located in places like repurposed inns or rented spaces, the centers of ‘worship’ for the Reforged are stuffed full of sensory, emotional, and intellectual stimuli. Art, music, color, and decoration are common features designed to help the Reforged access their various emotions. Many such locations are filled with food and drink, even though the warforged do not need to eat and cannot taste without magical enhancements."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Reforged Adventurers",
+					"entries": [
+						"Some Reforged live in quiet contemplation, or in areas of natural beauty, or in cities where they have constant access to art, music, and culture. Other Reforged choose a life of adventure, believing that the wild and variable lifestyle will provide the best range of experiences for them to interact with other living creatures and tap into their own emotions."
+					]
+				}
+			]
 		},
 		{
 			"name": "Lord of Blades",
@@ -1086,8 +1326,7 @@
 				"L",
 				"E"
 			],
-			"pantheon": "Eberron",
-			"category": "Warforged Faith",
+			"pantheon": "Faiths of Warforged",
 			"domains": [
 				"Creation",
 				"Forge",
@@ -1102,6 +1341,30 @@
 					"source": "KCAA",
 					"page": 58
 				}
+			],
+			"entries": [
+				"The cult surrounding the Lord of Blades often seems self-conflicting. For one, the Lord of Blades is a warforged of mysterious origin, not a divine being. The Lord’s followers do not believe in religious trappings: they ask their Lord for orders rather than praying for guidance. Their rituals are not holy rites but practical military drills. Despite this, their fervor for the warforged conquest of Eberron allows them to access very real spellcasting of a divine nature.",
+				{
+					"type": "entries",
+					"name": "Holy Stratocracy",
+					"entries": [
+						"Whatever preternatural quality it is that sets the Lord of Blades apart from other warforged, the ‘church’ is more or less a military order with the Lord at its head. The word of the Lord of Blades is repeated verbatim, drilled into followers alongside their duties and maneuvers until the tenets of the ‘faith’ are as second nature to them as their capacity for war. There are no ‘casual’ adherents to the Lord of Blades; if you are considered a follower, it is because you have devoted yourself to the Lord’s command."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "A faith of body, not soul",
+					"entries": [
+						"Despite their religious adherence to the Lord of Blades, warforged followers would ridicule the idea that the Lord brings ‘salvation’ or empowers any kind of ‘soul.’ As the overall hierarchy seeks utmost performance of military might, so too do the Blades seek to perfect their individual performance in their roles."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Blades Adventurers",
+					"entries": [
+						"True followers of the Lord of Blades do not adventure on a whim. At the heart of a Blades’ quest are their standing orders, the task or tasks given by the Lord. Blades abroad might be tasked with infiltration or informationgathering, joining with members of the ‘fleshy races’ to gauge their strengths and weaknesses. Other Blades are given to evangelism, tasked with travelling far and wide to bring the word of the Lord to warforged across Eberron—the word that promises conquest of the world."
+					]
+				}
 			]
 		},
 		{
@@ -1109,8 +1372,7 @@
 			"alignment": [
 				"N"
 			],
-			"pantheon": "Eberron",
-			"category": "Warforged Faith",
+			"pantheon": "Faiths of Warforged",
 			"domains": [
 				"Aspirant",
 				"Creation",
@@ -1124,6 +1386,24 @@
 				{
 					"source": "KCAA",
 					"page": 58
+				}
+			],
+			"entries": [
+				"Leave it to the warforged to literally create a deity that reflects both their living and constructed nature. The Becoming God represents the warforged belief that they have real souls, but the deity’s followers are not content with an intangible deity. As a result, the great project of the selfproclaimed ‘Godforged’ is to spend uncounted years constructing a perfect body for their deity to one day inhabit.",
+				"The Godforged believe that the inhabitation of a body by the soul strengthens both, and thus seek to provide a body to strengthen the divine power of their deity. Non-warforged followers of The Becoming God are rare but do exist, mainly made up of those who support the concept of warforged having spirits of their own.",
+				{
+					"type": "entries",
+					"name": "The Assemblages",
+					"entries": [
+						"The heart of The Becoming God’s worship is in the Mournlands, where the deity’s body is slowly being planned and constructed. The faithful Godforged form groups known as ‘Assemblages,’ which go on pilgrimages to find components for The Becoming God’s construct form. Each group operates more or less autonomously, each with a de facto leader that calls itself ‘Builder’ or ‘Architect’ depending on how they envision the group’s purpose in creating the deity’s body. Larger Assemblages also have secondary leaders known as ‘Planners,’ who assist the group’s leader in accomplishing key tasks."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Godforged Adventurers",
+					"entries": [
+						"Because the hierarchy of Assemblages are self-determined, it is possible to see solitary adventurers in service of The Becoming God. Sometimes these adventurers are instructed to travel beyond the Mournlands by an Assemblage Builder or Architect; in other cases, a Godforged adventurer may believe the deity itself has inspired them to travel abroad. In both cases, the Godforged usually believes they are on a great quest to better understand the nature of the warforged soul or to acquire some remarkable component for The Becoming God’s physical form."
+					]
 				}
 			]
 		}
