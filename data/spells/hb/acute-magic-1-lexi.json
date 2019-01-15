@@ -1,11 +1,10 @@
 {
-    
     "spell": [
         {
             "name": "True Name",
             "level": 5,
             "school": "D",
-            "source": "AM1",
+            "source": "HBAM01",
             "page": 1,
             "meta": {
                 "ritual": false
@@ -64,7 +63,7 @@
             "name": "Copy True Name",
             "level": 4,
             "school": "D",
-            "source": "AM1",
+            "source": "HBAM01",
             "page": 1,
             "meta": {
                 "ritual": true

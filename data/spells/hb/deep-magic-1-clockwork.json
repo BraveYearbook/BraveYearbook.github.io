@@ -2,9 +2,9 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "DM1",
-				"abbreviation": "DM1",
-				"full": "Deep Magic 1: Clockwork Magic",
+				"json": "HBDM01",
+				"abbreviation": "HBDM01",
+				"full": "Deep Magic 01: Clockwork Magic",
 				"authors": [
 					"Greg Marks"
 				],
@@ -51,7 +51,7 @@
 				}
 			],
 			"classes": {},
-			"source": "DM1",
+			"source": "HBDM01",
 			"entries": [
 				"You can control a construct you have built with a challenge rating of 6 or less. You can manipulate objects with your construct as precisely as its construction allows, and you perceive its surroundings through its sensory inputs as if you inhabited its body.",
 				"The construct uses the caster’s Proiciency bonus (modified by the construct’s Strength and Dexterity scores). You can use the manipulators of the construct to perform any number of skill-based tasks, using the construct’s Strength and Dexterity modiiers when using skills based on those particular abilities.",
@@ -94,7 +94,7 @@
 				}
 			],
 			"classes": {},
-			"source": "DM1",
+			"source": "HBDM01",
 			"entries": [
 				"You discover all mechanical properties, mechanisms, and functions of a single construct or clockwork device, including how to activate or deactivate those functions, if appropriate."
 			]
@@ -132,7 +132,7 @@
 				}
 			],
 			"classes": {},
-			"source": "DM1",
+			"source": "HBDM01",
 			"entries": [
 				"This spell animates a carefully prepared construct of Tiny size. The object acts immediately, on your turn, and can atack your opponents to the best of its ability. You can direct it not to atack, to atack particular enemies, or to perform other actions. You choose the object to animate, and you can change that choice each time you cast the spell. The cost of the body to be animated is 10 gp x its hit points. The body can be reused any number of times, provided it isn’t severely damaged or destroyed.",
 				"If no prepared construct body is available, you can animate a mass of loose metal or stone instead. Before casting, the loose objects must be arranged in a suitable shape (taking up to a minute), and the construct’s hit points are halved.",
@@ -257,7 +257,7 @@
 				}
 			],
 			"classes": {},
-			"source": "DM1",
+			"source": "HBDM01",
 			"entries": [
 				"The targeted creature gains resistance to bludgeoning, slashing, and piercing damage. This resistance can be overcome with adamantine or magical weapons."
 			]
@@ -294,7 +294,7 @@
 				}
 			],
 			"classes": {},
-			"source": "DM1",
+			"source": "HBDM01",
 			"entries": [
 				"This spell creates a suit of magical studded leather armor (AC 12). It does not grant you proiciency in its use. Casters without the appropriate armor proiciency suffer disadvantage on any ability check, saving throw, or attack roll that involves Strength or Dexterity and cannot cast spells."
 			],
@@ -347,7 +347,7 @@
 					}
 				]
 			},
-			"source": "DM1",
+			"source": "HBDM01",
 			"entries": [
 				"You detach a portion of your soul to become the embodiment of justice in the form of a clockwork outsider known as a Zelekhut who will serve at your commands for the duration, so long as those commands are consistent with its desire to punish wrongdoers. You may give the creature commands as a bonus action; it acts either immediately before or after you."
 			]
@@ -356,7 +356,7 @@
 			"name": "Catapult",
 			"level": 6,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -402,7 +402,7 @@
 			"name": "Chains of the Godess",
 			"level": 5,
 			"school": "E",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -444,7 +444,7 @@
 			"name": "Gear Barage",
 			"level": 3,
 			"school": "C",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -481,7 +481,7 @@
 			"name": "Gear Shield",
 			"level": 1,
 			"school": "A",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -522,7 +522,7 @@
 			"name": "Gremlins",
 			"level": 4,
 			"school": "C",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -573,7 +573,7 @@
 			"name": "Grinding Gears",
 			"level": 4,
 			"school": "A",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -615,7 +615,7 @@
 			"name": "Find the Flaw",
 			"level": 1,
 			"school": "D",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -651,7 +651,7 @@
 			"name": "Fist of Iron",
 			"level": 0,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -691,7 +691,7 @@
 			"name": "Heartstop",
 			"level": 2,
 			"school": "A",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -731,7 +731,7 @@
 			"name": "Hellforging",
 			"level": 7,
 			"school": "N",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": true
@@ -773,7 +773,7 @@
 			"name": "Imbue Spell",
 			"level": 5,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": true
@@ -818,7 +818,7 @@
 			"name": "Lock Armor",
 			"level": 2,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -869,7 +869,7 @@
 			"name": "Machine Sacrifice",
 			"level": 8,
 			"school": "N",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -910,7 +910,7 @@
 			"name": "Machine's Load",
 			"level": 1,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -960,7 +960,7 @@
 			"name": "Machine Speech",
 			"level": 1,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1008,7 +1008,7 @@
 			"name": "Mass Repair Metal",
 			"level": 5,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1053,7 +1053,7 @@
 			"name": "Mechanical Union",
 			"level": 5,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1095,7 +1095,7 @@
 			"name": "Molech's Blessing",
 			"level": 7,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": true
@@ -1137,7 +1137,7 @@
 			"name": "Move the Cosmic Wheel",
 			"level": 8,
 			"school": "C",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1181,7 +1181,7 @@
 			"name": "Overclock",
 			"level": 3,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1223,7 +1223,7 @@
 			"name": "Pendulum",
 			"level": 1,
 			"school": "E",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1264,7 +1264,7 @@
 			"name": "Power Word Restore",
 			"level": 8,
 			"school": "V",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1298,7 +1298,7 @@
 			"name": "Read Memory",
 			"level": 4,
 			"school": "D",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1334,7 +1334,7 @@
 			"name": "Repair Metal",
 			"level": 2,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1378,7 +1378,7 @@
 			"name": "Robe of Shards",
 			"level": 6,
 			"school": "A",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1418,7 +1418,7 @@
 			"name": "Soul of the Machine",
 			"level": 3,
 			"school": "A",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1458,7 +1458,7 @@
 			"name": "Spin",
 			"level": 2,
 			"school": "E",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1498,7 +1498,7 @@
 			"name": "Steam Blast",
 			"level": 4,
 			"school": "V",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1544,7 +1544,7 @@
 			"name": "Steam Whistle",
 			"level": 8,
 			"school": "V",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1581,7 +1581,7 @@
 			"name": "Sphere of Order",
 			"level": 6,
 			"school": "V",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1621,7 +1621,7 @@
 			"name": "Thousand Darts",
 			"level": 3,
 			"school": "V",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1667,7 +1667,7 @@
 			"name": "Tick Stop",
 			"level": 0,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1717,7 +1717,7 @@
 			"name": "Time in a Bottle",
 			"level": 9,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1756,7 +1756,7 @@
 			"name": "Time Jump",
 			"level": 8,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1791,7 +1791,7 @@
 			"name": "Timeless Engine",
 			"level": 7,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1829,7 +1829,7 @@
 			"name": "Tireless",
 			"level": 1,
 			"school": "A",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1868,7 +1868,7 @@
 			"name": "Winding Key",
 			"level": 2,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false
@@ -1910,7 +1910,7 @@
 			"name": "Write Memory",
 			"level": 4,
 			"school": "T",
-			"source": "DM1",
+			"source": "HBDM01",
 			"page": 1,
 			"meta": {
 				"ritual": false

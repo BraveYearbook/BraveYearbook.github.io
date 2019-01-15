@@ -59,7 +59,7 @@
 					]
 				}
 			],
-			"source": "FE",
+			"source": "HBFE",
 			"page": 7
 		},
 		{
@@ -76,7 +76,7 @@
 				"Nature"
 			],
 			"symbol": "Sheaf of wheat tied with green ribbon",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 8,
 			"additionalSources": [
 				{
@@ -84,7 +84,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -121,7 +121,7 @@
 				"Order"
 			],
 			"symbol": "Open tome",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 8,
 			"additionalSources": [
 				{
@@ -135,7 +135,7 @@
 					"source": "SCAG"
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -171,7 +171,7 @@
 				"Tempest"
 			],
 			"symbol": "Pair of antlers",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 8,
 			"additionalSources": [
 				{
@@ -179,7 +179,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -216,7 +216,7 @@
 				"Protection"
 			],
 			"symbol": "Fire in a stone hearth",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 8,
 			"additionalSources": [
 				{
@@ -224,7 +224,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -260,7 +260,7 @@
 				"War"
 			],
 			"symbol": "Rising sun",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 12,
 			"additionalSources": [
 				{
@@ -299,7 +299,7 @@
 				"War"
 			],
 			"symbol": "Longsword crossed over a shield",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 13,
 			"additionalSources": [
 				{
@@ -338,7 +338,7 @@
 				"Trade"
 			],
 			"symbol": "Nine-sided gold coin",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 15,
 			"additionalSources": [
 				{
@@ -346,7 +346,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -382,7 +382,7 @@
 				"Trickery"
 			],
 			"symbol": "Domino",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 15,
 			"additionalSources": [
 				{
@@ -423,7 +423,7 @@
 				"Knowledge"
 			],
 			"symbol": "Crossed hammer and tongs",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 15,
 			"additionalSources": [
 				{
@@ -435,7 +435,7 @@
 					"page": 18
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -471,7 +471,7 @@
 				"Any of the hosted Domains"
 			],
 			"symbol": "Dark metal prongs",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 16,
 			"entries": [
 				"Like a lurking shadow of the Sovereign Host, the Dark Six are an evil reflection of the Host’s goodness. Where the Host’s pantheon represents civilization’s ability to create something greater than our individual natures, the Six emphasize the most primal and selfish instincts. While most followers of the Host honor the entire pantheon, followers of the Six are much more likely to focus on one deity that appeals to them.",
@@ -525,7 +525,7 @@
 				"Tempest"
 			],
 			"symbol": "Bundle of five sharpened bones",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 17,
 			"additionalSources": [
 				{
@@ -565,7 +565,7 @@
 				"War"
 			],
 			"symbol": "Winged wyrm with woman's head and upper body",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 17,
 			"additionalSources": [
 				{
@@ -573,7 +573,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -609,7 +609,7 @@
 				"Greed"
 			],
 			"symbol": "Dragonshard stone in the shape of a fang",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 18,
 			"additionalSources": [
 				{
@@ -617,7 +617,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -653,7 +653,7 @@
 				"War"
 			],
 			"symbol": "Five blood-spattered tools",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 19,
 			"additionalSources": [
 				{
@@ -661,7 +661,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -698,7 +698,7 @@
 				"Knowledge"
 			],
 			"symbol": "Obsidian tower",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 20,
 			"additionalSources": [
 				{
@@ -706,7 +706,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -744,7 +744,7 @@
 				"Trickery"
 			],
 			"symbol": "Four crossed, rune-inscribed bones",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 21,
 			"additionalSources": [
 				{
@@ -752,7 +752,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -794,7 +794,7 @@
 				"War"
 			],
 			"symbol": "Flame drawn on silver or molded from silver",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 22,
 			"additionalSources": [
 				{
@@ -857,7 +857,7 @@
 				"Grave"
 			],
 			"symbol": "Stylized dragon skull on red teardrop gem",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 46,
 			"additionalSources": [
 				{
@@ -865,7 +865,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -923,7 +923,7 @@
 				"Trickery"
 			],
 			"symbol": "Varies",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 52,
 			"additionalSources": [
 				{
@@ -931,7 +931,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -979,7 +979,7 @@
 				"Dream"
 			],
 			"symbol": "Brilliant crystal",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 28,
 			"additionalSources": [
 				{
@@ -987,7 +987,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -1018,7 +1018,7 @@
 				"Dream"
 			],
 			"symbol": "An eye under a wing",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 27,
 			"entries": [
 				"The quori that control the Dreaming Dark believe they can sustain il-Lashtavar by controlling the dreams of mortals. The society they have built in Reidra serves as both a colony of Dal Quor on Eberron and as an experiment of how they might be able to openly influence mortals for their own ends. Though the Inspired relentlessly search for a way to make Dal Quor once again coterminous with Eberron, their plans purposely advance slowly. They know that they currently hold the advantage and are cautious lest they lose it to their rivals: the kalashtar.",
@@ -1048,7 +1048,7 @@
 				"Life"
 			],
 			"symbol": "Varies",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 50,
 			"additionalSources": [
 				{
@@ -1060,7 +1060,7 @@
 					"page": 19
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -1113,7 +1113,7 @@
 				"War"
 			],
 			"symbol": "Varies",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 61,
 			"additionalSources": [
 				{
@@ -1121,7 +1121,7 @@
 					"page": 296
 				},
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -1149,7 +1149,7 @@
 				"War"
 			],
 			"symbol": "Varies",
-			"source": "KCAA",
+			"source": "HBKCAA",
 			"page": 58,
 			"entries":[
 				"Many soldiers of the Five Nations worship the Three Faces of War, a single god whom they believe has three faces, represented by Dol Arrah, Dol Dorn, and the Mockery. War priests of this soldier’s religion have access to the Protection, Trickery, and War domains, not recognizing Dol Arrah's role in the Sovereign Host as the sun goddess, instead focusing on her compassionate, defensive approach to war."
@@ -1170,7 +1170,7 @@
 				"Repose"
 			],
 			"symbol": "Varies",
-			"source": "KCAA",
+			"source": "HBKCAA",
 			"page": 58,
 			"entries":[
 				"Followers of this faith believe that Aureon judges souls upon their passage from Dolurrh and those he deems worthy are entrusted to the Keeper's safekeeping. Priests of this faith have access to the Knowledge and Protection domains, as well as the Repose variant of the Grave domain, downplaying Aureon's role as a god of magic, and having a much more benevolent interpretation of the Keeper that does not include the more commonly accepted view of the dark god hoarding souls for his own greed. Rather, they insist that the souls the Keeper has are under his sincere stewardship."
@@ -1185,7 +1185,7 @@
 			"pantheon": "Druid Sects",
 			"category": "Other Faiths of Eberron",
 			"symbol": "None",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 43,
 			"entries": [
 				"For the Gatekeepers, a great doom has already come. The black dragon Vvaraak, the Scaled Apostate, foresaw a great incursion from Xoriat and taught the orcs and half-orcs of western Khorvaire the druidic arts. When aberrant daelkyr flooded into the world, it was the Gatekeepers who sacrificed most of their number to stem the tide and ultimately close the gate to Xoriat.",
@@ -1214,7 +1214,7 @@
 			"pantheon": "Druid Sects",
 			"category": "Other Faiths of Eberron",
 			"symbol": "None",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 42,
 			"entries": [
 				"Everything dies. Where other druid sects see life and reincarnation as a cycle, the Children of Winter see a piece of clockwork—ultimately fated to wind down until it stops. The Children of Winter are merely here to make sure the gears keep ticking.",
@@ -1250,7 +1250,7 @@
 			"pantheon": "Druid Sects",
 			"category": "Other Faiths of Eberron",
 			"symbol": "None",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 41,
 			"entries": [
 				"Where the Wardens are satisfied with the belief that civilization and nature can coexist, the Ashbound would rather not leave such a thing to chance. The Ashbound often reject everything from manufactured armor to crafted clothing, tending to believe that natural purity is a more important ideal than convenience.",
@@ -1286,7 +1286,7 @@
 			"pantheon": "Druid Sects",
 			"category": "Other Faiths of Eberron",
 			"symbol": "None",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 41,
 			"entries": [
 				"Thousands of years ago in the Eldeen Reaches, a greatpine tree gained sentience. Calling itself Oalian, it remains to this day the High Druid of the Wardens of the Wood. Greenheart, capital of the Eldeen Reaches, is Oalian’s home and the spiritual hub of the Wardens.",
@@ -1323,7 +1323,7 @@
 			"pantheon": "Faiths of Warforged",
 			"category": "Other Faiths of Eberron",
 			"symbol": "None",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 41,
 			"entries": [
 				"The Reforged is not a deity, but a way of thinking. Warforged who seek to embrace the fact that they are living, sentient creatures capable of emotion follow in the footsteps of Hatchet, the warforged sage who founded this philosophy. The reverence for Hatchet among the Reforged rivals that of a deity’s Chosen or a great prophet.",
@@ -1366,11 +1366,11 @@
 				"War"
 			],
 			"symbol": "Spike warforged hand",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 35,
 			"additionalSources": [
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],
@@ -1413,11 +1413,11 @@
 				"Knowledge"
 			],
 			"symbol": "None",
-			"source": "FE",
+			"source": "HBFE",
 			"page": 35,
 			"additionalSources": [
 				{
-					"source": "KCAA",
+					"source": "HBKCAA",
 					"page": 58
 				}
 			],

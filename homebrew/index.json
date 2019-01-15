@@ -3,14 +3,17 @@
 		"NOTE: This feature is designed for use in user-hosted copies of the site, and not for integrating \"official\" 5etools content.",
 		"The \"production\" version of the site (i.e., not the development ZIP) has this feature disabled. You can re-enable it by deleting `_IS_DEPLOYED = \"X.Y.Z\",` from the file `js/utils.js`",
 		"This file contains as an index for other homebrew files, which should be placed in the same directory.",
-		"For example, add \"My Homebrew.json\" to the \"toImport\" array below, and have a valid JSON homebrew file in this (\"homebrew/\") directory."
-	],
-	"toImport": [
+		"For example, add \"My Homebrew.json\" to the \"toImport\" array below, and have a valid JSON homebrew file in this (\"homebrew/\") directory.",
+		"spell/lost-spells.json",
 		"spell/travelling-rituals.json",
-		"spell/acute-magic.json",
+		"spell/acute-magic-1-lexi.json",
 		"spell/deep-magic-1-clockwork.json",
+		"spell/deep-magic-8-battle.json",
 		"spell/deep-magic-13-dragon.json",
 		"spell/deep-magic-14-elemental.json",
 		"spell/deep-magic-16-time.json"
+	],
+	"toImport": [
+		
 	]
 }
