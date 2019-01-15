@@ -1,23 +1,4 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "HBERTW",
-                "abbreviation": "ERTW",
-                "full": "Everyday Rituals for Travelling Wizards",
-                "authors": [
-                    "A,D, Feltham"
-                ],
-                "convertedBy": [
-                    "Tagger"
-                ],
-                "version": "2.1",
-                "url": "https://www.dmsguild.com/product/184141/Everyday-Rituals-for-Travelling-Wizards",
-                "targetSchema": "1.0.0"
-            }
-        ],
-        "dateAdded": 1547482086702
-    },
     "spell": [
         {
             "name": "Mystic Cooking Fire",

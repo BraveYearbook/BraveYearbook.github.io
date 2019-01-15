@@ -1,23 +1,4 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "HBDM01",
-				"abbreviation": "HBDM01",
-				"full": "Deep Magic 01: Clockwork Magic",
-				"authors": [
-					"Greg Marks"
-				],
-				"convertedBy": [
-					"Tagger94"
-				],
-				"version": "1.0",
-				"url": "",
-				"targetSchema": "1.0.0"
-			}
-		],
-		"dateAdded": 1537874753
-	},
 	"spell": [
 		{
 			"name": "Absolute Command",

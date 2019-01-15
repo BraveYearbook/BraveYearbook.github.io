@@ -1,23 +1,4 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "HBDM13",
-				"abbreviation": "HBDM13",
-				"full": "Deep Magic 13: Dragon Magic",
-				"authors": [
-					"Shawn Merwin"
-				],
-				"convertedBy": [
-					"Tagger94"
-				],
-				"version": "1.0",
-				"url": "",
-				"targetSchema": "1.0.0"
-			}
-		],
-		"dateAdded": 1537874753
-	},
 	"spell": [
 		{
 			"name": "Catch the Breath",

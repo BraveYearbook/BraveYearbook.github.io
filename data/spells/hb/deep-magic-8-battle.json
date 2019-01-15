@@ -1,23 +1,4 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "HBDM08",
-                "abbreviation": "HBDM08",
-                "full": "Deep Magic 8: Battle Magic",
-                "authors": [
-                    "Greg Marks"
-                ],
-                "convertedBy": [
-                    "Modnar"
-                ],
-                "version": "1.0",
-                "url": "https://www.drivethrurpg.com/product/200465/Deep-Magic-Battle-Magic-for-5th-Edition",
-                "targetSchema": "1.0.0"
-            }
-        ],
-        "dateAdded": 1542063914
-    },
     "book": [
         {
             "name": "Deep Magic : Battle Magic",

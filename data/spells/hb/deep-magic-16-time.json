@@ -1,23 +1,4 @@
 {
-	"_meta": {
-		"sources": [
-			{
-				"json": "HBDM16",
-				"abbreviation": "HBDM16",
-				"full": "Deep Magic 16: Time Magic",
-				"authors": [
-					"Carlos Ovalle"
-				],
-				"convertedBy": [
-					"Tagger94"
-				],
-				"version": "1.0",
-				"url": "",
-				"targetSchema": "1.0.0"
-			}
-		],
-		"dateAdded": 1537874753
-	},
 	"spell": [
 		{
 			"name": "Accelerate",
