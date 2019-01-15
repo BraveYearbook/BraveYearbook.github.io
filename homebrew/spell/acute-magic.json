@@ -1,29 +1,11 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "am",
-                "abbreviation": "AM",
-                "full": "Acute Magic",
-                "authors": [
-                    "Tagger"
-                ],
-                "convertedBy": [
-                    "Tagger"
-                ],
-                "version": "2.0",
-                "url": "",
-                "targetSchema": "1.0.0"
-            }
-        ],
-        "dateAdded": 1542063914
-    },
+    
     "spell": [
         {
             "name": "True Name",
             "level": 5,
             "school": "D",
-            "source": "am",
+            "source": "AM1",
             "page": 1,
             "meta": {
                 "ritual": false
@@ -82,7 +64,7 @@
             "name": "Copy True Name",
             "level": 4,
             "school": "D",
-            "source": "am",
+            "source": "AM1",
             "page": 1,
             "meta": {
                 "ritual": true

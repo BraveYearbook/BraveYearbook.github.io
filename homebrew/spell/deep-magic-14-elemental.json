@@ -2,8 +2,8 @@
 	"_meta": {
 		"sources": [
 			{
-				"json": "dm14",
-				"abbreviation": "DM14:Elemental",
+				"json": "DM14",
+				"abbreviation": "DM14",
 				"full": "Deep Magic 14: Elemental Magic",
 				"authors": [
 					"Greg Marks"
@@ -147,7 +147,7 @@
 					}
 				]
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"shortName": "Elementalist"
 		}
 	],
@@ -167,7 +167,7 @@
 				"You add plane shift to your spellbook if you don’t already have it, and you can cast it once with this mastery without expending a spell slot.",
 				"When you cast plane shift using this mastery, you can only travel to the elemental plane associated with your elemental focus or to the Material Plane. While on that elemental plane, you can survive there with no fear of the hostile natural environment. You don’t take damage from the normal conditions of the plane, you can breathe normally, and you can use your speed to move in a manner appropriate to the plane (flying for air, burrowing for earth, or swimming for water). You regain the ability to cast plane shift with this mastery when you finish a long rest."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		},
 		{
@@ -184,7 +184,7 @@
 			"entries": [
 				"You add planar binding to your spellbook if you don’t already have it, and you can cast it once with this mastery without expending a spell slot. When you cast the spell in this way, you must target an elemental creature associated with your elemental focus. If the elemental fails its saving throw, it gains temporary hit points equal to your wizard level. You regain the ability to cast planar binding with this mastery when you finish a long rest."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		},
 		{
@@ -201,7 +201,7 @@
 			"entries": [
 				"You gain resistance to the damage type associated with your elemental focus, and you have advantage on Constitution saving throws made to maintain concentration on spells that resonate with your elemental focus."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		},
 		{
@@ -216,7 +216,7 @@
 			"entries": [
 				"As an action, you can target an elemental creature that you can see within 30 feet. The elemental must succeed on a Wisdom saving throw or be charmed for up to one hour as long as you maintain concentration as if concentrating on a spell. If you or your companions damage the charmed elemental or take harmful actions against it, the charmed condition ends immediately. A creature that succeeds on its saving throw, or if this ability ends for it, is immune to being charmed by you for 24 hours."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		},
 		{
@@ -233,7 +233,7 @@
 			"entries": [
 				"After you damage a target with a spell of 1st level or higher that deals the damage type associated with your elemental focus, the target becomes vulnerable to that damage type until the end of your next turn. You can use this ability twice. You regain all expended uses when you finish a short or long rest."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		},
 		{
@@ -248,7 +248,7 @@
 			"entries": [
 				"When you deal fire damage to a target with a spell of 1st level or higher, you can use a bonus action to cause the target to catch fire. Unless a creature takes an action to douse the flames, at the start of its next turn, the target takes half the damage it originally took from the spell and the flames go out. If you damage more than one target with the spell, choose a target to catch fire."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		},
 		{
@@ -263,7 +263,7 @@
 			"entries": [
 				"When you damage a target with a spell that deals the damage type associated with your elemental focus, you ignore any resistance the target has to that damage type."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		},
 		{
@@ -281,7 +281,7 @@
 				"When you damage a target with a spell of 1st level or higher that deals the damage type associated with your elemental focus, you can weave a lingering aura of elemental energy around it. At the start of its turn, the creature must make a Constitution saving throw. On a failed save, it takes 4d6 damage of the type dealt by the spell and is stunned until the start of its next turn, or half as much damage and the effect ends on a successful one.",
 				"You can use this ability twice. You regain all expended uses when you finish a short or long rest."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		},
 		{
@@ -296,7 +296,7 @@
 			"entries": [
 				"When you cast a spell of 1st level or higher, you can use a bonus action to create a slab of stone that interposes itself between you and one creature of your choice. Until the end of your next turn, the slab provides half cover against the chosen creature."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		},
 		{
@@ -311,7 +311,7 @@
 			"entries": [
 				"When you cast a spell of 1st level or higher, you can use a bonus action to create a sweeping wave of water to push a target you can see within 20 feet. The creature must succeed on a Strength saving throw or be pushed 5 feet in the direction of your choice and knocked prone."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		},
 		{
@@ -319,7 +319,7 @@
 			"entries": [
 				"When you cast a spell of 1st level or higher, you can use a bonus action to create a line of wind that is 20-foot long and 5-foot wide. Each creature in the line must make a Strength saving throw or take 1d6 slashing damage and be pushed 10 feet away from you in the direction of the line."
 			],
-			"source": "dm14",
+			"source": "DM14",
 			"featureType": "EM"
 		}
 	],
@@ -372,7 +372,7 @@
                     }
 				]
 			},
-			"source": "dm14",
+			"source": "DM14",
 			"entries": [
                 "You unleash a storm of swirling acid in a cylinder 20-foot wide and 30-foot high centered on a point you can see. The area is heavily obscured by driving rainfall. A creature that starts its turn in or enters the area for the first time must make a Dexterity saving throw. On a failed save, the creature takes 6d6 acid damage, or half as much damage on a successful one. When a creature leaves the area, it takes 3d6 acid damage at the start of its next turn."
             ],
@@ -433,7 +433,7 @@
                     }
 				]
 			},
-			"source": "dm14",
+			"source": "DM14",
 			"entries": [
 				"A howling storm of thick snow and ice crystals appears in a 40-foot wide, 40-foot high cylinder. The area is heavily obscured by swirling snow. When the storm appears, each creature in the area must make a Constitution saving throw. A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one. A creature must also make this save when it enters the area for the first time or ends its turn there.",
 				"A creature who takes cold damage from this spell has disadvantage on Constitution saving throws made to maintain concentration until the start of its next turn."
@@ -482,7 +482,7 @@
                     }
 				]
 			},
-			"source": "dm14",
+			"source": "DM14",
 			"entries": [
 				"A swirling jet of acid sprays from you in a direction you choose. The acid fills a line that is 60-foot long and 5-foot wide. Each creature in the area must make a Dexterity saving throw. A creature takes 14d6 acid damage on a failed save, or half as much damage on a successful one. A creature reduced to 0 hit points by this spell is killed, and its body is liquefied. The line releases toxic fumes, and each creature other than you within 5 feet of the line is poisoned for 1 minute. A poisoned creature can make a Constitution saving throw at the end of its turn, ending the effect on itself on a success."
             ]
@@ -535,7 +535,7 @@
                     }
 				]
 			},
-			"source": "dm14",
+			"source": "DM14",
 			"entries": [
 				"Water swirls up in a sphere around a creature you can see within range, forcing itself into the creature’s mouth and nose. The creature must make a Strength saving throw. On a failed save, it is stunned until the start of its next turn by the water entering its lungs. On a successful save, the creature isn’t affected.",
 				"An affected creature can’t speak and begins to suffocate. As an action, the creature can try to cough the water out of its lungs by repeating the saving throw. On a success, the spell ends. A creature that can breathe water isn’t affected by this spell."
@@ -588,7 +588,7 @@
                     }
 				]
 			},
-			"source": "dm14",
+			"source": "DM14",
 			"entries": [
 				"You cause earth and stone to rise up beneath your feet, lifting you up to 5 feet. For the duration, you can use your movement to cause the slab to skim along the ground or another solid surface at a speed of 60 feet. This movement ignores difficult terrain. If you are pushed or moved against your will by any means other than teleporting, the slab moves with you.",
 				"When you take the Dash action, until the end of your turn you can enter the space of a creature up to one size larger than yourself, and the creature must make a Strength saving throw. A creature takes 4d6 bludgeoning damage on a failed save and is knocked prone, or half as much damage and isn’t knocked prone on a successful one."
@@ -641,7 +641,7 @@
                     }
 				]
 			},
-			"source": "dm14",
+			"source": "DM14",
 			"entries": [
 				"You cause slabs of rock to burst out of the ground or another stone surface to form a 10-foot cube within range. When the cube forms, a creature inside must succeed on a Dexterity saving throw or be trapped in the stone tomb. The tomb is airtight, with enough air for a single Medium or Small creature to breathe for 8 hours. Divide the time evenly between the number of creatures trapped within. A Large creature counts as four Medium creatures. If the creature is still trapped inside when the air runs out, it begins to suffocate.",
 				"The tomb has an AC 18 and 50 hit points. It is resistant to fire, cold, lightning, bludgeoning, and slashing damage, is immune to poison and psychic damage, and is vulnerable to thunder damage. When reduced to 0 hit points, the tomb crumbles into harmless powder."
@@ -690,7 +690,7 @@
                     }
 				]
 			},
-			"source": "dm14",
+			"source": "DM14",
 			"entries": [
 				"A rushing burst of fire rips out from you in a rolling wave, filling a 40-foot cone. Each creature in the area must make a Dexterity saving throw. On a failed save, a creature takes 6d8 fire damage and is pushed 20 feet away from you, or takes half as much damage and isn’t pushed on a successful one."
 			],
@@ -752,7 +752,7 @@
                     }
 				]
 			},
-			"source": "dm14",
+			"source": "DM14",
 			"entries": [
 				"You cause biting cold to settle around a creature you can see. The creature must succeed on a Constitution saving throw or take 4d8 cold damage, be reduced to half speed, and suffer disadvantage on attack rolls and ability checks. Creatures who are immune to cold damage are unaffected by this spell.",
 				"For the duration, the target must repeat the saving throw at the start of its turn. If the target passes three saving throws against the spell, the spell ends. If no targets are affected, the spell ends immediately."

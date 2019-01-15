@@ -8,6 +8,7 @@
 				"G"
 			],
 			"pantheon": "The Sovereign Host",
+			"category": "The Sovereign Host",
 			"domains": [
 				"Sovereign Speaker",
 				"Any of the hosted Domains"
@@ -69,6 +70,7 @@
 			],
 			"title": "Goddess of fertility",
 			"pantheon": "The Sovereign Host",
+			"category": "The Sovereign Host",
 			"domains": [
 				"Life",
 				"Nature"
@@ -112,6 +114,7 @@
 			],
 			"title": "God of law and knowledge",
 			"pantheon": "The Sovereign Host",
+			"category": "The Sovereign Host",
 			"domains": [
 				"Arcana",
 				"Knowledge",
@@ -161,6 +164,7 @@
 			],
 			"title": "God of beasts and the hunt",
 			"pantheon": "The Sovereign Host",
+			"category": "The Sovereign Host",
 			"domains": [
 				"Life",
 				"Nature",
@@ -205,6 +209,7 @@
 			],
 			"title": "Goddess of community and home",
 			"pantheon": "The Sovereign Host",
+			"category": "The Sovereign Host",
 			"domains": [
 				"Life",
 				"Passion",
@@ -249,6 +254,7 @@
 			],
 			"title": "Goddess of sunlight and honor",
 			"pantheon": "The Sovereign Host",
+			"category": "The Sovereign Host",
 			"domains": [
 				"Light",
 				"War"
@@ -288,6 +294,7 @@
 			],
 			"title": "God of strength at arms",
 			"pantheon": "The Sovereign Host",
+			"category": "The Sovereign Host",
 			"domains": [
 				"War"
 			],
@@ -325,6 +332,7 @@
 			],
 			"title": "God of trade and wealth",
 			"pantheon": "The Sovereign Host",
+			"category": "The Sovereign Host",
 			"domains": [
 				"Trickery",
 				"Trade"
@@ -368,6 +376,7 @@
 			],
 			"title": "Goddess of good fortune",
 			"pantheon": "The Sovereign Host",
+			"category": "The Sovereign Host",
 			"domains": [
 				"Life",
 				"Trickery"
@@ -407,6 +416,7 @@
 			],
 			"title": "God of craft",
 			"pantheon": "The Sovereign Host",
+			"category": "The Sovereign Host",
 			"domains": [
 				"Creation",
 				"Forge",
@@ -455,6 +465,7 @@
 			],
 			"title": "Dark remains of the schism",
 			"pantheon": "The Dark Six",
+			"category": "The Dark Six",
 			"domains": [
 				"Twisted",
 				"Any of the hosted Domains"
@@ -509,6 +520,7 @@
 			],
 			"title": "God of nature's wrath",
 			"pantheon": "The Dark Six",
+			"category": "The Dark Six",
 			"domains": [
 				"Tempest"
 			],
@@ -547,6 +559,7 @@
 			],
 			"title": "Goddess of wrath and madness",
 			"pantheon": "The Dark Six",
+			"category": "The Dark Six",
 			"domains": [
 				"Passion",
 				"War"
@@ -590,6 +603,7 @@
 			],
 			"title": "God of greed and death",
 			"pantheon": "The Dark Six",
+			"category": "The Dark Six",
 			"domains": [
 				"Death",
 				"Greed"
@@ -633,6 +647,7 @@
 			],
 			"title": "God of violence and treachery",
 			"pantheon": "The Dark Six",
+			"category": "The Dark Six",
 			"domains": [
 				"Trickery",
 				"War"
@@ -676,6 +691,7 @@
 			],
 			"title": "God of dark magic",
 			"pantheon": "The Dark Six",
+			"category": "The Dark Six",
 			"domains": [
 				"Arcana",
 				"Corruption",
@@ -720,6 +736,7 @@
 			],
 			"title": "Deity of chaos and change",
 			"pantheon": "The Dark Six",
+			"category": "The Dark Six",
 			"domains": [
 				"Creation",
 				"Forge",
@@ -768,6 +785,7 @@
 			],
 			"title": "Deity of protection and good",
 			"pantheon": "The Silver Flame",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Life",
 				"Light",
@@ -830,6 +848,7 @@
 			],
 			"title": "Philosophy of immortality and undeath",
 			"pantheon": "The Blood of Vol",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Arcana",
 				"Blood",
@@ -897,6 +916,7 @@
 			],
 			"title": "Deities of madness",
 			"pantheon": "Cults of the Dragon Below",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Corruption",
 				"Passion",
@@ -951,6 +971,7 @@
 			],
 			"title": "Philosophy of light and self-improvement",
 			"pantheon": "Faiths of the Quori",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Knowledge",
 				"Life",
@@ -992,6 +1013,7 @@
 				"E"
 			],
 			"pantheon": "Faiths of the Quori",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Dream"
 			],
@@ -1019,6 +1041,7 @@
 			],
 			"title": "Elven ancestors",
 			"pantheon": "Elven Ancestors",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Repose",
 				"Knowledge",
@@ -1084,6 +1107,7 @@
 			],
 			"title": "Elven ancestors",
 			"pantheon": "Elven Ancestors",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Knowledge",
 				"War"
@@ -1118,6 +1142,7 @@
 			],
 			"title": "The three faced god",
 			"pantheon": "Alternative Pantheons",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Protection",
 				"Trickery",
@@ -1138,6 +1163,7 @@
 			],
 			"title": "Aureon's judgement",
 			"pantheon": "Alternative Pantheons",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Knowledge",
 				"Protection",
@@ -1157,6 +1183,7 @@
 				"G"
 			],
 			"pantheon": "Druid Sects",
+			"category": "Other Faiths of Eberron",
 			"symbol": "None",
 			"source": "FE",
 			"page": 43,
@@ -1185,6 +1212,7 @@
 				"E"
 			],
 			"pantheon": "Druid Sects",
+			"category": "Other Faiths of Eberron",
 			"symbol": "None",
 			"source": "FE",
 			"page": 42,
@@ -1220,6 +1248,7 @@
 				"N"
 			],
 			"pantheon": "Druid Sects",
+			"category": "Other Faiths of Eberron",
 			"symbol": "None",
 			"source": "FE",
 			"page": 41,
@@ -1255,6 +1284,7 @@
 				"G"
 			],
 			"pantheon": "Druid Sects",
+			"category": "Other Faiths of Eberron",
 			"symbol": "None",
 			"source": "FE",
 			"page": 41,
@@ -1291,6 +1321,7 @@
 				"G"
 			],
 			"pantheon": "Faiths of Warforged",
+			"category": "Other Faiths of Eberron",
 			"symbol": "None",
 			"source": "FE",
 			"page": 41,
@@ -1327,6 +1358,7 @@
 				"E"
 			],
 			"pantheon": "Faiths of Warforged",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Creation",
 				"Forge",
@@ -1373,6 +1405,7 @@
 				"N"
 			],
 			"pantheon": "Faiths of Warforged",
+			"category": "Other Faiths of Eberron",
 			"domains": [
 				"Aspirant",
 				"Creation",
