@@ -15,7 +15,7 @@ const META_ADD_MB_SCALING = "Scaling Effects";
 const META_ADD_MB_HEAL = "Healing";
 // real meta tags
 const META_RITUAL = "Ritual";
-const META_TECHNOMAGIC = "Technomagic";
+const META_TECHNOMAGIC = "Rare";
 
 const STR_WIZARD = "Wizard";
 const STR_FIGHTER = "Fighter";
