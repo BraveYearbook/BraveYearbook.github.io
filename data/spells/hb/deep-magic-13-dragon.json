@@ -51,14 +51,14 @@
 			},
 			"entries": [
 				"You can cast this spell as a reaction when you’re targeted by a breath weapon. Doing so gives you advantage on your saving throw against the breath weapon. If your saving throw succeeds, you take no damage from the attack even if a successful save normally only halves the damage.",
-				"Whether your saving throw succeeded or failed, you absorb and store energy from the attack. On your next turn, you can make a ranged spell attack against a target within 60 feet. On a hit, the target takes 3d10 force damage. If you opt not to make this attack, the stored energy dissipates harmlessly."
+				"Whether your saving throw succeeded or failed, you absorb and store energy from the attack. On your next turn, you can make a ranged spell attack against a target within 60 feet. On a hit, the target takes {@dice 3d10} force damage. If you opt not to make this attack, the stored energy dissipates harmlessly."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 4th level or higher, the damage done by your attack increases by 1d10 for each slot level above 3rd."
+						"When you cast this spell using a spell slot of 4th level or higher, the damage done by your attack increases by {@dice 1d10} for each slot level above 3rd."
 					]
 				}
 			],
@@ -120,14 +120,14 @@
 				]
 			},
 			"entries": [
-				"You summon the power of the earth dragon and shoot a ray at one target within 60 feet. The target falls prone and takes 6d8 bludgeoning damage from being slammed to the ground. If the target was flying or levitating, it takes an additional 1d6 bludgeoning damage per 10 feet it falls. If the target makes a successful Strength saving throw, damage is halved, it doesn’t fall, and it isn’t knocked prone."
+				"You summon the power of the earth dragon and shoot a ray at one target within 60 feet. The target falls prone and takes {@dice 6d8} bludgeoning damage from being slammed to the ground. If the target was flying or levitating, it takes an additional {@dice 1d6} bludgeoning damage per 10 feet it falls. If the target makes a successful Strength saving throw, damage is halved, it doesn’t fall, and it isn’t knocked prone."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage done by the attack increases by 1d8 and the range increases by 10 feet for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, the damage done by the attack increases by {@dice 1d8} and the range increases by 10 feet for each slot level above 5th."
 					]
 				}
 			],
@@ -258,7 +258,7 @@
 				]
 			},
 			"entries": [
-				"You grow a 10-foot-long tail as supple as a whip, tipped with a horrible stinger. During the spell’s duration, you can use the stinger to make a melee spell attack with a reach of 10 feet. On a hit, the target takes 1d4 piercing damage plus 4d10 poison damage, and a creature must make a successful Constitution saving throw or become vulnerable to poison damage for the duration of the spell."
+				"You grow a 10-foot-long tail as supple as a whip, tipped with a horrible stinger. During the spell’s duration, you can use the stinger to make a melee spell attack with a reach of 10 feet. On a hit, the target takes {@dice 1d4} piercing damage plus {@dice 4d10} poison damage, and a creature must make a successful Constitution saving throw or become vulnerable to poison damage for the duration of the spell."
 			],
 			"savingThrow": [
 				"constitution"
@@ -378,14 +378,14 @@
 				]
 			},
 			"entries": [
-				"The next time you hit a creature with a melee weapon attack during the spell’s duration,  your weapon momentarily takes on the form of a silver dragon’s head. Your attack deals an extra 1d6 cold damage, and up to four other creatures of your choosing within 30 feet of the attack’s target must each make a successful Constitution saving throw or take 1d6 cold damage."
+				"The next time you hit a creature with a melee weapon attack during the spell’s duration,  your weapon momentarily takes on the form of a silver dragon’s head. Your attack deals an extra {@dice 1d6} cold damage, and up to four other creatures of your choosing within 30 feet of the attack’s target must each make a successful Constitution saving throw or take {@dice 1d6} cold damage."
 			],
 			"entriesHigherLevel": [
 				{
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 2nd level or higher, the extra cold damage and the cold damage done to the secondary creatures increases by 1d6 for each slot."
+						"When you cast this spell using a spell slot of 2nd level or higher, the extra cold damage and the cold damage done to the secondary creatures increases by {@dice 1d6} for each slot."
 					]
 				}
 			],
@@ -447,7 +447,7 @@
 				]
 			},
 			"entries": [
-				"You summon draconic power to gain a breath weapon. When you cast dragon breath, you can immediately exhale a cone or line of elemental energy, depending on the type of dragon you select. While the spell remains active, roll a d6 at the start of your turn. On a roll of 5 or 6, you can take a bonus action that turn to use the breath weapon again.",
+				"You summon draconic power to gain a breath weapon. When you cast dragon breath, you can immediately exhale a cone or line of elemental energy, depending on the type of dragon you select. While the spell remains active, roll a {@dice d6} at the start of your turn. On a roll of 5 or 6, you can take a bonus action that turn to use the breath weapon again.",
 				"When you cast the spell, choose one of the dragon types listed below. Your choice determines the range and damage of the breath attack for the spell’s duration.",
 				{
 					"type": "table",
@@ -466,27 +466,27 @@
 						[
 							"Black",
 							"5 by 30 ft. line (Dex. save)",
-							"6d6 acid damage"
+							"{@dice 6d6} acid damage"
 						],
 						[
 							"Blue",
 							"5 by 30 ft. line (Dex. save)",
-							"6d6 lightning damage"
+							"{@dice 6d6} lightning damage"
 						],
 						[
 							"Green",
 							"15 ft. cone (Con. save)",
-							"6d6 poison damage"
+							"{@dice 6d6} poison damage"
 						],
 						[
 							"Red",
 							"15 ft. cone (Dex. save)",
-							"6d6 fire damage"
+							"{@dice 6d6} fire damage"
 						],
 						[
 							"White",
 							"15 ft. cone (Con. save)",
-							"6d6 cold damage"
+							"{@dice 6d6} cold damage"
 						]
 					]
 				}
@@ -496,7 +496,7 @@
 					"type": "entries",
 					"name": "At Higher Levels",
 					"entries": [
-						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by 2d6 for each slot level above 5th."
+						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by {@dice 2d6} for each slot level above 5th."
 					]
 				}
 			],
@@ -559,8 +559,8 @@
 				]
 			},
 			"entries": [
-				"Your voice is amplified to assault the mind of one creature. The target must make a Charisma saving throw. If it fails, the target takes 1d4 psychic damage and is frightened of you until the start of your next turn. A target can be affected by your dragon roar only once per 24 hours.",
-				"This spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4)."
+				"Your voice is amplified to assault the mind of one creature. The target must make a Charisma saving throw. If it fails, the target takes {@dice 1d4} psychic damage and is frightened of you until the start of your next turn. A target can be affected by your dragon roar only once per 24 hours.",
+				"This spell’s damage increases by {@dice 1d4} when you reach 5th level ({@dice 2d4}), 11th level ({@dice 3d4}), and 17th level ({@dice 4d4})."
 			],
 			"savingThrow": [
 				"charisma"
@@ -707,7 +707,7 @@
 				]
 			},
 			"entries": [
-				"Your touch infuses the rage of a threatened kobold into the target. The target has advantage on melee weapon attacks until the end of its next turn. In addition, its next successful melee weapon attack against a creature larger than itself does an additional 2d8 damage."
+				"Your touch infuses the rage of a threatened kobold into the target. The target has advantage on melee weapon attacks until the end of its next turn. In addition, its next successful melee weapon attack against a creature larger than itself does an additional {@dice 2d8} damage."
 			]
 		},
 		{
