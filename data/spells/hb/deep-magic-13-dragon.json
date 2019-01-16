@@ -3,9 +3,12 @@
 		{
 			"name": "Catch the Breath",
 			"level": 3,
-			"school": "t",
+			"school": "T",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 8,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -58,6 +61,12 @@
 						"When you cast this spell using a spell slot of 4th level or higher, the damage done by your attack increases by 1d10 for each slot level above 3rd."
 					]
 				}
+			],
+			"spellAttack": [
+				"R"
+			],
+			"damageInflict": [
+				"force"
 			]
 		},
 		{
@@ -65,7 +74,10 @@
 			"level": 5,
 			"school": "V",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 8,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -118,6 +130,15 @@
 						"When you cast this spell using a spell slot of 6th level or higher, the damage done by the attack increases by 1d8 and the range increases by 10 feet for each slot level above 5th."
 					]
 				}
+			],
+			"savingThrow": [
+				"strength"
+			],
+			"conditionInflict": [
+				"prone"
+			],
+			"damageInflict": [
+				"bludgeoning"
 			]
 		},
 		{
@@ -125,7 +146,10 @@
 			"level": 1,
 			"school": "D",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 8,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -146,7 +170,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "minute",
-						"amount": 10
+						"amount": 10,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -162,7 +187,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
@@ -174,6 +203,9 @@
 			"entries": [
 				"You gain limited telepathy, allowing you to communicate with any creature within 120 feet of you that has the dragon type, regardless of the creature’s languages. A dragon can choose to make a Charisma saving throw to prevent telepathic contact with itself.",
 				"This spell doesn’t change a dragon’s disposition toward you or your allies, it only opens a channel of communication. In some cases, unwanted telepathic contact can worsen the dragon’s attitude toward you."
+			],
+			"savingThrow": [
+				"charisma"
 			]
 		},
 		{
@@ -181,7 +213,10 @@
 			"level": 8,
 			"school": "T",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 8,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -204,7 +239,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "minute",
-						"amount": 1
+						"amount": 1,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -212,15 +248,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
-						"source": "PHB"
-					},
-					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
@@ -231,6 +259,19 @@
 			},
 			"entries": [
 				"You grow a 10-foot-long tail as supple as a whip, tipped with a horrible stinger. During the spell’s duration, you can use the stinger to make a melee spell attack with a reach of 10 feet. On a hit, the target takes 1d4 piercing damage plus 4d10 poison damage, and a creature must make a successful Constitution saving throw or become vulnerable to poison damage for the duration of the spell."
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"spellAttack": [
+				"M"
+			],
+			"damageInflict": [
+				"piercing",
+				"poison"
+			],
+			"damageVulnerable": [
+				"poison"
 			]
 		},
 		{
@@ -238,7 +279,10 @@
 			"level": 2,
 			"school": "D",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 8,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -260,7 +304,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "minute",
-						"amount": 10
+						"amount": 10,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -272,11 +317,11 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
+						"name": "Druid",
 						"source": "PHB"
 					},
 					{
-						"name": "Warlock",
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
@@ -294,7 +339,10 @@
 			"level": 1,
 			"school": "V",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 9,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -315,7 +363,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "minute",
-						"amount": 1
+						"amount": 1,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -323,19 +372,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
-						"source": "PHB"
-					},
-					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "PHB"
-					},
-					{
-						"name": "Wizard",
+						"name": "Paladin",
 						"source": "PHB"
 					}
 				]
@@ -351,6 +388,12 @@
 						"When you cast this spell using a spell slot of 2nd level or higher, the extra cold damage and the cold damage done to the secondary creatures increases by 1d6 for each slot."
 					]
 				}
+			],
+			"savingThrow": [
+				"constitution"
+			],
+			"damageInflict": [
+				"cold"
 			]
 		},
 		{
@@ -359,6 +402,9 @@
 			"school": "V",
 			"source": "HBDM13",
 			"page": 1,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -378,7 +424,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "minute",
-						"amount": 1
+						"amount": 1,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -386,11 +433,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
-						"source": "PHB"
-					},
-					{
-						"name": "Cleric",
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
@@ -416,33 +459,33 @@
 					],
 					"colStyles": [
 						"col-1",
-						"col-11",
-						"col-11"
+						"col-5",
+						"col-5"
 					],
 					"rows": [
 						[
 							"Black",
-							"30-foot line, 5 feet wide",
+							"5 by 30 ft. line (Dex. save)",
 							"6d6 acid damage"
 						],
 						[
 							"Blue",
-							"30-foot line, 5 feet wide",
+							"5 by 30 ft. line (Dex. save)",
 							"6d6 lightning damage"
 						],
 						[
 							"Green",
-							"15-foot cone",
+							"15 ft. cone (Con. save)",
 							"6d6 poison damage"
 						],
 						[
 							"Red",
-							"15-foot cone",
+							"15 ft. cone (Dex. save)",
 							"6d6 fire damage"
 						],
 						[
 							"White",
-							"15-foot cone",
+							"15 ft. cone (Con. save)",
 							"6d6 cold damage"
 						]
 					]
@@ -456,6 +499,17 @@
 						"When you cast this spell using a spell slot of 6th level or higher, the damage increases by 2d6 for each slot level above 5th."
 					]
 				}
+			],
+			"savingThrow": [
+				"dexterity",
+				"constitution"
+			],
+			"damageInflict": [
+				"acid",
+				"cold",
+				"fire",
+				"lightning",
+				"poison"
 			]
 		},
 		{
@@ -463,7 +517,10 @@
 			"level": 0,
 			"school": "V",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 9,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -492,11 +549,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
@@ -508,14 +561,27 @@
 			"entries": [
 				"Your voice is amplified to assault the mind of one creature. The target must make a Charisma saving throw. If it fails, the target takes 1d4 psychic damage and is frightened of you until the start of your next turn. A target can be affected by your dragon roar only once per 24 hours.",
 				"This spell’s damage increases by 1d4 when you reach 5th level (2d4), 11th level (3d4), and 17th level (4d4)."
-			]
+			],
+			"savingThrow": [
+				"charisma"
+			],
+			"conditionInflict": [
+				"frightened"
+			],
+			"damageInflict": [
+				"psychic"
+			],
+			"scalingEffects": true
 		},
 		{
 			"name": "Enhance Greed",
 			"level": 2,
 			"school": "D",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 10,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -537,7 +603,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "minute",
-						"amount": 10
+						"amount": 10,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -550,6 +617,10 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
@@ -581,7 +652,10 @@
 			"level": 1,
 			"school": "T",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 10,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -619,6 +693,10 @@
 						"source": "PHB"
 					},
 					{
+						"name": "Sorcerer",
+						"source": "PHB"
+					},
+					{
 						"name": "Warlock",
 						"source": "PHB"
 					},
@@ -637,7 +715,7 @@
 			"level": 2,
 			"school": "D",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 10,
 			"meta": {
 				"ritual": true
 			},
@@ -671,18 +749,6 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
-						"source": "PHB"
-					},
-					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
-						"source": "PHB"
-					},
-					{
 						"name": "Wizard",
 						"source": "PHB"
 					}
@@ -707,7 +773,10 @@
 			"level": 7,
 			"school": "D",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 11,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -731,7 +800,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "minute",
-						"amount": 1
+						"amount": 1,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -739,15 +809,7 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
-						"source": "PHB"
-					},
-					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
@@ -758,6 +820,18 @@
 			},
 			"entries": [
 				"You tap into the life force of a creature that is capable of performing legendary actions. When you cast the spell, the target creature must make a successful Constitution saving throw or lose the ability to take legendary actions for the spell’s duration. A creature can’t use legendary resistance to automatically succeed on the saving throw against this spell. An affected creature repeats the saving throw at the end of its turn, regaining 1 legendary action on a success. It continues repeating the saving throw until the spell ends or it regains all its legendary actions."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						""
+					]
+				}
+			],
+			"savingThrow": [
+				"constitution"
 			]
 		},
 		{
@@ -765,7 +839,10 @@
 			"level": 3,
 			"school": "I",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 11,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -788,7 +865,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "hour",
-						"amount": 1
+						"amount": 1,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -796,15 +874,11 @@
 			"classes": {
 				"fromClassList": [
 					{
-						"name": "Bard",
+						"name": "Druid",
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
@@ -825,6 +899,12 @@
 						"When you cast this spell using a spell slot of 4th level or higher, increase the number of targets the illusion can frighten by 1 per slot level above 3rd."
 					]
 				}
+			],
+			"savingThrow": [
+				"wisdom"
+			],
+			"conditionInflict": [
+				"frightened"
 			]
 		},
 		{
@@ -832,7 +912,10 @@
 			"level": 4,
 			"school": "A",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 11,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 10,
@@ -855,7 +938,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "hour",
-						"amount": 1
+						"amount": 1,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -867,11 +951,7 @@
 						"source": "PHB"
 					},
 					{
-						"name": "Cleric",
-						"source": "PHB"
-					},
-					{
-						"name": "Warlock",
+						"name": "Ranger",
 						"source": "PHB"
 					},
 					{
@@ -882,9 +962,14 @@
 			},
 			"entries": [
 				"You create an invisible circle of protective energy centered on yourself with a radius of 10 feet. This field moves with you. The caster and all allies within the energy field are protected against dragons’ lair actions.",
-				"- Attack rolls resulting directly from lair actions are made with disadvantage.",
-				"- Saving throws resulting directly from lair actions are made with advantage, and damage done by these lair actions is halved.",
-				"- Lair actions occur on an initiative count 10 lower than normal.",
+				{
+					"type": "list",
+					"items": [
+						"Attack rolls resulting directly from lair actions are made with disadvantage.",
+						"Saving throws resulting directly from lair actions are made with advantage, and damage done by these lair actions is halved.",
+						"Lair actions occur on an initiative count 10 lower than normal."
+					]
+				},
 				"The caster has advantage on Constitution saving throws to maintain concentration on this spell."
 			]
 		},
@@ -893,7 +978,10 @@
 			"level": 4,
 			"school": "N",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 11,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -917,7 +1005,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "minute",
-						"amount": 1
+						"amount": 1,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -930,6 +1019,14 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Ranger",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{
@@ -953,6 +1050,9 @@
 						"When you cast this spell using a spell slot of 5th level or higher, the number of affected targets increases by 1 per slot level above 4th."
 					]
 				}
+			],
+			"savingThrow": [
+				"constitution"
 			]
 		},
 		{
@@ -960,7 +1060,10 @@
 			"level": 2,
 			"school": "A",
 			"source": "HBDM13",
-			"page": 1,
+			"page": 11,
+			"meta": {
+				"ritual": false
+			},
 			"time": [
 				{
 					"number": 1,
@@ -982,7 +1085,8 @@
 					"type": "timed",
 					"duration": {
 						"type": "minute",
-						"amount": 10
+						"amount": 10,
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -995,6 +1099,10 @@
 					},
 					{
 						"name": "Cleric",
+						"source": "PHB"
+					},
+					{
+						"name": "Sorcerer",
 						"source": "PHB"
 					},
 					{

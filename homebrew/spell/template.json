@@ -2,7 +2,7 @@
     "name": "Name",
     "level": 0,
     "school": "A",
-    "source": "ertw",
+    "source": "HBDM13",
     "page": 1,
     "meta": {
         "ritual": false
@@ -31,7 +31,7 @@
     },
     "duration": [
         {
-            "type": "timed|instant|permanent|special",
+            "type": "timed",
             "duration": {
                 "type": "minute|hour|turn|round|week|day|year",
                 "amount": 1,
