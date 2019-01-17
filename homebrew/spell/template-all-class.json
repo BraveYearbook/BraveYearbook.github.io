@@ -1,0 +1,139 @@
+{
+    "name": "Name",
+    "level": 0,
+    "school": "A",
+    "source": "HBDM16",
+    "page": 1,
+    "meta": {
+        "ritual": false
+    },
+    "time": [
+        {
+            "number": 1,
+            "unit": "action"
+        }
+    ],
+    "range": {
+        "type": "point|special|line|cube|cone|radius|sphere|hemisphere",
+        "distance": {
+            "type": "feet|miles|self|touch|special|unlimited|plane|sight",
+            "amount": 30
+        }
+    },
+    "components": {
+        "v": true,
+        "s": true,
+        "m": {
+            "text": "25 gp worth of powdered silver, which the spell consumes",
+            "cost": 0,
+            "consume": false
+        }
+    },
+    "duration": [
+        {
+            "type": "timed",
+            "duration": {
+                "type": "minute|hour|turn|round|week|day|year",
+                "amount": 1,
+                "upTo": true
+            },
+            "concentration": true
+        },
+        {
+            "type": "instant"
+        },
+        {
+            "type": "permanent",
+            "ends": [
+                "dispel", "trigger", "discharge"
+            ]
+        },
+        {
+            "type": "special"
+        }
+    ],
+    "classes": {
+        "fromClassList": [
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Cleric",
+                "source": "PHB"
+            },
+            {
+                "name": "Druid",
+                "source": "PHB"
+            },
+            {
+                "name": "Paladin",
+                "source": "PHB"
+            },
+            {
+                "name": "Ranger",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            },
+            {
+                "name": "Warlock",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
+        ]
+    },
+    "entries": [
+        ""
+    ],
+    "entriesHigherLevel": [
+        {
+            "type": "entries",
+            "name": "At Higher Levels",
+            "entries": [
+                ""
+            ]
+        }
+    ],
+    "opposedCheck": [
+        "strength", "constitution", "dexterity", "intelligence", "wisdom", "charisma"
+    ],
+    "savingThrow": [
+        "strength",
+        "dexterity",
+        "constitution",
+        "intelligence",
+        "wisdom",
+        "charisma"
+    ],
+    "spellAttack": [
+        "M",
+        "R",
+        "O"
+    ],
+    "conditionInflict": [
+        "blinded", "charmed", "deafened", "exhaustion", "frightened", "grappled", "incapacitated", "invisible", "paralyzed", "petrified", "poisoned", "prone", "restrained", "stunned", "unconscious"
+    ],
+    "damageInflict": [
+        "acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"
+    ],
+    "damageImmune": [
+        "acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"
+    ],
+    "damageResist": [
+        "acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"
+    ],
+    "damageVulnerable": [
+        "acid", "bludgeoning", "cold", "fire", "force", "lightning", "necrotic", "piercing", "poison", "psychic", "radiant", "slashing", "thunder"
+    ],
+    "scalingEffects": false,
+    "permanentEffects": false,
+    "isHeal": false,
+    "races": [],
+    "otherSources": []
+}
