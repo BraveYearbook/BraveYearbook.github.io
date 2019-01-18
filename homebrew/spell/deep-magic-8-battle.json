@@ -4,7 +4,7 @@
 			{
 				"json": "dmbm",
 				"abbreviation": "DM:BM",
-				"full": "Deep Magic : Battle Magic",
+				"full": "Deep Magic 08: Battle Magic",
 				"authors": [
 					"Greg Marks"
 				],
@@ -20,12 +20,12 @@
 	},
 	"book": [
 		{
-			"name": "Deep Magic : Battle Magic",
+			"name": "Deep Magic 08: Battle Magic",
 			"id": "DM:BM",
 			"source": "dmbm",
 			"contents": [
 				{
-					"name": "Deep Magic : Battle Magic",
+					"name": "Deep Magic 08: Battle Magic",
 					"headers": [
 						"Introduction",
 						"Feats",

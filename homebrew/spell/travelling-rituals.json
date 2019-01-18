@@ -2,14 +2,14 @@
     "_meta": {
         "sources": [
             {
-                "json": "ertw",
+                "json": "ERTW",
                 "abbreviation": "ERTW",
                 "full": "Everyday Rituals for Travelling Wizards",
                 "authors": [
                     "A,D, Feltham"
                 ],
                 "convertedBy": [
-                    "Tagger"
+                    "Eberron94"
                 ],
                 "version": "2.0",
                 "url": "https://www.dmsguild.com/product/184141/Everyday-Rituals-for-Travelling-Wizards",
