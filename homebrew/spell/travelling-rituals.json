@@ -1,10 +1,29 @@
 {
+    "_meta": {
+        "sources": [
+            {
+                "json": "ertw",
+                "abbreviation": "ERTW",
+                "full": "Everyday Rituals for Travelling Wizards",
+                "authors": [
+                    "A,D, Feltham"
+                ],
+                "convertedBy": [
+                    "Tagger"
+                ],
+                "version": "2.0",
+                "url": "https://www.dmsguild.com/product/184141/Everyday-Rituals-for-Travelling-Wizards",
+                "targetSchema": "1.0.0"
+            }
+        ],
+        "dateAdded": 1542063914
+    },
     "spell": [
         {
             "name": "Mystic Cooking Fire",
             "level": 1,
             "school": "C",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 4,
             "meta": {
                 "ritual": true
@@ -53,7 +72,7 @@
             "name": "Earth to Sausages",
             "level": 1,
             "school": "T",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 4,
             "meta": {
                 "ritual": true
@@ -96,7 +115,7 @@
             "name": "Chill Provisions",
             "level": 1,
             "school": "V",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 4,
             "meta": {
                 "ritual": true
@@ -142,7 +161,7 @@
             "name": "Magic Spit",
             "level": 1,
             "school": "C",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 4,
             "meta": {
                 "ritual": true
@@ -190,7 +209,7 @@
             "name": "Refill Waterskin",
             "level": 1,
             "school": "C",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 1,
             "meta": {
                 "ritual": true
@@ -232,7 +251,7 @@
             "name": "Summon Umbrella",
             "level": 1,
             "school": "C",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 5,
             "meta": {
                 "ritual": true
@@ -281,7 +300,7 @@
             "name": "Summon Parasol",
             "level": 2,
             "school": "C",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 5,
             "meta": {
                 "ritual": true
@@ -329,7 +348,7 @@
             "name": "Waterproof Tent",
             "level": 1,
             "school": "T",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 5,
             "meta": {
                 "ritual": true
@@ -377,7 +396,7 @@
             "name": "Warm or Cool Cloak",
             "level": 1,
             "school": "T",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 5,
             "meta": {
                 "ritual": true
@@ -426,7 +445,7 @@
             "name": "Detect North",
             "level": 1,
             "school": "D",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 6,
             "meta": {
                 "ritual": true
@@ -473,7 +492,7 @@
             "name": "Endless String",
             "level": 2,
             "school": "C",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 6,
             "meta": {
                 "ritual": true
@@ -521,7 +540,7 @@
             "name": "Mystic Cartography",
             "level": 2,
             "school": "D",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 6,
             "meta": {
                 "ritual": true
@@ -568,7 +587,7 @@
             "name": "Reveal the Way",
             "level": 3,
             "school": "D",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 6,
             "meta": {
                 "ritual": true
@@ -611,7 +630,7 @@
             "name": "Conceal Campsite",
             "level": 5,
             "school": "I",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 7,
             "meta": {
                 "ritual": true
@@ -660,7 +679,7 @@
             "name": "Appledrab's Candle-click",
             "level": 1,
             "school": "V",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 7,
             "meta": {
                 "ritual": true
@@ -707,7 +726,7 @@
             "name": "Featherbed",
             "level": 1,
             "school": "T",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 7,
             "meta": {
                 "ritual": true
@@ -753,7 +772,7 @@
             "name": "Boundary Ward",
             "level": 3,
             "school": "D",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 7,
             "meta": {
                 "ritual": true
@@ -800,7 +819,7 @@
             "name": "Summon Groom",
             "level": 2,
             "school": "C",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 8,
             "meta": {
                 "ritual": true
@@ -849,7 +868,7 @@
             "name": "Tenser's Floating Wagon",
             "level": 4,
             "school": "C",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 8,
             "meta": {
                 "ritual": false
@@ -897,7 +916,7 @@
             "name": "Waterproof Wagon",
             "level": 2,
             "school": "T",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 8,
             "meta": {
                 "ritual": true
@@ -945,7 +964,7 @@
             "name": "Dry Laundry",
             "level": 2,
             "school": "V",
-            "source": "HBERTW",
+            "source": "ERTW",
             "page": 8,
             "meta": {
                 "ritual": true

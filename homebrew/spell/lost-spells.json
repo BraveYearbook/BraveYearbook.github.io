@@ -1,8 +1,24 @@
 {
+	"_meta": {
+		"sources": [
+			{
+				"json": "BoLS 3pp",
+				"abbreviation": "BoLS (3pp)",
+				"full": "Book of Lost Spells",
+				"authors": [
+					"Frog God Games"
+				],
+				"version": "1.0",
+				"url": "https://www.froggodgames.com/book-lost-spells",
+				"targetSchema": "1.1.2"
+			}
+		],
+		"dateAdded": 1537874753
+	},
 	"spell": [
 		{
 			"name": "Abiding Webs",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 10,
 			"level": 4,
 			"school": "C",
@@ -48,7 +64,7 @@
 		},
 		{
 			"name": "Absorb Object",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 10,
 			"level": 5,
 			"school": "T",
@@ -96,7 +112,7 @@
 		},
 		{
 			"name": "Absorption",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 10,
 			"level": 4,
 			"school": "T",
@@ -141,7 +157,7 @@
 		},
 		{
 			"name": "Acid Blast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 10,
 			"level": 6,
 			"school": "V",
@@ -200,7 +216,7 @@
 		},
 		{
 			"name": "Acid Storm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 10,
 			"level": 7,
 			"school": "V",
@@ -254,7 +270,7 @@
 		},
 		{
 			"name": "Acid Swamp",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 10,
 			"level": 7,
 			"school": "V",
@@ -310,7 +326,7 @@
 		},
 		{
 			"name": "Acid Wind",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 10,
 			"level": 1,
 			"school": "V",
@@ -373,7 +389,7 @@
 		},
 		{
 			"name": "Acorn Grove",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 11,
 			"level": 6,
 			"school": "C",
@@ -418,7 +434,7 @@
 		},
 		{
 			"name": "Adamantine Bones",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 11,
 			"level": 6,
 			"school": "N",
@@ -480,7 +496,7 @@
 		},
 		{
 			"name": "Advance the Years",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 11,
 			"level": 6,
 			"school": "N",
@@ -527,7 +543,7 @@
 		},
 		{
 			"name": "Aerial Pilot",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 11,
 			"level": 3,
 			"school": "C",
@@ -573,7 +589,7 @@
 		},
 		{
 			"name": "Aetheric Shield",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 11,
 			"level": 4,
 			"school": "A",
@@ -628,7 +644,7 @@
 		},
 		{
 			"name": "Affect Normal Fog",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 11,
 			"level": 1,
 			"school": "T",
@@ -674,7 +690,7 @@
 		},
 		{
 			"name": "Agitate Crowd",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 11,
 			"level": 7,
 			"school": "E",
@@ -723,7 +739,7 @@
 		},
 		{
 			"name": "Air Breathing",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 12,
 			"level": 3,
 			"school": "T",
@@ -783,7 +799,7 @@
 		},
 		{
 			"name": "Air Bridge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 12,
 			"level": 3,
 			"school": "T",
@@ -848,7 +864,7 @@
 		},
 		{
 			"name": "Air Forge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 12,
 			"level": 2,
 			"school": "T",
@@ -912,7 +928,7 @@
 		},
 		{
 			"name": "Air Sphere",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 13,
 			"level": 4,
 			"school": "C",
@@ -968,7 +984,7 @@
 		},
 		{
 			"name": "Air of Nobility",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 13,
 			"level": 3,
 			"school": "E",
@@ -1017,7 +1033,7 @@
 		},
 		{
 			"name": "Alter Normal Fires",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 13,
 			"level": 0,
 			"school": "T",
@@ -1074,7 +1090,7 @@
 		},
 		{
 			"name": "Alter Scent",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 13,
 			"level": 1,
 			"school": "T",
@@ -1123,7 +1139,7 @@
 		},
 		{
 			"name": "Anchor",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 13,
 			"level": 3,
 			"school": "V",
@@ -1170,7 +1186,7 @@
 		},
 		{
 			"name": "Angel's Cloak",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 13,
 			"level": 6,
 			"school": "A",
@@ -1224,7 +1240,7 @@
 		},
 		{
 			"name": "Animal Mask",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 13,
 			"level": 3,
 			"school": "I",
@@ -1273,7 +1289,7 @@
 		},
 		{
 			"name": "Annihilate Soul",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 13,
 			"level": 9,
 			"school": "N",
@@ -1327,7 +1343,7 @@
 		},
 		{
 			"name": "Arcane Censure",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 14,
 			"level": 9,
 			"school": "A",
@@ -1384,7 +1400,7 @@
 		},
 		{
 			"name": "Arcane Obstruction",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 14,
 			"level": 6,
 			"school": "A",
@@ -1429,7 +1445,7 @@
 		},
 		{
 			"name": "Arcane Retribution",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 14,
 			"level": 5,
 			"school": "V",
@@ -1485,7 +1501,7 @@
 		},
 		{
 			"name": "Arcane Shield",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 14,
 			"level": 5,
 			"school": "A",
@@ -1536,7 +1552,7 @@
 		},
 		{
 			"name": "Arcane Spear",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 14,
 			"level": 3,
 			"school": "V",
@@ -1596,7 +1612,7 @@
 		},
 		{
 			"name": "Aspect Tattoo",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 14,
 			"level": 3,
 			"school": "A",
@@ -1686,7 +1702,7 @@
 		},
 		{
 			"name": "Assassin's Coin",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 14,
 			"level": 1,
 			"school": "C",
@@ -1736,7 +1752,7 @@
 		},
 		{
 			"name": "Assassin's Mark",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 15,
 			"level": 0,
 			"school": "T",
@@ -1780,7 +1796,7 @@
 		},
 		{
 			"name": "Assault of Stone",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 15,
 			"level": 7,
 			"school": "C",
@@ -1836,7 +1852,7 @@
 		},
 		{
 			"name": "Association",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 15,
 			"level": 4,
 			"school": "E",
@@ -1908,7 +1924,7 @@
 		},
 		{
 			"name": "Assume True Form",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 16,
 			"level": 4,
 			"school": "T",
@@ -1964,7 +1980,7 @@
 		},
 		{
 			"name": "Augment Flames",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 16,
 			"level": 2,
 			"school": "T",
@@ -2024,7 +2040,7 @@
 		},
 		{
 			"name": "Augment Skeleton",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 16,
 			"level": 2,
 			"school": "T",
@@ -2081,7 +2097,7 @@
 		},
 		{
 			"name": "Aura of Tsathogga",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 16,
 			"level": 4,
 			"school": "C",
@@ -2144,7 +2160,7 @@
 		},
 		{
 			"name": "Axe of Destruction",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 16,
 			"level": 3,
 			"school": "T",
@@ -2189,7 +2205,7 @@
 		},
 		{
 			"name": "Babel's Curse",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 16,
 			"level": 3,
 			"school": "E",
@@ -2257,7 +2273,7 @@
 		},
 		{
 			"name": "Bad Luck",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 16,
 			"level": 3,
 			"school": "E",
@@ -2317,7 +2333,7 @@
 		},
 		{
 			"name": "Bait",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 16,
 			"level": 4,
 			"school": "E",
@@ -2373,7 +2389,7 @@
 		},
 		{
 			"name": "Balance of the Mind",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 17,
 			"level": 4,
 			"school": "E",
@@ -2417,7 +2433,7 @@
 		},
 		{
 			"name": "Barbaric Rage",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 17,
 			"level": 4,
 			"school": "E",
@@ -2471,7 +2487,7 @@
 		},
 		{
 			"name": "Barbaric Yawp",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 17,
 			"level": 3,
 			"school": "V",
@@ -2527,7 +2543,7 @@
 		},
 		{
 			"name": "Bastion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 18,
 			"level": 4,
 			"school": "A",
@@ -2575,7 +2591,7 @@
 		},
 		{
 			"name": "Battle Double",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 18,
 			"level": 3,
 			"school": "I",
@@ -2628,7 +2644,7 @@
 		},
 		{
 			"name": "Battle Guidance",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 18,
 			"level": 2,
 			"school": "D",
@@ -2676,7 +2692,7 @@
 		},
 		{
 			"name": "Battle Insight",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 18,
 			"level": 2,
 			"school": "D",
@@ -2725,7 +2741,7 @@
 		},
 		{
 			"name": "Battle Wisdom",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 18,
 			"level": 1,
 			"school": "D",
@@ -2783,7 +2799,7 @@
 		},
 		{
 			"name": "Bead of Blasting",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 18,
 			"level": 4,
 			"school": "V",
@@ -2850,7 +2866,7 @@
 		},
 		{
 			"name": "Bead of Blazing",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 18,
 			"level": 2,
 			"school": "V",
@@ -2914,7 +2930,7 @@
 		},
 		{
 			"name": "Bead of Frost",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 18,
 			"level": 2,
 			"school": "V",
@@ -2974,7 +2990,7 @@
 		},
 		{
 			"name": "Bead of Iron",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 19,
 			"level": 6,
 			"school": "A",
@@ -3028,7 +3044,7 @@
 		},
 		{
 			"name": "Bead of Luck",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 19,
 			"level": 4,
 			"school": "A",
@@ -3072,7 +3088,7 @@
 		},
 		{
 			"name": "Bee Sting",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 19,
 			"level": 1,
 			"school": "C",
@@ -3135,7 +3151,7 @@
 		},
 		{
 			"name": "Befuddle",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 19,
 			"level": 0,
 			"school": "E",
@@ -3183,7 +3199,7 @@
 		},
 		{
 			"name": "Bestow Speech",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 19,
 			"level": 3,
 			"school": "T",
@@ -3232,7 +3248,7 @@
 		},
 		{
 			"name": "Bewildering Tracks",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 19,
 			"level": 1,
 			"school": "T",
@@ -3275,7 +3291,7 @@
 		},
 		{
 			"name": "Bewitch",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 19,
 			"level": 1,
 			"school": "I",
@@ -3323,7 +3339,7 @@
 		},
 		{
 			"name": "Billow the Sails",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 19,
 			"level": 5,
 			"school": "T",
@@ -3373,7 +3389,7 @@
 		},
 		{
 			"name": "Binding Chains",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 20,
 			"level": 3,
 			"school": "C",
@@ -3445,7 +3461,7 @@
 		},
 		{
 			"name": "Binding Sap",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 20,
 			"level": 1,
 			"school": "T",
@@ -3494,7 +3510,7 @@
 		},
 		{
 			"name": "Biting Blade",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 20,
 			"level": 2,
 			"school": "T",
@@ -3547,7 +3563,7 @@
 		},
 		{
 			"name": "Black Exhalation",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 20,
 			"level": 6,
 			"school": "N",
@@ -3600,7 +3616,7 @@
 		},
 		{
 			"name": "Blackout",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 20,
 			"level": 3,
 			"school": "A",
@@ -3649,7 +3665,7 @@
 		},
 		{
 			"name": "Blade Bond",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 20,
 			"level": 6,
 			"school": "T",
@@ -3699,7 +3715,7 @@
 		},
 		{
 			"name": "Blade Song",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 21,
 			"level": 3,
 			"school": "V",
@@ -3751,7 +3767,7 @@
 		},
 		{
 			"name": "Blade of Light",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 20,
 			"level": 2,
 			"school": "C",
@@ -3803,7 +3819,7 @@
 		},
 		{
 			"name": "Bladelust",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 21,
 			"level": 4,
 			"school": "T",
@@ -3855,7 +3871,7 @@
 		},
 		{
 			"name": "Blades of Bone",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 21,
 			"level": 5,
 			"school": "N",
@@ -3913,7 +3929,7 @@
 		},
 		{
 			"name": "Blades of Jade",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 21,
 			"level": 6,
 			"school": "T",
@@ -3965,7 +3981,7 @@
 		},
 		{
 			"name": "Blazing Blood",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 22,
 			"level": 8,
 			"school": "T",
@@ -4013,7 +4029,7 @@
 		},
 		{
 			"name": "Blessed Harvest",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 22,
 			"level": 2,
 			"school": "T",
@@ -4060,7 +4076,7 @@
 		},
 		{
 			"name": "Blessed Watchman",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 22,
 			"level": 2,
 			"school": "E",
@@ -4103,7 +4119,7 @@
 		},
 		{
 			"name": "Blessing of the Dawn",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 22,
 			"level": 2,
 			"school": "A",
@@ -4147,7 +4163,7 @@
 		},
 		{
 			"name": "Blessing of the Forge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 22,
 			"level": 5,
 			"school": "T",
@@ -4191,7 +4207,7 @@
 		},
 		{
 			"name": "Blight Fog",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 22,
 			"level": 6,
 			"school": "N",
@@ -4244,7 +4260,7 @@
 		},
 		{
 			"name": "Blindfold",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 22,
 			"level": 2,
 			"school": "T",
@@ -4299,7 +4315,7 @@
 		},
 		{
 			"name": "Blinding Ash",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 22,
 			"level": 3,
 			"school": "C",
@@ -4355,7 +4371,7 @@
 		},
 		{
 			"name": "Blinding Flare",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 23,
 			"level": 3,
 			"school": "V",
@@ -4407,7 +4423,7 @@
 		},
 		{
 			"name": "Blood Bath",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 23,
 			"level": 2,
 			"school": "N",
@@ -4461,7 +4477,7 @@
 		},
 		{
 			"name": "Blood Blade",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 23,
 			"level": 5,
 			"school": "T",
@@ -4506,7 +4522,7 @@
 		},
 		{
 			"name": "Blood Geyser",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 23,
 			"level": 2,
 			"school": "T",
@@ -4556,7 +4572,7 @@
 		},
 		{
 			"name": "Blood Purge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 23,
 			"level": 5,
 			"school": "N",
@@ -4600,7 +4616,7 @@
 		},
 		{
 			"name": "Blood of the Hydra",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 23,
 			"level": 6,
 			"school": "C",
@@ -4654,7 +4670,7 @@
 		},
 		{
 			"name": "Bloodburn",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 23,
 			"level": 4,
 			"school": "N",
@@ -4706,7 +4722,7 @@
 		},
 		{
 			"name": "Bloody Tentacles",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 23,
 			"level": 5,
 			"school": "N",
@@ -4773,7 +4789,7 @@
 		},
 		{
 			"name": "Blunt the Edge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 24,
 			"level": 2,
 			"school": "T",
@@ -4822,7 +4838,7 @@
 		},
 		{
 			"name": "Boarding Plank",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 24,
 			"level": 2,
 			"school": "C",
@@ -4865,7 +4881,7 @@
 		},
 		{
 			"name": "Bolster Mental Fortitude",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 24,
 			"level": 2,
 			"school": "A",
@@ -4916,7 +4932,7 @@
 		},
 		{
 			"name": "Bone Armor",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 25,
 			"level": 2,
 			"school": "C",
@@ -4964,7 +4980,7 @@
 		},
 		{
 			"name": "Bone Blight",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 25,
 			"level": 5,
 			"school": "N",
@@ -5018,7 +5034,7 @@
 		},
 		{
 			"name": "Bone Trap",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 25,
 			"level": 3,
 			"school": "N",
@@ -5071,7 +5087,7 @@
 		},
 		{
 			"name": "Boost Potency",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 25,
 			"level": 2,
 			"school": "T",
@@ -5123,7 +5139,7 @@
 		},
 		{
 			"name": "Bound Hearts",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 25,
 			"level": 7,
 			"school": "E",
@@ -5177,7 +5193,7 @@
 		},
 		{
 			"name": "Bramble Armor",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 25,
 			"level": 4,
 			"school": "C",
@@ -5224,7 +5240,7 @@
 		},
 		{
 			"name": "Branch Assault",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 25,
 			"level": 2,
 			"school": "T",
@@ -5275,7 +5291,7 @@
 		},
 		{
 			"name": "Breach Defenses",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 26,
 			"level": 6,
 			"school": "T",
@@ -5332,7 +5348,7 @@
 		},
 		{
 			"name": "Breath of the Dragon",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 26,
 			"level": 3,
 			"school": "V",
@@ -5400,7 +5416,7 @@
 		},
 		{
 			"name": "Brittle",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 26,
 			"level": 2,
 			"school": "T",
@@ -5452,7 +5468,7 @@
 		},
 		{
 			"name": "Bubble Goop",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 26,
 			"level": 4,
 			"school": "C",
@@ -5510,7 +5526,7 @@
 		},
 		{
 			"name": "Bubble Net",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 26,
 			"level": 1,
 			"school": "C",
@@ -5577,7 +5593,7 @@
 		},
 		{
 			"name": "Bug Bites",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 26,
 			"level": 2,
 			"school": "C",
@@ -5629,7 +5645,7 @@
 		},
 		{
 			"name": "Buoyancy",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 26,
 			"level": 1,
 			"school": "T",
@@ -5677,7 +5693,7 @@
 		},
 		{
 			"name": "Burden",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 26,
 			"level": 0,
 			"school": "T",
@@ -5727,7 +5743,7 @@
 		},
 		{
 			"name": "Burn the Sight",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 27,
 			"level": 2,
 			"school": "T",
@@ -5776,7 +5792,7 @@
 		},
 		{
 			"name": "Burning Rain",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 27,
 			"level": 7,
 			"school": "T",
@@ -5826,7 +5842,7 @@
 		},
 		{
 			"name": "Buttress",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 27,
 			"level": 2,
 			"school": "T",
@@ -5876,7 +5892,7 @@
 		},
 		{
 			"name": "Cacophony",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 27,
 			"level": 3,
 			"school": "V",
@@ -5929,7 +5945,7 @@
 		},
 		{
 			"name": "Call Divine Warrior",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 27,
 			"level": 8,
 			"school": "C",
@@ -5977,7 +5993,7 @@
 		},
 		{
 			"name": "Call of the Wild Companion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 27,
 			"level": 1,
 			"school": "V",
@@ -6021,7 +6037,7 @@
 		},
 		{
 			"name": "Call the Heart",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 27,
 			"level": 6,
 			"school": "N",
@@ -6067,7 +6083,7 @@
 		},
 		{
 			"name": "Camouflage",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 28,
 			"level": 1,
 			"school": "T",
@@ -6115,7 +6131,7 @@
 		},
 		{
 			"name": "Catnip",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 28,
 			"level": 2,
 			"school": "E",
@@ -6170,7 +6186,7 @@
 		},
 		{
 			"name": "Cause the Bends",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 28,
 			"level": 3,
 			"school": "N",
@@ -6224,7 +6240,7 @@
 		},
 		{
 			"name": "Caustic Spittle",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 28,
 			"level": 1,
 			"school": "V",
@@ -6282,7 +6298,7 @@
 		},
 		{
 			"name": "Cave Walker",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 28,
 			"level": 2,
 			"school": "T",
@@ -6326,7 +6342,7 @@
 		},
 		{
 			"name": "Chain Enervation",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 28,
 			"level": 7,
 			"school": "V",
@@ -6379,7 +6395,7 @@
 		},
 		{
 			"name": "Change Dust to Water",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 28,
 			"level": 6,
 			"school": "T",
@@ -6424,7 +6440,7 @@
 		},
 		{
 			"name": "Change Water to Dust",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 28,
 			"level": 6,
 			"school": "T",
@@ -6477,7 +6493,7 @@
 		},
 		{
 			"name": "Chanting",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 29,
 			"level": 2,
 			"school": "C",
@@ -6526,7 +6542,7 @@
 		},
 		{
 			"name": "Chaos Bolt",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 29,
 			"level": 3,
 			"school": "V",
@@ -6632,7 +6648,7 @@
 		},
 		{
 			"name": "Character Flaw",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 29,
 			"level": 2,
 			"school": "E",
@@ -6678,7 +6694,7 @@
 		},
 		{
 			"name": "Charge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 29,
 			"level": 4,
 			"school": "A",
@@ -6728,7 +6744,7 @@
 		},
 		{
 			"name": "Charged Missile",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 29,
 			"level": 2,
 			"school": "V",
@@ -6788,7 +6804,7 @@
 		},
 		{
 			"name": "Charged Touch",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 29,
 			"level": 3,
 			"school": "T",
@@ -6840,7 +6856,7 @@
 		},
 		{
 			"name": "Chariot of Fire",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 29,
 			"level": 8,
 			"school": "C",
@@ -6902,7 +6918,7 @@
 		},
 		{
 			"name": "Charismatic Shield",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 30,
 			"level": 7,
 			"school": "E",
@@ -6954,7 +6970,7 @@
 		},
 		{
 			"name": "Charnel Stench",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 30,
 			"level": 2,
 			"school": "N",
@@ -7012,7 +7028,7 @@
 		},
 		{
 			"name": "Chatterwild",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 30,
 			"level": 2,
 			"school": "D",
@@ -7060,7 +7076,7 @@
 		},
 		{
 			"name": "Chill of Evil",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 31,
 			"level": 7,
 			"school": "E",
@@ -7109,7 +7125,7 @@
 		},
 		{
 			"name": "Chilling Gaze",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 31,
 			"level": 6,
 			"school": "T",
@@ -7169,7 +7185,7 @@
 		},
 		{
 			"name": "Chlorophyll",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 31,
 			"level": 1,
 			"school": "D",
@@ -7213,7 +7229,7 @@
 		},
 		{
 			"name": "Choose Fate",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 31,
 			"level": 3,
 			"school": "D",
@@ -7266,7 +7282,7 @@
 		},
 		{
 			"name": "Chronal Displacement",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 31,
 			"level": 7,
 			"school": "T",
@@ -7311,7 +7327,7 @@
 		},
 		{
 			"name": "Chrysalis",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 31,
 			"level": 6,
 			"school": "T",
@@ -7359,7 +7375,7 @@
 		},
 		{
 			"name": "Circle of Divine Censure",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 32,
 			"level": 4,
 			"school": "A",
@@ -7411,7 +7427,7 @@
 		},
 		{
 			"name": "Circle of Scrying",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 32,
 			"level": 4,
 			"school": "D",
@@ -7464,7 +7480,7 @@
 		},
 		{
 			"name": "Cirrem's Bewilderment",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 32,
 			"level": 1,
 			"school": "I",
@@ -7513,7 +7529,7 @@
 		},
 		{
 			"name": "Claws of Digging",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 32,
 			"level": 6,
 			"school": "T",
@@ -7567,7 +7583,7 @@
 		},
 		{
 			"name": "Claws of the Beast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 32,
 			"level": 1,
 			"school": "I",
@@ -7614,7 +7630,7 @@
 		},
 		{
 			"name": "Cloak of Serpents",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 32,
 			"level": 5,
 			"school": "A",
@@ -7675,7 +7691,7 @@
 		},
 		{
 			"name": "Clot",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 32,
 			"level": 5,
 			"school": "N",
@@ -7729,7 +7745,7 @@
 		},
 		{
 			"name": "Cloth of Honorable Melee",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 32,
 			"level": 1,
 			"school": "A",
@@ -7773,7 +7789,7 @@
 		},
 		{
 			"name": "Cloud Burst",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 33,
 			"level": 1,
 			"school": "T",
@@ -7823,7 +7839,7 @@
 		},
 		{
 			"name": "Cold Fog",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 33,
 			"level": 6,
 			"school": "C",
@@ -7878,7 +7894,7 @@
 		},
 		{
 			"name": "Combat Mind",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 33,
 			"level": 2,
 			"school": "D",
@@ -7923,7 +7939,7 @@
 		},
 		{
 			"name": "Commune with Shade",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 33,
 			"level": 1,
 			"school": "N",
@@ -7967,7 +7983,7 @@
 		},
 		{
 			"name": "Comrades in Arms",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 33,
 			"level": 4,
 			"school": "T",
@@ -8016,7 +8032,7 @@
 		},
 		{
 			"name": "Cone of Decay",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 33,
 			"level": 7,
 			"school": "N",
@@ -8065,7 +8081,7 @@
 		},
 		{
 			"name": "Cone of Silence",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 34,
 			"level": 5,
 			"school": "A",
@@ -8121,7 +8137,7 @@
 		},
 		{
 			"name": "Conflagration",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 34,
 			"level": 9,
 			"school": "V",
@@ -8178,7 +8194,7 @@
 		},
 		{
 			"name": "Confounding Battlefield",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 34,
 			"level": 6,
 			"school": "I",
@@ -8236,7 +8252,7 @@
 		},
 		{
 			"name": "Constant Heat",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 34,
 			"level": 2,
 			"school": "T",
@@ -8286,7 +8302,7 @@
 		},
 		{
 			"name": "Containment Orbs",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 34,
 			"level": 7,
 			"school": "A",
@@ -8336,7 +8352,7 @@
 		},
 		{
 			"name": "Copy",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 34,
 			"level": 1,
 			"school": "T",
@@ -8383,7 +8399,7 @@
 		},
 		{
 			"name": "Corpse Armor",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 34,
 			"level": 3,
 			"school": "N",
@@ -8431,7 +8447,7 @@
 		},
 		{
 			"name": "Corpulent Bloat",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 35,
 			"level": 4,
 			"school": "T",
@@ -8480,7 +8496,7 @@
 		},
 		{
 			"name": "Corrupt Water",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 35,
 			"level": 5,
 			"school": "T",
@@ -8547,7 +8563,7 @@
 		},
 		{
 			"name": "Crag Warrior",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 35,
 			"level": 9,
 			"school": "C",
@@ -8598,7 +8614,7 @@
 		},
 		{
 			"name": "Crawling Chaos",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 36,
 			"level": 7,
 			"school": "C",
@@ -8711,7 +8727,7 @@
 		},
 		{
 			"name": "Create Crypt Thing",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 36,
 			"level": 7,
 			"school": "N",
@@ -8759,7 +8775,7 @@
 		},
 		{
 			"name": "Create Iceberg",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 36,
 			"level": 7,
 			"school": "T",
@@ -8808,7 +8824,7 @@
 		},
 		{
 			"name": "Creation's Fury",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 36,
 			"level": 9,
 			"school": "T",
@@ -8859,7 +8875,7 @@
 		},
 		{
 			"name": "Creeping Eye",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 36,
 			"level": 4,
 			"school": "C",
@@ -8899,7 +8915,7 @@
 		},
 		{
 			"name": "Crew with the Dead",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 36,
 			"level": 6,
 			"school": "N",
@@ -8947,7 +8963,7 @@
 		},
 		{
 			"name": "Crystal Wail",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 37,
 			"level": 4,
 			"school": "V",
@@ -9005,7 +9021,7 @@
 		},
 		{
 			"name": "Curse of Horror",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 37,
 			"level": 3,
 			"school": "E",
@@ -9056,7 +9072,7 @@
 		},
 		{
 			"name": "Curse of Infirmity",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 37,
 			"level": 6,
 			"school": "N",
@@ -9115,7 +9131,7 @@
 		},
 		{
 			"name": "Curse of Light",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 38,
 			"level": 3,
 			"school": "T",
@@ -9170,7 +9186,7 @@
 		},
 		{
 			"name": "Curse of the Ancient Mariner",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 38,
 			"level": 9,
 			"school": "T",
@@ -9217,7 +9233,7 @@
 		},
 		{
 			"name": "Curtain of Fire",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 38,
 			"level": 9,
 			"school": "C",
@@ -9269,7 +9285,7 @@
 		},
 		{
 			"name": "Damage Morale",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 38,
 			"level": 2,
 			"school": "E",
@@ -9329,7 +9345,7 @@
 		},
 		{
 			"name": "Dance of Seduction",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 38,
 			"level": 5,
 			"school": "V",
@@ -9383,7 +9399,7 @@
 		},
 		{
 			"name": "Dancer's Grace",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 38,
 			"level": 3,
 			"school": "V",
@@ -9435,7 +9451,7 @@
 		},
 		{
 			"name": "Dancing Daggers",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 38,
 			"level": 7,
 			"school": "C",
@@ -9489,7 +9505,7 @@
 		},
 		{
 			"name": "Dark Curtain",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 39,
 			"level": 5,
 			"school": "V",
@@ -9549,7 +9565,7 @@
 		},
 		{
 			"name": "Dark Empowerment",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 39,
 			"level": 5,
 			"school": "C",
@@ -9608,7 +9624,7 @@
 		},
 		{
 			"name": "Dark Geyser",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 39,
 			"level": 8,
 			"school": "N",
@@ -9660,7 +9676,7 @@
 		},
 		{
 			"name": "Darken Forest",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 40,
 			"level": 8,
 			"school": "T",
@@ -9712,7 +9728,7 @@
 		},
 		{
 			"name": "Daze Animal",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 40,
 			"level": 0,
 			"school": "E",
@@ -9759,7 +9775,7 @@
 		},
 		{
 			"name": "Dead Man's Hands",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 40,
 			"level": 1,
 			"school": "T",
@@ -9811,7 +9827,7 @@
 		},
 		{
 			"name": "Death Bringer",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 40,
 			"level": 8,
 			"school": "N",
@@ -9865,7 +9881,7 @@
 		},
 		{
 			"name": "Death Gaze",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 40,
 			"level": 6,
 			"school": "N",
@@ -9925,7 +9941,7 @@
 		},
 		{
 			"name": "Death March",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 40,
 			"level": 2,
 			"school": "V",
@@ -9977,7 +9993,7 @@
 		},
 		{
 			"name": "Death Rattle",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 40,
 			"level": 2,
 			"school": "N",
@@ -10031,7 +10047,7 @@
 		},
 		{
 			"name": "Death Spores",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 41,
 			"level": 5,
 			"school": "C",
@@ -10083,7 +10099,7 @@
 		},
 		{
 			"name": "Death's Imposition",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 41,
 			"level": 6,
 			"school": "E",
@@ -10145,7 +10161,7 @@
 		},
 		{
 			"name": "Deathly Gaze",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 41,
 			"level": 5,
 			"school": "T",
@@ -10209,7 +10225,7 @@
 		},
 		{
 			"name": "Debilitate",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 41,
 			"level": 1,
 			"school": "N",
@@ -10262,7 +10278,7 @@
 		},
 		{
 			"name": "Decorate Object",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 41,
 			"level": 0,
 			"school": "T",
@@ -10308,7 +10324,7 @@
 		},
 		{
 			"name": "Decrypt",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 41,
 			"level": 1,
 			"school": "T",
@@ -10359,7 +10375,7 @@
 		},
 		{
 			"name": "Deep Freeze",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 41,
 			"level": 7,
 			"school": "T",
@@ -10425,7 +10441,7 @@
 		},
 		{
 			"name": "Deflect Ram",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 42,
 			"level": 4,
 			"school": "A",
@@ -10472,7 +10488,7 @@
 		},
 		{
 			"name": "Delay Death",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 42,
 			"level": 3,
 			"school": "N",
@@ -10525,7 +10541,7 @@
 		},
 		{
 			"name": "Delude",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 42,
 			"level": 2,
 			"school": "A",
@@ -10569,7 +10585,7 @@
 		},
 		{
 			"name": "Demon Flesh",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 42,
 			"level": 4,
 			"school": "A",
@@ -10639,7 +10655,7 @@
 		},
 		{
 			"name": "Deny Succor",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 42,
 			"level": 8,
 			"school": "N",
@@ -10690,7 +10706,7 @@
 		},
 		{
 			"name": "Desail",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 42,
 			"level": 4,
 			"school": "T",
@@ -10740,7 +10756,7 @@
 		},
 		{
 			"name": "Desert Refuge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 42,
 			"level": 4,
 			"school": "A",
@@ -10788,7 +10804,7 @@
 		},
 		{
 			"name": "Destined Doom",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 43,
 			"level": 8,
 			"school": "N",
@@ -10833,7 +10849,7 @@
 		},
 		{
 			"name": "Detect Charm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 43,
 			"level": 0,
 			"school": "D",
@@ -10885,7 +10901,7 @@
 		},
 		{
 			"name": "Detect Curse",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 43,
 			"level": 2,
 			"school": "D",
@@ -10935,7 +10951,7 @@
 		},
 		{
 			"name": "Detect Disease",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 43,
 			"level": 1,
 			"school": "D",
@@ -10986,7 +11002,7 @@
 		},
 		{
 			"name": "Detect Illusion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 43,
 			"level": 2,
 			"school": "D",
@@ -11035,7 +11051,7 @@
 		},
 		{
 			"name": "Detect Land",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 43,
 			"level": 3,
 			"school": "D",
@@ -11105,7 +11121,7 @@
 		},
 		{
 			"name": "Detect Life",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 43,
 			"level": 1,
 			"school": "D",
@@ -11148,7 +11164,7 @@
 		},
 		{
 			"name": "Detune",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 43,
 			"level": 0,
 			"school": "T",
@@ -11192,7 +11208,7 @@
 		},
 		{
 			"name": "Devour Essence",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 43,
 			"level": 8,
 			"school": "N",
@@ -11231,7 +11247,7 @@
 		},
 		{
 			"name": "Devouring Darkness",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 44,
 			"level": 5,
 			"school": "C",
@@ -11286,7 +11302,7 @@
 		},
 		{
 			"name": "Dig",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 44,
 			"level": 4,
 			"school": "T",
@@ -11335,7 +11351,7 @@
 		},
 		{
 			"name": "Dire Rage",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 44,
 			"level": 3,
 			"school": "T",
@@ -11383,7 +11399,7 @@
 		},
 		{
 			"name": "Disable",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 45,
 			"level": 9,
 			"school": "N",
@@ -11425,7 +11441,7 @@
 		},
 		{
 			"name": "Disassemble",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 45,
 			"level": 7,
 			"school": "T",
@@ -11466,7 +11482,7 @@
 		},
 		{
 			"name": "Discern Lycanthrope",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 45,
 			"level": 3,
 			"school": "D",
@@ -11514,7 +11530,7 @@
 		},
 		{
 			"name": "Discordant Chorus",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 45,
 			"level": 5,
 			"school": "V",
@@ -11562,7 +11578,7 @@
 		},
 		{
 			"name": "Dissonance",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 45,
 			"level": 0,
 			"school": "T",
@@ -11609,7 +11625,7 @@
 		},
 		{
 			"name": "Distance Distortion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 45,
 			"level": 4,
 			"school": "I",
@@ -11659,7 +11675,7 @@
 		},
 		{
 			"name": "Divine Assimilation",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 45,
 			"level": 8,
 			"school": "T",
@@ -11790,7 +11806,7 @@
 		},
 		{
 			"name": "Divine Beacon",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 46,
 			"level": 1,
 			"school": "A",
@@ -11868,7 +11884,7 @@
 		},
 		{
 			"name": "Divine Beacon's Answer",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 46,
 			"level": 5,
 			"school": "C",
@@ -11908,7 +11924,7 @@
 		},
 		{
 			"name": "Divine Burden",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 46,
 			"level": 5,
 			"school": "T",
@@ -11967,7 +11983,7 @@
 		},
 		{
 			"name": "Divine Charge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 46,
 			"level": 4,
 			"school": "T",
@@ -12013,7 +12029,7 @@
 		},
 		{
 			"name": "Divine Communion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 46,
 			"level": 4,
 			"school": "D",
@@ -12071,7 +12087,7 @@
 		},
 		{
 			"name": "Divine Disconnection",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 46,
 			"level": 7,
 			"school": "A",
@@ -12127,7 +12143,7 @@
 		},
 		{
 			"name": "Divine Inspiration",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 47,
 			"level": 9,
 			"school": "T",
@@ -12173,7 +12189,7 @@
 		},
 		{
 			"name": "Divine Intervention",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 47,
 			"level": 7,
 			"school": "A",
@@ -12222,7 +12238,7 @@
 		},
 		{
 			"name": "Divine Mantle",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 47,
 			"level": 3,
 			"school": "A",
@@ -12270,7 +12286,7 @@
 		},
 		{
 			"name": "Divine Sovereignty",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 47,
 			"level": 5,
 			"school": "E",
@@ -12315,7 +12331,7 @@
 		},
 		{
 			"name": "Divining Rod",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 47,
 			"level": 1,
 			"school": "D",
@@ -12365,7 +12381,7 @@
 		},
 		{
 			"name": "Dolphin Fins",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 47,
 			"level": 2,
 			"school": "T",
@@ -12419,7 +12435,7 @@
 		},
 		{
 			"name": "Donor",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 47,
 			"level": 5,
 			"school": "N",
@@ -12466,7 +12482,7 @@
 		},
 		{
 			"name": "Dragon Scales",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 47,
 			"level": 2,
 			"school": "T",
@@ -12513,7 +12529,7 @@
 		},
 		{
 			"name": "Dragon's Gauntlet",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 48,
 			"level": 1,
 			"school": "C",
@@ -12572,7 +12588,7 @@
 		},
 		{
 			"name": "Dread Scream",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 48,
 			"level": 3,
 			"school": "E",
@@ -12625,7 +12641,7 @@
 		},
 		{
 			"name": "Dream Speaker",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 48,
 			"level": 2,
 			"school": "E",
@@ -12676,7 +12692,7 @@
 		},
 		{
 			"name": "Drench",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 48,
 			"level": 0,
 			"school": "C",
@@ -12716,7 +12732,7 @@
 		},
 		{
 			"name": "Dust of Death",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 49,
 			"level": 6,
 			"school": "T",
@@ -12769,7 +12785,7 @@
 		},
 		{
 			"name": "Dust to Death",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 49,
 			"level": 2,
 			"school": "T",
@@ -12812,7 +12828,7 @@
 		},
 		{
 			"name": "Earth Ear",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 49,
 			"level": 2,
 			"school": "D",
@@ -12863,7 +12879,7 @@
 		},
 		{
 			"name": "Earth Shift",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 49,
 			"level": 5,
 			"school": "T",
@@ -12902,7 +12918,7 @@
 		},
 		{
 			"name": "Earthburst",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 49,
 			"level": 4,
 			"school": "T",
@@ -12969,7 +12985,7 @@
 		},
 		{
 			"name": "Earthen Blast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 49,
 			"level": 1,
 			"school": "V",
@@ -13028,7 +13044,7 @@
 		},
 		{
 			"name": "Earthen Concealment",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 49,
 			"level": 3,
 			"school": "T",
@@ -13077,7 +13093,7 @@
 		},
 		{
 			"name": "Earthen Snare",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 49,
 			"level": 5,
 			"school": "C",
@@ -13154,7 +13170,7 @@
 		},
 		{
 			"name": "Ebon Lightning",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 50,
 			"level": 7,
 			"school": "V",
@@ -13214,7 +13230,7 @@
 		},
 		{
 			"name": "Ebon Water",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 50,
 			"level": 6,
 			"school": "N",
@@ -13276,7 +13292,7 @@
 		},
 		{
 			"name": "Ebonflame",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 50,
 			"level": 8,
 			"school": "V",
@@ -13337,7 +13353,7 @@
 		},
 		{
 			"name": "Electrical Storm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 50,
 			"level": 7,
 			"school": "V",
@@ -13393,7 +13409,7 @@
 		},
 		{
 			"name": "Electromagnetic Storm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 50,
 			"level": 3,
 			"school": "V",
@@ -13452,7 +13468,7 @@
 		},
 		{
 			"name": "Elemental Cloak",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 50,
 			"level": 6,
 			"school": "T",
@@ -13524,7 +13540,7 @@
 		},
 		{
 			"name": "Elemental Infusion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 51,
 			"level": 8,
 			"school": "T",
@@ -13587,7 +13603,7 @@
 		},
 		{
 			"name": "Elemental Scimitar",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 51,
 			"level": 6,
 			"school": "C",
@@ -13680,7 +13696,7 @@
 		},
 		{
 			"name": "Empathic Resonance",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 51,
 			"level": 1,
 			"school": "E",
@@ -13727,7 +13743,7 @@
 		},
 		{
 			"name": "Empower Companion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 52,
 			"level": 1,
 			"school": "E",
@@ -13771,7 +13787,7 @@
 		},
 		{
 			"name": "Encrypt",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 52,
 			"level": 0,
 			"school": "T",
@@ -13817,7 +13833,7 @@
 		},
 		{
 			"name": "Endless Abyss",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 52,
 			"level": 4,
 			"school": "C",
@@ -13870,7 +13886,7 @@
 		},
 		{
 			"name": "Enduring Missiles",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 52,
 			"level": 4,
 			"school": "V",
@@ -13933,7 +13949,7 @@
 		},
 		{
 			"name": "Energetic Burst",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 52,
 			"level": 2,
 			"school": "C",
@@ -13984,7 +14000,7 @@
 		},
 		{
 			"name": "Enhance Oration",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 52,
 			"level": 1,
 			"school": "I",
@@ -14040,7 +14056,7 @@
 		},
 		{
 			"name": "Enliven Wood",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 52,
 			"level": 4,
 			"school": "T",
@@ -14092,7 +14108,7 @@
 		},
 		{
 			"name": "Enrich Soil",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 52,
 			"level": 5,
 			"school": "T",
@@ -14136,7 +14152,7 @@
 		},
 		{
 			"name": "Erase",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 53,
 			"level": 1,
 			"school": "T",
@@ -14178,7 +14194,7 @@
 		},
 		{
 			"name": "Essence of the Wild",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 53,
 			"level": 3,
 			"school": "T",
@@ -14278,7 +14294,7 @@
 		},
 		{
 			"name": "Establish Foundation",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 53,
 			"level": 7,
 			"school": "T",
@@ -14334,7 +14350,7 @@
 		},
 		{
 			"name": "Eternal Sleep",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 54,
 			"level": 9,
 			"school": "T",
@@ -14382,7 +14398,7 @@
 		},
 		{
 			"name": "Ethereal Blade",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 54,
 			"level": 2,
 			"school": "V",
@@ -14443,7 +14459,7 @@
 		},
 		{
 			"name": "Ethereal Blast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 54,
 			"level": 5,
 			"school": "N",
@@ -14503,7 +14519,7 @@
 		},
 		{
 			"name": "Ethereal Shield",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 54,
 			"level": 5,
 			"school": "N",
@@ -14557,7 +14573,7 @@
 		},
 		{
 			"name": "Ethereal Strike",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 54,
 			"level": 2,
 			"school": "V",
@@ -14607,7 +14623,7 @@
 		},
 		{
 			"name": "Euphoric Ecstasy",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 54,
 			"level": 5,
 			"school": "E",
@@ -14669,7 +14685,7 @@
 		},
 		{
 			"name": "Exile from Nature",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 54,
 			"level": 3,
 			"school": "T",
@@ -14711,7 +14727,7 @@
 		},
 		{
 			"name": "Exorcise",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 55,
 			"level": 4,
 			"school": "A",
@@ -14756,7 +14772,7 @@
 		},
 		{
 			"name": "Explosive Cloud",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 55,
 			"level": 3,
 			"school": "C",
@@ -14810,7 +14826,7 @@
 		},
 		{
 			"name": "Expunge Shadow",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 55,
 			"level": 3,
 			"school": "A",
@@ -14857,7 +14873,7 @@
 		},
 		{
 			"name": "Extract Life",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 55,
 			"level": 6,
 			"school": "N",
@@ -14905,7 +14921,7 @@
 		},
 		{
 			"name": "Eyes of the Hawk",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 55,
 			"level": 2,
 			"school": "T",
@@ -14961,7 +14977,7 @@
 		},
 		{
 			"name": "Faerie Ward",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 55,
 			"level": 2,
 			"school": "A",
@@ -15028,7 +15044,7 @@
 		},
 		{
 			"name": "False Gold",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 55,
 			"level": 2,
 			"school": "T",
@@ -15089,7 +15105,7 @@
 		},
 		{
 			"name": "Fangstorm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 55,
 			"level": 6,
 			"school": "V",
@@ -15152,7 +15168,7 @@
 		},
 		{
 			"name": "Far Strike",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 56,
 			"level": 3,
 			"school": "V",
@@ -15214,7 +15230,7 @@
 		},
 		{
 			"name": "Farsighted",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 56,
 			"level": 1,
 			"school": "T",
@@ -15266,7 +15282,7 @@
 		},
 		{
 			"name": "Farvision",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 56,
 			"level": 6,
 			"school": "T",
@@ -15309,7 +15325,7 @@
 		},
 		{
 			"name": "Favor Mount",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 56,
 			"level": 3,
 			"school": "T",
@@ -15354,7 +15370,7 @@
 		},
 		{
 			"name": "Feather Step",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 56,
 			"level": 1,
 			"school": "T",
@@ -15403,7 +15419,7 @@
 		},
 		{
 			"name": "Ferment",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 56,
 			"level": 0,
 			"school": "T",
@@ -15443,7 +15459,7 @@
 		},
 		{
 			"name": "Fiery Blast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 56,
 			"level": 4,
 			"school": "V",
@@ -15504,7 +15520,7 @@
 		},
 		{
 			"name": "Fiery Cloth",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 56,
 			"level": 4,
 			"school": "T",
@@ -15552,7 +15568,7 @@
 		},
 		{
 			"name": "Fiery Constrictor",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 57,
 			"level": 6,
 			"school": "T",
@@ -15620,7 +15636,7 @@
 		},
 		{
 			"name": "Fiery Grasp",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 57,
 			"level": 1,
 			"school": "V",
@@ -15683,7 +15699,7 @@
 		},
 		{
 			"name": "Fiery Shield",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 57,
 			"level": 2,
 			"school": "V",
@@ -15730,7 +15746,7 @@
 		},
 		{
 			"name": "Find Corpse",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 57,
 			"level": 2,
 			"school": "D",
@@ -15775,7 +15791,7 @@
 		},
 		{
 			"name": "Finger Missile",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 58,
 			"level": 3,
 			"school": "N",
@@ -15831,7 +15847,7 @@
 		},
 		{
 			"name": "Fire Burst",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 58,
 			"level": 1,
 			"school": "T",
@@ -15894,7 +15910,7 @@
 		},
 		{
 			"name": "Fire Fascination",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 58,
 			"level": 4,
 			"school": "I",
@@ -15947,7 +15963,7 @@
 		},
 		{
 			"name": "Fire Gills",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 58,
 			"level": 3,
 			"school": "T",
@@ -16006,7 +16022,7 @@
 		},
 		{
 			"name": "Firm Ally",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 58,
 			"level": 3,
 			"school": "A",
@@ -16053,7 +16069,7 @@
 		},
 		{
 			"name": "Fists of Stone",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 58,
 			"level": 1,
 			"school": "T",
@@ -16100,7 +16116,7 @@
 		},
 		{
 			"name": "Flame Spiral",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 59,
 			"level": 4,
 			"school": "V",
@@ -16162,7 +16178,7 @@
 		},
 		{
 			"name": "Flame Water",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 59,
 			"level": 1,
 			"school": "T",
@@ -16211,7 +16227,7 @@
 		},
 		{
 			"name": "Flame of Chaos",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 58,
 			"level": 2,
 			"school": "V",
@@ -16275,7 +16291,7 @@
 		},
 		{
 			"name": "Flames of Darkness",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 59,
 			"level": 4,
 			"school": "T",
@@ -16323,7 +16339,7 @@
 		},
 		{
 			"name": "Flames of Purification",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 59,
 			"level": 4,
 			"school": "V",
@@ -16383,7 +16399,7 @@
 		},
 		{
 			"name": "Flameswell",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 59,
 			"level": 2,
 			"school": "V",
@@ -16433,7 +16449,7 @@
 		},
 		{
 			"name": "Flaming Bolts",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 59,
 			"level": 1,
 			"school": "V",
@@ -16489,7 +16505,7 @@
 		},
 		{
 			"name": "Flash of Light",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 59,
 			"level": 1,
 			"school": "V",
@@ -16551,7 +16567,7 @@
 		},
 		{
 			"name": "Fleet Feet",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 59,
 			"level": 2,
 			"school": "T",
@@ -16599,7 +16615,7 @@
 		},
 		{
 			"name": "Fluid Form",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 59,
 			"level": 4,
 			"school": "T",
@@ -16656,7 +16672,7 @@
 		},
 		{
 			"name": "Foggy Flying Carpet",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 60,
 			"level": 5,
 			"school": "C",
@@ -16705,7 +16721,7 @@
 		},
 		{
 			"name": "Force Corporeality",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 60,
 			"level": 4,
 			"school": "T",
@@ -16763,7 +16779,7 @@
 		},
 		{
 			"name": "Force Wave",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 60,
 			"level": 2,
 			"school": "V",
@@ -16822,7 +16838,7 @@
 		},
 		{
 			"name": "Forced March",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 61,
 			"level": 5,
 			"school": "T",
@@ -16869,7 +16885,7 @@
 		},
 		{
 			"name": "Forceful Crush",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 61,
 			"level": 7,
 			"school": "V",
@@ -16923,7 +16939,7 @@
 		},
 		{
 			"name": "Forecast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 61,
 			"level": 2,
 			"school": "D",
@@ -16969,7 +16985,7 @@
 		},
 		{
 			"name": "Forest Home",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 61,
 			"level": 4,
 			"school": "T",
@@ -17020,7 +17036,7 @@
 		},
 		{
 			"name": "Forgebane",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 61,
 			"level": 4,
 			"school": "T",
@@ -17069,7 +17085,7 @@
 		},
 		{
 			"name": "Forked Tongue",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 61,
 			"level": 1,
 			"school": "E",
@@ -17114,7 +17130,7 @@
 		},
 		{
 			"name": "Fortify Armor",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 61,
 			"level": 2,
 			"school": "T",
@@ -17162,7 +17178,7 @@
 		},
 		{
 			"name": "Frame",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 61,
 			"level": 2,
 			"school": "A",
@@ -17215,7 +17231,7 @@
 		},
 		{
 			"name": "Fresh Seal",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 62,
 			"level": 2,
 			"school": "T",
@@ -17272,7 +17288,7 @@
 		},
 		{
 			"name": "Frost Shards",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 62,
 			"level": 3,
 			"school": "V",
@@ -17338,7 +17354,7 @@
 		},
 		{
 			"name": "Frost Snap",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 62,
 			"level": 2,
 			"school": "V",
@@ -17401,7 +17417,7 @@
 		},
 		{
 			"name": "Frostfire",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 62,
 			"level": 1,
 			"school": "V",
@@ -17464,7 +17480,7 @@
 		},
 		{
 			"name": "Fugue",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 62,
 			"level": 5,
 			"school": "E",
@@ -17521,7 +17537,7 @@
 		},
 		{
 			"name": "Fumble",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 62,
 			"level": 4,
 			"school": "E",
@@ -17579,7 +17595,7 @@
 		},
 		{
 			"name": "Fuse Joints",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 62,
 			"level": 8,
 			"school": "T",
@@ -17629,7 +17645,7 @@
 		},
 		{
 			"name": "Gallows Tree",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 63,
 			"level": 4,
 			"school": "C",
@@ -17682,7 +17698,7 @@
 		},
 		{
 			"name": "Gaze Mirroring",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 63,
 			"level": 2,
 			"school": "C",
@@ -17725,7 +17741,7 @@
 		},
 		{
 			"name": "Ghostly Howl",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 63,
 			"level": 2,
 			"school": "N",
@@ -17768,7 +17784,7 @@
 		},
 		{
 			"name": "Ghostly Throttle",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 63,
 			"level": 2,
 			"school": "V",
@@ -17833,7 +17849,7 @@
 		},
 		{
 			"name": "Giant's Potency",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 64,
 			"level": 6,
 			"school": "T",
@@ -17886,7 +17902,7 @@
 		},
 		{
 			"name": "Glass House",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 64,
 			"level": 3,
 			"school": "C",
@@ -17947,7 +17963,7 @@
 		},
 		{
 			"name": "Glass Window",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 64,
 			"level": 6,
 			"school": "T",
@@ -17994,7 +18010,7 @@
 		},
 		{
 			"name": "Glass into Iron",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 64,
 			"level": 8,
 			"school": "T",
@@ -18034,7 +18050,7 @@
 		},
 		{
 			"name": "Glide",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 64,
 			"level": 2,
 			"school": "T",
@@ -18088,7 +18104,7 @@
 		},
 		{
 			"name": "Glowing Bones",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 64,
 			"level": 2,
 			"school": "N",
@@ -18143,7 +18159,7 @@
 		},
 		{
 			"name": "Godly Patronage",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 64,
 			"level": 3,
 			"school": "A",
@@ -18187,7 +18203,7 @@
 		},
 		{
 			"name": "Godsblood",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 64,
 			"level": 8,
 			"school": "T",
@@ -18239,7 +18255,7 @@
 		},
 		{
 			"name": "Gossamer Webbing",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 65,
 			"level": 1,
 			"school": "C",
@@ -18296,7 +18312,7 @@
 		},
 		{
 			"name": "Grave-Touched Weapon",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 65,
 			"level": 1,
 			"school": "N",
@@ -18347,7 +18363,7 @@
 		},
 		{
 			"name": "Greater Curse",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 65,
 			"level": 8,
 			"school": "N",
@@ -18394,7 +18410,7 @@
 		},
 		{
 			"name": "Green Slime",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 66,
 			"level": 4,
 			"school": "T",
@@ -18435,7 +18451,7 @@
 		},
 		{
 			"name": "Grim Harvest",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 66,
 			"level": 7,
 			"school": "T",
@@ -18485,7 +18501,7 @@
 		},
 		{
 			"name": "Grim Resilience",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 66,
 			"level": 5,
 			"school": "N",
@@ -18535,7 +18551,7 @@
 		},
 		{
 			"name": "Gutsprout",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 66,
 			"level": 5,
 			"school": "T",
@@ -18587,7 +18603,7 @@
 		},
 		{
 			"name": "Halt Aging",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 66,
 			"level": 8,
 			"school": "V",
@@ -18631,7 +18647,7 @@
 		},
 		{
 			"name": "Halt Plant",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 66,
 			"level": 3,
 			"school": "E",
@@ -18695,7 +18711,7 @@
 		},
 		{
 			"name": "Hand of Judgment",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 66,
 			"level": 4,
 			"school": "T",
@@ -18752,7 +18768,7 @@
 		},
 		{
 			"name": "Hard Water Blast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 66,
 			"level": 3,
 			"school": "V",
@@ -18814,7 +18830,7 @@
 		},
 		{
 			"name": "Hard Water Weapon",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 67,
 			"level": 4,
 			"school": "T",
@@ -18866,7 +18882,7 @@
 		},
 		{
 			"name": "Harmonic Discord",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 67,
 			"level": 4,
 			"school": "E",
@@ -18915,7 +18931,7 @@
 		},
 		{
 			"name": "Harmonic Dissolution",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 67,
 			"level": 8,
 			"school": "V",
@@ -18962,7 +18978,7 @@
 		},
 		{
 			"name": "Harmony of Heroes",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 68,
 			"level": 2,
 			"school": "E",
@@ -19007,7 +19023,7 @@
 		},
 		{
 			"name": "Harmony of the Gods",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 68,
 			"level": 5,
 			"school": "T",
@@ -19048,7 +19064,7 @@
 		},
 		{
 			"name": "Headwind",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 68,
 			"level": 0,
 			"school": "V",
@@ -19094,7 +19110,7 @@
 		},
 		{
 			"name": "Healing Draught",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 68,
 			"level": 6,
 			"school": "T",
@@ -19147,7 +19163,7 @@
 		},
 		{
 			"name": "Health Transfer",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 69,
 			"level": 3,
 			"school": "N",
@@ -19194,7 +19210,7 @@
 		},
 		{
 			"name": "Heat Bone",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 69,
 			"level": 5,
 			"school": "N",
@@ -19249,7 +19265,7 @@
 		},
 		{
 			"name": "Heat Flesh",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 69,
 			"level": 3,
 			"school": "T",
@@ -19308,7 +19324,7 @@
 		},
 		{
 			"name": "Helpless Grief",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 69,
 			"level": 2,
 			"school": "E",
@@ -19362,7 +19378,7 @@
 		},
 		{
 			"name": "Hemophilia",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 69,
 			"level": 3,
 			"school": "N",
@@ -19419,7 +19435,7 @@
 		},
 		{
 			"name": "Heraldic Bear",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 69,
 			"level": 5,
 			"school": "A",
@@ -19467,7 +19483,7 @@
 		},
 		{
 			"name": "Heraldic Boar",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 69,
 			"level": 7,
 			"school": "A",
@@ -19515,7 +19531,7 @@
 		},
 		{
 			"name": "Heraldic Fox",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 70,
 			"level": 2,
 			"school": "T",
@@ -19566,7 +19582,7 @@
 		},
 		{
 			"name": "Heraldic Horse",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 70,
 			"level": 2,
 			"school": "T",
@@ -19613,7 +19629,7 @@
 		},
 		{
 			"name": "Heraldic Hydra",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 70,
 			"level": 8,
 			"school": "T",
@@ -19660,7 +19676,7 @@
 		},
 		{
 			"name": "Heraldic Leopard",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 70,
 			"level": 4,
 			"school": "T",
@@ -19711,7 +19727,7 @@
 		},
 		{
 			"name": "Heraldic Lion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 70,
 			"level": 3,
 			"school": "T",
@@ -19759,7 +19775,7 @@
 		},
 		{
 			"name": "Heraldic Mastiff",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 70,
 			"level": 1,
 			"school": "T",
@@ -19807,7 +19823,7 @@
 		},
 		{
 			"name": "Heraldic Owl",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 70,
 			"level": 1,
 			"school": "T",
@@ -19855,7 +19871,7 @@
 		},
 		{
 			"name": "Heraldic Ox",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 70,
 			"level": 1,
 			"school": "A",
@@ -19903,7 +19919,7 @@
 		},
 		{
 			"name": "Heraldic Phoenix",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 70,
 			"level": 9,
 			"school": "N",
@@ -19947,7 +19963,7 @@
 		},
 		{
 			"name": "Heraldic Tortoise",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 71,
 			"level": 4,
 			"school": "T",
@@ -19995,7 +20011,7 @@
 		},
 		{
 			"name": "Heraldic Wyrm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 71,
 			"level": 9,
 			"school": "T",
@@ -20043,7 +20059,7 @@
 		},
 		{
 			"name": "Hesitate",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 71,
 			"level": 2,
 			"school": "E",
@@ -20091,7 +20107,7 @@
 		},
 		{
 			"name": "Hide the Soul",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 71,
 			"level": 9,
 			"school": "A",
@@ -20149,7 +20165,7 @@
 		},
 		{
 			"name": "Hives",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 71,
 			"level": 1,
 			"school": "N",
@@ -20215,7 +20231,7 @@
 		},
 		{
 			"name": "Holy Blazon",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 71,
 			"level": 5,
 			"school": "A",
@@ -20262,7 +20278,7 @@
 		},
 		{
 			"name": "Holy Infusion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 71,
 			"level": 1,
 			"school": "V",
@@ -20309,7 +20325,7 @@
 		},
 		{
 			"name": "Hornet Wall",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 71,
 			"level": 3,
 			"school": "C",
@@ -20365,7 +20381,7 @@
 		},
 		{
 			"name": "Hound of Hell",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 72,
 			"level": 6,
 			"school": "C",
@@ -20428,7 +20444,7 @@
 		},
 		{
 			"name": "Hound's Scent",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 72,
 			"level": 1,
 			"school": "T",
@@ -20472,7 +20488,7 @@
 		},
 		{
 			"name": "Hovership",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 72,
 			"level": 7,
 			"school": "T",
@@ -20518,7 +20534,7 @@
 		},
 		{
 			"name": "Hunter's Insight",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 73,
 			"level": 2,
 			"school": "T",
@@ -20562,7 +20578,7 @@
 		},
 		{
 			"name": "Ice Bolts",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 73,
 			"level": 1,
 			"school": "V",
@@ -20618,7 +20634,7 @@
 		},
 		{
 			"name": "Ice Geyser",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 73,
 			"level": 8,
 			"school": "V",
@@ -20673,7 +20689,7 @@
 		},
 		{
 			"name": "Ice Sled",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 73,
 			"level": 6,
 			"school": "C",
@@ -20726,7 +20742,7 @@
 		},
 		{
 			"name": "Icebreaker",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 73,
 			"level": 7,
 			"school": "T",
@@ -20772,7 +20788,7 @@
 		},
 		{
 			"name": "Iceform",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 73,
 			"level": 4,
 			"school": "T",
@@ -20830,7 +20846,7 @@
 		},
 		{
 			"name": "Icy Hammer",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 73,
 			"level": 2,
 			"school": "C",
@@ -20883,7 +20899,7 @@
 		},
 		{
 			"name": "Identify Tracks",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 74,
 			"level": 2,
 			"school": "D",
@@ -20927,7 +20943,7 @@
 		},
 		{
 			"name": "Ignite",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 74,
 			"level": 2,
 			"school": "V",
@@ -20986,7 +21002,7 @@
 		},
 		{
 			"name": "Illusory Illusion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 74,
 			"level": 6,
 			"school": "I",
@@ -21038,7 +21054,7 @@
 		},
 		{
 			"name": "Imbue Passion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 74,
 			"level": 8,
 			"school": "E",
@@ -21095,7 +21111,7 @@
 		},
 		{
 			"name": "Immunity to Energy",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 75,
 			"level": 7,
 			"school": "A",
@@ -21154,7 +21170,7 @@
 		},
 		{
 			"name": "Impart Strength",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 75,
 			"level": 8,
 			"school": "T",
@@ -21207,7 +21223,7 @@
 		},
 		{
 			"name": "Impressive Blow",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 75,
 			"level": 1,
 			"school": "V",
@@ -21251,7 +21267,7 @@
 		},
 		{
 			"name": "Improve Senses",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 75,
 			"level": 5,
 			"school": "T",
@@ -21295,7 +21311,7 @@
 		},
 		{
 			"name": "Infinite Knowledge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 75,
 			"level": 4,
 			"school": "D",
@@ -21339,7 +21355,7 @@
 		},
 		{
 			"name": "Infirmity",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 75,
 			"level": 4,
 			"school": "N",
@@ -21387,7 +21403,7 @@
 		},
 		{
 			"name": "Inflict Lycanthropy",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 75,
 			"level": 6,
 			"school": "T",
@@ -21458,7 +21474,7 @@
 		},
 		{
 			"name": "Infuse Shadow",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 75,
 			"level": 4,
 			"school": "N",
@@ -21503,7 +21519,7 @@
 		},
 		{
 			"name": "Infuse Weapon",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 76,
 			"level": 3,
 			"school": "N",
@@ -21557,7 +21573,7 @@
 		},
 		{
 			"name": "Inner Storm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 76,
 			"level": 5,
 			"school": "V",
@@ -21610,7 +21626,7 @@
 		},
 		{
 			"name": "Insomnia",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 76,
 			"level": 2,
 			"school": "E",
@@ -21663,7 +21679,7 @@
 		},
 		{
 			"name": "Instant Exit",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 76,
 			"level": 4,
 			"school": "C",
@@ -21708,7 +21724,7 @@
 		},
 		{
 			"name": "Instant Fluency",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 76,
 			"level": 6,
 			"school": "D",
@@ -21768,7 +21784,7 @@
 		},
 		{
 			"name": "Interdiction",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 76,
 			"level": 7,
 			"school": "E",
@@ -21824,7 +21840,7 @@
 		},
 		{
 			"name": "Interrogation",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 76,
 			"level": 5,
 			"school": "E",
@@ -21874,7 +21890,7 @@
 		},
 		{
 			"name": "Intimate Knowledge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 76,
 			"level": 5,
 			"school": "D",
@@ -21919,7 +21935,7 @@
 		},
 		{
 			"name": "Inverted Compass",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 77,
 			"level": 2,
 			"school": "E",
@@ -21971,7 +21987,7 @@
 		},
 		{
 			"name": "Invigorating Touch",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 77,
 			"level": 6,
 			"school": "V",
@@ -22022,7 +22038,7 @@
 		},
 		{
 			"name": "Iron Bones",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 77,
 			"level": 4,
 			"school": "N",
@@ -22080,7 +22096,7 @@
 		},
 		{
 			"name": "Iron Core",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 78,
 			"level": 4,
 			"school": "A",
@@ -22127,7 +22143,7 @@
 		},
 		{
 			"name": "Iron Judgment",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 78,
 			"level": 4,
 			"school": "V",
@@ -22178,7 +22194,7 @@
 		},
 		{
 			"name": "Iron Rope",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 78,
 			"level": 4,
 			"school": "T",
@@ -22232,7 +22248,7 @@
 		},
 		{
 			"name": "Ironshot",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 78,
 			"level": 2,
 			"school": "C",
@@ -22286,7 +22302,7 @@
 		},
 		{
 			"name": "Itemize",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 79,
 			"level": 0,
 			"school": "D",
@@ -22326,7 +22342,7 @@
 		},
 		{
 			"name": "Jolt",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 79,
 			"level": 5,
 			"school": "V",
@@ -22366,7 +22382,7 @@
 		},
 		{
 			"name": "Judicious Concealment",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 79,
 			"level": 6,
 			"school": "I",
@@ -22423,7 +22439,7 @@
 		},
 		{
 			"name": "Jungle Cry",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 79,
 			"level": 2,
 			"school": "E",
@@ -22474,7 +22490,7 @@
 		},
 		{
 			"name": "Keen Ears",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 79,
 			"level": 2,
 			"school": "T",
@@ -22523,7 +22539,7 @@
 		},
 		{
 			"name": "Kiss of the Nereid",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 79,
 			"level": 5,
 			"school": "C",
@@ -22572,7 +22588,7 @@
 		},
 		{
 			"name": "Know Alignment",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 79,
 			"level": 2,
 			"school": "D",
@@ -22615,7 +22631,7 @@
 		},
 		{
 			"name": "Know the Mark",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 79,
 			"level": 1,
 			"school": "D",
@@ -22659,7 +22675,7 @@
 		},
 		{
 			"name": "Landslide",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 80,
 			"level": 6,
 			"school": "C",
@@ -22720,7 +22736,7 @@
 		},
 		{
 			"name": "Lasting Breath",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 80,
 			"level": 1,
 			"school": "T",
@@ -22760,7 +22776,7 @@
 		},
 		{
 			"name": "Leaf Fall",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 80,
 			"level": 2,
 			"school": "N",
@@ -22804,7 +22820,7 @@
 		},
 		{
 			"name": "Leaf Tide",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 81,
 			"level": 2,
 			"school": "T",
@@ -22854,7 +22870,7 @@
 		},
 		{
 			"name": "Liar's Remorse",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 81,
 			"level": 3,
 			"school": "N",
@@ -22901,7 +22917,7 @@
 		},
 		{
 			"name": "Life Leech",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 81,
 			"level": 8,
 			"school": "N",
@@ -22950,7 +22966,7 @@
 		},
 		{
 			"name": "Life Leech Weapon",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 81,
 			"level": 3,
 			"school": "N",
@@ -23001,7 +23017,7 @@
 		},
 		{
 			"name": "Life Shot",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 81,
 			"level": 6,
 			"school": "N",
@@ -23052,7 +23068,7 @@
 		},
 		{
 			"name": "Lifebread",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 81,
 			"level": 3,
 			"school": "V",
@@ -23092,7 +23108,7 @@
 		},
 		{
 			"name": "Light Control",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 81,
 			"level": 4,
 			"school": "T",
@@ -23138,7 +23154,7 @@
 		},
 		{
 			"name": "Lightning Storm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 81,
 			"level": 6,
 			"school": "V",
@@ -23195,7 +23211,7 @@
 		},
 		{
 			"name": "Lightning Wheel",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 82,
 			"level": 6,
 			"school": "V",
@@ -23254,7 +23270,7 @@
 		},
 		{
 			"name": "Link Perception",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 82,
 			"level": 3,
 			"school": "D",
@@ -23303,7 +23319,7 @@
 		},
 		{
 			"name": "Liquid Fire",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 82,
 			"level": 7,
 			"school": "V",
@@ -23354,7 +23370,7 @@
 		},
 		{
 			"name": "Locate Fish",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 83,
 			"level": 1,
 			"school": "D",
@@ -23406,7 +23422,7 @@
 		},
 		{
 			"name": "Locate Water",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 83,
 			"level": 1,
 			"school": "D",
@@ -23453,7 +23469,7 @@
 		},
 		{
 			"name": "Lock Form",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 83,
 			"level": 4,
 			"school": "A",
@@ -23509,7 +23525,7 @@
 		},
 		{
 			"name": "Locust Leap",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 83,
 			"level": 3,
 			"school": "T",
@@ -23554,7 +23570,7 @@
 		},
 		{
 			"name": "Lost Wanderer",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 83,
 			"level": 6,
 			"school": "E",
@@ -23615,7 +23631,7 @@
 		},
 		{
 			"name": "Lower Spell Resistance",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 83,
 			"level": 5,
 			"school": "T",
@@ -23663,7 +23679,7 @@
 		},
 		{
 			"name": "Luck of the Saints",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 83,
 			"level": 2,
 			"school": "E",
@@ -23711,7 +23727,7 @@
 		},
 		{
 			"name": "Lustful Gaze",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 83,
 			"level": 3,
 			"school": "E",
@@ -23759,7 +23775,7 @@
 		},
 		{
 			"name": "Magma Eruption",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 84,
 			"level": 7,
 			"school": "C",
@@ -23818,7 +23834,7 @@
 		},
 		{
 			"name": "Malicious Intent",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 84,
 			"level": 1,
 			"school": "E",
@@ -23874,7 +23890,7 @@
 		},
 		{
 			"name": "Maligned Performance",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 84,
 			"level": 4,
 			"school": "I",
@@ -23928,7 +23944,7 @@
 		},
 		{
 			"name": "Mangling Foot",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 85,
 			"level": 7,
 			"school": "V",
@@ -23996,7 +24012,7 @@
 		},
 		{
 			"name": "Mantle of Dread",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 85,
 			"level": 5,
 			"school": "E",
@@ -24054,7 +24070,7 @@
 		},
 		{
 			"name": "Mark of Exile",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 85,
 			"level": 7,
 			"school": "N",
@@ -24095,7 +24111,7 @@
 		},
 		{
 			"name": "Mark of Fire",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 85,
 			"level": 5,
 			"school": "T",
@@ -24144,7 +24160,7 @@
 		},
 		{
 			"name": "Mark of Ice",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 85,
 			"level": 5,
 			"school": "T",
@@ -24193,7 +24209,7 @@
 		},
 		{
 			"name": "Mark of Ooze",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 85,
 			"level": 5,
 			"school": "T",
@@ -24242,7 +24258,7 @@
 		},
 		{
 			"name": "Mark of Ownership",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 86,
 			"level": 4,
 			"school": "A",
@@ -24282,7 +24298,7 @@
 		},
 		{
 			"name": "Megalomania",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 86,
 			"level": 4,
 			"school": "E",
@@ -24331,7 +24347,7 @@
 		},
 		{
 			"name": "Melt",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 86,
 			"level": 2,
 			"school": "T",
@@ -24381,7 +24397,7 @@
 		},
 		{
 			"name": "Memento",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 86,
 			"level": 5,
 			"school": "T",
@@ -24421,7 +24437,7 @@
 		},
 		{
 			"name": "Menace",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 86,
 			"level": 2,
 			"school": "I",
@@ -24477,7 +24493,7 @@
 		},
 		{
 			"name": "Mercurial Smite",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 86,
 			"level": 1,
 			"school": "V",
@@ -24533,7 +24549,7 @@
 		},
 		{
 			"name": "Merge Into Art",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 86,
 			"level": 6,
 			"school": "T",
@@ -24578,7 +24594,7 @@
 		},
 		{
 			"name": "Mighty Steed",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 86,
 			"level": 3,
 			"school": "T",
@@ -24625,7 +24641,7 @@
 		},
 		{
 			"name": "Mind Carve",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 87,
 			"level": 4,
 			"school": "N",
@@ -24669,7 +24685,7 @@
 		},
 		{
 			"name": "Mind Link",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 87,
 			"level": 3,
 			"school": "T",
@@ -24713,7 +24729,7 @@
 		},
 		{
 			"name": "Molten Strike",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 87,
 			"level": 2,
 			"school": "V",
@@ -24778,7 +24794,7 @@
 		},
 		{
 			"name": "Moonbeam",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 87,
 			"level": 3,
 			"school": "V",
@@ -24828,7 +24844,7 @@
 		},
 		{
 			"name": "Morph Shadow",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 88,
 			"level": 1,
 			"school": "I",
@@ -24878,7 +24894,7 @@
 		},
 		{
 			"name": "Mucilage",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 88,
 			"level": 1,
 			"school": "C",
@@ -24927,7 +24943,7 @@
 		},
 		{
 			"name": "Muddy Appearance",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 88,
 			"level": 1,
 			"school": "I",
@@ -24971,7 +24987,7 @@
 		},
 		{
 			"name": "Multiple Shot",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 88,
 			"level": 4,
 			"school": "D",
@@ -25015,7 +25031,7 @@
 		},
 		{
 			"name": "Musical Mural",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 88,
 			"level": 3,
 			"school": "I",
@@ -25064,7 +25080,7 @@
 		},
 		{
 			"name": "Mystic Negation",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 88,
 			"level": 5,
 			"school": "A",
@@ -25131,7 +25147,7 @@
 		},
 		{
 			"name": "Nature's Aura",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 88,
 			"level": 2,
 			"school": "T",
@@ -25179,7 +25195,7 @@
 		},
 		{
 			"name": "Nature's Repast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 89,
 			"level": 3,
 			"school": "T",
@@ -25222,7 +25238,7 @@
 		},
 		{
 			"name": "Nature's Strength",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 89,
 			"level": 3,
 			"school": "T",
@@ -25270,7 +25286,7 @@
 		},
 		{
 			"name": "Nature's Support",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 89,
 			"level": 6,
 			"school": "T",
@@ -25314,7 +25330,7 @@
 		},
 		{
 			"name": "Nearsighted",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 89,
 			"level": 1,
 			"school": "T",
@@ -25366,7 +25382,7 @@
 		},
 		{
 			"name": "Necrotic Feast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 89,
 			"level": 1,
 			"school": "N",
@@ -25418,7 +25434,7 @@
 		},
 		{
 			"name": "Necrotic Touch",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 89,
 			"level": 5,
 			"school": "N",
@@ -25477,7 +25493,7 @@
 		},
 		{
 			"name": "Negative Energy Aura",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 90,
 			"level": 4,
 			"school": "V",
@@ -25531,7 +25547,7 @@
 		},
 		{
 			"name": "Negative Energy Mantle",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 90,
 			"level": 6,
 			"school": "N",
@@ -25582,7 +25598,7 @@
 		},
 		{
 			"name": "Net",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 90,
 			"level": 2,
 			"school": "C",
@@ -25645,7 +25661,7 @@
 		},
 		{
 			"name": "Null the Soothing Touch",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 90,
 			"level": 4,
 			"school": "N",
@@ -25689,7 +25705,7 @@
 		},
 		{
 			"name": "Nullifying Cloak",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 90,
 			"level": 5,
 			"school": "A",
@@ -25741,7 +25757,7 @@
 		},
 		{
 			"name": "Nymph's Aura",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 90,
 			"level": 6,
 			"school": "E",
@@ -25788,7 +25804,7 @@
 		},
 		{
 			"name": "Obliterate Soul",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 90,
 			"level": 7,
 			"school": "N",
@@ -25839,7 +25855,7 @@
 		},
 		{
 			"name": "Ogre's Visage",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 90,
 			"level": 6,
 			"school": "T",
@@ -25888,7 +25904,7 @@
 		},
 		{
 			"name": "One with the Earth",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 91,
 			"level": 6,
 			"school": "C",
@@ -25965,7 +25981,7 @@
 		},
 		{
 			"name": "Ooze Bolt",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 91,
 			"level": 3,
 			"school": "V",
@@ -26029,7 +26045,7 @@
 		},
 		{
 			"name": "Open Trail",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 91,
 			"level": 2,
 			"school": "T",
@@ -26077,7 +26093,7 @@
 		},
 		{
 			"name": "Otter's Grace",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 92,
 			"level": 1,
 			"school": "T",
@@ -26133,7 +26149,7 @@
 		},
 		{
 			"name": "Outside of Time",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 92,
 			"level": 8,
 			"school": "C",
@@ -26179,7 +26195,7 @@
 		},
 		{
 			"name": "Paean of Greater Glory",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 92,
 			"level": 4,
 			"school": "E",
@@ -26223,7 +26239,7 @@
 		},
 		{
 			"name": "Paean of the Holy",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 92,
 			"level": 4,
 			"school": "E",
@@ -26302,7 +26318,7 @@
 		},
 		{
 			"name": "Pain of Giving",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 92,
 			"level": 2,
 			"school": "N",
@@ -26357,7 +26373,7 @@
 		},
 		{
 			"name": "Paper Tigers",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 92,
 			"level": 4,
 			"school": "I",
@@ -26406,7 +26422,7 @@
 		},
 		{
 			"name": "Pattern Grass",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 92,
 			"level": 1,
 			"school": "T",
@@ -26454,7 +26470,7 @@
 		},
 		{
 			"name": "Peacebinding",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 93,
 			"level": 4,
 			"school": "E",
@@ -26503,7 +26519,7 @@
 		},
 		{
 			"name": "Pepper's Purpose",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 93,
 			"level": 0,
 			"school": "E",
@@ -26554,7 +26570,7 @@
 		},
 		{
 			"name": "Phantom Accompaniment",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 93,
 			"level": 2,
 			"school": "I",
@@ -26599,7 +26615,7 @@
 		},
 		{
 			"name": "Phoenix Cloak",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 93,
 			"level": 9,
 			"school": "N",
@@ -26646,7 +26662,7 @@
 		},
 		{
 			"name": "Piercing Vision",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 93,
 			"level": 4,
 			"school": "D",
@@ -26699,7 +26715,7 @@
 		},
 		{
 			"name": "Pilfer Sleep",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 93,
 			"level": 1,
 			"school": "N",
@@ -26748,7 +26764,7 @@
 		},
 		{
 			"name": "Plant Form",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 93,
 			"level": 6,
 			"school": "T",
@@ -26803,7 +26819,7 @@
 		},
 		{
 			"name": "Player Instrument",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 93,
 			"level": 3,
 			"school": "T",
@@ -26851,7 +26867,7 @@
 		},
 		{
 			"name": "Pocket Paradise",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 94,
 			"level": 7,
 			"school": "C",
@@ -26899,7 +26915,7 @@
 		},
 		{
 			"name": "Pollen Cloud",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 94,
 			"level": 2,
 			"school": "C",
@@ -26953,7 +26969,7 @@
 		},
 		{
 			"name": "Portrait",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 94,
 			"level": 4,
 			"school": "D",
@@ -26998,7 +27014,7 @@
 		},
 		{
 			"name": "Precision of Arms",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 94,
 			"level": 2,
 			"school": "D",
@@ -27046,7 +27062,7 @@
 		},
 		{
 			"name": "Prey's Scent",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 94,
 			"level": 5,
 			"school": "T",
@@ -27093,7 +27109,7 @@
 		},
 		{
 			"name": "Profane Link",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 94,
 			"level": 4,
 			"school": "N",
@@ -27140,7 +27156,7 @@
 		},
 		{
 			"name": "Projectile Link",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 94,
 			"level": 4,
 			"school": "T",
@@ -27186,7 +27202,7 @@
 		},
 		{
 			"name": "Protection from Oozes",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 95,
 			"level": 1,
 			"school": "A",
@@ -27234,7 +27250,7 @@
 		},
 		{
 			"name": "Protection from Paralysis",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 95,
 			"level": 2,
 			"school": "A",
@@ -27282,7 +27298,7 @@
 		},
 		{
 			"name": "Protection from Pressure",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 95,
 			"level": 3,
 			"school": "A",
@@ -27332,7 +27348,7 @@
 		},
 		{
 			"name": "Pummel",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 95,
 			"level": 1,
 			"school": "T",
@@ -27389,7 +27405,7 @@
 		},
 		{
 			"name": "Purifying Bath",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 95,
 			"level": 4,
 			"school": "T",
@@ -27436,7 +27452,7 @@
 		},
 		{
 			"name": "Purple Haze",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 95,
 			"level": 7,
 			"school": "E",
@@ -27487,7 +27503,7 @@
 		},
 		{
 			"name": "Push",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 95,
 			"level": 1,
 			"school": "V",
@@ -27534,7 +27550,7 @@
 		},
 		{
 			"name": "Putrefy Food and Drink",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 95,
 			"level": 1,
 			"school": "T",
@@ -27584,7 +27600,7 @@
 		},
 		{
 			"name": "Quell the Wild",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 95,
 			"level": 2,
 			"school": "I",
@@ -27633,7 +27649,7 @@
 		},
 		{
 			"name": "Quick Change",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 96,
 			"level": 1,
 			"school": "T",
@@ -27681,7 +27697,7 @@
 		},
 		{
 			"name": "Quicken Assassin",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 96,
 			"level": 9,
 			"school": "T",
@@ -27723,7 +27739,7 @@
 		},
 		{
 			"name": "Quicksand",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 96,
 			"level": 4,
 			"school": "T",
@@ -27772,7 +27788,7 @@
 		},
 		{
 			"name": "Quill Skin",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 97,
 			"level": 1,
 			"school": "T",
@@ -27819,7 +27835,7 @@
 		},
 		{
 			"name": "Rainbow Spear",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 97,
 			"level": 4,
 			"school": "V",
@@ -27976,7 +27992,7 @@
 		},
 		{
 			"name": "Rainbow Staff",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 97,
 			"level": 5,
 			"school": "V",
@@ -28101,7 +28117,7 @@
 		},
 		{
 			"name": "Raise Island",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 97,
 			"level": 7,
 			"school": "C",
@@ -28146,7 +28162,7 @@
 		},
 		{
 			"name": "Raise Shipwreck",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 97,
 			"level": 8,
 			"school": "V",
@@ -28191,7 +28207,7 @@
 		},
 		{
 			"name": "Ravaging Fire",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 98,
 			"level": 9,
 			"school": "C",
@@ -28246,7 +28262,7 @@
 		},
 		{
 			"name": "Regenerate Plant",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 98,
 			"level": 2,
 			"school": "V",
@@ -28295,7 +28311,7 @@
 		},
 		{
 			"name": "Reshape Metal",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 99,
 			"level": 3,
 			"school": "T",
@@ -28335,7 +28351,7 @@
 		},
 		{
 			"name": "Resist Channeling",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 99,
 			"level": 5,
 			"school": "T",
@@ -28374,7 +28390,7 @@
 		},
 		{
 			"name": "Resonant Imbalance",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 99,
 			"level": 3,
 			"school": "V",
@@ -28425,7 +28441,7 @@
 		},
 		{
 			"name": "Restore the Undead",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 99,
 			"level": 3,
 			"school": "N",
@@ -28470,7 +28486,7 @@
 		},
 		{
 			"name": "Retribution",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 99,
 			"level": 3,
 			"school": "D",
@@ -28518,7 +28534,7 @@
 		},
 		{
 			"name": "Revelation Field",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 99,
 			"level": 7,
 			"school": "A",
@@ -28571,7 +28587,7 @@
 		},
 		{
 			"name": "Reverence",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 99,
 			"level": 5,
 			"school": "E",
@@ -28622,7 +28638,7 @@
 		},
 		{
 			"name": "Righteous Cloak",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 99,
 			"level": 4,
 			"school": "A",
@@ -28677,7 +28693,7 @@
 		},
 		{
 			"name": "Rimeshatter",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 100,
 			"level": 9,
 			"school": "V",
@@ -28733,7 +28749,7 @@
 		},
 		{
 			"name": "Rock Bolt",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 100,
 			"level": 1,
 			"school": "C",
@@ -28794,7 +28810,7 @@
 		},
 		{
 			"name": "Rooted in Place",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 100,
 			"level": 2,
 			"school": "T",
@@ -28858,7 +28874,7 @@
 		},
 		{
 			"name": "Sacred Aegis",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 100,
 			"level": 7,
 			"school": "T",
@@ -28906,7 +28922,7 @@
 		},
 		{
 			"name": "Sacred Champion",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 101,
 			"level": 5,
 			"school": "T",
@@ -28954,7 +28970,7 @@
 		},
 		{
 			"name": "Safeguarded Slumber",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 101,
 			"level": 2,
 			"school": "N",
@@ -28997,7 +29013,7 @@
 		},
 		{
 			"name": "Sanctified Reverie of Arms",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 101,
 			"level": 2,
 			"school": "T",
@@ -29041,7 +29057,7 @@
 		},
 		{
 			"name": "Sand Blast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 101,
 			"level": 3,
 			"school": "T",
@@ -29095,7 +29111,7 @@
 		},
 		{
 			"name": "Sandbody",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 101,
 			"level": 2,
 			"school": "T",
@@ -29144,7 +29160,7 @@
 		},
 		{
 			"name": "Sanguine Creatures",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 101,
 			"level": 7,
 			"school": "N",
@@ -29191,7 +29207,7 @@
 		},
 		{
 			"name": "Scalding Sea",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 101,
 			"level": 4,
 			"school": "V",
@@ -29246,7 +29262,7 @@
 		},
 		{
 			"name": "Scent Mask",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 101,
 			"level": 2,
 			"school": "V",
@@ -29312,7 +29328,7 @@
 		},
 		{
 			"name": "Scintillating Doom",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 102,
 			"level": 9,
 			"school": "V",
@@ -29472,7 +29488,7 @@
 		},
 		{
 			"name": "Scorching Air",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 103,
 			"level": 7,
 			"school": "V",
@@ -29525,7 +29541,7 @@
 		},
 		{
 			"name": "Searing Flash",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 103,
 			"level": 7,
 			"school": "V",
@@ -29579,7 +29595,7 @@
 		},
 		{
 			"name": "Searing Projectiles",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 103,
 			"level": 4,
 			"school": "T",
@@ -29626,7 +29642,7 @@
 		},
 		{
 			"name": "See the Ephemeral",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 103,
 			"level": 3,
 			"school": "D",
@@ -29698,7 +29714,7 @@
 		},
 		{
 			"name": "Serpent Hands",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 104,
 			"level": 6,
 			"school": "T",
@@ -29759,7 +29775,7 @@
 		},
 		{
 			"name": "Serpent's Gaze",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 104,
 			"level": 1,
 			"school": "E",
@@ -29815,7 +29831,7 @@
 		},
 		{
 			"name": "Shade Swarm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 104,
 			"level": 6,
 			"school": "N",
@@ -29861,7 +29877,7 @@
 		},
 		{
 			"name": "Shadow Bolt",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 104,
 			"level": 3,
 			"school": "N",
@@ -29920,7 +29936,7 @@
 		},
 		{
 			"name": "Shadow Embrace",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 104,
 			"level": 2,
 			"school": "A",
@@ -29968,7 +29984,7 @@
 		},
 		{
 			"name": "Shadow Form",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 104,
 			"level": 4,
 			"school": "T",
@@ -30022,7 +30038,7 @@
 		},
 		{
 			"name": "Shadow Sight",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 104,
 			"level": 2,
 			"school": "D",
@@ -30066,7 +30082,7 @@
 		},
 		{
 			"name": "Shadowbind",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 104,
 			"level": 4,
 			"school": "V",
@@ -30115,7 +30131,7 @@
 		},
 		{
 			"name": "Shadowstaff",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 105,
 			"level": 8,
 			"school": "N",
@@ -30162,7 +30178,7 @@
 		},
 		{
 			"name": "Shattering Cry",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 105,
 			"level": 5,
 			"school": "V",
@@ -30214,7 +30230,7 @@
 		},
 		{
 			"name": "Shield Open Flame",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 106,
 			"level": 0,
 			"school": "A",
@@ -30266,7 +30282,7 @@
 		},
 		{
 			"name": "Shield of Crackling Fire",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 105,
 			"level": 7,
 			"school": "A",
@@ -30314,7 +30330,7 @@
 		},
 		{
 			"name": "Shifter's Bane",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 106,
 			"level": 2,
 			"school": "T",
@@ -30353,7 +30369,7 @@
 		},
 		{
 			"name": "Shroud the Shadow",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 106,
 			"level": 1,
 			"school": "T",
@@ -30408,7 +30424,7 @@
 		},
 		{
 			"name": "Signal Flare",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 106,
 			"level": 1,
 			"school": "V",
@@ -30460,7 +30476,7 @@
 		},
 		{
 			"name": "Silver Bones",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 106,
 			"level": 3,
 			"school": "T",
@@ -30517,7 +30533,7 @@
 		},
 		{
 			"name": "Silver Shield",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 106,
 			"level": 4,
 			"school": "A",
@@ -30561,7 +30577,7 @@
 		},
 		{
 			"name": "Silver Spear",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 106,
 			"level": 2,
 			"school": "C",
@@ -30625,7 +30641,7 @@
 		},
 		{
 			"name": "Skull Bomb",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 106,
 			"level": 5,
 			"school": "N",
@@ -30679,7 +30695,7 @@
 		},
 		{
 			"name": "Sleep of Power",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 107,
 			"level": 7,
 			"school": "T",
@@ -30721,7 +30737,7 @@
 		},
 		{
 			"name": "Slime Bucket",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 107,
 			"level": 5,
 			"school": "C",
@@ -30777,7 +30793,7 @@
 		},
 		{
 			"name": "Slimeball",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 107,
 			"level": 4,
 			"school": "V",
@@ -30837,7 +30853,7 @@
 		},
 		{
 			"name": "Slow Draw",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 108,
 			"level": 1,
 			"school": "T",
@@ -30890,7 +30906,7 @@
 		},
 		{
 			"name": "Slur",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 108,
 			"level": 2,
 			"school": "T",
@@ -30948,7 +30964,7 @@
 		},
 		{
 			"name": "Smart Arrow",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 108,
 			"level": 3,
 			"school": "D",
@@ -30993,7 +31009,7 @@
 		},
 		{
 			"name": "Smothering Cloud",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 108,
 			"level": 2,
 			"school": "V",
@@ -31048,7 +31064,7 @@
 		},
 		{
 			"name": "Snakes into Staves",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 108,
 			"level": 4,
 			"school": "T",
@@ -31101,7 +31117,7 @@
 		},
 		{
 			"name": "Solar Flare",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 108,
 			"level": 8,
 			"school": "V",
@@ -31154,7 +31170,7 @@
 		},
 		{
 			"name": "Solar Fury",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 108,
 			"level": 6,
 			"school": "V",
@@ -31207,7 +31223,7 @@
 		},
 		{
 			"name": "Solar Spear",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 109,
 			"level": 4,
 			"school": "V",
@@ -31272,7 +31288,7 @@
 		},
 		{
 			"name": "Song Barrier",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 109,
 			"level": 6,
 			"school": "V",
@@ -31336,7 +31352,7 @@
 		},
 		{
 			"name": "Song of Vengeance",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 110,
 			"level": 5,
 			"school": "A",
@@ -31391,7 +31407,7 @@
 		},
 		{
 			"name": "Sonic Boom",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 110,
 			"level": 1,
 			"school": "T",
@@ -31438,7 +31454,7 @@
 		},
 		{
 			"name": "Soul Shatter",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 110,
 			"level": 5,
 			"school": "N",
@@ -31489,7 +31505,7 @@
 		},
 		{
 			"name": "Soul Shield",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 110,
 			"level": 2,
 			"school": "A",
@@ -31535,7 +31551,7 @@
 		},
 		{
 			"name": "Soul Strike",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 110,
 			"level": 8,
 			"school": "N",
@@ -31595,7 +31611,7 @@
 		},
 		{
 			"name": "Sound Worm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 110,
 			"level": 3,
 			"school": "E",
@@ -31642,7 +31658,7 @@
 		},
 		{
 			"name": "Speak with Objects",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 110,
 			"level": 3,
 			"school": "D",
@@ -31690,7 +31706,7 @@
 		},
 		{
 			"name": "Spectral Archers",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 111,
 			"level": 4,
 			"school": "C",
@@ -31735,7 +31751,7 @@
 		},
 		{
 			"name": "Speed Undead",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 111,
 			"level": 2,
 			"school": "N",
@@ -31792,7 +31808,7 @@
 		},
 		{
 			"name": "Spell Inhibitor",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 111,
 			"level": 6,
 			"school": "A",
@@ -31841,7 +31857,7 @@
 		},
 		{
 			"name": "Spell Kill",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 112,
 			"level": 3,
 			"school": "T",
@@ -31894,7 +31910,7 @@
 		},
 		{
 			"name": "Spell Legs",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 112,
 			"level": 5,
 			"school": "T",
@@ -31940,7 +31956,7 @@
 		},
 		{
 			"name": "Spellcaster's Refusal",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 112,
 			"level": 5,
 			"school": "A",
@@ -32000,7 +32016,7 @@
 		},
 		{
 			"name": "Spilling of Blood",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 112,
 			"level": 6,
 			"school": "N",
@@ -32054,7 +32070,7 @@
 		},
 		{
 			"name": "Spirit Blast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 112,
 			"level": 2,
 			"school": "N",
@@ -32113,7 +32129,7 @@
 		},
 		{
 			"name": "Spirit Cartographer",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 112,
 			"level": 2,
 			"school": "C",
@@ -32162,7 +32178,7 @@
 		},
 		{
 			"name": "Spirit Disk",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 112,
 			"level": 8,
 			"school": "V",
@@ -32214,7 +32230,7 @@
 		},
 		{
 			"name": "Spirit Doll",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 113,
 			"level": 5,
 			"school": "T",
@@ -32269,7 +32285,7 @@
 		},
 		{
 			"name": "Spiritbreaker",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 113,
 			"level": 6,
 			"school": "A",
@@ -32329,7 +32345,7 @@
 		},
 		{
 			"name": "Spiteful Images",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 113,
 			"level": 3,
 			"school": "I",
@@ -32385,7 +32401,7 @@
 		},
 		{
 			"name": "Spyworm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 113,
 			"level": 3,
 			"school": "C",
@@ -32432,7 +32448,7 @@
 		},
 		{
 			"name": "Squeaking Floor Alarm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 113,
 			"level": 3,
 			"school": "I",
@@ -32480,7 +32496,7 @@
 		},
 		{
 			"name": "Steam Bolt",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 113,
 			"level": 3,
 			"school": "V",
@@ -32537,7 +32553,7 @@
 		},
 		{
 			"name": "Steam Cloud",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 114,
 			"level": 4,
 			"school": "V",
@@ -32597,7 +32613,7 @@
 		},
 		{
 			"name": "Steel Butterflies",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 114,
 			"level": 4,
 			"school": "C",
@@ -32659,7 +32675,7 @@
 		},
 		{
 			"name": "Stench of Death",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 114,
 			"level": 2,
 			"school": "T",
@@ -32703,7 +32719,7 @@
 		},
 		{
 			"name": "Sticky Tongue",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 114,
 			"level": 2,
 			"school": "T",
@@ -32766,7 +32782,7 @@
 		},
 		{
 			"name": "Stonefast",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 114,
 			"level": 4,
 			"school": "A",
@@ -32821,7 +32837,7 @@
 		},
 		{
 			"name": "Storm of Vitriol",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 114,
 			"level": 9,
 			"school": "V",
@@ -32875,7 +32891,7 @@
 		},
 		{
 			"name": "Strength of the Wyrm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 114,
 			"level": 8,
 			"school": "T",
@@ -32924,7 +32940,7 @@
 		},
 		{
 			"name": "Stupefy",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 115,
 			"level": 4,
 			"school": "N",
@@ -32974,7 +32990,7 @@
 		},
 		{
 			"name": "Summon Undead",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 115,
 			"level": 3,
 			"school": "C",
@@ -33039,7 +33055,7 @@
 		},
 		{
 			"name": "Swirling Leaves",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 115,
 			"level": 2,
 			"school": "A",
@@ -33083,7 +33099,7 @@
 		},
 		{
 			"name": "Tattoo Object",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 116,
 			"level": 5,
 			"school": "T",
@@ -33136,7 +33152,7 @@
 		},
 		{
 			"name": "Taunt",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 116,
 			"level": 2,
 			"school": "E",
@@ -33184,7 +33200,7 @@
 		},
 		{
 			"name": "Tenacious Blade",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 116,
 			"level": 3,
 			"school": "C",
@@ -33241,7 +33257,7 @@
 		},
 		{
 			"name": "Tendrils of Night",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 116,
 			"level": 9,
 			"school": "C",
@@ -33314,7 +33330,7 @@
 		},
 		{
 			"name": "Thorn Snare",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 117,
 			"level": 2,
 			"school": "T",
@@ -33364,7 +33380,7 @@
 		},
 		{
 			"name": "Torrent",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 117,
 			"level": 6,
 			"school": "C",
@@ -33414,7 +33430,7 @@
 		},
 		{
 			"name": "Touch of Madness",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 117,
 			"level": 8,
 			"school": "E",
@@ -33462,7 +33478,7 @@
 		},
 		{
 			"name": "Track Magic",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 118,
 			"level": 4,
 			"school": "D",
@@ -33506,7 +33522,7 @@
 		},
 		{
 			"name": "Tracker's Gaze",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 118,
 			"level": 5,
 			"school": "D",
@@ -33550,7 +33566,7 @@
 		},
 		{
 			"name": "Tranquil Grove",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 118,
 			"level": 8,
 			"school": "C",
@@ -33597,7 +33613,7 @@
 		},
 		{
 			"name": "Transfer of Vigor",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 118,
 			"level": 5,
 			"school": "T",
@@ -33657,7 +33673,7 @@
 		},
 		{
 			"name": "Transform Boulder to Pebble",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 118,
 			"level": 4,
 			"school": "T",
@@ -33711,7 +33727,7 @@
 		},
 		{
 			"name": "Transform Pebble to Boulder",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 118,
 			"level": 4,
 			"school": "T",
@@ -33761,7 +33777,7 @@
 		},
 		{
 			"name": "Transform Zombie",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 118,
 			"level": 5,
 			"school": "N",
@@ -33801,7 +33817,7 @@
 		},
 		{
 			"name": "Transmute Gold to Steel",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 119,
 			"level": 6,
 			"school": "T",
@@ -33841,7 +33857,7 @@
 		},
 		{
 			"name": "Transparent Steel",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 119,
 			"level": 6,
 			"school": "T",
@@ -33880,7 +33896,7 @@
 		},
 		{
 			"name": "Tree Ladder",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 119,
 			"level": 1,
 			"school": "T",
@@ -33927,7 +33943,7 @@
 		},
 		{
 			"name": "Tremorsense",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 119,
 			"level": 2,
 			"school": "D",
@@ -33974,7 +33990,7 @@
 		},
 		{
 			"name": "Twig Torture",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 119,
 			"level": 4,
 			"school": "T",
@@ -34036,7 +34052,7 @@
 		},
 		{
 			"name": "Twisted Magic",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 119,
 			"level": 3,
 			"school": "E",
@@ -34093,7 +34109,7 @@
 		},
 		{
 			"name": "Twitch",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 119,
 			"level": 1,
 			"school": "E",
@@ -34148,7 +34164,7 @@
 		},
 		{
 			"name": "Umbral Images",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 120,
 			"level": 3,
 			"school": "I",
@@ -34191,7 +34207,7 @@
 		},
 		{
 			"name": "Umbral Storm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 120,
 			"level": 8,
 			"school": "N",
@@ -34237,7 +34253,7 @@
 		},
 		{
 			"name": "Umbral Strike",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 120,
 			"level": 3,
 			"school": "N",
@@ -34283,7 +34299,7 @@
 		},
 		{
 			"name": "Umbral Touch",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 120,
 			"level": 4,
 			"school": "N",
@@ -34333,7 +34349,7 @@
 		},
 		{
 			"name": "Umbral Transformation",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 120,
 			"level": 6,
 			"school": "T",
@@ -34384,7 +34400,7 @@
 		},
 		{
 			"name": "Umbral Weapon",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 120,
 			"level": 5,
 			"school": "N",
@@ -34438,7 +34454,7 @@
 		},
 		{
 			"name": "Unchained Melody",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 120,
 			"level": 1,
 			"school": "T",
@@ -34481,7 +34497,7 @@
 		},
 		{
 			"name": "Undead Alteration",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 120,
 			"level": 2,
 			"school": "I",
@@ -34528,7 +34544,7 @@
 		},
 		{
 			"name": "Undertow",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 121,
 			"level": 2,
 			"school": "V",
@@ -34583,7 +34599,7 @@
 		},
 		{
 			"name": "Undetectable Charm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 121,
 			"level": 2,
 			"school": "A",
@@ -34631,7 +34647,7 @@
 		},
 		{
 			"name": "Undulating Earth",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 121,
 			"level": 2,
 			"school": "A",
@@ -34686,7 +34702,7 @@
 		},
 		{
 			"name": "Unfasten",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 121,
 			"level": 3,
 			"school": "T",
@@ -34733,7 +34749,7 @@
 		},
 		{
 			"name": "Unfettered Steed",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 122,
 			"level": 1,
 			"school": "T",
@@ -34776,7 +34792,7 @@
 		},
 		{
 			"name": "Unholy Glare",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 122,
 			"level": 5,
 			"school": "N",
@@ -34827,7 +34843,7 @@
 		},
 		{
 			"name": "Unstoppable Tracker",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 122,
 			"level": 3,
 			"school": "T",
@@ -34874,7 +34890,7 @@
 		},
 		{
 			"name": "Unyielding Durability",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 122,
 			"level": 5,
 			"school": "T",
@@ -34917,7 +34933,7 @@
 		},
 		{
 			"name": "Vengeful Environs",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 122,
 			"level": 5,
 			"school": "T",
@@ -34971,7 +34987,7 @@
 		},
 		{
 			"name": "Vermin Swarm",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 122,
 			"level": 4,
 			"school": "C",
@@ -35035,7 +35051,7 @@
 		},
 		{
 			"name": "Vigil of Enlightenment",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 122,
 			"level": 2,
 			"school": "D",
@@ -35076,7 +35092,7 @@
 		},
 		{
 			"name": "Vile Vintage",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 123,
 			"level": 5,
 			"school": "T",
@@ -35124,7 +35140,7 @@
 		},
 		{
 			"name": "Vines of Binding",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 123,
 			"level": 4,
 			"school": "C",
@@ -35205,7 +35221,7 @@
 		},
 		{
 			"name": "Violent Scream",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 124,
 			"level": 5,
 			"school": "V",
@@ -35270,7 +35286,7 @@
 		},
 		{
 			"name": "Voice of Confession",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 124,
 			"level": 4,
 			"school": "E",
@@ -35322,7 +35338,7 @@
 		},
 		{
 			"name": "Voice of Memories",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 124,
 			"level": 5,
 			"school": "E",
@@ -35370,7 +35386,7 @@
 		},
 		{
 			"name": "Volley Spell",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 124,
 			"level": 7,
 			"school": "A",
@@ -35416,7 +35432,7 @@
 		},
 		{
 			"name": "Volley of Thorns",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 124,
 			"level": 3,
 			"school": "V",
@@ -35471,7 +35487,7 @@
 		},
 		{
 			"name": "Wail of Fate",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 124,
 			"level": 5,
 			"school": "N",
@@ -35574,7 +35590,7 @@
 		},
 		{
 			"name": "Wailing Dirge",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 125,
 			"level": 3,
 			"school": "E",
@@ -35626,7 +35642,7 @@
 		},
 		{
 			"name": "Walk in the Moonlight",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 125,
 			"level": 3,
 			"school": "T",
@@ -35673,7 +35689,7 @@
 		},
 		{
 			"name": "Wall of Blood",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 125,
 			"level": 4,
 			"school": "C",
@@ -35725,7 +35741,7 @@
 		},
 		{
 			"name": "Wall of Water",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 126,
 			"level": 3,
 			"school": "C",
@@ -35781,7 +35797,7 @@
 		},
 		{
 			"name": "Warrior's Touch",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 126,
 			"level": 4,
 			"school": "T",
@@ -35832,7 +35848,7 @@
 		},
 		{
 			"name": "Water Double",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 126,
 			"level": 3,
 			"school": "T",
@@ -35883,7 +35899,7 @@
 		},
 		{
 			"name": "Watery Blood",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 126,
 			"level": 5,
 			"school": "T",
@@ -35932,7 +35948,7 @@
 		},
 		{
 			"name": "Weaken Fiendish Will",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 126,
 			"level": 5,
 			"school": "E",
@@ -35989,7 +36005,7 @@
 		},
 		{
 			"name": "Weapon of Retribution",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 126,
 			"level": 3,
 			"school": "V",
@@ -36036,7 +36052,7 @@
 		},
 		{
 			"name": "Weather Calming",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 127,
 			"level": 3,
 			"school": "C",
@@ -36081,7 +36097,7 @@
 		},
 		{
 			"name": "Web Orb",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 127,
 			"level": 1,
 			"school": "V",
@@ -36137,7 +36153,7 @@
 		},
 		{
 			"name": "Weeping Wounds",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 127,
 			"level": 3,
 			"school": "N",
@@ -36192,7 +36208,7 @@
 		},
 		{
 			"name": "Whirlwind of Gore",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 128,
 			"level": 3,
 			"school": "N",
@@ -36251,7 +36267,7 @@
 		},
 		{
 			"name": "Whisper Wind",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 128,
 			"level": 3,
 			"school": "D",
@@ -36299,7 +36315,7 @@
 		},
 		{
 			"name": "Willful Transformation",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 128,
 			"level": 2,
 			"school": "T",
@@ -36347,7 +36363,7 @@
 		},
 		{
 			"name": "Wind Speak",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 128,
 			"level": 1,
 			"school": "D",
@@ -36393,7 +36409,7 @@
 		},
 		{
 			"name": "Wine Fount",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 128,
 			"level": 3,
 			"school": "C",
@@ -36469,7 +36485,7 @@
 		},
 		{
 			"name": "Wings of Heaven",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 128,
 			"level": 3,
 			"school": "T",
@@ -36513,7 +36529,7 @@
 		},
 		{
 			"name": "Wisdom of the Divine",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 128,
 			"level": 2,
 			"school": "D",
@@ -36564,7 +36580,7 @@
 		},
 		{
 			"name": "Wise Defense",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 129,
 			"level": 3,
 			"school": "D",
@@ -36615,7 +36631,7 @@
 		},
 		{
 			"name": "With the Wind",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 129,
 			"level": 1,
 			"school": "V",
@@ -36663,7 +36679,7 @@
 		},
 		{
 			"name": "Wither Limb",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 129,
 			"level": 9,
 			"school": "N",
@@ -36710,7 +36726,7 @@
 		},
 		{
 			"name": "Wolf's Hearing",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 129,
 			"level": 2,
 			"school": "T",
@@ -36757,7 +36773,7 @@
 		},
 		{
 			"name": "Wolf's Howl",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 129,
 			"level": 2,
 			"school": "E",
@@ -36809,7 +36825,7 @@
 		},
 		{
 			"name": "Woodland Shriek",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 129,
 			"level": 1,
 			"school": "A",
@@ -36857,7 +36873,7 @@
 		},
 		{
 			"name": "Words of Thunder",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 129,
 			"level": 6,
 			"school": "V",
@@ -36911,7 +36927,7 @@
 		},
 		{
 			"name": "Wound Reading",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 129,
 			"level": 2,
 			"school": "D",
@@ -36964,7 +36980,7 @@
 		},
 		{
 			"name": "Wrack the Mind",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 130,
 			"level": 9,
 			"school": "N",
@@ -37078,7 +37094,7 @@
 		},
 		{
 			"name": "Wyvern Guard",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 130,
 			"level": 2,
 			"school": "A",
@@ -37137,7 +37153,7 @@
 		},
 		{
 			"name": "Xenophobic Rage",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 130,
 			"level": 8,
 			"school": "E",
@@ -37195,7 +37211,7 @@
 		},
 		{
 			"name": "Yellow Smoke",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 130,
 			"level": 3,
 			"school": "C",
@@ -37248,7 +37264,7 @@
 		},
 		{
 			"name": "Zephyr of Death",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 130,
 			"level": 8,
 			"school": "N",
@@ -37303,7 +37319,7 @@
 		},
 		{
 			"name": "Zombify Self",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 131,
 			"level": 4,
 			"school": "N",
@@ -37357,7 +37373,7 @@
 		},
 		{
 			"name": "Zone of Ablation",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 131,
 			"level": 5,
 			"school": "A",
@@ -37401,7 +37417,7 @@
 		},
 		{
 			"name": "Zone of Metamagic Minimization",
-			"source": "HBBoLS",
+			"source": "BoLS 3pp",
 			"page": 131,
 			"level": 8,
 			"school": "A",

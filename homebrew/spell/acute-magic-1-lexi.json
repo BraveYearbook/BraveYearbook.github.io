@@ -1,10 +1,29 @@
 {
+    "_meta": {
+		"sources": [
+			{
+				"json": "AM01",
+				"abbreviation": "AM01",
+				"full": "Acute Magic 1: Words of the Lexi",
+				"authors": [
+					"Alex Berns"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1542063914
+    },
     "spell": [
         {
             "name": "True Name",
             "level": 5,
             "school": "D",
-            "source": "HBAM01",
+            "source": "AM01",
             "page": 1,
             "meta": {
                 "ritual": false
@@ -63,7 +82,7 @@
             "name": "Copy True Name",
             "level": 4,
             "school": "D",
-            "source": "HBAM01",
+            "source": "AM01",
             "page": 1,
             "meta": {
                 "ritual": true
