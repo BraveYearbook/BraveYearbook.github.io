@@ -287,7 +287,7 @@ StrUtil = {
 		return String(n).padStart(len, padder);
 	},
 
-	elipsisTruncate (str, atLeastPre = 5, atLeastSuff = 0, maxLen = 20) {
+	elipsisTruncate(str, atLeastPre = 5, atLeastSuff = 0, maxLen = 20) {
 		if (maxLen >= str.length) return str;
 
 		maxLen = Math.max(atLeastPre + atLeastSuff + 3, maxLen);
@@ -303,7 +303,7 @@ StrUtil = {
 		return out;
 	},
 
-	toTitleCase (str) {
+	toTitleCase(str) {
 		return str.toTitleCase();
 	}
 };
@@ -314,7 +314,7 @@ RegExp.escape = function (string) {
 
 // TEXT COMBINING ======================================================================================================
 class AbilityData {
-	constructor (asText, asTextShort, asCollection, areNegative) {
+	constructor(asText, asTextShort, asCollection, areNegative) {
 		this.asText = asText;
 		this.asTextShort = asTextShort;
 		this.asCollection = asCollection;
@@ -322,7 +322,7 @@ class AbilityData {
 	}
 }
 
-function utils_getAbilityData (abObj) {
+function utils_getAbilityData(abObj) {
 	const ABILITIES = Parser.ABIL_ABVS.map(it => it.uppercaseFirst());
 	const mainAbs = [];
 	const asCollection = [];
@@ -336,13 +336,13 @@ function utils_getAbilityData (abObj) {
 	}
 	return new AbilityData("", "", [], []);
 
-	function handleAllAbilities (abilityList, targetList) {
+	function handleAllAbilities(abilityList, targetList) {
 		for (let a = 0; a < ABILITIES.length; ++a) {
 			handleAbility(abilityList, ABILITIES[a], targetList);
 		}
 	}
 
-	function handleAbility (parent, ab, optToConvertToTextStorage) {
+	function handleAbility(parent, ab, optToConvertToTextStorage) {
 		if (parent[ab.toLowerCase()] !== undefined) {
 			const isNegMod = parent[ab.toLowerCase()] < 0;
 			const toAdd = `${ab} ${(isNegMod ? "" : "+")}${parent[ab.toLowerCase()]}`;
@@ -360,7 +360,7 @@ function utils_getAbilityData (abObj) {
 		}
 	}
 
-	function handleAbilitiesChoose () {
+	function handleAbilitiesChoose() {
 		if (abObj.choose !== undefined) {
 			for (let i = 0; i < abObj.choose.length; ++i) {
 				const item = abObj.choose[i];
@@ -428,7 +428,7 @@ function utils_getAbilityData (abObj) {
 		}
 	}
 
-	function isAllAbilitiesWithParent (chooseAbs) {
+	function isAllAbilitiesWithParent(chooseAbs) {
 		const tempAbilities = [];
 		for (let i = 0; i < mainAbs.length; ++i) {
 			tempAbilities.push(mainAbs[i].toLowerCase());
@@ -475,7 +475,7 @@ Parser.attrChooseToFull = function (attList) {
 Parser.numberToText = function (number) {
 	if (Math.abs(number) >= 100) return number;
 
-	function getAsText (num) {
+	function getAsText(num) {
 		const abs = Math.abs(num);
 		switch (abs) {
 			case 0: return "zero";
@@ -538,8 +538,8 @@ Parser.getAbilityModifier = function (abilityScore) {
 };
 
 Parser.getSpeedString = (it) => {
-	function procSpeed (propName) {
-		function addSpeed (s) {
+	function procSpeed(propName) {
+		function addSpeed(s) {
 			stack.push(`${propName === "walk" ? "" : `${propName} `}${getVal(s)}ft.${getCond(s)}`);
 		}
 
@@ -547,11 +547,11 @@ Parser.getSpeedString = (it) => {
 		if (it.speed.alternate && it.speed.alternate[propName]) it.speed.alternate[propName].forEach(addSpeed);
 	}
 
-	function getVal (speedProp) {
+	function getVal(speedProp) {
 		return speedProp.number || speedProp;
 	}
 
-	function getCond (speedProp) {
+	function getCond(speedProp) {
 		return speedProp.condition ? ` ${speedProp.condition}` : "";
 	}
 
@@ -857,7 +857,7 @@ Parser.numberToString = function (num) {
 	if (num === 0) return "zero";
 	else return parse_hundreds(num);
 
-	function parse_hundreds (num) {
+	function parse_hundreds(num) {
 		if (num > 99) {
 			return Parser.NUMBERS_ONES[Math.floor(num / 100)] + " hundred " + parse_tens(num % 100);
 		} else {
@@ -865,7 +865,7 @@ Parser.numberToString = function (num) {
 		}
 	}
 
-	function parse_tens (num) {
+	function parse_tens(num) {
 		if (num < 10) return Parser.NUMBERS_ONES[num];
 		else if (num >= 10 && num < 20) return Parser.NUMBERS_TEENS[num - 10];
 		else {
@@ -943,7 +943,7 @@ Parser.spRangeToFull = function (range) {
 			return renderArea();
 	}
 
-	function renderPoint () {
+	function renderPoint() {
 		const dist = range.distance;
 		switch (dist.type) {
 			case RNG_SELF:
@@ -963,11 +963,11 @@ Parser.spRangeToFull = function (range) {
 		}
 	}
 
-	function renderArea () {
+	function renderArea() {
 		const size = range.distance;
 		return `Self (${size.amount}-${Parser.getSingletonUnit(size.type)}${getAreaStyleStr()})`;
 
-		function getAreaStyleStr () {
+		function getAreaStyleStr() {
 			switch (range.type) {
 				case RNG_SPHERE:
 					return " radius";
@@ -1063,7 +1063,7 @@ Parser.spAttackTypeToFull = function (type) {
 
 // mon-prefix functions are for parsing monster data, and shared with the roll20 script
 Parser.monTypeToFullObj = function (type) {
-	const out = {type: "", tags: [], asText: ""};
+	const out = { type: "", tags: [], asText: "" };
 
 	if (typeof type === "string") {
 		// handles e.g. "fey"
@@ -1118,7 +1118,7 @@ Parser.monImmResToFull = function (toParse) {
 		return toParse.map(it => toString(it, -1)).join(maxDepth ? "; " : ", ");
 	}
 
-	function toString (it, depth = 0) {
+	function toString(it, depth = 0) {
 		maxDepth = Math.max(maxDepth, depth);
 		if (typeof it === "string") {
 			return it;
@@ -1136,7 +1136,7 @@ Parser.monImmResToFull = function (toParse) {
 		}
 	}
 
-	function serialJoin (arr) {
+	function serialJoin(arr) {
 		if (arr.length <= 1) return arr.join("");
 
 		let out = "";
@@ -1154,7 +1154,7 @@ Parser.monImmResToFull = function (toParse) {
 };
 
 Parser.monCondImmToFull = function (condImm) {
-	function render (condition) {
+	function render(condition) {
 		return EntryRenderer.getDefaultRenderer().renderEntry(`{@condition ${condition}}`);
 	}
 	return condImm.map(it => {
@@ -1434,7 +1434,7 @@ Parser.spSubclassesToCurrentAndLegacyFull = function (classes) {
 				out[1].push(toAdd);
 			} else if (Parser.sourceJsonToFull(src).startsWith(UA_PREFIX) || Parser.sourceJsonToFull(src).startsWith(PS_PREFIX)) {
 				const cleanName = mapClassShortNameToMostRecent(nm.split("(")[0].trim().split(/v\d+/)[0].trim());
-				toCheck.push({"name": cleanName, "ele": toAdd});
+				toCheck.push({ "name": cleanName, "ele": toAdd });
 			} else {
 				out[0].push(toAdd);
 				curNames.add(nm);
@@ -1452,7 +1452,7 @@ Parser.spSubclassesToCurrentAndLegacyFull = function (classes) {
 	/**
 	 * Get the most recent iteration of a subclass name
 	 */
-	function mapClassShortNameToMostRecent (shortName) {
+	function mapClassShortNameToMostRecent(shortName) {
 		switch (shortName) {
 			case "Favored Soul":
 				return "Divine Soul";
@@ -2218,7 +2218,7 @@ Parser.NUMBERS_TEENS = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fift
 
 // SOURCES =============================================================================================================
 SourceUtil = {
-	hasBeenReprinted (shortName, source) {
+	hasBeenReprinted(shortName, source) {
 		/* can accept sources of the form:
 		{
 			"source": "UAExample",
@@ -2236,7 +2236,7 @@ SourceUtil = {
 			);
 	},
 
-	isNonstandardSource (source) {
+	isNonstandardSource(source) {
 		/* can accept sources of the form:
 		{
 			"source": "UAExample",
@@ -2250,15 +2250,15 @@ SourceUtil = {
 		return (source !== undefined && source !== null) && !BrewUtil.hasSourceJson(source) && (SourceUtil._isNonstandardSourceWiz(source) || SourceUtil._isNonstandardSource3pp(source));
 	},
 
-	_isNonstandardSourceWiz (source) {
+	_isNonstandardSourceWiz(source) {
 		return source.startsWith(SRC_UA_PREFIX) || source.startsWith(SRC_PS_PREFIX) || source === SRC_OGA || source === SRC_Mag || source === SRC_STREAM || source === SRC_TWITTER;
 	},
 
-	_isNonstandardSource3pp (source) {
+	_isNonstandardSource3pp(source) {
 		return source.endsWith(SRC_3PP_SUFFIX);
 	},
 
-	getFilterGroup (source) {
+	getFilterGroup(source) {
 		if (BrewUtil.hasSourceJson(source)) return 2;
 		return Number(SourceUtil.isNonstandardSource(source));
 	}
@@ -2289,35 +2289,35 @@ Math.seed = Math.seed ||
 		};
 	};
 
-function xor (a, b) {
+function xor(a, b) {
 	return !a !== !b;
 }
 
 /**
  * > implying
  */
-function implies (a, b) {
+function implies(a, b) {
 	return (!a) || b;
 }
 
-function noModifierKeys (e) {
+function noModifierKeys(e) {
 	return !e.ctrlKey && !e.altKey && !e.metaKey;
 }
 
-function isObject (obj) {
+function isObject(obj) {
 	const type = typeof obj;
 	return (type === 'function' || type === 'object') && !!obj;
 }
 
-function isString (str) {
+function isString(str) {
 	return typeof str === 'string';
 }
 
-function isNumber (obj) {
+function isNumber(obj) {
 	return toString.call(obj) === '[object Number]';
 }
 
-function isEmpty (obj) {
+function isEmpty(obj) {
 	if (obj == null) {
 		return true;
 	}
@@ -2328,7 +2328,7 @@ function isEmpty (obj) {
 }
 
 JqueryUtil = {
-	initEnhancements () {
+	initEnhancements() {
 		JqueryUtil.addSelectors();
 
 		$.fn.extend({
@@ -2363,7 +2363,7 @@ JqueryUtil = {
 		}
 	},
 
-	addSelectors () {
+	addSelectors() {
 		// Add a selector to match exact text (case insensitive) to jQuery's arsenal
 		$.expr[':'].textEquals = (el, i, m) => {
 			const searchText = m[3];
@@ -2383,7 +2383,7 @@ JqueryUtil = {
 		};
 	},
 
-	showCopiedEffect ($ele, text = "Copied!", bubble) {
+	showCopiedEffect($ele, text = "Copied!", bubble) {
 		const $temp = $(`<div class="copied-tip"><span>${text}</span></div>`).appendTo($(`body`));
 		const offset = $temp.width() / 2;
 		const top = $(window).scrollTop();
@@ -2422,7 +2422,7 @@ JqueryUtil = {
 
 if (typeof window !== "undefined") window.addEventListener("load", JqueryUtil.initEnhancements);
 
-function copyText (text) {
+function copyText(text) {
 	const $temp = $(`<textarea id="copy-temp" style="position: fixed; top: -1000px; left: -1000px; width: 1px; height: 1px;">${text}</textarea>`);
 	$(`body`).append($temp);
 	$temp.select();
@@ -2431,7 +2431,7 @@ function copyText (text) {
 }
 
 ObjUtil = {
-	mergeWith (source, target, fnMerge, options = {depth: 1}) {
+	mergeWith(source, target, fnMerge, options = { depth: 1 }) {
 		if (!source || !target || typeof fnMerge !== "function") throw new Error("Must include a source, target and a fnMerge to handle merging");
 
 		const recursive = function (deepSource, deepTarget, depth = 1) {
@@ -2444,7 +2444,7 @@ ObjUtil = {
 		recursive(source, target, 1);
 	},
 
-	async pForEachDeep (source, pCallback, options = {depth: Infinity, callEachLevel: false}) {
+	async pForEachDeep(source, pCallback, options = { depth: Infinity, callEachLevel: false }) {
 		const path = [];
 		const pDiveDeep = async function (val, path, depth = 0) {
 			if (options.callEachLevel || typeof val !== "object" || options.depth === depth) {
@@ -2464,11 +2464,11 @@ ObjUtil = {
 
 // TODO refactor other misc utils into this
 MiscUtil = {
-	copy (obj) {
+	copy(obj) {
 		return JSON.parse(JSON.stringify(obj));
 	},
 
-	getProperty (object, ...path) {
+	getProperty(object, ...path) {
 		for (let i = 0; i < path.length; ++i) {
 			object = object[path[i]];
 			if (object == null) return object;
@@ -2476,7 +2476,7 @@ MiscUtil = {
 		return object;
 	},
 
-	clearSelection () {
+	clearSelection() {
 		if (document.getSelection) {
 			document.getSelection().removeAllRanges();
 			document.getSelection().addRange(document.createRange());
@@ -2492,7 +2492,7 @@ MiscUtil = {
 		}
 	},
 
-	randomColor () {
+	randomColor() {
 		let r; let g; let b;
 		const h = RollerUtil.randomise(30, 0) / 30;
 		const i = ~~(h * 6);
@@ -2509,37 +2509,37 @@ MiscUtil = {
 		return `#${("00" + (~~(r * 255)).toString(16)).slice(-2)}${("00" + (~~(g * 255)).toString(16)).slice(-2)}${("00" + (~~(b * 255)).toString(16)).slice(-2)}`;
 	},
 
-	scrollPageTop () {
+	scrollPageTop() {
 		document.body.scrollTop = document.documentElement.scrollTop = 0;
 	},
 
-	isInInput (event) {
+	isInInput(event) {
 		return event.target.nodeName === "INPUT" || event.target.nodeName === "TEXTAREA";
 	},
 
-	expEval (str) {
+	expEval(str) {
 		// eslint-disable-next-line no-new-func
 		return new Function(`return ${str.replace(/[^-()\d/*+.]/g, "")}`)();
 	},
 
-	parseNumberRange (input, min = Number.MIN_SAFE_INTEGER, max = Number.MAX_SAFE_INTEGER) {
-		function errInvalid (input) {
+	parseNumberRange(input, min = Number.MIN_SAFE_INTEGER, max = Number.MAX_SAFE_INTEGER) {
+		function errInvalid(input) {
 			throw new Error(`Could not parse range input "${input}"`);
 		}
 
-		function errOutOfRange () {
+		function errOutOfRange() {
 			throw new Error(`Number was out of range! Range was ${min}-${max} (inclusive).`);
 		}
 
-		function isOutOfRange (num) {
+		function isOutOfRange(num) {
 			return num < min || num > max;
 		}
 
-		function addToRangeVal (range, num) {
+		function addToRangeVal(range, num) {
 			range.add(num);
 		}
 
-		function addToRangeLoHi (range, lo, hi) {
+		function addToRangeLoHi(range, lo, hi) {
 			for (let i = lo; i <= hi; ++i) range.add(i);
 		}
 
@@ -2582,12 +2582,12 @@ MiscUtil = {
 		"January", "February", "March", "April", "May", "June",
 		"July", "August", "September", "October", "November", "December"
 	],
-	dateToStr (date, short) {
+	dateToStr(date, short) {
 		const month = MiscUtil.MONTH_NAMES[date.getMonth()];
 		return `${short ? month.substring(0, 3) : month} ${date.getDate()}, ${date.getFullYear()}`;
 	},
 
-	findCommonPrefix (strArr) {
+	findCommonPrefix(strArr) {
 		let prefix = null;
 		strArr.forEach(s => {
 			if (prefix == null) {
@@ -2612,7 +2612,7 @@ MiscUtil = {
 	 * @param fgOpacity Desired foreground transparency (0-1 inclusive)
 	 * @param bgHex Background color
 	 */
-	calculateBlendedColor (fgHexTarget, fgOpacity, bgHex) {
+	calculateBlendedColor(fgHexTarget, fgOpacity, bgHex) {
 		const fgDcTarget = CryptUtil.hex2Dec(fgHexTarget);
 		const bgDc = CryptUtil.hex2Dec(bgHex);
 		return ((fgDcTarget - ((1 - fgOpacity) * bgDc)) / fgOpacity).toString(16);
@@ -2624,7 +2624,7 @@ MiscUtil = {
 	 * @param immediate Trigger on leading edge, as opposed to trailing.
 	 * @return {Function} The debounced function.
 	 */
-	debounce (func, waitTime, immediate) {
+	debounce(func, waitTime, immediate) {
 		let timeout;
 		return function () {
 			const context = this;
@@ -2697,7 +2697,7 @@ ContextUtil = {
 		evt.preventDefault();
 		evt.stopPropagation();
 		const thisId = ContextUtil._ctxOpenRefsNextId++;
-		(ContextUtil._ctxOpenRefs[menuId] = ContextUtil._ctxOpenRefs[menuId] || {})[thisId] = closeHandler || (() => {});
+		(ContextUtil._ctxOpenRefs[menuId] = ContextUtil._ctxOpenRefs[menuId] || {})[thisId] = closeHandler || (() => { });
 		const $menu = $(`#${menuId}`)
 			.show()
 			.css({
@@ -2720,7 +2720,7 @@ ContextUtil = {
 
 // LIST AND SEARCH =====================================================================================================
 SearchUtil = {
-	removeStemmer (elasticSearch) {
+	removeStemmer(elasticSearch) {
 		const stemmer = elasticlunr.Pipeline.getRegisteredFunction("stemmer");
 		elasticSearch.pipeline.remove(stemmer);
 	}
@@ -2731,7 +2731,7 @@ ListUtil = {
 
 	_first: true,
 
-	bindEscapeKey (list, $iptSearch, forceRebind) {
+	bindEscapeKey(list, $iptSearch, forceRebind) {
 		if (!list._isBoundEscape || forceRebind) {
 			if (forceRebind) $iptSearch.off("keydown.search5e");
 			list._isBoundEscape = true;
@@ -2859,12 +2859,12 @@ ListUtil = {
 
 	_lastSelected: null,
 	toggleSelected: (evt, ele) => {
-		function doSingle () {
+		function doSingle() {
 			ListUtil._primaryLists.forEach(l => ListUtil.deslectAll(l));
 			$(ele).addClass("list-multi-selected");
 		}
 
-		function getListPos (selected) {
+		function getListPos(selected) {
 			let i, j, list, listItem;
 			outer: for (i = 0; i < ListUtil._primaryLists.length; ++i) {
 				const l = ListUtil._primaryLists[i];
@@ -2877,7 +2877,7 @@ ListUtil = {
 					}
 				}
 			}
-			return list && listItem ? {ixList: i, list, ixItem: j, listItem} : null;
+			return list && listItem ? { ixList: i, list, ixItem: j, listItem } : null;
 		}
 
 		const nextSelected = $(ele).attr("filterid");
@@ -2972,14 +2972,14 @@ ListUtil = {
 	},
 
 	__mouseMoveId: 1,
-	async _pBindSublistResizeHandlers ($ele) {
+	async _pBindSublistResizeHandlers($ele) {
 		const STORAGE_KEY = "SUBLIST_RESIZE";
 		const BORDER_SIZE = 3;
 		const MOUSE_MOVE_ID = ListUtil.__mouseMoveId++;
 		const $doc = $(document);
 
 		let mousePos;
-		function resize (evt) {
+		function resize(evt) {
 			const dx = evt.clientY - mousePos;
 			mousePos = evt.clientY;
 			$ele.css("height", parseInt($ele.css("height")) + dx);
@@ -3033,7 +3033,7 @@ ListUtil = {
 			.attr("title", "Pin (Toggle)");
 	},
 
-	_genericAddButtonHandler (evt, options = {}) {
+	_genericAddButtonHandler(evt, options = {}) {
 		if (evt.shiftKey) ListUtil.pDoSublistAdd(History.lastLoadedId, true, options.shiftCount || 20);
 		else ListUtil.pDoSublistAdd(History.lastLoadedId, true);
 	},
@@ -3044,7 +3044,7 @@ ListUtil = {
 			.on("click", handlerGenerator ? handlerGenerator() : ListUtil._genericAddButtonHandler);
 	},
 
-	_genericSubtractButtonHandler (evt, options = {}) {
+	_genericSubtractButtonHandler(evt, options = {}) {
 		if (evt.shiftKey) ListUtil.pDoSublistSubtract(History.lastLoadedId, options.shiftCount || 20);
 		else ListUtil.pDoSublistSubtract(History.lastLoadedId);
 	},
@@ -3071,7 +3071,7 @@ ListUtil = {
 			.attr("title", "Download List (SHIFT for Link)");
 	},
 
-	doJsonLoad (json, additive, funcPreload) {
+	doJsonLoad(json, additive, funcPreload) {
 		const funcOnload = () => {
 			ListUtil._pLoadSavedSublist(json.items, additive).then(() => {
 				ListUtil._pFinaliseSublist();
@@ -3085,7 +3085,7 @@ ListUtil = {
 		const $btn = ListUtil.getOrTabRightButton(`btn-sublist-upload`, `upload`);
 		$btn.off("click")
 			.on("click", (evt) => {
-				function loadSaved (event, additive) {
+				function loadSaved(event, additive) {
 					const input = event.target;
 
 					const reader = new FileReader();
@@ -3108,7 +3108,7 @@ ListUtil = {
 	},
 
 	setFromSubHashes: (subHashes, funcPreload) => {
-		function funcOnload (json) {
+		function funcOnload(json) {
 			ListUtil._pLoadSavedSublist(json.items, false).then(async () => {
 				await ListUtil._pFinaliseSublist();
 
@@ -3135,21 +3135,21 @@ ListUtil = {
 		}
 	},
 
-	_getPinnedCount (index, data) {
+	_getPinnedCount(index, data) {
 		const base = ListUtil._pinned[index];
 		if (!base) return null;
 		if (data) return base[data.uid];
 		return base._;
 	},
 
-	_setPinnedCount (index, count, data) {
+	_setPinnedCount(index, count, data) {
 		const base = ListUtil._pinned[index];
 		const key = data ? data.uid : "_";
 		if (base) base[key] = count;
 		else (ListUtil._pinned[index] = {})[key] = count;
 	},
 
-	_deletePinnedCount (index, data) {
+	_deletePinnedCount(index, data) {
 		const base = ListUtil._pinned[index];
 		if (base) {
 			if (data) delete base[data.uid];
@@ -3157,7 +3157,7 @@ ListUtil = {
 		}
 	},
 
-	async pDoSublistAdd (index, doFinalise, addCount, data) {
+	async pDoSublistAdd(index, doFinalise, addCount, data) {
 		if (index == null) return alert("Please first view something from the list");
 
 		const count = ListUtil._getPinnedCount(index, data) || 0;
@@ -3181,7 +3181,7 @@ ListUtil = {
 		}
 	},
 
-	async pDoSublistSubtract (index, subtractCount, data) {
+	async pDoSublistSubtract(index, subtractCount, data) {
 		const count = ListUtil._getPinnedCount(index, data);
 		subtractCount = subtractCount || 1;
 		if (count > subtractCount) {
@@ -3191,11 +3191,11 @@ ListUtil = {
 		} else if (count) await ListUtil.pDoSublistRemove(index, data);
 	},
 
-	getSublisted () {
+	getSublisted() {
 		return MiscUtil.copy(ListUtil._pinned);
 	},
 
-	getSublistedIds () {
+	getSublistedIds() {
 		return Object.keys(ListUtil._pinned).map(it => Number(it));
 	},
 
@@ -3205,7 +3205,7 @@ ListUtil = {
 		else $cnt.text(newCount);
 	},
 
-	async _pFinaliseSublist (noSave) {
+	async _pFinaliseSublist(noSave) {
 		ListUtil.sublist.reIndex();
 		ListUtil._updateSublistVisibility();
 		if (!noSave) await ListUtil._pSaveSublist();
@@ -3218,12 +3218,12 @@ ListUtil = {
 			.map(it => {
 				const $elm = $(it.elm);
 				sources.add(ListUtil._allItems[Number($elm.attr(FLTR_ID))].source);
-				return {h: $elm.find(`a`).prop("hash").slice(1).split(HASH_PART_SEP)[0], c: $elm.find(".count").text() || undefined, uid: $elm.find(`.uid`).text() || undefined};
+				return { h: $elm.find(`a`).prop("hash").slice(1).split(HASH_PART_SEP)[0], c: $elm.find(".count").text() || undefined, uid: $elm.find(`.uid`).text() || undefined };
 			});
-		return {items: toSave, sources: Array.from(sources)};
+		return { items: toSave, sources: Array.from(sources) };
 	},
 
-	async _pSaveSublist () {
+	async _pSaveSublist() {
 		await StorageUtil.pSetForPage("sublist", ListUtil._getExportableSublist());
 	},
 
@@ -3232,7 +3232,7 @@ ListUtil = {
 		else ListUtil.$sublistContainer.removeClass("sublist--visible");
 	},
 
-	async pDoSublistRemove (index, data) {
+	async pDoSublistRemove(index, data) {
 		ListUtil._deletePinnedCount(index, data);
 		if (data && data.uid) ListUtil.sublist.remove("uid", data.uid);
 		else ListUtil.sublist.remove("id", index);
@@ -3241,7 +3241,7 @@ ListUtil = {
 		ListUtil._handleCallUpdateFn();
 	},
 
-	async pDoSublistRemoveAll (noSave) {
+	async pDoSublistRemoveAll(noSave) {
 		ListUtil._pinned = {};
 		ListUtil.sublist.clear();
 		ListUtil._updateSublistVisibility();
@@ -3267,7 +3267,7 @@ ListUtil = {
 			.forEach(it => forEachFunc(it));
 	},
 
-	mapSelected (list, mapFunc) {
+	mapSelected(list, mapFunc) {
 		return list.items
 			.filter(it => it.elm.className.includes("list-multi-selected"))
 			.map(it => {
@@ -3290,7 +3290,7 @@ ListUtil = {
 	},
 
 	_hasLoadedState: false,
-	async pLoadState () {
+	async pLoadState() {
 		if (ListUtil._hasLoadedState) return;
 		ListUtil._hasLoadedState = true;
 		try {
@@ -3304,14 +3304,14 @@ ListUtil = {
 		}
 	},
 
-	async _pLoadSavedSublist (items, additive) {
+	async _pLoadSavedSublist(items, additive) {
 		if (!additive) await ListUtil.pDoSublistRemoveAll(true);
 
 		const toLoad = items.map(it => {
 			const $ele = History._getListElem(it.h);
 			const itId = $ele ? $ele.attr("id") : null;
 			if (itId != null) {
-				const out = {index: itId, addCount: Number(it.c)};
+				const out = { index: itId, addCount: Number(it.c) };
 				if (ListUtil._uidUnpackFn && it.uid) out.data = ListUtil._uidUnpackFn(it.uid);
 				return out;
 			}
@@ -3324,7 +3324,7 @@ ListUtil = {
 		});
 	},
 
-	async pGetSelectedSources () {
+	async pGetSelectedSources() {
 		let store;
 		try {
 			store = await StorageUtil.pGetForPage("sublist");
@@ -3353,13 +3353,13 @@ ListUtil = {
 	},
 
 	_isRolling: false,
-	_rollSubListed () {
+	_rollSubListed() {
 		const timerMult = RollerUtil.randomise(125, 75);
 		const timers = [0, 1, 1, 1, 1, 1, 1.5, 1.5, 1.5, 2, 2, 2, 2.5, 3, 4, -1] // last element is always sliced off
 			.map(it => it * timerMult)
 			.slice(0, -RollerUtil.randomise(4, 1));
 
-		function generateSequence (array, length) {
+		function generateSequence(array, length) {
 			const out = [RollerUtil.rollOnArray(array)];
 			for (let i = 0; i < length; ++i) {
 				let next = RollerUtil.rollOnArray(array);
@@ -3444,7 +3444,7 @@ ListUtil = {
 				EntryRenderer.hover.doPopout($invokedOn, ListUtil._allItems, itId, evt.clientX);
 				break;
 			case 1:
-				if (uid) ListUtil.pDoSublistRemove(itId, {uid: uid});
+				if (uid) ListUtil.pDoSublistRemove(itId, { uid: uid });
 				else ListUtil.pDoSublistRemove(itId);
 				break;
 			case 2:
@@ -3459,11 +3459,11 @@ ListUtil = {
 		}
 	},
 
-	_getDownloadName () {
+	_getDownloadName() {
 		return `${UrlUtil.getCurrentPage().replace(".html", "")}-sublist`;
 	},
 
-	_genericPinKeyMapper (pMapUid = ListUtil._pUidHandler) {
+	_genericPinKeyMapper(pMapUid = ListUtil._pUidHandler) {
 		return Object.entries(ListUtil.getSublisted()).map(([id, it]) => {
 			return Object.keys(it).map(k => {
 				const it = ListUtil._allItems[id];
@@ -3472,7 +3472,7 @@ ListUtil = {
 		}).reduce((a, b) => a.concat(b), []);
 	},
 
-	_handleJsonDownload () {
+	_handleJsonDownload() {
 		if (ListUtil._pUidHandler) {
 			const promises = ListUtil._genericPinKeyMapper();
 
@@ -3505,20 +3505,20 @@ ListUtil = {
 		return lastSearch;
 	},
 
-	toggleCheckbox (evt, ele) {
+	toggleCheckbox(evt, ele) {
 		const $ipt = $(ele).find(`input`);
 		$ipt.prop("checked", !$ipt.prop("checked"));
 	},
 
-	getCompleteSources (it) {
+	getCompleteSources(it) {
 		return it.otherSources ? [it.source].concat(it.otherSources.map(src => src.source)) : it.source;
 	},
 
-	bindShowTableButton (id, title, dataList, colTransforms, filter, sorter) {
+	bindShowTableButton(id, title, dataList, colTransforms, filter, sorter) {
 		$(`#${id}`).click("click", () => ListUtil.showTable(title, dataList, colTransforms, filter, sorter));
 	},
 
-	basicFilterGenerator () {
+	basicFilterGenerator() {
 		const slIds = ListUtil.getSublistedIds();
 		if (slIds.length) {
 			const slIdSet = new Set(slIds);
@@ -3529,11 +3529,11 @@ ListUtil = {
 		}
 	},
 
-	getVisibleIds () {
+	getVisibleIds() {
 		return BrewUtil._lists.map(l => l.visibleItems.map(it => Number(it.elm.getAttribute(FLTR_ID)))).reduce((la, lb) => la.concat(lb), []);
 	},
 
-	showTable (title, dataList, colTransforms, filter, sorter) {
+	showTable(title, dataList, colTransforms, filter, sorter) {
 		const $modal = $(`<div class="modal-outer dropdown-menu"/>`);
 		const $wrpModal = $(`<div class="modal-wrapper">`).appendTo($(`body`)).click(() => $wrpModal.remove());
 		$modal.appendTo($wrpModal);
@@ -3555,7 +3555,7 @@ ListUtil = {
 				.appendTo($wrpCb);
 		});
 		const $pnlBtns = $(`<div/>`).appendTo($pnlControl);
-		function getAsCsv () {
+		function getAsCsv() {
 			const headers = $pnlCols.find(`input:checked`).map((i, e) => $(e).data("name")).get();
 			const rows = $modalInner.find(`.data-row`).map((i, e) => $(e)).get().map($e => {
 				return $e.find(`td:visible`).map((j, d) => $(d).text()).get();
@@ -3595,7 +3595,7 @@ ListUtil = {
  * @param options overrides for the default filter options
  * @returns {*} a `Filter`
  */
-function getSourceFilter (options = {}) {
+function getSourceFilter(options = {}) {
 	const baseOptions = {
 		header: FilterBox.SOURCE_HEADER,
 		displayFn: (item) => Parser.sourceJsonToFullCompactPrefix(item.item || item),
@@ -3606,15 +3606,15 @@ function getSourceFilter (options = {}) {
 	return new GroupedFilter(baseOptions);
 }
 
-function defaultSourceDeselFn (val) {
+function defaultSourceDeselFn(val) {
 	return SourceUtil.isNonstandardSource(val);
 }
 
-function defaultSourceSelFn (val) {
+function defaultSourceSelFn(val) {
 	return !defaultSourceDeselFn(val);
 }
 
-function getAsiFilter (options) {
+function getAsiFilter(options) {
 	const baseOptions = {
 		header: "Ability Bonus",
 		items: [
@@ -3630,12 +3630,12 @@ function getAsiFilter (options) {
 	return getFilterWithMergedOptions(baseOptions, options);
 }
 
-function getFilterWithMergedOptions (baseOptions, addOptions) {
+function getFilterWithMergedOptions(baseOptions, addOptions) {
 	if (addOptions) Object.assign(baseOptions, addOptions); // merge in anything we get passed
 	return new Filter(baseOptions);
 }
 
-async function pInitFilterBox (...filterList) {
+async function pInitFilterBox(...filterList) {
 	const filterBox = new FilterBox(document.getElementById(ID_SEARCH_BAR), document.getElementById(ID_RESET_BUTTON), filterList);
 	await filterBox.pDoLoadState();
 	return filterBox;
@@ -3643,26 +3643,26 @@ async function pInitFilterBox (...filterList) {
 
 // ENCODING/DECODING ===================================================================================================
 UrlUtil = {
-	encodeForHash (toEncode) {
+	encodeForHash(toEncode) {
 		if (toEncode instanceof Array) {
 			return toEncode.map(i => encodeForHashHelper(i)).join(HASH_LIST_SEP);
 		} else {
 			return encodeForHashHelper(toEncode);
 		}
 
-		function encodeForHashHelper (part) {
+		function encodeForHashHelper(part) {
 			return encodeURIComponent(part).toLowerCase();
 		}
 	},
 
-	autoEncodeHash (obj) {
+	autoEncodeHash(obj) {
 		const curPage = UrlUtil.getCurrentPage();
 		const encoder = UrlUtil.URL_TO_HASH_BUILDER[curPage];
 		if (!encoder) throw new Error(`No encoder found for page ${curPage}`);
 		return encoder(obj);
 	},
 
-	getCurrentPage () {
+	getCurrentPage() {
 		const pSplit = window.location.pathname.split("/");
 		let out = pSplit[pSplit.length - 1];
 		if (!out.toLowerCase().endsWith(".html")) out += ".html";
@@ -3674,8 +3674,8 @@ UrlUtil = {
 	 *
 	 * @param href the link
 	 */
-	link (href) {
-		function addGetParam (curr) {
+	link(href) {
+		function addGetParam(curr) {
 			if (href.includes("?")) return `${curr}&ver=${VERSION_NUMBER}`;
 			else return `${curr}?ver=${VERSION_NUMBER}`;
 		}
@@ -3685,7 +3685,7 @@ UrlUtil = {
 		return href;
 	},
 
-	unpackSubHash (subHash, unencode) {
+	unpackSubHash(subHash, unencode) {
 		// format is "key:value~list~sep~with~tilde"
 		if (subHash.includes(HASH_SUB_KV_SEP)) {
 			const keyValArr = subHash.split(HASH_SUB_KV_SEP).map(s => s.trim());
@@ -3702,7 +3702,7 @@ UrlUtil = {
 		}
 	},
 
-	packSubHash (key, values, encode) {
+	packSubHash(key, values, encode) {
 		if (encode) {
 			key = encodeURIComponent(key.toLowerCase());
 			values = values.map(it => encodeURIComponent(it.toLowerCase()));
@@ -3710,11 +3710,11 @@ UrlUtil = {
 		return `${key}${HASH_SUB_KV_SEP}${values.join(HASH_SUB_LIST_SEP)}`;
 	},
 
-	categoryToPage (category) {
+	categoryToPage(category) {
 		return UrlUtil.CAT_TO_PAGE[category];
 	},
 
-	bindLinkExportButton (filterBox) {
+	bindLinkExportButton(filterBox) {
 		const $btn = ListUtil.getOrTabRightButton(`btn-link-export`, `magnet`);
 		$btn.addClass("btn-copy-effect")
 			.off("click")
@@ -3848,8 +3848,8 @@ SortUtil = {
 	},
 
 	// warning: slow
-	ascSortNumericalSuffix (a, b) {
-		function popEndNumber (str) {
+	ascSortNumericalSuffix(a, b) {
+		function popEndNumber(str) {
 			const spl = str.split(" ");
 			return spl.last().isNumeric() ? [spl.slice(0, -1).join(" "), Number(spl.last().replace(Parser._numberCleanRegexp, ""))] : [spl.join(" "), 0];
 		}
@@ -3876,14 +3876,14 @@ SortUtil = {
 		if (options.valueName === "name") return compareBy("name");
 		else return compareByOrDefault(options.valueName, "name");
 
-		function compareBy (valueName) {
+		function compareBy(valueName) {
 			const aValue = itemA.values()[valueName].toLowerCase();
 			const bValue = itemB.values()[valueName].toLowerCase();
 			if (aValue === bValue) return 0;
 			return (aValue > bValue) ? 1 : -1;
 		}
 
-		function compareByOrDefault (valueName, defaultValueName) {
+		function compareByOrDefault(valueName, defaultValueName) {
 			const initialCompare = compareBy(valueName);
 			return initialCompare === 0 ? compareBy(defaultValueName) : initialCompare;
 		}
@@ -3912,18 +3912,18 @@ SortUtil = {
 		return 0;
 	},
 
-	ascSortCr (a, b) {
+	ascSortCr(a, b) {
 		// always put unknown values last
 		if (a === "Unknown" || a === undefined) a = "999";
 		if (b === "Unknown" || b === undefined) b = "999";
 		return SortUtil.ascSort(Parser.crToNumber(a), Parser.crToNumber(b));
 	},
 
-	ascSortAtts (a, b) {
+	ascSortAtts(a, b) {
 		return Parser.ABIL_ABVS.indexOf(b) - Parser.ABIL_ABVS.indexOf(a);
 	},
 
-	ascSort$Options ($select) {
+	ascSort$Options($select) {
 		$select.append($select.find("option").remove().sort((a, b) => {
 			const at = $(a).text();
 			const bt = $(b).text();
@@ -3931,7 +3931,7 @@ SortUtil = {
 		}));
 	},
 
-	initHandleFilterButtonClicks (target = "#filtertools") {
+	initHandleFilterButtonClicks(target = "#filtertools") {
 		$("#filtertools").find("button.sort").click(function () {
 			setTimeout(() => { // defer to allow button to update
 				SortUtil.handleFilterButtonClick.call(this, target);
@@ -3939,7 +3939,7 @@ SortUtil = {
 		});
 	},
 
-	handleFilterButtonClick (target, $this = $(this), direction) {
+	handleFilterButtonClick(target, $this = $(this), direction) {
 		if (!direction) direction = $this.hasClass("asc") || $this.attr("data-sortby") === "asc" ? "asc" : "desc";
 
 		$(target).find(".caret").removeClass("caret");
@@ -3953,9 +3953,11 @@ DataUtil = {
 
 	loadJSON: function (url, ...otherData) { // FIXME otherData doesn't get returned, as resolve() can only return a single value
 		return new Promise((resolve, reject) => {
-			function handleAlreadyLoaded (url) {
+			function handleAlreadyLoaded(url) {
 				resolve(DataUtil._loaded[url], otherData);
 			}
+
+			console.log("check load", url, Object.keys(this._loaded))
 
 			if (this._loaded[url]) {
 				handleAlreadyLoaded(url);
@@ -3977,7 +3979,7 @@ DataUtil = {
 			}
 			request.send();
 
-			function getRequest (toUrl) {
+			function getRequest(toUrl) {
 				const request = new XMLHttpRequest();
 				request.open("GET", toUrl, true);
 				request.overrideMimeType("application/json");
@@ -3985,6 +3987,8 @@ DataUtil = {
 					try {
 						const data = JSON.parse(this.response);
 						DataUtil._loaded[toUrl] = data;
+						//TODO
+						console.log(DataUtil._loaded[toUrl])
 						resolve(data, otherData);
 					} catch (e) {
 						reject(new Error(`Could not parse JSON from ${toUrl}: ${e}`));
@@ -4006,7 +4010,7 @@ DataUtil = {
 				if (onEachLoadFunction) onEachLoadFunction(toLoads[i], data);
 			});
 			// avoid double-loading dependencies
-			if (dependencies.length) dependencies = dependencies.filter(it => !toLoads.find(({url}) => url === it.url));
+			if (dependencies.length) dependencies = dependencies.filter(it => !toLoads.find(({ url }) => url === it.url));
 			if (dependencies.length) {
 				// does this need to handle arbitrary dependency nesting? Because it doesn't
 				return Promise.all(dependencies.map(tl => this.loadJSON(tl.url, tl.url))).then(depDatas => {
@@ -4028,27 +4032,27 @@ DataUtil = {
 		$a.remove();
 	},
 
-	getCsv (headers, rows) {
-		function escapeCsv (str) {
+	getCsv(headers, rows) {
+		function escapeCsv(str) {
 			return `"${str.replace(/"/g, `""`)}"`;
 		}
 
-		function toCsv (row) {
+		function toCsv(row) {
 			return row.map(str => escapeCsv(str)).join(",");
 		}
 
 		return `${toCsv(headers)}\n${rows.map(r => toCsv(r)).join("\n")}`;
 	},
 
-	userDownloadText (filename, string) {
+	userDownloadText(filename, string) {
 		const $a = $(`<a href="data:text/plain;charset=utf-8,${encodeURIComponent(string)}" download="${filename}" style="display: none;">DL</a>`);
 		$(`body`).append($a);
 		$a[0].click();
 		$a.remove();
 	},
 
-	userUpload (fnCallback) {
-		function loadSaved (event) {
+	userUpload(fnCallback) {
+		function loadSaved(event) {
 			const input = event.target;
 
 			const reader = new FileReader();
@@ -4066,7 +4070,7 @@ DataUtil = {
 		$iptAdd.click();
 	},
 
-	cleanJson (cpy) {
+	cleanJson(cpy) {
 		cpy.name = cpy._displayName || cpy.name;
 		Object.keys(cpy).filter(k => k.startsWith("_") || !cpy[k] || (cpy[k] instanceof Array && !cpy[k].length)).forEach(k => delete cpy[k]);
 		return cpy;
@@ -4079,7 +4083,7 @@ DataUtil = {
 			return new Promise((resolve) => {
 				DataUtil.loadJSON(`${baseUrl}data/class/index.json`).then((index) => {
 					Promise.all(Object.values(index).map(it => DataUtil.loadJSON(`${baseUrl}data/class/${it}`))).then((all) => {
-						resolve(all.reduce((a, b) => ({class: a.class.concat(b.class)}), {class: []}));
+						resolve(all.reduce((a, b) => ({ class: a.class.concat(b.class) }), { class: [] }));
 					});
 				});
 			});
@@ -4134,22 +4138,22 @@ DataUtil = {
 	},
 
 	brew: {
-		async pLoadTimestamps () {
+		async pLoadTimestamps() {
 			return DataUtil.loadJSON(`https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_generated/index-timestamps.json`);
 		},
 
-		async pLoadCollectionIndex () {
+		async pLoadCollectionIndex() {
 			return DataUtil.loadJSON(`https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/collection/index.json`);
 		},
 
-		getDirUrl (dir) {
+		getDirUrl(dir) {
 			return `https://raw.githubusercontent.com/TheGiddyLimit/homebrew/master/_generated/index-dir-${dir}.json?t=${(new Date()).getTime()}`;
 		}
 	}
 };
 
 // SHOW/HIDE SEARCH ====================================================================================================
-function addListShowHide () {
+function addListShowHide() {
 	const toInjectShow = `
 		<div class="col-12" id="showsearch">
 			<button class="btn btn-block btn-default btn-xs" type="button">Show Search</button>
@@ -4195,7 +4199,7 @@ RollerUtil = {
 		}
 	},
 
-	rollOnArray (array) {
+	rollOnArray(array) {
 		return array[RollerUtil.randomise(array.length) - 1]
 	},
 
@@ -4254,7 +4258,7 @@ RollerUtil = {
 		$(`#filter-search-input-group`).find(`#reset`).before($btnRoll);
 	},
 
-	isRollCol (string) {
+	isRollCol(string) {
 		if (typeof string !== "string") return false;
 		return !!/^({@dice )?(\d+)?d\d+(\s*[+-]\s*(\d+)?d\d+)*(\s*[-+]\s*\d+)?(})?$/.exec(string.trim());
 	},
@@ -4300,7 +4304,7 @@ StorageUtil = {
 		}
 	},
 
-	async getAsyncStorage () {
+	async getAsyncStorage() {
 		if (StorageUtil._initAsync) {
 			if (StorageUtil.__fakeStorageAsync) return StorageUtil._fakeStorageAsync;
 			else return localforage;
@@ -4315,13 +4319,13 @@ StorageUtil = {
 			StorageUtil.__fakeStorageAsync = true;
 			StorageUtil._fakeStorageAsync = {
 				pIsAsyncFake: true,
-				async setItem (k, v) {
+				async setItem(k, v) {
 					StorageUtil.__fakeStorageAsync[k] = v;
 				},
-				async getItem (k) {
+				async getItem(k) {
 					return StorageUtil.__fakeStorageAsync[k];
 				},
-				async remove (k) {
+				async remove(k) {
 					delete StorageUtil.__fakeStorageAsync[k];
 				}
 			};
@@ -4331,64 +4335,64 @@ StorageUtil = {
 
 	// SYNC METHODS ////////////////////////////////////////////////////////////////////////////////////////////////////
 	// Synchronous localStorage access, which should only be used for small amounts of data (metadata, config, etc)
-	syncGet (key) {
+	syncGet(key) {
 		const rawOut = StorageUtil.getSyncStorage().getItem(key);
 		if (rawOut && rawOut !== "undefined" && rawOut !== "null") return JSON.parse(rawOut);
 		return null;
 	},
 
-	syncGetForPage (key) {
+	syncGetForPage(key) {
 		return StorageUtil.syncGet(`${key}_${UrlUtil.getCurrentPage()}`);
 	},
 
-	syncSet (key, value) {
+	syncSet(key, value) {
 		StorageUtil.getSyncStorage().setItem(key, JSON.stringify(value));
 	},
 
-	syncSetForPage (key, value) {
+	syncSetForPage(key, value) {
 		StorageUtil.syncSet(`${key}_${UrlUtil.getCurrentPage()}`, value);
 	},
 
-	syncRemove (key) {
+	syncRemove(key) {
 		StorageUtil.getSyncStorage().removeItem(key);
 	},
 
-	isSyncFake () {
+	isSyncFake() {
 		return !!StorageUtil.getSyncStorage().isSyncFake
 	},
 	// END SYNC METHOD /////////////////////////////////////////////////////////////////////////////////////////////////
 
-	async pIsAsyncFake () {
+	async pIsAsyncFake() {
 		const storage = await StorageUtil.getAsyncStorage();
 		return !!storage.pIsAsyncFake;
 	},
 
-	async pSetForPage (key, value) {
+	async pSetForPage(key, value) {
 		const storage = await StorageUtil.getAsyncStorage();
 		return storage.setItem(`${key}_${UrlUtil.getCurrentPage()}`, value);
 	},
 
-	async pSet (key, value) {
+	async pSet(key, value) {
 		const storage = await StorageUtil.getAsyncStorage();
 		return storage.setItem(key, value);
 	},
 
-	async pGetForPage (key) {
+	async pGetForPage(key) {
 		const storage = await StorageUtil.getAsyncStorage();
 		return storage.getItem(`${key}_${UrlUtil.getCurrentPage()}`);
 	},
 
-	async pGet (key) {
+	async pGet(key) {
 		const storage = await StorageUtil.getAsyncStorage();
 		return storage.getItem(key);
 	},
 
-	async pRemoveForPage (key) {
+	async pRemoveForPage(key) {
 		const storage = await StorageUtil.getAsyncStorage();
 		return storage.removeItem(`${key}_${UrlUtil.getCurrentPage()}`);
 	},
 
-	async pRemove (key) {
+	async pRemove(key) {
 		const storage = await StorageUtil.getAsyncStorage();
 		return storage.removeItem(key);
 	}
@@ -4421,7 +4425,7 @@ SessionStorageUtil = {
 		}
 	},
 
-	isFake () {
+	isFake() {
 		return SessionStorageUtil.getStorage().isSyncFake
 	},
 
@@ -4429,7 +4433,7 @@ SessionStorageUtil = {
 		SessionStorageUtil.set(`${key}_${UrlUtil.getCurrentPage()}`, value);
 	},
 
-	set (key, value) {
+	set(key, value) {
 		SessionStorageUtil.getStorage().setItem(key, JSON.stringify(value));
 	},
 
@@ -4437,7 +4441,7 @@ SessionStorageUtil = {
 		return SessionStorageUtil.get(`${key}_${UrlUtil.getCurrentPage()}`);
 	},
 
-	get (key) {
+	get(key) {
 		const rawOut = SessionStorageUtil.getStorage().getItem(key);
 		if (rawOut && rawOut !== "undefined" && rawOut !== "null") return JSON.parse(rawOut);
 		return null;
@@ -4447,7 +4451,7 @@ SessionStorageUtil = {
 		SessionStorageUtil.remove(`${key}_${UrlUtil.getCurrentPage()}`)
 	},
 
-	remove (key) {
+	remove(key) {
 		SessionStorageUtil.getStorage().removeItem(key);
 	}
 };
@@ -4461,7 +4465,7 @@ BrewUtil = {
 	_filterBox: null,
 	_sourceFilter: null,
 
-	bind (options) {
+	bind(options) {
 		// provide ref to List.js instance
 		if (options.list) BrewUtil._lists = [options.list];
 		else if (options.lists) BrewUtil._lists = options.lists;
@@ -4470,17 +4474,21 @@ BrewUtil = {
 		if (options.sourceFilter) BrewUtil._sourceFilter = options.sourceFilter;
 	},
 
-	async pAddBrewData () {
+	async pAddBrewData() {
+		console.log('existing brew', BrewUtil.homebrew)
 		if (BrewUtil.homebrew) {
 			return BrewUtil.homebrew;
 		} else {
 			const homebrew = await StorageUtil.pGet(HOMEBREW_STORAGE) || {};
+			console.log('cahced brew', homebrew)
+
 			//remove cached local homebrew
 			for (var k in homebrew) {
 				if (!homebrew[k] || !Array.isArray(homebrew[k])) continue;
 				homebrew[k] = homebrew[k].filter(it => !it.isLocal)
 			}
-			BrewUtil.homebrewMeta = StorageUtil.syncGet(HOMEBREW_META_STORAGE) || {sources: []};
+
+			BrewUtil.homebrewMeta = StorageUtil.syncGet(HOMEBREW_META_STORAGE) || { sources: [] };
 			BrewUtil.homebrewMeta.sources = BrewUtil.homebrewMeta.sources || [];
 
 			BrewUtil.homebrew = homebrew;
@@ -4491,7 +4499,7 @@ BrewUtil = {
 		}
 	},
 
-	async pPurgeBrew (error) {
+	async pPurgeBrew(error) {
 		window.alert("Error when loading homebrew! Purging corrupt data...");
 		await StorageUtil.pRemove(HOMEBREW_STORAGE);
 		StorageUtil.syncRemove(HOMEBREW_META_STORAGE);
@@ -4504,15 +4512,19 @@ BrewUtil = {
 		}
 	},
 
-	async pAddLocalBrewData (callbackFn = async (d, page) => BrewUtil.pDoHandleBrewJson(d, page, null)) {
+	async pAddLocalBrewData(callbackFn = async (d, page) => BrewUtil.pDoHandleBrewJson(d, page, null)) {
 		if (!IS_ROLL20 && !IS_DEPLOYED) {
 			return DataUtil.loadJSON(`${EntryRenderer.getDefaultRenderer().baseUrl}${JSON_HOMEBREW_INDEX}`).then(async (data) => {
 				// auto-load from `homebrew/`, for custom versions of the site
 				if (data.toImport.length) {
 					const page = UrlUtil.getCurrentPage();
-					const allData = await Promise.all(data.toImport.map(it => DataUtil.loadJSON(`homebrew/${it}`)));
+					const allData = await Promise.all(data.toImport.map(it => {
+						return DataUtil.loadJSON(`homebrew/${it}`)
+					}));
+					
 					//add isLocal to localbrew
 					allData.forEach((ca) => {
+						console.log(Object.keys(ca))
 						for (var k in ca) {
 							if (k.startsWith("_")) continue;
 							ca[k].forEach((it) => {
@@ -4520,6 +4532,7 @@ BrewUtil = {
 							})
 						}
 					})
+
 					return Promise.all(allData.map(d => callbackFn(d, page)));
 				} else {
 					return Promise.resolve();
@@ -4529,7 +4542,7 @@ BrewUtil = {
 		return Promise.resolve();
 	},
 
-	_dirToCat (dir) {
+	_dirToCat(dir) {
 		if (!dir) return "";
 		else if (BrewUtil._STORABLE.includes(dir)) return dir;
 		else {
@@ -4541,7 +4554,7 @@ BrewUtil = {
 			throw new Error(`Directory was not mapped to a category: "${dir}"`);
 		}
 	},
-	_getDisplayCat (cat, isManager) {
+	_getDisplayCat(cat, isManager) {
 		if (cat === "variantrule") return "Variant Rule";
 		if (cat === "legendaryGroup") return "Legendary Group";
 		if (cat === "optionalfeature") return "Optional Feature";
@@ -4553,10 +4566,10 @@ BrewUtil = {
 		if (cat === "variant") return "Magic Item Variant";
 		return cat.uppercaseFirst();
 	},
-	async _pRenderBrewScreen ($appendTo, $overlay, $window, isModal, getBrewOnClose) {
+	async _pRenderBrewScreen($appendTo, $overlay, $window, isModal, getBrewOnClose) {
 		const page = UrlUtil.getCurrentPage();
 
-		function makeNextOverlay (onClose) {
+		function makeNextOverlay(onClose) {
 			$overlay.css("background", "transparent");
 			const $overlay2 = $(`<div class="homebrew-overlay"/>`);
 			$overlay2.on("click", () => {
@@ -4635,7 +4648,7 @@ BrewUtil = {
 
 			// populate list
 			const $ul = $lst.find(`ul`);
-			function getBrewDirs () {
+			function getBrewDirs() {
 				switch (page) {
 					case UrlUtil.PG_SPELLS: return ["spell"];
 					case UrlUtil.PG_CLASSES: return ["class", "subclass"];
@@ -4663,7 +4676,7 @@ BrewUtil = {
 			}
 
 			let dataList;
-			function sortFunction (a, b, o) {
+			function sortFunction(a, b, o) {
 				a = dataList[a.elm.getAttribute(FLTR_ID)];
 				b = dataList[b.elm.getAttribute(FLTR_ID)];
 
@@ -4672,11 +4685,11 @@ BrewUtil = {
 				if (o.valueName === "category") return orFallback(SortUtil.ascSortLower, "_brewCat");
 				if (o.valueName === "timestamp") return orFallback(SortUtil.ascSort, "_brewAdded");
 
-				function byName () {
+				function byName() {
 					return SortUtil.ascSortLower(a._brewName, b._brewName);
 				}
 
-				function orFallback (func, prop) {
+				function orFallback(func, prop) {
 					const initial = func(a[prop], b[prop]);
 					return initial || byName();
 				}
@@ -4690,8 +4703,8 @@ BrewUtil = {
 			})();
 
 			(() => {
-				const urls = getBrewDirs().map(it => ({url: DataUtil.brew.getDirUrl(it), _cat: BrewUtil._dirToCat(it)}));
-				if (collectionFiles.length) urls.push({url: DataUtil.brew.getDirUrl("collection"), _collection: true, _cat: "collection"});
+				const urls = getBrewDirs().map(it => ({ url: DataUtil.brew.getDirUrl(it), _cat: BrewUtil._dirToCat(it) }));
+				if (collectionFiles.length) urls.push({ url: DataUtil.brew.getDirUrl("collection"), _collection: true, _cat: "collection" });
 
 				DataUtil.multiLoadJSON(
 					urls,
@@ -4760,8 +4773,8 @@ BrewUtil = {
 		$overlay.append($window);
 		$appendTo.append($overlay);
 
-		async function pRefreshBrewList () {
-			function showSourceManager (source, $overlay2, showAll) {
+		async function pRefreshBrewList() {
+			function showSourceManager(source, $overlay2, showAll) {
 				const $wrpBtnDel = $(`<h4 class="split"><span>View/Manage ${source ? `Source Contents: ${Parser.sourceJsonToFull(source)}` : showAll ? "Entries from All Sources" : `Entries with No Source`}</span></h4>`);
 				const $lst = $(`
 					<div id="brewlistcontainer" class="listcontainer homebrew-window dropdown-menu">
@@ -4783,8 +4796,8 @@ BrewUtil = {
 				const $cbAll = $lst.find(`.wrp-cb-all input`);
 
 				// populate list
-				function populateList () {
-					function mapCategoryEntry (cat, bru) {
+				function populateList() {
+					function mapCategoryEntry(cat, bru) {
 						const out = {};
 						out.name = bru.name;
 						out.uniqueId = bru.uniqueId;
@@ -4958,7 +4971,7 @@ BrewUtil = {
 					const $row = $(`<li class="row manbrew__row" style="border-bottom: 0">
 						<span class="col-10 manbrew__col--tall source manbrew__source text-align-right"><i>${fullText}</i></span>
 					</li>`);
-					createButtons({[modeProp]: true}, $row);
+					createButtons({ [modeProp]: true }, $row);
 					$ulGroup.append($row);
 				};
 				createGroupRow("Entries From All Sources", "_all");
@@ -4996,7 +5009,7 @@ BrewUtil = {
 			}, 500);
 		};
 
-		function addBrewLocal (event) {
+		function addBrewLocal(event) {
 			const input = event.target;
 
 			let readIndex = 0;
@@ -5018,7 +5031,7 @@ BrewUtil = {
 			reader.readAsText(input.files[readIndex++]);
 		}
 
-		async function pDeleteSource (source, doConfirm) {
+		async function pDeleteSource(source, doConfirm) {
 			if (doConfirm && !window.confirm(`Are you sure you want to remove all homebrew with${source ? ` source "${Parser.sourceJsonToFull(source)}"` : `out a source`}?`)) return;
 
 			await Promise.all(BrewUtil._getBrewCategories().map(async k => {
@@ -5046,21 +5059,27 @@ BrewUtil = {
 		}
 	},
 
-	async _pDoRemove (arrName, uniqueId, isChild) {
-		function getIndex (arrName, uniqueId, isChild) {
+	async _pDoRemove(arrName, uniqueId, isChild) {
+		function getIndex(arrName, uniqueId, isChild) {
 			return BrewUtil.homebrew[arrName].findIndex(it => isChild ? it.parentUniqueId : it.uniqueId === uniqueId);
 		}
 
 		const index = getIndex(arrName, uniqueId, isChild);
 		if (~index) {
+			console.log('presplice' + BrewUtil.homebrew[arrName].length)
 			BrewUtil.homebrew[arrName].splice(index, 1);
+			console.log('postsplice' + BrewUtil.homebrew[arrName].length)
+			console.log(BrewUtil)
 			if (BrewUtil._lists) {
-				BrewUtil._lists.forEach(l => l.remove(isChild ? "parentuniqueid" : "uniqueid", uniqueId));
+				console.log("entered brewlist")
+				BrewUtil._lists.forEach(l => {
+					l.remove(isChild ? "parentuniqueid" : "uniqueid", uniqueId)
+				});
 			}
 		}
 	},
 
-	_getPDeleteFunction (category) {
+	_getPDeleteFunction(category) {
 		switch (category) {
 			case "spell":
 			case "monster":
@@ -5090,16 +5109,16 @@ BrewUtil = {
 			case "adventure":
 			case "book": return BrewUtil._genPDeleteGenericBookBrew(category);
 			case "adventureData":
-			case "bookData": return () => {}; // Do nothing, handled by deleting the associated book/adventure
+			case "bookData": return () => { }; // Do nothing, handled by deleting the associated book/adventure
 			default: throw new Error(`No homebrew delete function defined for category ${category}`);
 		}
 	},
 
-	async _pDeleteClassBrew (uniqueId) {
+	async _pDeleteClassBrew(uniqueId) {
 		await BrewUtil._pDoRemove("class", uniqueId);
 	},
 
-	async _pDeleteSubclassBrew (uniqueId) {
+	async _pDeleteSubclassBrew(uniqueId) {
 		let subClass;
 		let index = 0;
 		for (; index < BrewUtil.homebrew.subclass.length; ++index) {
@@ -5125,13 +5144,13 @@ BrewUtil = {
 		}
 	},
 
-	_genPDeleteGenericBrew (category) {
+	_genPDeleteGenericBrew(category) {
 		return async (uniqueId) => {
 			await BrewUtil._pDoRemove(category, uniqueId);
 		};
 	},
 
-	_genPDeleteGenericBookBrew (category) {
+	_genPDeleteGenericBookBrew(category) {
 		return async (uniqueId) => {
 			await BrewUtil._pDoRemove(category, uniqueId);
 			await BrewUtil._pDoRemove(`${category}Data`, uniqueId, true);
@@ -5155,8 +5174,8 @@ BrewUtil = {
 
 	_DIRS: ["spell", "class", "subclass", "creature", "background", "feat", "optionalfeature", "race", "object", "trap", "hazard", "deity", "item", "reward", "psionic", "variantrule", "condition", "disease", "adventure", "book", "ship", "magicvariant"],
 	_STORABLE: ["class", "subclass", "spell", "monster", "legendaryGroup", "background", "feat", "optionalfeature", "race", "deity", "item", "variant", "itemProperty", "itemType", "psionic", "reward", "object", "trap", "hazard", "variantrule", "condition", "disease", "adventure", "adventureData", "book", "bookData", "table", "tableGroup", "ship"],
-	async pDoHandleBrewJson (json, page, pFuncRefresh) {
-		function storePrep (arrName) {
+	async pDoHandleBrewJson(json, page, pFuncRefresh) {
+		function storePrep(arrName) {
 			if (json[arrName]) {
 				json[arrName].forEach(it => {
 					it.uniqueId = CryptUtil.md5(JSON.stringify(it));
@@ -5184,7 +5203,7 @@ BrewUtil = {
 		});
 
 		// store
-		async function pCheckAndAdd (prop) {
+		async function pCheckAndAdd(prop) {
 			if (!BrewUtil.homebrew[prop]) BrewUtil.homebrew[prop] = [];
 			if (IS_DEPLOYED) {
 				// in production mode, skip any existing brew
@@ -5200,25 +5219,34 @@ BrewUtil = {
 			} else {
 				// in development mode, replace any existing brew
 				const existing = {};
+
 				BrewUtil.homebrew[prop].forEach(it => {
 					existing[it.source] = (existing[it.source] || {});
 					existing[it.source][it.name] = it.uniqueId;
 				});
+				console.log(BrewUtil.homebrew[prop])
 				const pDeleteFn = BrewUtil._getPDeleteFunction(prop);
 				await Promise.all(json[prop].map(async it => {
+					console.log('exist snap', existing, it.source, it.name)
+
 					if (existing[it.source] && existing[it.source][it.name]) {
+						console.log('waiting to delete', existing[it.source][it.name])
 						await pDeleteFn(existing[it.source][it.name]);
 					}
+					console.log('item before add', it)
 					BrewUtil.homebrew[prop].push(it);
+					console.log('postadd' + BrewUtil.homebrew[prop].length)
 				}));
+				if (prop == "feat")
+					console.log('json-prop', json[prop])
 				return json[prop];
 			}
 		}
 
-		function checkAndAddMetaGetNewSources () {
+		function checkAndAddMetaGetNewSources() {
 			const areNew = [];
 			if (json._meta) {
-				if (!BrewUtil.homebrewMeta) BrewUtil.homebrewMeta = {sources: []};
+				if (!BrewUtil.homebrewMeta) BrewUtil.homebrewMeta = { sources: [] };
 
 				Object.keys(json._meta).forEach(k => {
 					switch (k) {
@@ -5303,7 +5331,7 @@ BrewUtil = {
 					else sourcesToAdd.forEach(src => toSet[src.json] = 1);
 
 					const toSetValues = Object.keys(toSet).filter(k => !k.startsWith("_")).filter(k => toSet[k]).map(k => `${!~toSet[k] ? "!" : ""}${k}`.toLowerCase());
-					BrewUtil._filterBox.setFromValues({Source: toSetValues});
+					BrewUtil._filterBox.setFromValues({ Source: toSetValues });
 				}
 			}
 			BrewUtil._filterBox._fireValChangeEvent();
@@ -5314,14 +5342,14 @@ BrewUtil = {
 		$(`#${id}`).on("click", () => BrewUtil.manageBrew());
 	},
 
-	_getBrewCategories () {
+	_getBrewCategories() {
 		return Object.keys(BrewUtil.homebrew).filter(it => !it.startsWith("_"));
 	},
 
-	_buildSourceCache () {
-		function doBuild () {
+	_buildSourceCache() {
+		function doBuild() {
 			if (BrewUtil.homebrewMeta && BrewUtil.homebrewMeta.sources) {
-				BrewUtil.homebrewMeta.sources.forEach(src => BrewUtil._sourceCache[src.json] = ({abbreviation: src.abbreviation, full: src.full}));
+				BrewUtil.homebrewMeta.sources.forEach(src => BrewUtil._sourceCache[src.json] = ({ abbreviation: src.abbreviation, full: src.full }));
 			}
 		}
 
@@ -5339,33 +5367,33 @@ BrewUtil = {
 		}
 	},
 
-	_resetSourceCache () {
+	_resetSourceCache() {
 		BrewUtil._sourceCache = null;
 	},
 
-	removeJsonSource (source) {
+	removeJsonSource(source) {
 		BrewUtil._resetSourceCache();
 		const ix = BrewUtil.homebrewMeta.sources.findIndex(it => it.json === source);
 		if (~ix) BrewUtil.homebrewMeta.sources.splice(ix, 1);
 		StorageUtil.syncSet(HOMEBREW_META_STORAGE, BrewUtil.homebrewMeta);
 	},
 
-	getJsonSources () {
+	getJsonSources() {
 		BrewUtil._buildSourceCache();
 		return BrewUtil.homebrewMeta && BrewUtil.homebrewMeta.sources ? BrewUtil.homebrewMeta.sources : [];
 	},
 
-	hasSourceJson (source) {
+	hasSourceJson(source) {
 		BrewUtil._buildSourceCache();
 		return !!BrewUtil._sourceCache[source];
 	},
 
-	sourceJsonToFull (source) {
+	sourceJsonToFull(source) {
 		BrewUtil._buildSourceCache();
 		return BrewUtil._sourceCache[source] ? BrewUtil._sourceCache[source].full || source : source;
 	},
 
-	sourceJsonToAbv (source) {
+	sourceJsonToAbv(source) {
 		BrewUtil._buildSourceCache();
 		return BrewUtil._sourceCache[source] ? BrewUtil._sourceCache[source].abbreviation || source : source;
 	},
@@ -5373,7 +5401,7 @@ BrewUtil = {
 	/**
 	 * Get data in a format similar to the main search index
 	 */
-	async pGetSearchIndex () {
+	async pGetSearchIndex() {
 		BrewUtil._buildSourceCache();
 		const indexer = new Omnidexer(Omnisearch.highestId + 1);
 
@@ -5535,7 +5563,7 @@ CryptUtil = {
 		return x.join('');
 	},
 
-	hex2Dec (hex) {
+	hex2Dec(hex) {
 		return parseInt(`0x${hex}`);
 	},
 
@@ -5552,7 +5580,7 @@ CryptUtil = {
 	 * @param obj An object to hash.
 	 * @return {*} An integer hashcode for the object.
 	 */
-	hashCode (obj) {
+	hashCode(obj) {
 		if (typeof obj === "string") {
 			if (!obj) return 0;
 			let h = 0;
@@ -5562,7 +5590,7 @@ CryptUtil = {
 		else throw new Error(`No hashCode implementation for ${obj}`);
 	},
 
-	uid () { // https://stackoverflow.com/questions/105034/create-guid-uuid-in-javascript
+	uid() { // https://stackoverflow.com/questions/105034/create-guid-uuid-in-javascript
 		if (RollerUtil.isCrypto()) {
 			return ([1e7] + -1e3 + -4e3 + -8e3 + -1e11).replace(/[018]/g, c => (c ^ crypto.getRandomValues(new Uint8Array(1))[0] & 15 >> c / 4).toString(16));
 		} else {
@@ -5582,22 +5610,22 @@ CryptUtil = {
 // COLLECTIONS =========================================================================================================
 CollectionUtil = {
 	ObjectSet: class ObjectSet {
-		constructor () {
+		constructor() {
 			this.map = new Map();
 			this[Symbol.iterator] = this.values;
 		}
 		// Each inserted element has to implement _toIdString() method that returns a string ID.
 		// Two objects are considered equal if their string IDs are equal.
-		add (item) {
+		add(item) {
 			this.map.set(item._toIdString(), item);
 		}
 
-		values () {
+		values() {
 			return this.map.values();
 		}
 	},
 
-	arrayEq (array1, array2) {
+	arrayEq(array1, array2) {
 		if (!array1 && !array2) return true;
 		else if ((!array1 && array2) || (array1 && !array2)) return false;
 
@@ -5622,13 +5650,13 @@ CollectionUtil = {
 		return true;
 	},
 
-	setEq (set1, set2) {
+	setEq(set1, set2) {
 		if (set1.size !== set2.size) return false;
 		for (const a of set1) if (!set2.has(a)) return false;
 		return true;
 	},
 
-	setDiff (set1, set2) {
+	setDiff(set1, set2) {
 		return new Set([...set1].filter(it => !set2.has(it)));
 	}
 };
@@ -5660,7 +5688,7 @@ Array.prototype.filterIndex = Array.prototype.filterIndex ||
  * @param doShowEmpty whether or not the empty table should be visible (useful if the population function is guaranteed to display something)
  * @constructor
  */
-function BookModeView (hashKey, $openBtn, noneVisibleMsg, popTblGetNumShown, doShowEmpty) {
+function BookModeView(hashKey, $openBtn, noneVisibleMsg, popTblGetNumShown, doShowEmpty) {
 	this.hashKey = hashKey;
 	this.$openBtn = $openBtn;
 	this.noneVisibleMsg = noneVisibleMsg;
@@ -5677,7 +5705,7 @@ function BookModeView (hashKey, $openBtn, noneVisibleMsg, popTblGetNumShown, doS
 	});
 
 	this.open = () => {
-		function hashTeardown () {
+		function hashTeardown() {
 			History.cleanSetHash(window.location.hash.replace(`${self.hashKey}${HASH_SUB_KV_SEP}true`, ""));
 		}
 
@@ -5745,7 +5773,7 @@ function BookModeView (hashKey, $openBtn, noneVisibleMsg, popTblGetNumShown, doS
 ExcludeUtil = {
 	_excludes: null,
 
-	async pInitialise () {
+	async pInitialise() {
 		try {
 			ExcludeUtil._excludes = await StorageUtil.pGet(EXCLUDES_STORAGE) || [];
 		} catch (e) {
@@ -5761,25 +5789,25 @@ ExcludeUtil = {
 		}
 	},
 
-	getList () {
+	getList() {
 		return ExcludeUtil._excludes || [];
 	},
 
-	async pSetList (toSet) {
+	async pSetList(toSet) {
 		ExcludeUtil._excludes = toSet;
 		await ExcludeUtil._pSave();
 	},
 
 	_excludeCount: 0,
-	isExcluded (name, category, source) {
+	isExcluded(name, category, source) {
 		if (!ExcludeUtil._excludes) return false;
 		source = source.source || source;
 		const out = !!ExcludeUtil._excludes.find(row => (row.source === "*" || row.source === source) && (row.category === "*" || row.category === category) && (row.name === "*" || row.name === name));
-		if (out) ++ExcludeUtil._excludeCount;
+		if (out)++ExcludeUtil._excludeCount;
 		return out;
 	},
 
-	checkShowAllExcluded (list, $pagecontent) {
+	checkShowAllExcluded(list, $pagecontent) {
 		if ((!list.length && ExcludeUtil._excludeCount) || (list.length > 0 && list.length === ExcludeUtil._excludeCount)) {
 			$pagecontent.html(`
 				<tr><th class="border" colspan="6"></th></tr>
@@ -5789,16 +5817,16 @@ ExcludeUtil = {
 		}
 	},
 
-	async pAddExclude (name, category, source) {
+	async pAddExclude(name, category, source) {
 		if (!ExcludeUtil._excludes.find(row => row.source === source && row.category === category && row.name === name)) {
-			ExcludeUtil._excludes.push({name, category, source});
+			ExcludeUtil._excludes.push({ name, category, source });
 			await ExcludeUtil._pSave();
 			return true;
 		}
 		return false;
 	},
 
-	async pRemoveExclude (name, category, source) {
+	async pRemoveExclude(name, category, source) {
 		const ix = ExcludeUtil._excludes.findIndex(row => row.source === source && row.category === category && row.name === name);
 		if (~ix) {
 			ExcludeUtil._excludes.splice(ix, 1);
@@ -5806,11 +5834,11 @@ ExcludeUtil = {
 		}
 	},
 
-	async _pSave () {
+	async _pSave() {
 		StorageUtil.pSet(EXCLUDES_STORAGE, ExcludeUtil._excludes);
 	},
 
-	async pResetExcludes () {
+	async pResetExcludes() {
 		ExcludeUtil._excludes = [];
 		await ExcludeUtil._pSave();
 	}
@@ -5818,7 +5846,7 @@ ExcludeUtil = {
 
 // ENCOUNTERS ==========================================================================================================
 EncounterUtil = {
-	pGetSavedState () {
+	pGetSavedState() {
 		return new Promise(resolve => {
 			EncounterUtil._pHasSavedStateLocal().then(hasLocal => {
 				if (EncounterUtil._hasSavedStateUrl()) resolve(EncounterUtil._getSavedStateUrl());
@@ -5828,11 +5856,11 @@ EncounterUtil = {
 		});
 	},
 
-	_hasSavedStateUrl () {
+	_hasSavedStateUrl() {
 		return window.location.hash.length && History.getSubHash(EncounterUtil.SUB_HASH_PREFIX) != null;
 	},
 
-	_getSavedStateUrl () {
+	_getSavedStateUrl() {
 		let out = null;
 		try {
 			out = JSON.parse(decodeURIComponent(History.getSubHash(EncounterUtil.SUB_HASH_PREFIX)));
@@ -5845,11 +5873,11 @@ EncounterUtil = {
 		return out;
 	},
 
-	async _pHasSavedStateLocal () {
+	async _pHasSavedStateLocal() {
 		return !!StorageUtil.pGet(ENCOUNTER_STORAGE);
 	},
 
-	async _pGetSavedStateLocal () {
+	async _pGetSavedStateLocal() {
 		try {
 			return await StorageUtil.pGet(ENCOUNTER_STORAGE);
 		} catch (e) {
@@ -5861,7 +5889,7 @@ EncounterUtil = {
 		}
 	},
 
-	async pDoSaveState (toSave) {
+	async pDoSaveState(toSave) {
 		StorageUtil.pSet(ENCOUNTER_STORAGE, toSave);
 	}
 };
@@ -5869,40 +5897,40 @@ EncounterUtil.SUB_HASH_PREFIX = "encounter";
 
 // REACTOR =============================================================================================================
 class Reactor {
-	constructor () {
+	constructor() {
 		this.rvents = {};
 	}
 
-	_registerEvent (eventName) {
+	_registerEvent(eventName) {
 		this.rvents[eventName] = new ReactorEvent(eventName);
 	}
 
-	fire (eventName, eventArgs) {
+	fire(eventName, eventArgs) {
 		if (this.rvents[eventName]) this.rvents[eventName].callbacks.forEach(callback => callback(eventArgs));
 	}
 
-	on (eventName, callback) {
+	on(eventName, callback) {
 		if (!this.rvents[eventName]) this._registerEvent(eventName);
 		this.rvents[eventName]._registerCallback(callback);
 	}
 
-	off (eventName, callback) {
+	off(eventName, callback) {
 		if (!this.rvents[eventName]) return;
 		this.rvents[eventName]._unregisterCallback(callback);
 	}
 }
 
 class ReactorEvent {
-	constructor (name) {
+	constructor(name) {
 		this.name = name;
 		this.callbacks = [];
 	}
 
-	_registerCallback (callback) {
+	_registerCallback(callback) {
 		this.callbacks.push(callback);
 	}
 
-	_unregisterCallback (callback) {
+	_unregisterCallback(callback) {
 		const ix = this.callbacks.indexOf(callback);
 		this.callbacks.splice(ix, 1);
 	}
@@ -5928,7 +5956,7 @@ if (!IS_ROLL20 && typeof window !== "undefined") {
 }
 
 _Donate = {
-	init () {
+	init() {
 		if (IS_DEPLOYED) {
 			DataUtil.loadJSON(`https://get.5etools.com/money.php`).then(dosh => {
 				const pct = Number(dosh.donated) / Number(dosh.Goal);
@@ -5947,7 +5975,7 @@ _Donate = {
 		}
 	},
 
-	async pNotDonating () {
+	async pNotDonating() {
 		const isFake = await StorageUtil.pIsAsyncFake();
 		const isNotDonating = await StorageUtil.pGet("notDonating");
 		return isFake || isNotDonating;
