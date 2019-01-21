@@ -2,8 +2,8 @@
     "name": "Name",
     "level": 0,
     "school": "A",
-    "source": "DM14",
-    "page": 14,
+    "source": "DM02",
+    "page": 13,
     "meta": {
         "ritual": false,
         "subschool": {
