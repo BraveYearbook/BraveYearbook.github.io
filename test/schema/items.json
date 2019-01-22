@@ -1,6 +1,6 @@
 {
 	"$schema": "http://json-schema.org/draft-06/schema#",
-	"version": "1.2.0",
+	"version": "1.2.2",
 	"type": "object",
 	"definitions": {
 		"item": {
@@ -219,6 +219,51 @@
 					"items": {
 						"type": "string"
 					}
+				},
+				"ability": {
+					"description": "Item ability score adjustments.",
+					"type": "object",
+					"properties": {
+						"choose": {
+							"type": "array"
+						},
+						"static": {
+							"type": "object"
+						},
+						"str":  {
+							"type": "integer"
+						},
+						"dex": {
+							"type": "integer"
+						},
+						"con":  {
+							"type": "integer"
+						},
+						"int": {
+							"type": "integer"
+						},
+						"wis":  {
+							"type": "integer"
+						},
+						"cha": {
+							"type": "integer"
+						}
+					}
+				},
+				"focus": {
+					"description": "Item can be used as a spellcasting focus",
+					"oneOf": [
+						{
+							"type": "boolean"
+						},
+						{
+							"type": "array",
+							"items": {
+								"type": "string",
+								"enum": ["Bard", "Cleric", "Druid", "Paladin", "Sorcerer", "Warlock", "Wizard"]
+							}
+						}
+					]
 				}
 			},
 			"required": [
