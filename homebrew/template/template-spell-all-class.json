@@ -2,6 +2,9 @@
     "name": "Name",
     "level": 0,
     "school": "A",
+    "subschools": [
+        "CWK"
+    ],
     "source": "DM01",
     "page": 8,
     "meta": {

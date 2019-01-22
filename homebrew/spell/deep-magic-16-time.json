@@ -1,36 +1,41 @@
 {
-    "_meta": {
-        "sources": [
-            {
-                "json": "DM16",
-                "abbreviation": "DM:TM",
-                "full": "Deep Magic 16: Time Magic",
-                "authors": [
-                    "Carlos Ovalle"
-                ],
-                "convertedBy": [
-                    "Eberron94"
-                ],
-                "version": "1.0",
-                "url": "https://www.drivethrurpg.com/product/251679/Deep-Magic-Time-Magic-for-5th-Edition",
-                "targetSchema": "1.0.0"
-            }
-        ],
-        "dateAdded": 1547684989
-    },
+	"_meta": {
+		"sources": [
+			{
+				"json": "DM16",
+				"abbreviation": "DM:TM",
+				"full": "Deep Magic 16: Time Magic",
+				"authors": [
+					"Carlos Ovalle"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "1.0",
+				"url": "https://www.drivethrurpg.com/product/251679/Deep-Magic-Time-Magic-for-5th-Edition",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"spellSchools": {
+			"TMP": {
+				"full": "Temporal",
+				"short": "TMP."
+			}
+		},
+		"dateAdded": 1547684989
+	},
 	"spell": [
 		{
 			"name": "Accelerate",
 			"level": 3,
 			"school": "T",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 1,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
@@ -101,14 +106,13 @@
 			"name": "Anomalous Object",
 			"level": 7,
 			"school": "C",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 8,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
@@ -133,7 +137,7 @@
 					"duration": {
 						"type": "minute",
 						"amount": 1,
-						"upTo":true
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -157,14 +161,13 @@
 			"name": "Chronal Lance",
 			"level": 1,
 			"school": "T",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 8,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
@@ -225,14 +228,13 @@
 			"name": "Decelerate",
 			"level": 2,
 			"school": "T",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 8,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
@@ -309,14 +311,13 @@
 			"name": "Quicken",
 			"level": 0,
 			"school": "T",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 8,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
@@ -369,14 +370,13 @@
 			"name": "Reset",
 			"level": 4,
 			"school": "T",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 8,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
@@ -445,14 +445,13 @@
 			"name": "Time Step",
 			"level": 2,
 			"school": "C",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 9,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
@@ -506,14 +505,13 @@
 			"name": "Time Loop",
 			"level": 6,
 			"school": "T",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 9,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
@@ -539,7 +537,7 @@
 					"duration": {
 						"type": "minute",
 						"amount": 1,
-						"upTo":true
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -587,14 +585,13 @@
 			"name": "Time Vortex",
 			"level": 4,
 			"school": "V",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 9,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
@@ -620,7 +617,7 @@
 					"duration": {
 						"type": "miute",
 						"amount": 1,
-						"upTo":true
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -696,14 +693,13 @@
 			"name": "Wall of Time",
 			"level": 5,
 			"school": "A",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 10,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
@@ -729,7 +725,7 @@
 					"duration": {
 						"type": "minute",
 						"amount": 1,
-						"upTo":true
+						"upTo": true
 					},
 					"concentration": true
 				}
@@ -758,14 +754,13 @@
 			"name": "Withered Sight",
 			"level": 1,
 			"school": "N",
+			"subschool": [
+				"TMP"
+			],
 			"source": "DM16",
 			"page": 10,
 			"meta": {
-				"ritual": false,
-				"subschool": {
-					"name":"temporal",
-					"short":"time"
-				}
+				"ritual": false
 			},
 			"time": [
 				{
