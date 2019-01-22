@@ -2,13 +2,13 @@
     "name": "Name",
     "level": 0,
     "school": "A",
-    "source": "DM02",
-    "page": 13,
+    "source": "DM01",
+    "page": 8,
     "meta": {
         "ritual": false,
         "subschool": {
-            "name":"temporal",
-            "short":"time"
+            "name":"clockwork",
+            "short":"clock"
         }
     },
     "time": [
@@ -58,6 +58,42 @@
     ],
     "classes": {
         "fromClassList": [
+            {
+                "name": "Artificer",
+                "source": "KCAA"
+            },
+            {
+                "name": "Bard",
+                "source": "PHB"
+            },
+            {
+                "name": "Cleric",
+                "source": "PHB"
+            },
+            {
+                "name": "Druid",
+                "source": "PHB"
+            },
+            {
+                "name": "Paladin",
+                "source": "PHB"
+            },
+            {
+                "name": "Ranger",
+                "source": "PHB"
+            },
+            {
+                "name": "Sorcerer",
+                "source": "PHB"
+            },
+            {
+                "name": "Warlock",
+                "source": "PHB"
+            },
+            {
+                "name": "Wizard",
+                "source": "PHB"
+            }
         ]
     },
     "entries": [

@@ -2,10 +2,14 @@
     "name": "Name",
     "level": 0,
     "school": "A",
-    "source": "DM16",
-    "page": 1,
+    "source": "DM01",
+    "page": 16,
     "meta": {
-        "ritual": false
+        "ritual": false,
+        "subschool": {
+            "name":"clockwork",
+            "short":"clock"
+        }
     },
     "time": [
         {
@@ -54,38 +58,6 @@
     ],
     "classes": {
         "fromClassList": [
-            {
-                "name": "Bard",
-                "source": "PHB"
-            },
-            {
-                "name": "Cleric",
-                "source": "PHB"
-            },
-            {
-                "name": "Druid",
-                "source": "PHB"
-            },
-            {
-                "name": "Paladin",
-                "source": "PHB"
-            },
-            {
-                "name": "Ranger",
-                "source": "PHB"
-            },
-            {
-                "name": "Sorcerer",
-                "source": "PHB"
-            },
-            {
-                "name": "Warlock",
-                "source": "PHB"
-            },
-            {
-                "name": "Wizard",
-                "source": "PHB"
-            }
         ]
     },
     "entries": [
