@@ -4563,11 +4563,13 @@ BrewUtil = {
 			return BrewUtil.homebrew;
 		} else {
 			const homebrew = await StorageUtil.pGet(HOMEBREW_STORAGE) || {};
+			/*
 			//remove cached local homebrew
 			for (var k in homebrew) {
 				if (!homebrew[k] || !Array.isArray(homebrew[k])) continue;
 				homebrew[k] = homebrew[k].filter(it => !it.isLocal)
 			}
+			*/
 			BrewUtil.homebrewMeta = StorageUtil.syncGet(HOMEBREW_META_STORAGE) || {sources: []};
 			BrewUtil.homebrewMeta.sources = BrewUtil.homebrewMeta.sources || [];
 
@@ -4600,6 +4602,7 @@ BrewUtil = {
 				if (data.toImport.length) {
 					const page = UrlUtil.getCurrentPage();
 					const allData = await Promise.all(data.toImport.map(it => DataUtil.loadJSON(`homebrew/${it}`)));
+					/*
 					//add isLocal to localbrew
 					allData.forEach((ca) => {
 						for (var k in ca) {
@@ -4609,6 +4612,7 @@ BrewUtil = {
 							})
 						}
 					})
+					*/
 					return Promise.all(allData.map(d => callbackFn(d, page)));
 				} else {
 					return Promise.resolve();
