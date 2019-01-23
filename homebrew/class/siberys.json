@@ -153,7 +153,7 @@
                     {
 						"name": "Spellcasting",
 						"entries": [
-							"Once a subtle source of your power, your mark as the source of your power cannot be denied. It infuses you with arcane might, bolstering your spell casting to new levels.",
+							"Once subtle, your mark is now the source of your arcane power and cannot be denied. It infuses you bolstering your spell casting to new levels.",
 							{
 								"type": "entries",
 								"name": "Cantrips",
@@ -222,7 +222,57 @@
 										"type": "entries",
 										"name": "Regaining Innate Spells",
 										"entries": [
-                                            "As a bonus action, you can spend prophecy points to regain the use of an innate dragonmark spell that cannot be used again until you finish a long rest. The cost of regaining an innate dragonmark spell is equal to the spell's level."
+                                            "As a bonus action, you can spend prophecy points to regain the use of an innate dragonmark spell that cannot be used again until you finish a long rest. The Regain Innate Slots table shows the cost of regaining an innate slot of a given level.",
+                                            {
+												"type": "table",
+												"caption": "Regain Innate Slots",
+												"colLabels": [
+													"Spell Slot Level",
+													"Sorcery Point Cost"
+												],
+												"colStyles": [
+													"col-6 text-align-center",
+													"col-6 text-align-center"
+												],
+												"rows": [
+													[
+														"1st",
+														"2"
+													],
+													[
+														"2nd",
+														"3"
+													],
+													[
+														"3rd",
+														"5"
+													],
+													[
+														"4th",
+														"6"
+													],
+													[
+														"5th",
+														"7"
+                                                    ],
+                                                    [
+														"6th",
+														"9"
+                                                    ],
+                                                    [
+														"7th",
+														"10"
+                                                    ],
+                                                    [
+														"8th",
+														"11"
+                                                    ],
+                                                    [
+														"9th",
+														"13"
+													]
+												]
+											}
                                         ]
 									},
 									{
