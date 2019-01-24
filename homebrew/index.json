@@ -11,7 +11,8 @@
 		"spell/deep-magic-8-battle.json",
 		"spell/deep-magic-13-dragon.json",
 		"spell/deep-magic-14-elemental.json",
-		"spell/deep-magic-16-time.json"
+		"spell/deep-magic-16-time.json",
+		"collection/korranberg-chronicle-adventurers-almanac.json",
 	],
 	"toImport": [
 		"spell/lost-spells.json",
@@ -22,7 +23,7 @@
 		"spell/deep-magic-13-dragon.json",
 		"spell/deep-magic-14-elemental.json",
 		"spell/deep-magic-16-time.json",
-		"collection/korranberg-chronicle-adventurers-almanac.json",
+		
 		"class/siberys.json"
 	]
 }
