@@ -2,7 +2,7 @@
     "class": [
         {
             "name": "Mark of Siberys",
-            "source": "Brew",
+            "source": "AM02",
             "hd": {
                 "number": 1,
                 "faces": 8
@@ -172,8 +172,8 @@
 								"type": "entries",
 								"name": "Spells Known of 1st Level and Higher",
 								"entries": [
-                                    "You know four spells of your choice from the Siberys spell list. Each of these spells must be of a level for which you have spell slots, ignoring the normal multiclassing spells known rules.",
-                                    "You learn an additional Siberys spell of your choice at each level. Each of these spells must be of a level for which you have spell slots, ignoring the normal multiclassing spells known rules."
+                                    "You know four spells of your choice from the Sorcerer and Siberys spell list. Each of these spells must be of a level for which you have spell slots, ignoring the normal multiclassing spells known rules.",
+                                    "You learn an additional Sorcerer or Siberys spell of your choice at each level. Each of these spells must be of a level for which you have spell slots, ignoring the normal multiclassing spells known rules."
 								]
 							},
 							{

@@ -11,7 +11,7 @@
 				"convertedBy": [
 					"Eberron94"
 				],
-				"version": "1.0",
+				"version": "1.2.1",
 				"url": "https://www.dmsguild.com/product/250836/The-Korranberg-Chronicle-Adventurers-Almanac",
 				"targetSchema": "1.1.2"
 			}
@@ -166,13 +166,18 @@
 					]
 				}
 			],
+			"fluff":{
+				"entries":[
+					"Originally intended to be mindless machines to fight in the Last War, the warforged developed sentience unintentionally. As House Cannith strove to make them the ultimate tools of war, each successive generation of warforged emerging from the creation forges became more intuitive and capable of growth, until they became a new kind of creature.",
+					"Since the Treaty of Thronehold, the warforged have been recognized as living creatures, setting them free. For many warforged, this freedom merely confuses them. Born to be soldiers and take orders, many join adventuring parties just to be directed toward the next fight. Other warforged seek a deeper meaning to their existence and become adventurers to find their answers."
+				]
+			},
 			"languageTags": [
 				"Common"
 			],
 			"traitTags": [
 				"Natural Armor",
-				"Improved Resting",
-				"Damage Resistance"
+				"Improved Resting"
 			],
 			"subraces": [
 				{
@@ -289,6 +294,508 @@
 						"Skill Proficiency"
 					]
 				}
+			]
+		},
+		{
+			"name": "Elf",
+			"source": "PHB",
+			"page": 21,
+			"size": "M",
+			"speed": 30,
+			"ability": {
+				"dex": 2
+			},
+			"darkvision": 60,
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Although elves reach physical maturity at about the same age as humans, the elven understanding of adulthood goes beyond physical growth to encompass worldly experience. An elf typically claims adulthood and an adult name around the age of 100 and can live to be 750 years old."
+					]
+				},
+				{
+					"name": "Alignment",
+					"type": "entries",
+					"entries": [
+						"Elves love freedom, variety, and self-expression, so they lean strongly toward the gentler aspects of chaos. They value and protect others' freedom as well as their own, and they are more often good than not."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Elves range from under 5 to over 6 feet tall and have slender builds. Your size is Medium."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Keen Senses",
+					"entries": [
+						"You have proficiency in the {@skill Perception} skill."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Fey Ancestry",
+					"entries": [
+						"You have advantage on saving throws against being {@condition charmed}, and magic can't put you to sleep."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Trance",
+					"entries": [
+						"Elves don't need to sleep. Instead, they meditate deeply, remaining semiconscious, for 4 hours a day. (The Common word for such meditation is \"trance.\") While meditating, you can dream after a fashion; such dreams are actually mental exercises that have become reflexive through years of practice. After resting in this way, you gain the same benefit that a human does from 8 hours of sleep.",
+						"{@note If you meditate during a long rest, you finish the rest after only 4 hours. You otherwise obey all the rules for a long rest; only the duration is changed.}"
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Elvish. Elvish is fluid, with subtle intonations and intricate grammar. Elven literature is rich and varied, and their songs and poems are famous among other races. Many bards learn their language so they can add Elvish ballads to their repertoires."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff":{
+				"entries":[
+					"While a great many elves live among the Five Nations, the rarer sight of a golden Aereni death mask or a Valenar veil obscuring an elven visage hints as the diversity of elven people."
+				]
+			},
+			"subraces": [
+				{
+					"name": "Aereni",
+					"source": "KCAA",
+					"page": 5,
+					"ability": {
+						"int": 1
+					},
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Alignment",
+							"entries": [
+								"The Undying Court benevolently guides their descendants, offering sage advice. Aereni elves are largely neutral, but many tend toward good."
+							],
+							"data": {
+								"overwrite": "Alignment"
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Traditional Proficiency",
+							"entries": [
+								"Aereni elves take pride in honing a skill or trade to the perfection attained by their ancestors. Choose one skill or tool; you gain proficiency with your chosen skill or tool. Your proficiency bonus is doubled for any ability check that uses this chosen proficiency."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Irian Necromancy",
+							"entries": [
+								"Before an Aereni elf can be considered an adult, they must complete an education in the practice of fueling necromancy with energy from Irian, the Eternal Day. You know the {@spell spare the dying} cantrip. Once you reach 3rd level, you can cast the spell {@spell gentle repose} once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the {@spell false life} spell once with this trait as a 3rd-level spell, and you regain the ability to cast this spell when you finish a long rest.",
+								"Intelligence is your spellcasting ability for these spells."
+							]
+						}
+					],
+					"fluff":{
+						"entries":[
+							"The Island of Aerenal is named after the great hero Aeren, liberator of the elven people from their giant slave-masters in ancient Xen'drik. Aeren's people grieved for her and followed her prophetic visions to their culmination generations after her death: the establishment of the divine Undying Court. This singular feat of necromantic mastery has shaped Aereni culture well into modern times."
+						]
+					},
+					"traitTags": [
+						"Spellcasting",
+						"Skill Proficiency",
+						"Tool Proficiency"
+					]
+				},
+				{
+					"name": "Khorvaire",
+					"source": "KCAA",
+					"page": 5,
+					"ability": {
+						"cha": 1
+					},
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Alignment",
+							"entries": [
+								"Like the humans they live among, elven citizens of Khorvaire tend toward no particular alignment."
+							],
+							"data": {
+								"overwrite": "Alignment"
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Sociable",
+							"entries": [
+								"Elven citizens of Khorvaire can be rather personable and charming. You have proficiency in the {@skill Persuasion} skill."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Irian Necromancy",
+							"entries": [
+								"Dabbling in their natural talents, many elves know a bit of magic. You know one cantrip of your choice from the wizard spell list. Intelligence is your spellcasting ability for this spell."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Extra Language",
+							"entries": [
+								"You can speak, read, and write one extra language of your choice."
+							]
+						}
+					],
+					"fluff":{
+						"entries":[
+							"The elves of Aerenal have not always lived in harmony with each other. Early in the settlement of Aerenal, there was an upheaval that saw an entire bloodline wiped out. Allies of this family, as well as neutral parties disturbed by the unilateral action taken against an entire lineage, decided it was best to move on, abandoning Aeren's promised land. These elves sailed north to Khorvaire and found themselves integrating into the burgeoning human nations growing there."
+						]
+					},
+					"traitTags": [
+						"Spellcasting",
+						"Skill Proficiency"
+					]
+				},
+				{
+					"name": "Valenar",
+					"source": "KCAA",
+					"page": 6,
+					"speed": 35,
+					"ability": {
+						"con": 1
+					},
+					"entries": [
+						{
+							"type": "entries",
+							"name": "Alignment",
+							"entries": [
+								"Though their honor-bound warrior culture tends toward neutrality, many of the less scrupulous, evil Valenar do not care who their opponents are, so long as they die hard and the fight is glorious."
+							],
+							"data": {
+								"overwrite": "Alignment"
+							}
+						},
+						{
+							"type": "entries",
+							"name": "Tairnadal Weapon Training",
+							"entries": [
+								"You have proficiency with the double scimitar, scimitar, longbow, and shortbow."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Fleet of Foot",
+							"entries": [
+								"Your base walking speed is 35 feet."
+							]
+						},
+						{
+							"type": "entries",
+							"name": "Born in the Saddle",
+							"entries": [
+								"The Valenar revere their mounts as much as their ancestors, even tracing horse lineages back to the mounts their ancient heroes rode into battle against the Giants. Few on Eberron could claim to be their equal in mounted combat.",
+								"Mounting or dismounting a horse costs you only 10 feet of movement, instead of half your walking speed. You never fall off your mount if it is moved against its will, and you cannot be knocked prone while mounted. If your mount is knocked prone, you can dismount it and land on your feet without using your reaction."
+							]
+						}
+					],
+					"fluff":{
+						"entries":[
+							"Tairnadal elves escaped Xen'drik to Aerenal along with those who founded the Undying Court, but they practice a different form of ancestor worship. Descended from the brave warrior elves who fought the giants with spell and blade, the Tairnadal believe the only way to honor them is to emulate their battles in the present day. The Valaes Tairn, the largest Tairnadal tribe, has even gone so far as to invade Khorvaire and establish the nation of Valenar, seeking any and every battle to bring glory to the Spirits of the Past."
+						]
+					},
+					"traitTags": [
+						"Spellcasting",
+						"Skill Proficiency"
+					]
+				}
+			],
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/152/elf.mp3",
+			"traitTags": [
+				"Skill Proficiency",
+				"Improved Resting"
+			],
+			"languageTags": [
+				"Common",
+				"Elvish"
+			]
+		},
+		{
+			"name": "Gnome",
+			"source": "PHB",
+			"page": 35,
+			"size": "S",
+			"speed": 25,
+			"darkvision": 60,
+			"ability": {
+				"int": 2
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Gnomes mature at the same rate humans do, and most are expected to settle down into an adult life by around age 40. They can live 350 to almost 500 years."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Gnomes are between 3 and 4 feet tall and average about 40 pounds. Your size is Small."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Gnome Cunning",
+					"entries": [
+						"You have advantage on all Intelligence, Wisdom, and Charisma saving throws against magic."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Gnomish. The Gnomish language, which uses the Dwarvish script, is renowned for its technical treatises and its catalogs of knowledge about the natural world."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff":{
+				"entries":[
+					"Gnomes are harmless industrious folk... or so they want people to think. The gnomish homeland of Zilargo attained its independence from Breland at the start of the Last War by announcing itself an ally of Breland. It seems no one realized that Breland surrendered the sovereignty it previously held over the territory in the process.",
+					"It was also the gnomes of House Sivis that anticipated the commercial impact of Dragonmarks and formed them into an extended network of industrial monopolies.",
+					"Gnomes might be small and jovial, but they are far more cunning and shrewd than they let on."
+				]
+			},
+			"subraces": [
+				{
+					"name": "Zil",
+					"source": "KCAA",
+					"page": 7,
+					"ability": {
+						"con": 1
+					},
+					"entries": [
+						{
+							"name": "Alignment",
+							"type": "entries",
+							"entries": [
+								"Zilargo is a very peaceful nation, leading the gnomes to have a strongly lawful bent. While a society bent toward subterfuge and espionage may lead some to believe there is a strong evil streak in Zil gnomes, there is no actual tendency toward it."
+							],
+							"data": {
+								"overwrite": "Alignment"
+							}
+						},
+						{
+							"name": "Zil Guile",
+							"type": "entries",
+							"entries": [
+								"You have proficiency with the {@skill Deception} and {@skill Insight} skills."
+							]
+						},
+						{
+							"name": "Zil Intrigue",
+							"type": "entries",
+							"entries": [
+								"You know the {@spell minor illusion} cantrip. Intelligence is your spellcasting ability for it."
+							]
+						}
+					],
+					"fluff":{
+						"entries":[
+							"The gnomes of Zilargo have a long and ancient tradition of guile and subterfuge. Though one would not guess to look at it, the peaceful surface of Zilargo is a status quo that runs on intrigue and scheming. While a human might find such conditions intolerable, the psychology of the gnomes is such that they seem most comfortable in this type of society."
+						]
+					}
+				},
+				{
+					"name": "Zil",
+					"source": "KCAA",
+					"page": 7,
+					"ability": {
+						"dex": 1
+					},
+					"entries": [
+						{
+							"name": "Fey-Touched",
+							"type": "entries",
+							"entries": [
+								"Feyspire gnomes are functionally immortal. You will never die of old age, but you may still perish due to harm or illness."
+							]
+						},
+						{
+							"name": "Fey Whimsy",
+							"type": "entries",
+							"entries": [
+								"You know the {@spell prestidigitation} cantrip. Intelligence is your spellcasting ability for it."
+							]
+						},
+						{
+							"name": "Speak with Small Beasts",
+							"type": "entries",
+							"entries": [
+								"Through sounds and gestures, you can communicate simple ideas with Small or smaller beasts. Feyspire gnomes love animals and often keep squirrels, badgers, rabbits, moles, woodpeckers, and other creatures as beloved pets."
+							]
+						}
+					],
+					"fluff":{
+						"entries":[
+							"The Feyspire of Pylas Pyrial was once a legend out of Zilargo's fairy tales. The gnomes of this fabled city featured in the oldest of Zil bed-time stories and morality tales—stories of mischievous heroes outwitting ugly, dumb brutes. But now, Pylas Pyrial has manifested in the middle of the gnome homeland, bringing the whimsical gnomish figures of folk tales with it into the real world."
+						]
+					}
+				}
+			],
+			"soundClip": "https://media-waterdeep.cursecdn.com/file-attachments/0/231/gnome.mp3",
+			"languageTags": [
+				"Common",
+				"Gnomish"
+			]
+		},
+		{
+			"name": "Goblin",
+			"source": "KCAA",
+			"page": 8,
+			"size": "S",
+			"speed": 30,
+			"darkvision": 60,
+			"ability": {
+				"dex": 2
+			},
+			"entries": [
+				{
+					"name": "Age",
+					"type": "entries",
+					"entries": [
+						"Goblins reach adulthood shortly before a decade and live a little over half a century."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Size",
+					"entries": [
+						"Goblins are roughly the same size as gnomes, though much more bestial in appearance. Your size is Small."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Speed",
+					"entries": [
+						"Goblins are known as golin'dar in their native tongue, meaning \"the quick people\", because they are unusually swift for their size. Your base walking speed is 30 feet."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Goblinoid",
+					"entries": [
+						"You belong to one of the three major goblinoid races."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Naturally Stealthy",
+					"entries": [
+						"You can attempt to hide even when you are obscured only by a creature that is at least one size larger than you."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"You can speak, read, and write Common and Goblin."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff":{
+				"entries":[
+					"Goblins have an ancient and storied history acting as the scouts, spies, and assassins of the Dhakaani Empire. But since the fall of ancient Dhakaan, goblins have spent long millennia suffering oppression and ill fortune.",
+					"Though the ancient clans yet exist in secret, hiding until the true heirs of Dhakaan return once again to claim their services, most goblins live under the shadow of larger nations. Whether oppressed by the brutal cultures of Droaam and Darguun, or suffering the more civil ostracization of Thronehold nations, goblins are usually relegated to city slums and stick to their own."
+				]
+			},
+			"subraces":[
+				{
+					"name": "City",
+					"source": "KCAA",
+					"page": 8,
+					"ability": {
+						"wis": 1
+					},
+					"entries": [
+						{
+							"name": "Nimble Escape",
+							"type": "entries",
+							"entries": [
+								"You can take the Disengage action as a bonus action on each of your turns."
+							]
+						},
+						{
+							"name": "Street Cunning",
+							"type": "entries",
+							"entries": [
+								"Most goblins know to develop a strong fluency in body language, to know when threats from larger folk are coming. You have proficiency with the {@skill Insight} skill, and your proficiency bonus is doubled on all Wisdom ({@skill Insight}) checks you make."
+							]
+						}
+					],
+					"fluff":{
+						"entries":[
+							"The most common goblinoid people the citizens of Khorvaire are familiar with, goblins are often downtrodden and pushed into poverty by a cycle of bigotry and criminal retaliation. These \"city goblins\" learn to anticipate danger and escape swiftly from it. It's a lucky goblin that finds the opportunity to become an adventurer and gain respect."
+						]
+					}
+				},
+				{
+					"name": "Dhakaani",
+					"source": "KCAA",
+					"page": 8,
+					"ability": {
+						"con": 1
+					},
+					"entries": [
+						{
+							"name": "Dhakaani Weapon Training",
+							"type": "entries",
+							"entries": [
+								"You have proficiency with the {@item flail|PHB}, plus the {@item spiked chain|KCAA}."
+							]
+						},
+						{
+							"name": "Silent as Shadow",
+							"type": "entries",
+							"entries": [
+								"You have spent nearly your entire life learning to hide your presence. You have proficiency with the {@skill Stealth} skill, and your proficiency bonus is doubled on all Dexterity ({@skill Stealth}) checks you make. Additionally, you can move stealthily while traveling at a normal pace."
+							]
+						}
+					],
+					"fluff":{
+						"entries":[
+							"Among the most infamous of Dhakaani Clans were the \"Silent Clans\". Comprised entirely of goblins, the taarka'kesh (\"Silent Wolves\") and shaarat'kesh (\"Silent Knives\") were renowned for their skill and stealth. Dhakaani goblins may become adventurers in order to function as scouts for their clans, taking in the lay of the land and the changes in the political landscape since their millennia-long seclusion began. Others may just be driven by wanderlust, finally free from their underground homes for the first time in living history and eager to experience all Khorvaire has to offer."
+						]
+					}
+				}
+			],
+			"languageTags": [
+				"Common",
+				"Goblin"
 			]
 		}
 	],
@@ -926,7 +1433,12 @@
 						]
 					}
 				],
-				[]
+				[{
+					"name": "Salvage Schema Improved",
+					"entries": [
+						"At 20th level, you can dismantle a magic item in such a way that you can reassemble it within the same workday you spent dismantling it, reverse engineering its formula without destroying the original item."
+					]
+				}]
 			],
 			"subclassTitle": "Mastery",
 			"subclasses": [

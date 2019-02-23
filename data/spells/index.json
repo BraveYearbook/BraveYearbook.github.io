@@ -7,5 +7,15 @@
 	"UAModernMagic": "spells-ua-mm.json",
 	"UAStarterSpells": "spells-ua-ss.json",
 	"UAThatOldBlackMagic": "spells-ua-tobm.json",
-	"XGE": "spells-xge.json"
+	"XGE": "spells-xge.json",
+	"AM01": "brew-acute-magic-1-lexi.json",
+	"AM02": "brew-acute-magic-2-dragonmark.json",
+	"DM01": "brew-deep-magic-1-clockwork.json",
+	"DM08": "brew-deep-magic-8-battle.json",
+	"DM13": "brew-deep-magic-13-dragon.json",
+	"DM14": "brew-deep-magic-14-elemental.json",
+	"DM16": "brew-deep-magic-16-time.json",
+	"CoLS 3pp": "brew-lost-spells.json",
+	"ERTW": "brew-travelling-rituals.json",
+	"KCAA": "brew-kcaa-spells.json"
 }

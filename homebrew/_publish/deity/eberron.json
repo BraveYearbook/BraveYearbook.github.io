@@ -15,7 +15,7 @@
 			],
 			"symbol": "Octogram divided into 8 points",
 			"entries": [
-				"Followers who devote themselves to the broad pantheon of the Host refer to themselves as ‘Vassals' and draw divine power from the pantheon as a whole, rather than from a single deity.",
+				"Followers who devote themselves to the broad pantheon of the Host refer to themselves as ‘Vassals’ and draw divine power from the pantheon as a whole, rather than from a single deity.",
 				{
 					"type": "entries",
 					"name": "Doctrine of Universal Sovereignty",
@@ -27,7 +27,7 @@
 							],
 							"from": "Tome of Sovereignty"
 						},
-						"This doctrine is the founding principle for worshippers of the Sovereign Host. It indicates that the gods of the Host are omnipresent, existing in all things. While deities might manifest through spells or followers, the deities of the Host do not speak directly to followers or present themselves in physical forms. The lowliest of the faithful is as surrounded by the Sovereign Host's power as the most devout clergy. To worshippers of the Host, every detail of the world is proof of their deities' manifestation."
+						"This doctrine is the founding principle for worshippers of the Sovereign Host. It indicates that the gods of the Host are omnipresent, existing in all things. While deities might manifest through spells or followers, the deities of the Host do not speak directly to followers or present themselves in physical forms. The lowliest of the faithful is as surrounded by the Sovereign Host’s power as the most devout clergy. To worshippers of the Host, every detail of the world is proof of their deities’ manifestation."
 					]
 				},
 				{
@@ -41,25 +41,25 @@
 							],
 							"from": "Tome of Sovereignty"
 						},
-						"Vassals of the Host know that if the Host is in all things, no one deity of the Host should be raised above the others. Faith in the Host is polytheistic in practice, with Vassals asking the appropriate deity for aid as it applies to that deity's purview."
+						"Vassals of the Host know that if the Host is in all things, no one deity of the Host should be raised above the others. Faith in the Host is polytheistic in practice, with Vassals asking the appropriate deity for aid as it applies to that deity’s purview."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Loose Hierarchy",
 					"entries": [
-						"The Sovereign Host does not have a rigid church structure at almost any level. Even the term ‘priest' can be applied by general community agreement and can refer to a number of roles within the faith. Any general guidance for Vassals of the host tends to come from councils whose membership and selection process varies by region. These councils are the local authority for resolving disputes or disciplining wayward faithful, and as a result have a measure of political power."
+						"The Sovereign Host does not have a rigid church structure at almost any level. Even the term ‘priest’ can be applied by general community agreement and can refer to a number of roles within the faith. Any general guidance for Vassals of the host tends to come from councils whose membership and selection process varies by region. These councils are the local authority for resolving disputes or disciplining wayward faithful, and as a result have a measure of political power."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Vassal Adventurers",
 					"entries": [
-						"Even adventurers who do not draw divine power from the Sovereign Host might pray to its various deities in appropriate situations. Clerics and other divinely inspired adventurers in Eberron keep the faith's core tenets, chief among these being to spread the faith and protect the faithful. Vassals often have a friendly and accepting view of other faiths, believing them to simply be worship of specific aspects that fall under the Host's broad purview."
+						"Even adventurers who do not draw divine power from the Sovereign Host might pray to its various deities in appropriate situations. Clerics and other divinely inspired adventurers in Eberron keep the faith’s core tenets, chief among these being to spread the faith and protect the faithful. Vassals often have a friendly and accepting view of other faiths, believing them to simply be worship of specific aspects that fall under the Host’s broad purview."
 					]
 				}
 			],
-			"source": "HBFE",
+			"source": "FE",
 			"page": 7
 		},
 		{
@@ -76,7 +76,7 @@
 				"Nature"
 			],
 			"symbol": "Sheaf of wheat tied with green ribbon",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 8,
 			"additionalSources": [
 				{
@@ -84,12 +84,12 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
 			"entries": [
-				"Most often called upon as a goddess of fertility and the harvest, Arawai also has influence in regard to the wilds\u2014surviving and navigating\u2014rather than incorporating oneself into nature.",
+				"Most often called upon as a goddess of fertility and the harvest, Arawai also has influence in regard to the wilds—surviving and navigating—rather than incorporating oneself into nature.",
 				{
 					"type": "entries",
 					"name": "Sacrifices of Crops",
@@ -101,7 +101,7 @@
 					"type": "entries",
 					"name": "Adventurers of Arawai",
 					"entries": [
-						"Arawai's followers concern themselves with furthering the interests of the goddess's pantheon, such as protecting farmland, combating famine, or saving the faithful from the dangers of the wild."
+						"Arawai’s followers concern themselves with furthering the interests of the goddess’s pantheon, such as protecting farmland, combating famine, or saving the faithful from the dangers of the wild."
 					]
 				}
 			]
@@ -121,7 +121,7 @@
 				"Order"
 			],
 			"symbol": "Open tome",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 8,
 			"additionalSources": [
 				{
@@ -135,12 +135,12 @@
 					"source": "SCAG"
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
 			"entries": [
-				"This god enjoys a broad pantheon of lore, law, and knowledge. He is a god of magic, but only magic as it is harnessed and controlled dutifully by mortals. Lawful society and rational thought are the most common themes of Aureon's everyday influence.",
+				"This god enjoys a broad pantheon of lore, law, and knowledge. He is a god of magic, but only magic as it is harnessed and controlled dutifully by mortals. Lawful society and rational thought are the most common themes of Aureon’s everyday influence.",
 				{
 					"type": "entries",
 					"name": "Practical Worship",
@@ -171,7 +171,7 @@
 				"Tempest"
 			],
 			"symbol": "Pair of antlers",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 8,
 			"additionalSources": [
 				{
@@ -179,7 +179,7 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
@@ -216,7 +216,7 @@
 				"Protection"
 			],
 			"symbol": "Fire in a stone hearth",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 8,
 			"additionalSources": [
 				{
@@ -224,24 +224,24 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
 			"entries": [
-				"While her husband Aureon's focus on law forms the basis for civilized society, the goddess Boldrei forms the basis for life in those societies. She is the goddess of hearth, home, and the ties that bind the people of a civilization together.",
+				"While her husband Aureon’s focus on law forms the basis for civilized society, the goddess Boldrei forms the basis for life in those societies. She is the goddess of hearth, home, and the ties that bind the people of a civilization together.",
 				{
 					"type": "entries",
 					"name": "Civil Ceremonies",
 					"entries": [
-						"Boldrei is honored in any event that represents a community's interpersonal ties. This can refer to weddings or even government observances."
+						"Boldrei is honored in any event that represents a community’s interpersonal ties. This can refer to weddings or even government observances."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Adventurers of Boldrei",
 					"entries": [
-						"Most followers of Boldrei serve the community as officials or even guards, remaining close to their hometown. Some are called beyond a town's borders, perhaps to spread the faith or to focus their efforts on the establishment of new communities or to soothe problems in others."
+						"Most followers of Boldrei serve the community as officials or even guards, remaining close to their hometown. Some are called beyond a town’s borders, perhaps to spread the faith or to focus their efforts on the establishment of new communities or to soothe problems in others."
 					]
 				}
 			]
@@ -260,7 +260,7 @@
 				"War"
 			],
 			"symbol": "Rising sun",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 12,
 			"additionalSources": [
 				{
@@ -269,19 +269,19 @@
 				}
 			],
 			"entries": [
-				"A goddess of both literal and spiritual light, Dol Arrah is a patron of righteousness in all things. She is closely bound with the other deities of the Host, bringing the ‘light' of law, knowledge, understanding, self-sacrifice, and truth to the world.",
+				"A goddess of both literal and spiritual light, Dol Arrah is a patron of righteousness in all things. She is closely bound with the other deities of the Host, bringing the ‘light’ of law, knowledge, understanding, self-sacrifice, and truth to the world.",
 				{
 					"type": "entries",
 					"name": "Shrines to the Dawn",
 					"entries": [
-						"Holy sites to Dol Arrah are built facing east, open to the rising sun's light. Even farmers might make sacrifices at a shrine to Dol Arrah, knowing that her gift of light is just as important to the harvest as rain or rich soil."
+						"Holy sites to Dol Arrah are built facing east, open to the rising sun’s light. Even farmers might make sacrifices at a shrine to Dol Arrah, knowing that her gift of light is just as important to the harvest as rain or rich soil."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Adventurers of Dol Arrah",
 					"entries": [
-						"Dol Arrah's followers concern themselves to the causes of righteousness in all their forms. This can be the defense of the weak, the fight for justice, or even the negotiation of peace."
+						"Dol Arrah’s followers concern themselves to the causes of righteousness in all their forms. This can be the defense of the weak, the fight for justice, or even the negotiation of peace."
 					]
 				}
 			]
@@ -299,7 +299,7 @@
 				"War"
 			],
 			"symbol": "Longsword crossed over a shield",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 13,
 			"additionalSources": [
 				{
@@ -313,7 +313,7 @@
 					"type": "entries",
 					"name": "Just Cause and Honorable Sport",
 					"entries": [
-						"Dol Dorn does not bless all those who fight or compete, merely the ones who do so correctly. Just cause and sportsmanship are the sure path to Dol Dorn's favor, though he also hears the prayers of those honorable competitors who strain under the yoke of unfair and selfish rule."
+						"Dol Dorn does not bless all those who fight or compete, merely the ones who do so correctly. Just cause and sportsmanship are the sure path to Dol Dorn’s favor, though he also hears the prayers of those honorable competitors who strain under the yoke of unfair and selfish rule."
 					]
 				},
 				{
@@ -338,7 +338,7 @@
 				"Trade"
 			],
 			"symbol": "Nine-sided gold coin",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 15,
 			"additionalSources": [
 				{
@@ -346,12 +346,12 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
 			"entries": [
-				"A god of wealth and commerce, a patron of merchants and trade. While others of the pantheon are often paragons of virtue and justice, Kol Korran is also a patron of thieves and selfenrichment. He is not an evil god, but one whose moral standards are flexible enough to see how a dash of greed fits into the grand weave of society's tapestry.",
+				"A god of wealth and commerce, a patron of merchants and trade. While others of the pantheon are often paragons of virtue and justice, Kol Korran is also a patron of thieves and selfenrichment. He is not an evil god, but one whose moral standards are flexible enough to see how a dash of greed fits into the grand weave of society’s tapestry.",
 				{
 					"type": "entries",
 					"name": "Spend Money to Make Money",
@@ -363,7 +363,7 @@
 					"type": "entries",
 					"name": "Adventurers of Kol Korran",
 					"entries": [
-						"Kol Korran's followers are mostly made up of merchants or those with a background in trade. Adventurers devoted to Kol Korran are arbiters of commerce, advisors to people of business, and the seeker of valuable treasures."
+						"Kol Korran’s followers are mostly made up of merchants or those with a background in trade. Adventurers devoted to Kol Korran are arbiters of commerce, advisors to people of business, and the seeker of valuable treasures."
 					]
 				}
 			]
@@ -382,7 +382,7 @@
 				"Trickery"
 			],
 			"symbol": "Domino",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 15,
 			"additionalSources": [
 				{
@@ -391,7 +391,7 @@
 				}
 			],
 			"entries": [
-				"Olladra is a goddess of luck\u2014and like the concept itself, she is just as unpredictable. A giver of good fortune and a goddess of gamblers, celebrations, and performance.",
+				"Olladra is a goddess of luck—and like the concept itself, she is just as unpredictable. A giver of good fortune and a goddess of gamblers, celebrations, and performance.",
 				{
 					"type": "entries",
 					"name": "Sacrifices of Chance",
@@ -403,7 +403,7 @@
 					"type": "entries",
 					"name": "Adventurers of Olladra",
 					"entries": [
-						"Olladra doesn't bid her followers to focus on any particular aspect of the world as her representatives. They are mainly instructed to seek out great risk, and that allowing their faith in Olladra to carry them through is a supreme act of worship. Risk doesn't mean uncalculated risk, however; it is just as meaningful to carefully plan and know the danger as it is to dive blindly into the fray."
+						"Olladra doesn’t bid her followers to focus on any particular aspect of the world as her representatives. They are mainly instructed to seek out great risk, and that allowing their faith in Olladra to carry them through is a supreme act of worship. Risk doesn’t mean uncalculated risk, however; it is just as meaningful to carefully plan and know the danger as it is to dive blindly into the fray."
 					]
 				}
 			]
@@ -423,7 +423,7 @@
 				"Knowledge"
 			],
 			"symbol": "Crossed hammer and tongs",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 15,
 			"additionalSources": [
 				{
@@ -435,12 +435,12 @@
 					"page": 18
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
 			"entries": [
-				"A god of craft, fire, and forge, it is Onatar's pantheon of tools and creation that allows the intelligent races to distinguish themselves from monsters and beasts. Of all the Host, he is becoming the most popular among the new sentient race of warforged.",
+				"A god of craft, fire, and forge, it is Onatar’s pantheon of tools and creation that allows the intelligent races to distinguish themselves from monsters and beasts. Of all the Host, he is becoming the most popular among the new sentient race of warforged.",
 				{
 					"type": "entries",
 					"name": "Rites of Invention",
@@ -471,10 +471,10 @@
 				"Any of the hosted Domains"
 			],
 			"symbol": "Dark metal prongs",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 16,
 			"entries": [
-				"Like a lurking shadow of the Sovereign Host, the Dark Six are an evil reflection of the Host's goodness. Where the Host's pantheon represents civilization's ability to create something greater than our individual natures, the Six emphasize the most primal and selfish instincts. While most followers of the Host honor the entire pantheon, followers of the Six are much more likely to focus on one deity that appeals to them.",
+				"Like a lurking shadow of the Sovereign Host, the Dark Six are an evil reflection of the Host’s goodness. Where the Host’s pantheon represents civilization’s ability to create something greater than our individual natures, the Six emphasize the most primal and selfish instincts. While most followers of the Host honor the entire pantheon, followers of the Six are much more likely to focus on one deity that appeals to them.",
 				{
 					"type": "entries",
 					"name": "The Schism",
@@ -493,21 +493,21 @@
 							],
 							"from": "Tome of Six Shadows"
 						},
-						"This is the foundational doctrine to followers of the Sovereign Host and of the Dark Six. While the church of the Host believes the gods and the world at large are both civilized, good, and righteous, followers of the Six believe in the doctrine very differently. The world is base, cruel, selfish, and deceptive\u2014and the gods of the Six reflect that."
+						"This is the foundational doctrine to followers of the Sovereign Host and of the Dark Six. While the church of the Host believes the gods and the world at large are both civilized, good, and righteous, followers of the Six believe in the doctrine very differently. The world is base, cruel, selfish, and deceptive—and the gods of the Six reflect that."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Wartime Efforts",
 					"entries": [
-						"During the Last War, followers of the Six coordinated a strong effort to make invoking the Six more common, cultivating the belief that desperate times called for desperate prayers. While confederacy between the churches of the Six have eroded with the war's end, so too has the rigid taboo against prayers to the Six. While the Dark Six are still generally disapproved of or opposed by most other faiths, they have successfully carved out their niche in the public consciousness."
+						"During the Last War, followers of the Six coordinated a strong effort to make invoking the Six more common, cultivating the belief that desperate times called for desperate prayers. While confederacy between the churches of the Six have eroded with the war’s end, so too has the rigid taboo against prayers to the Six. While the Dark Six are still generally disapproved of or opposed by most other faiths, they have successfully carved out their niche in the public consciousness."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "A Competition of Supremacy, Not Exclusion",
 					"entries": [
-						"Followers of the Six can still be found making a quick prayer to the nine deities of the Host on occasion. While disciples and vassals engage in physical or theological struggles for the supremacy of their respective pantheons, they do not pretend the other pantheon isn't real or even useful. Their argument is one of worldview, and which of these pantheons best represents the world as it truly is."
+						"Followers of the Six can still be found making a quick prayer to the nine deities of the Host on occasion. While disciples and vassals engage in physical or theological struggles for the supremacy of their respective pantheons, they do not pretend the other pantheon isn’t real or even useful. Their argument is one of worldview, and which of these pantheons best represents the world as it truly is."
 					]
 				}
 			]
@@ -525,7 +525,7 @@
 				"Tempest"
 			],
 			"symbol": "Bundle of five sharpened bones",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 17,
 			"additionalSources": [
 				{
@@ -546,7 +546,7 @@
 					"type": "entries",
 					"name": "Adventurers of Devourer",
 					"entries": [
-						"Many adventurers of the Devourer have some knowledge of the sea, including those who were former slaves on ship crews. Followers believe in protecting fields, bodies of water, or seafarers if honor is given to the Devourer\u2014or causing loss, destruction, or misfortune if it is not."
+						"Many adventurers of the Devourer have some knowledge of the sea, including those who were former slaves on ship crews. Followers believe in protecting fields, bodies of water, or seafarers if honor is given to the Devourer—or causing loss, destruction, or misfortune if it is not."
 					]
 				}
 			]
@@ -565,7 +565,7 @@
 				"War"
 			],
 			"symbol": "Winged wyrm with woman's head and upper body",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 17,
 			"additionalSources": [
 				{
@@ -573,7 +573,7 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
@@ -590,7 +590,7 @@
 					"type": "entries",
 					"name": "Adventurers of the Fury",
 					"entries": [
-						"Followers of the Fury can come from many backgrounds\u2014even skilled artisans. Those trained in combat are sometimes veterans of the Last War who prayed to the Fury to give them the edge in combat, or survivors whose grief over fallen comrades has consumed them."
+						"Followers of the Fury can come from many backgrounds—even skilled artisans. Those trained in combat are sometimes veterans of the Last War who prayed to the Fury to give them the edge in combat, or survivors whose grief over fallen comrades has consumed them."
 					]
 				}
 			]
@@ -609,7 +609,7 @@
 				"Greed"
 			],
 			"symbol": "Dragonshard stone in the shape of a fang",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 18,
 			"additionalSources": [
 				{
@@ -617,7 +617,7 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
@@ -653,7 +653,7 @@
 				"War"
 			],
 			"symbol": "Five blood-spattered tools",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 19,
 			"additionalSources": [
 				{
@@ -661,7 +661,7 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
@@ -698,7 +698,7 @@
 				"Knowledge"
 			],
 			"symbol": "Obsidian tower",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 20,
 			"additionalSources": [
 				{
@@ -706,12 +706,12 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
 			"entries": [
-				"The god Aureon is the patron of structured arcane magic. But the price of this power was godhood for Aureon's shadow, which manifested as a deity of corruption and dark power. While Aureon's pantheon of law and the quest to harness magic was noble, the Shadow oversees ambition and magic harnessed for power.",
+				"The god Aureon is the patron of structured arcane magic. But the price of this power was godhood for Aureon’s shadow, which manifested as a deity of corruption and dark power. While Aureon’s pantheon of law and the quest to harness magic was noble, the Shadow oversees ambition and magic harnessed for power.",
 				{
 					"type": "entries",
 					"name": "Duality and Temptation",
@@ -723,7 +723,7 @@
 					"type": "entries",
 					"name": "Adventurers of the Shadow",
 					"entries": [
-						"Spellcasters of all kinds populate the ranks of the Shadow's worshippers, including spellcasting monsters and those who wield wild magic or other forms of taboo sorcery. Adventurers of the Shadow take an interest in discovering hidden artifacts and lore, especially when such things are considered distasteful or forbidden by society at large."
+						"Spellcasters of all kinds populate the ranks of the Shadow’s worshippers, including spellcasting monsters and those who wield wild magic or other forms of taboo sorcery. Adventurers of the Shadow take an interest in discovering hidden artifacts and lore, especially when such things are considered distasteful or forbidden by society at large."
 					]
 				}
 			]
@@ -744,7 +744,7 @@
 				"Trickery"
 			],
 			"symbol": "Four crossed, rune-inscribed bones",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 21,
 			"additionalSources": [
 				{
@@ -752,7 +752,7 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
@@ -762,14 +762,14 @@
 					"type": "entries",
 					"name": "Subversive Church.",
 					"entries": [
-						"The church of the Traveler is full of wanderers, some of them adopting fake identities for years at a time. The overarching goal of the church is to introduce change\u2014a task that often puts them at odds with societal norms and the social order."
+						"The church of the Traveler is full of wanderers, some of them adopting fake identities for years at a time. The overarching goal of the church is to introduce change—a task that often puts them at odds with societal norms and the social order."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Adventurers of the Traveler",
 					"entries": [
-						"As a deity of change and transformation, it's no surprise that creatures with an innate ability to transform are drawn to the deity's sects. Changelings, shifters, full lycanthropes, and other transformative creatures find refuge among the church's ranks and even form their own distinct theological sects. Tricksters and others who seek to prompt change in society with craft rather than destruction are similarly popular in the Traveler's church."
+						"As a deity of change and transformation, it’s no surprise that creatures with an innate ability to transform are drawn to the deity’s sects. Changelings, shifters, full lycanthropes, and other transformative creatures find refuge among the church’s ranks and even form their own distinct theological sects. Tricksters and others who seek to prompt change in society with craft rather than destruction are similarly popular in the Traveler’s church."
 					]
 				}
 			]
@@ -794,7 +794,7 @@
 				"War"
 			],
 			"symbol": "Flame drawn on silver or molded from silver",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 22,
 			"additionalSources": [
 				{
@@ -821,14 +821,14 @@
 					"type": "entries",
 					"name": "Degrees of Evil",
 					"entries": [
-						"All evil must one day be destroyed, but the church of the Silver Flame recognizes varying degrees of evil. As such, certain forms of evil take higher priority for the Purified: alien entities from outside Eberron; unnatural evils such as undead or lycanthropes; creatures of innate evil, such as hags; creatures who choose to follow evil; and the ‘evil within,' the soul's innate temptation to perform evil acts."
+						"All evil must one day be destroyed, but the church of the Silver Flame recognizes varying degrees of evil. As such, certain forms of evil take higher priority for the Purified: alien entities from outside Eberron; unnatural evils such as undead or lycanthropes; creatures of innate evil, such as hags; creatures who choose to follow evil; and the ‘evil within,’ the soul’s innate temptation to perform evil acts."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "A Church of Dedication",
 					"entries": [
-						"Unlike the Host or the Six, the Silver Flame's primary concern is not polite offerings to the appropriate deity in the appropriate situation. To follow the Silver Flame is to fervently believe and participate in its goal of actively erasing evil from the world. This has diluted somewhat with time, as populations are raised in belief of the Silver Flame instead of coming from other faiths to dedicate themselves to the Flame's cause."
+						"Unlike the Host or the Six, the Silver Flame’s primary concern is not polite offerings to the appropriate deity in the appropriate situation. To follow the Silver Flame is to fervently believe and participate in its goal of actively erasing evil from the world. This has diluted somewhat with time, as populations are raised in belief of the Silver Flame instead of coming from other faiths to dedicate themselves to the Flame’s cause."
 					]
 				},
 				{
@@ -857,7 +857,7 @@
 				"Grave"
 			],
 			"symbol": "Stylized dragon skull on red teardrop gem",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 46,
 			"additionalSources": [
 				{
@@ -865,12 +865,12 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
 			"entries": [
-				"Unlike theological differences of opinion between other pantheons, such as disagreements on the importance of particular deities or a deity's relationship with the nature of the world, those who ascribe to the doctrine of the Blood of Vol do not believe in other pantheons at all. They literally refuse to believe in the concept of outside divine beings, seeking only to unlock the divine potential within themselves.",
+				"Unlike theological differences of opinion between other pantheons, such as disagreements on the importance of particular deities or a deity’s relationship with the nature of the world, those who ascribe to the doctrine of the Blood of Vol do not believe in other pantheons at all. They literally refuse to believe in the concept of outside divine beings, seeking only to unlock the divine potential within themselves.",
 				{
 					"type": "entries",
 					"name": "The Divinity Within",
@@ -882,7 +882,7 @@
 					"type": "entries",
 					"name": "Secretive Leadership",
 					"entries": [
-						"Most Seekers in the faith don't know that the matriarch of the religion, Lady Vol, is secretly still active and is the final authority to her followers. This lich queen is served directly by select groups of followers who have been initiated into the knowledge of her existence, notably the Crimson Covenant and the Order of the Emerald Claw. Though part of the overall Blood of Vol, this so-called ‘Queen of Death' wields the Order and other operatives with her own goals in mind."
+						"Most Seekers in the faith don’t know that the matriarch of the religion, Lady Vol, is secretly still active and is the final authority to her followers. This lich queen is served directly by select groups of followers who have been initiated into the knowledge of her existence, notably the Crimson Covenant and the Order of the Emerald Claw. Though part of the overall Blood of Vol, this so-called ‘Queen of Death’ wields the Order and other operatives with her own goals in mind."
 					]
 				},
 				{
@@ -896,14 +896,14 @@
 					"type": "entries",
 					"name": "The Unfortunate Undead",
 					"entries": [
-						"Many Seekers use undead to their own ends, and many respected members of the Blood of Vol are intelligent undead of considerable power (mummies, liches, and the like). This gives some the impression that the Blood of Vol is an inherently evil religion when it is not. Seekers see the use of animated corpses as a thing of pragmatism, not of good or evil. Intelligent undead are pitied, not censured; nor is becoming undead a Seeker's aspiration. Intelligent undead have sacrificed their chance to ever fully embrace the Divinity Within in order to provide leadership and guidance to others."
+						"Many Seekers use undead to their own ends, and many respected members of the Blood of Vol are intelligent undead of considerable power (mummies, liches, and the like). This gives some the impression that the Blood of Vol is an inherently evil religion when it is not. Seekers see the use of animated corpses as a thing of pragmatism, not of good or evil. Intelligent undead are pitied, not censured; nor is becoming undead a Seeker’s aspiration. Intelligent undead have sacrificed their chance to ever fully embrace the Divinity Within in order to provide leadership and guidance to others."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Seeker Adventures",
 					"entries": [
-						"No one kind of adventurer is more or less likely to be a Seeker than any of the others. The Blood of Vol is widespread throughout Khorvaire. Depending on one's upbringing, an adventurer might be born into the faith or discover it later on. The only unifying factor is that each ascribes to the concept of the Divinity Within. As such, intelligent undead and warforged are unlikely to be Seekers or be accepted by them."
+						"No one kind of adventurer is more or less likely to be a Seeker than any of the others. The Blood of Vol is widespread throughout Khorvaire. Depending on one’s upbringing, an adventurer might be born into the faith or discover it later on. The only unifying factor is that each ascribes to the concept of the Divinity Within. As such, intelligent undead and warforged are unlikely to be Seekers or be accepted by them."
 					]
 				}
 			]
@@ -923,7 +923,7 @@
 				"Trickery"
 			],
 			"symbol": "Varies",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 52,
 			"additionalSources": [
 				{
@@ -931,7 +931,7 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
@@ -955,7 +955,7 @@
 					"type": "entries",
 					"name": "Adventurers of the Cults",
 					"entries": [
-						"The goals of Khyber's devotees can be as varied as the hosts of creatures present in the realm. Some who ascribe to the cults of the Dragon Below simply wish to spread its madness or whatever twisted ideology it has inspired within them. Others have creatures or groups of creatures as patrons from the twisted realm, acting as their emissaries and lackeys in Eberron."
+						"The goals of Khyber’s devotees can be as varied as the hosts of creatures present in the realm. Some who ascribe to the cults of the Dragon Below simply wish to spread its madness or whatever twisted ideology it has inspired within them. Others have creatures or groups of creatures as patrons from the twisted realm, acting as their emissaries and lackeys in Eberron."
 					]
 				}
 			]
@@ -979,7 +979,7 @@
 				"Dream"
 			],
 			"symbol": "Brilliant crystal",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 28,
 			"additionalSources": [
 				{
@@ -987,7 +987,7 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
@@ -1018,7 +1018,7 @@
 				"Dream"
 			],
 			"symbol": "An eye under a wing",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 27,
 			"entries": [
 				"The quori that control the Dreaming Dark believe they can sustain il-Lashtavar by controlling the dreams of mortals. The society they have built in Reidra serves as both a colony of Dal Quor on Eberron and as an experiment of how they might be able to openly influence mortals for their own ends. Though the Inspired relentlessly search for a way to make Dal Quor once again coterminous with Eberron, their plans purposely advance slowly. They know that they currently hold the advantage and are cautious lest they lose it to their rivals: the kalashtar.",
@@ -1048,7 +1048,7 @@
 				"Life"
 			],
 			"symbol": "Varies",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 50,
 			"additionalSources": [
 				{
@@ -1060,17 +1060,17 @@
 					"page": 19
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
 			"entries": [
-				"Often misunderstood by the uninitiated, the Undying Court on Aerenal is at its heart a form of ancestor worship. In the elven land, communion with spirits of the dead is far from uncommon. Some ancestors still walk in physical form\u2014the collective term for these undead is the Undying Court.",
+				"Often misunderstood by the uninitiated, the Undying Court on Aerenal is at its heart a form of ancestor worship. In the elven land, communion with spirits of the dead is far from uncommon. Some ancestors still walk in physical form—the collective term for these undead is the Undying Court.",
 				{
 					"type": "entries",
 					"name": "Undead of a Diffrent Kind",
 					"entries": [
-						"Most undead are animated by energy from a plane of death and darkness. The Undying Court are ‘Deathless'\u2014distinct from traditional undead, the Deathless are animated by positive energy. In fact, the Undying Court and its devotees loathe undead who prey on the living. Unlike rotted undead, Deathless appear more withered or mummified."
+						"Most undead are animated by energy from a plane of death and darkness. The Undying Court are ‘Deathless’—distinct from traditional undead, the Deathless are animated by positive energy. In fact, the Undying Court and its devotees loathe undead who prey on the living. Unlike rotted undead, Deathless appear more withered or mummified."
 					]
 				},
 				{
@@ -1113,7 +1113,7 @@
 				"War"
 			],
 			"symbol": "Varies",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 61,
 			"additionalSources": [
 				{
@@ -1121,7 +1121,7 @@
 					"page": 296
 				},
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
@@ -1149,10 +1149,10 @@
 				"War"
 			],
 			"symbol": "Varies",
-			"source": "HBKCAA",
+			"source": "KCAA",
 			"page": 58,
 			"entries": [
-				"Many soldiers of the Five Nations worship the Three Faces of War, a single god whom they believe has three faces, represented by Dol Arrah, Dol Dorn, and the Mockery. War priests of this soldier's religion have access to the Protection, Trickery, and War domains, not recognizing Dol Arrah's role in the Sovereign Host as the sun goddess, instead focusing on her compassionate, defensive approach to war."
+				"Many soldiers of the Five Nations worship the Three Faces of War, a single god whom they believe has three faces, represented by Dol Arrah, Dol Dorn, and the Mockery. War priests of this soldier’s religion have access to the Protection, Trickery, and War domains, not recognizing Dol Arrah's role in the Sovereign Host as the sun goddess, instead focusing on her compassionate, defensive approach to war."
 			]
 		},
 		{
@@ -1170,7 +1170,7 @@
 				"Repose"
 			],
 			"symbol": "Varies",
-			"source": "HBKCAA",
+			"source": "KCAA",
 			"page": 58,
 			"entries": [
 				"Followers of this faith believe that Aureon judges souls upon their passage from Dolurrh and those he deems worthy are entrusted to the Keeper's safekeeping. Priests of this faith have access to the Knowledge and Protection domains, as well as the Repose variant of the Grave domain, downplaying Aureon's role as a god of magic, and having a much more benevolent interpretation of the Keeper that does not include the more commonly accepted view of the dark god hoarding souls for his own greed. Rather, they insist that the souls the Keeper has are under his sincere stewardship."
@@ -1185,7 +1185,7 @@
 			"pantheon": "Druid Sects",
 			"category": "Other Faiths of Eberron",
 			"symbol": "None",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 43,
 			"entries": [
 				"For the Gatekeepers, a great doom has already come. The black dragon Vvaraak, the Scaled Apostate, foresaw a great incursion from Xoriat and taught the orcs and half-orcs of western Khorvaire the druidic arts. When aberrant daelkyr flooded into the world, it was the Gatekeepers who sacrificed most of their number to stem the tide and ultimately close the gate to Xoriat.",
@@ -1214,15 +1214,15 @@
 			"pantheon": "Druid Sects",
 			"category": "Other Faiths of Eberron",
 			"symbol": "None",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 42,
 			"entries": [
-				"Everything dies. Where other druid sects see life and reincarnation as a cycle, the Children of Winter see a piece of clockwork\u2014ultimately fated to wind down until it stops. The Children of Winter are merely here to make sure the gears keep ticking.",
+				"Everything dies. Where other druid sects see life and reincarnation as a cycle, the Children of Winter see a piece of clockwork—ultimately fated to wind down until it stops. The Children of Winter are merely here to make sure the gears keep ticking.",
 				{
 					"type": "entries",
 					"name": "Servants of Rot",
 					"entries": [
-						"The Children of Winter are often seen as evil, and not without reason. A key site of worship for the Children is the Gloaming, an area of the southern Eldeen Reaches that acts as a manifest zone of Mabar\u2014the plane of endless night and negative energy. Many Children manifest powers of rot, pestilence, and general anti-life."
+						"The Children of Winter are often seen as evil, and not without reason. A key site of worship for the Children is the Gloaming, an area of the southern Eldeen Reaches that acts as a manifest zone of Mabar—the plane of endless night and negative energy. Many Children manifest powers of rot, pestilence, and general anti-life."
 					]
 				},
 				{
@@ -1236,7 +1236,7 @@
 					"type": "entries",
 					"name": "Children of Winter Adventurers",
 					"entries": [
-						"The Children of Winter do have some varied beliefs\u2014some still hold to the idea that the great doom comes with patience, not interference. In general, the Children of Winter are a dangerous group who believe only the strong survive in a fated, unforgiving world."
+						"The Children of Winter do have some varied beliefs — some still hold to the idea that the great doom comes with patience, not interference. In general, the Children of Winter are a dangerous group who believe only the strong survive in a fated, unforgiving world."
 					]
 				}
 			]
@@ -1250,7 +1250,7 @@
 			"pantheon": "Druid Sects",
 			"category": "Other Faiths of Eberron",
 			"symbol": "None",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 41,
 			"entries": [
 				"Where the Wardens are satisfied with the belief that civilization and nature can coexist, the Ashbound would rather not leave such a thing to chance. The Ashbound often reject everything from manufactured armor to crafted clothing, tending to believe that natural purity is a more important ideal than convenience.",
@@ -1258,14 +1258,14 @@
 					"type": "entries",
 					"name": "Individualism",
 					"entries": [
-						"Ashbound are a smaller sect, and as such each individual or group is welcome to establish their own belief space within the system's rather wide orthodoxy. Some Ashbound completely reject the use of weapons, choosing to use only unarmed combat\u2014one of the reasons this wild sect is popular with shifters."
+						"Ashbound are a smaller sect, and as such each individual or group is welcome to establish their own belief space within the system’s rather wide orthodoxy. Some Ashbound completely reject the use of weapons, choosing to use only unarmed combat—one of the reasons this wild sect is popular with shifters."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "United Cause",
 					"entries": [
-						"Though they sneer at the Wardens of the Wood as naïve, the Ashbound share the Wardens' aggression toward planar outsiders. Aberrations and fiends are popular targets for aggressive Ashbound patrols."
+						"Though they sneer at the Wardens of the Wood as naïve, the Ashbound share the Wardens’ aggression toward planar outsiders. Aberrations and fiends are popular targets for aggressive Ashbound patrols."
 					]
 				},
 				{
@@ -1286,10 +1286,10 @@
 			"pantheon": "Druid Sects",
 			"category": "Other Faiths of Eberron",
 			"symbol": "None",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 41,
 			"entries": [
-				"Thousands of years ago in the Eldeen Reaches, a greatpine tree gained sentience. Calling itself Oalian, it remains to this day the High Druid of the Wardens of the Wood. Greenheart, capital of the Eldeen Reaches, is Oalian's home and the spiritual hub of the Wardens.",
+				"Thousands of years ago in the Eldeen Reaches, a greatpine tree gained sentience. Calling itself Oalian, it remains to this day the High Druid of the Wardens of the Wood. Greenheart, capital of the Eldeen Reaches, is Oalian’s home and the spiritual hub of the Wardens.",
 				{
 					"type": "entries",
 					"name": "A Belief in Harmony",
@@ -1301,7 +1301,7 @@
 					"type": "entries",
 					"name": "Wardens against Outsiders",
 					"entries": [
-						"The Wardens' belief in natural harmony has its sharp edge; they are fierce opponents of creatures from outside nature, such as aberrations."
+						"The Wardens’ belief in natural harmony has its sharp edge; they are fierce opponents of creatures from outside nature, such as aberrations."
 					]
 				},
 				{
@@ -1323,22 +1323,22 @@
 			"pantheon": "Faiths of Warforged",
 			"category": "Other Faiths of Eberron",
 			"symbol": "None",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 41,
 			"entries": [
-				"The Reforged is not a deity, but a way of thinking. Warforged who seek to embrace the fact that they are living, sentient creatures capable of emotion follow in the footsteps of Hatchet, the warforged sage who founded this philosophy. The reverence for Hatchet among the Reforged rivals that of a deity's Chosen or a great prophet.",
+				"The Reforged is not a deity, but a way of thinking. Warforged who seek to embrace the fact that they are living, sentient creatures capable of emotion follow in the footsteps of Hatchet, the warforged sage who founded this philosophy. The reverence for Hatchet among the Reforged rivals that of a deity’s Chosen or a great prophet.",
 				{
 					"type": "entries",
 					"name": "The Birth-day",
 					"entries": [
-						"The only holy day for a Reforged is their ‘birth-day,' a celebration when a warforged embraces their dedication to the maxims of the Reforged or celebrates this occasion with each passing year. On a warforged's first birth-day, friends and fellow followers gather in a simple celebration. The warforged lack a biological sex, but one dedicating themselves to the Reforged may identify with a chosen gender and mark the celebration with a naming, clothing, or other expressions."
+						"The only holy day for a Reforged is their ‘birth-day,’ a celebration when a warforged embraces their dedication to the maxims of the Reforged or celebrates this occasion with each passing year. On a warforged’s first birth-day, friends and fellow followers gather in a simple celebration. The warforged lack a biological sex, but one dedicating themselves to the Reforged may identify with a chosen gender and mark the celebration with a naming, clothing, or other expressions."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Temples of the Reforged",
 					"entries": [
-						"The Reforged do not have an organized church hierarchy and don't have established temples per se, but they certainly operate centers dedicated to their way of thinking. Often located in places like repurposed inns or rented spaces, the centers of ‘worship' for the Reforged are stuffed full of sensory, emotional, and intellectual stimuli. Art, music, color, and decoration are common features designed to help the Reforged access their various emotions. Many such locations are filled with food and drink, even though the warforged do not need to eat and cannot taste without magical enhancements."
+						"The Reforged do not have an organized church hierarchy and don’t have established temples per se, but they certainly operate centers dedicated to their way of thinking. Often located in places like repurposed inns or rented spaces, the centers of ‘worship’ for the Reforged are stuffed full of sensory, emotional, and intellectual stimuli. Art, music, color, and decoration are common features designed to help the Reforged access their various emotions. Many such locations are filled with food and drink, even though the warforged do not need to eat and cannot taste without magical enhancements."
 					]
 				},
 				{
@@ -1366,35 +1366,35 @@
 				"War"
 			],
 			"symbol": "Spike warforged hand",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 35,
 			"additionalSources": [
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
 			"entries": [
-				"The cult surrounding the Lord of Blades often seems self-conflicting. For one, the Lord of Blades is a warforged of mysterious origin, not a divine being. The Lord's followers do not believe in religious trappings: they ask their Lord for orders rather than praying for guidance. Their rituals are not holy rites but practical military drills. Despite this, their fervor for the warforged conquest of Eberron allows them to access very real spellcasting of a divine nature.",
+				"The cult surrounding the Lord of Blades often seems self-conflicting. For one, the Lord of Blades is a warforged of mysterious origin, not a divine being. The Lord’s followers do not believe in religious trappings: they ask their Lord for orders rather than praying for guidance. Their rituals are not holy rites but practical military drills. Despite this, their fervor for the warforged conquest of Eberron allows them to access very real spellcasting of a divine nature.",
 				{
 					"type": "entries",
 					"name": "Holy Stratocracy",
 					"entries": [
-						"Whatever preternatural quality it is that sets the Lord of Blades apart from other warforged, the ‘church' is more or less a military order with the Lord at its head. The word of the Lord of Blades is repeated verbatim, drilled into followers alongside their duties and maneuvers until the tenets of the ‘faith' are as second nature to them as their capacity for war. There are no ‘casual' adherents to the Lord of Blades; if you are considered a follower, it is because you have devoted yourself to the Lord's command."
+						"Whatever preternatural quality it is that sets the Lord of Blades apart from other warforged, the ‘church’ is more or less a military order with the Lord at its head. The word of the Lord of Blades is repeated verbatim, drilled into followers alongside their duties and maneuvers until the tenets of the ‘faith’ are as second nature to them as their capacity for war. There are no ‘casual’ adherents to the Lord of Blades; if you are considered a follower, it is because you have devoted yourself to the Lord’s command."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "A faith of body, not soul",
 					"entries": [
-						"Despite their religious adherence to the Lord of Blades, warforged followers would ridicule the idea that the Lord brings ‘salvation' or empowers any kind of ‘soul.' As the overall hierarchy seeks utmost performance of military might, so too do the Blades seek to perfect their individual performance in their roles."
+						"Despite their religious adherence to the Lord of Blades, warforged followers would ridicule the idea that the Lord brings ‘salvation’ or empowers any kind of ‘soul.’ As the overall hierarchy seeks utmost performance of military might, so too do the Blades seek to perfect their individual performance in their roles."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Blades Adventurers",
 					"entries": [
-						"True followers of the Lord of Blades do not adventure on a whim. At the heart of a Blades' quest are their standing orders, the task or tasks given by the Lord. Blades abroad might be tasked with infiltration or informationgathering, joining with members of the ‘fleshy races' to gauge their strengths and weaknesses. Other Blades are given to evangelism, tasked with travelling far and wide to bring the word of the Lord to warforged across Eberron\u2014the word that promises conquest of the world."
+						"True followers of the Lord of Blades do not adventure on a whim. At the heart of a Blades’ quest are their standing orders, the task or tasks given by the Lord. Blades abroad might be tasked with infiltration or informationgathering, joining with members of the ‘fleshy races’ to gauge their strengths and weaknesses. Other Blades are given to evangelism, tasked with travelling far and wide to bring the word of the Lord to warforged across Eberron—the word that promises conquest of the world."
 					]
 				}
 			]
@@ -1413,29 +1413,29 @@
 				"Knowledge"
 			],
 			"symbol": "None",
-			"source": "HBFE",
+			"source": "FE",
 			"page": 35,
 			"additionalSources": [
 				{
-					"source": "HBKCAA",
+					"source": "KCAA",
 					"page": 58
 				}
 			],
 			"entries": [
-				"Leave it to the warforged to literally create a deity that reflects both their living and constructed nature. The Becoming God represents the warforged belief that they have real souls, but the deity's followers are not content with an intangible deity. As a result, the great project of the selfproclaimed ‘Godforged' is to spend uncounted years constructing a perfect body for their deity to one day inhabit.",
+				"Leave it to the warforged to literally create a deity that reflects both their living and constructed nature. The Becoming God represents the warforged belief that they have real souls, but the deity’s followers are not content with an intangible deity. As a result, the great project of the selfproclaimed ‘Godforged’ is to spend uncounted years constructing a perfect body for their deity to one day inhabit.",
 				"The Godforged believe that the inhabitation of a body by the soul strengthens both, and thus seek to provide a body to strengthen the divine power of their deity. Non-warforged followers of The Becoming God are rare but do exist, mainly made up of those who support the concept of warforged having spirits of their own.",
 				{
 					"type": "entries",
 					"name": "The Assemblages",
 					"entries": [
-						"The heart of The Becoming God's worship is in the Mournlands, where the deity's body is slowly being planned and constructed. The faithful Godforged form groups known as ‘Assemblages,' which go on pilgrimages to find components for The Becoming God's construct form. Each group operates more or less autonomously, each with a de facto leader that calls itself ‘Builder' or ‘Architect' depending on how they envision the group's purpose in creating the deity's body. Larger Assemblages also have secondary leaders known as ‘Planners,' who assist the group's leader in accomplishing key tasks."
+						"The heart of The Becoming God’s worship is in the Mournlands, where the deity’s body is slowly being planned and constructed. The faithful Godforged form groups known as ‘Assemblages,’ which go on pilgrimages to find components for The Becoming God’s construct form. Each group operates more or less autonomously, each with a de facto leader that calls itself ‘Builder’ or ‘Architect’ depending on how they envision the group’s purpose in creating the deity’s body. Larger Assemblages also have secondary leaders known as ‘Planners,’ who assist the group’s leader in accomplishing key tasks."
 					]
 				},
 				{
 					"type": "entries",
 					"name": "Godforged Adventurers",
 					"entries": [
-						"Because the hierarchy of Assemblages are self-determined, it is possible to see solitary adventurers in service of The Becoming God. Sometimes these adventurers are instructed to travel beyond the Mournlands by an Assemblage Builder or Architect; in other cases, a Godforged adventurer may believe the deity itself has inspired them to travel abroad. In both cases, the Godforged usually believes they are on a great quest to better understand the nature of the warforged soul or to acquire some remarkable component for The Becoming God's physical form."
+						"Because the hierarchy of Assemblages are self-determined, it is possible to see solitary adventurers in service of The Becoming God. Sometimes these adventurers are instructed to travel beyond the Mournlands by an Assemblage Builder or Architect; in other cases, a Godforged adventurer may believe the deity itself has inspired them to travel abroad. In both cases, the Godforged usually believes they are on a great quest to better understand the nature of the warforged soul or to acquire some remarkable component for The Becoming God’s physical form."
 					]
 				}
 			]

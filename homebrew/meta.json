@@ -1,0 +1,164 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "KCAA",
+				"abbreviation": "KCAA",
+				"full": "Korranberg Chronicle Adventurers Almanac",
+				"authors": [
+					"Anthony J. Turco"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "1.2.1",
+				"url": "https://www.dmsguild.com/product/250836/The-Korranberg-Chronicle-Adventurers-Almanac",
+				"targetSchema": "1.1.2"
+			},
+			{
+				"json": "AM01",
+				"abbreviation": "AM01",
+				"full": "Acute Magic 01: Words of the Lexi",
+				"authors": [
+					"Alex Berns"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "AM02",
+				"abbreviation": "AM02",
+				"full": "Acute Magic 02: Mark of the Dragon",
+				"authors": [
+					"Alex Berns"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "DM01",
+				"abbreviation": "DM01",
+				"full": "Deep Magic 01: Clockwork Magic",
+				"authors": [
+					"Scott Carter"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "DM02",
+				"abbreviation": "DM02",
+				"full": "Deep Magic 02: Rune Magic",
+				"authors": [
+					"Chris Harris"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "1.0",
+				"url": "",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "DM08",
+				"abbreviation": "DM08",
+				"full": "Deep Magic 08: Battle Magic",
+				"authors": [
+					"Greg Marks"
+				],
+				"convertedBy": [
+					"Modnar"
+				],
+				"version": "1.0",
+				"url": "https://www.drivethrurpg.com/product/200465/Deep-Magic-Battle-Magic-for-5th-Edition",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "DM13",
+				"abbreviation": "DM:DM",
+				"full": "Deep Magic 13: Dragon Magic",
+				"authors": [
+					"Shawn Merwin"
+				],
+				"convertedBy": [
+					"Eberron94",
+					"ChronoLord"
+				],
+				"version": "1.0",
+				"url": "https://www.dmsguild.com/product/212645/Deep-Magic-Dragon-Magic-for-5th-Edition",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "DM14",
+				"abbreviation": "DM14",
+				"full": "Deep Magic 14: Elemental Magic",
+				"authors": [
+					"Dan Dillon"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "1.0",
+				"url": "https://www.dmsguild.com/product/226988/Deep-Magic-Elemental-Magic-for-5th-Edition",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "DM16",
+				"abbreviation": "DM16",
+				"full": "Deep Magic 16: Time Magic",
+				"authors": [
+					"Carlos Ovalle"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "1.0",
+				"url": "https://www.drivethrurpg.com/product/251679/Deep-Magic-Time-Magic-for-5th-Edition",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "ArtificerRevised",
+				"abbreviation": "Brew",
+				"full": "Artificer (Revised)",
+				"authors": [
+					"/u/KibblesTasty"
+				],
+				"version": "1.5.1",
+				"url": "https://www.gmbinder.com/share/-LAEn6ZdC6lYUKhQ67Qk",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"optionalFeatureTypes": {
+			"AS:C": "Artificer Specialization, Cannonsmith",
+			"AS:G": "Artificer Specialization, Gadgetsmith",
+			"AS:O": "Artificer Specialization, Golemsmith",
+			"AS:P": "Artificer Specialization, Potionsmith",
+			"AS:R": "Artificer Specialization, Warsmith",
+			"AS:I": "Artificer Specialization, Infusionsmith",
+			"AS:W": "Artificer Specialization, Wandsmith"
+		},
+		"spellSchools": {
+			"CWK": {
+				"full": "Clockwork",
+				"short": "CWK."
+			},
+			"TMP": {
+				"full": "Temporal",
+				"short": "TMP."
+			}
+		},
+		"dateAdded": 1547956312
+	}
+}

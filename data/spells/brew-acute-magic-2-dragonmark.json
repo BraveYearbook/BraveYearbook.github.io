@@ -1,0 +1,66 @@
+{
+	"spell": [
+		{
+			"name": "Dragonmark Whip",
+			"level": 2,
+			"school": "T",
+			"source": "AM02",
+			"meta": {
+				"ritual": false
+			},
+			"time": [
+				{
+					"number": 1,
+					"unit": "bonus"
+				}
+			],
+			"range": {
+				"type": "point",
+				"distance": {
+					"type": "self"
+				}
+			},
+			"components": {
+				"v": true,
+				"s": true,
+				"m": {
+					"text": "a dragonmark",
+					"cost": 0,
+					"consume": false
+				}
+			},
+			"duration": [
+				{
+					"type": "timed",
+					"duration": {
+						"type": "minute",
+						"amount": 1,
+						"upTo": true
+					},
+					"concentration": false
+				}
+			],
+			"classes": {
+				"fromClassList": [
+					{
+						"name": "Mark of Siberys",
+						"source": "AM02"
+					}
+				]
+			},
+			"entries": [
+				"Your dragonmark begins to writhe and uncoil, sprining from your hand as a whip of scintillating energy. This magic whip lasts until the spell ends. It counts as a martial melee weapon with which you are proficient. It deals 2d8 force damage on a hit and has the finesse and reach properties. In addition, the whip can be used to deliver touch spells with reach. You cannot be disarmed of the whip and any attempt to destroy the whip fails. When the duration ends, the whip slithers back up into its normal position.",
+				"While a dragonmark whip is uncoiled, you appear to have no dragonmark on your body, but you can use any of your innate dragonmark spells as normal."
+			],
+			"entriesHigherLevel": [
+				{
+					"type": "entries",
+					"name": "At Higher Levels",
+					"entries": [
+						"At higher levels. When you cast this spell using a 3rd or 4th level spell slot, the damage increases to 3d8. When you cast it using a 5th or 6th level spell slot, the damage increases to 4d8. When you cast it using a spell slot of 7th level or higher, the damage increases to 5d8."
+					]
+				}
+			]
+		}
+	]
+}

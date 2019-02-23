@@ -1,0 +1,650 @@
+{
+	"class": [
+		{
+			"name": "Mark of Siberys",
+			"source": "AM02",
+			"hd": {
+				"number": 1,
+				"faces": 8
+			},
+			"classTableGroups": [
+				{
+					"colLabels": [
+						"Prophecy Points"
+					],
+					"rows": [
+						[
+							0
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Cantrips Known|spells|level=0|class=mark of siberys (am02); sorcerer}"
+					],
+					"rows": [
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							2
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							3
+						],
+						[
+							4
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						]
+					]
+				},
+				{
+					"colLabels": [
+						"{@filter Spells Known|spells|class=mark of siberys (am02); sorcerer}"
+					],
+					"rows": [
+						[
+							4
+						],
+						[
+							5
+						],
+						[
+							6
+						],
+						[
+							7
+						],
+						[
+							8
+						],
+						[
+							9
+						],
+						[
+							10
+						],
+						[
+							11
+						],
+						[
+							12
+						],
+						[
+							13
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						],
+						[
+							0
+						]
+					]
+				}
+			],
+			"multiclassing": {
+				"requirements": {
+					"Feat": "Greater Dragonmark"
+				}
+			},
+			"classFeatures": [
+				[
+					{
+						"name": "Spellcasting",
+						"entries": [
+							"Once subtle, your mark is now the source of your arcane power and cannot be denied. It infuses you bolstering your spell casting to new levels.",
+							{
+								"type": "entries",
+								"name": "Cantrips",
+								"entries": [
+									"At 1st level, you know two cantrips of your choice from the Siberys spell list. You learn additional Siberys cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Mark of Siberys Table."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spell Slots",
+								"entries": [
+									"The Multiclassing Spell Slot table shows how many spell you have to cast. Levels in this class count as Sorcerer levels for the purpose of determining the total spell casting level. You regain all expended spell slots when you finish a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spells Known of 1st Level and Higher",
+								"entries": [
+									"You know four spells of your choice from the Sorcerer and Siberys {@filter spell list|spells|class=mark of siberys (am02); sorcerer}. Each of these spells must be of a level for which you have spell slots, ignoring the normal multiclassing spells known rules.",
+									"You learn an additional Sorcerer or Siberys {@filter spell|spells|class=mark of siberys (am02); sorcerer} of your choice at each level. Each of these spells must be of a level for which you have spell slots, ignoring the normal multiclassing spells known rules."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Ability",
+								"entries": [
+									"Your spellcasting ability for your Siberys spells is determined by your Dragonmark."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Spellcasting Focus",
+								"entries": [
+									"You can use an arcane focus as a spellcasting focus for your Siberys spells."
+								]
+							}
+						]
+					},
+					{
+						"name": "Siberys Dragonmark",
+						"entries": [
+							"Choose a Dragonmark that matches the one taken with the Greater Dragonmark feat.",
+							"Your choice grants you features when you choose it at 1st level and again at 3rd, 5th, and 9th level."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "As It Was Written",
+						"entries": [
+							"At 2nd level, you tap into the Draconic Prophecy and learn to manipulate it. This control is represented by prophecy points, which allow you to create a variety of magical effects.",
+							{
+								"type": "entries",
+								"name": "Prophecy Points",
+								"entries": [
+									"You have 2 prophecy points, and you gain more as you reach higher levels, as shown in the Prophecy Points column of the Mark of Siberys Table. You regain all spent prophecy points when you finish a long rest."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Extra Innate Dragonmark Magic",
+								"entries": [
+									"Starting at 3rd level, you can use your prophecy points to gain additional uses of your innate dragonmark spells or sacrifice innate dragonmark spells to gain additional prophecy points. Spells granted by your dragonmark race and feats are called innate dragonmark spells.",
+									{
+										"type": "entries",
+										"name": "Regaining Innate Spells",
+										"entries": [
+											"As a bonus action, you can spend prophecy points to regain the use of an innate dragonmark spell that cannot be used again until you finish a long rest. The Regain Innate Slots table shows the cost of regaining an innate slot of a given level.",
+											{
+												"type": "table",
+												"caption": "Regain Innate Slots",
+												"colLabels": [
+													"Spell Slot Level",
+													"Sorcery Point Cost"
+												],
+												"colStyles": [
+													"col-6 text-align-center",
+													"col-6 text-align-center"
+												],
+												"rows": [
+													[
+														"1st",
+														"2"
+													],
+													[
+														"2nd",
+														"3"
+													],
+													[
+														"3rd",
+														"5"
+													],
+													[
+														"4th",
+														"6"
+													],
+													[
+														"5th",
+														"7"
+													],
+													[
+														"6th",
+														"9"
+													],
+													[
+														"7th",
+														"10"
+													],
+													[
+														"8th",
+														"11"
+													],
+													[
+														"9th",
+														"13"
+													]
+												]
+											}
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Converting an Innate Spell to Prophecy Points",
+										"entries": [
+											"As a bonus action, you can expend one innate dragonmark spell and gain a number of prophecy points equal to the innate dragonmark spell's level."
+										]
+									}
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Modify Outcome",
+								"entries": [
+									"You can use your prophecy points to gain the advantage over an unlikely outcome. When you suffer disadvantage on an ability check, saving throw, or attack roll, you can spend 1 prophecy point to gain advantage. This negates the disadvantage, giving you a normal roll."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"name": "Lifeblood",
+						"entries": [
+							"At 3rd level, you can use your reaction to bend fate to prevent damage. When you do so, spend any number of hit dice and roll them. If the total of the roll is greater than the damage, you fully prevent it. If the roll is less, you can spend a prophecy point to reduce the damage by the roll's total."
+						]
+					},
+					{
+						"name": "Dragonmark feature",
+						"entries": [
+							"At 3rd level, you gain a feature granted by your Dragonmark."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 4th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Advanced Intuition",
+						"entries": [
+							"At 5th level, and again at level 7th level, your intuition die increases by one size. Intuition die size increase as follows: 1d4, 1d6, 1d8, 1d10, 1d12."
+						]
+					},
+					{
+						"name": "Dragonmark feature",
+						"entries": [
+							"At 5th level, you gain a feature granted by your Dragonmark."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 6th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Advanced Intuition",
+						"entries": [
+							"At 7th level, your intuition die increases by one size. Intuition die size increase as follows: 1d4, 1d6, 1d8, 1d10, 1d12."
+						]
+					},
+					{
+						"name": "Greater Intuition",
+						"entries": [
+							"When you reach 7th level, you have learned how to leverage your intuition into an advantage. On any ability check that uses your intuition die, you can forego rolling it and instead gain advantage on the roll."
+						]
+					}
+				],
+				[
+					{
+						"name": "Ability Score Improvement",
+						"entries": [
+							"When you reach 8th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.",
+							"If your DM allows the use of feats, you may instead take a {@5etools feat|feats.html}."
+						]
+					}
+				],
+				[
+					{
+						"name": "Dragonmark feature",
+						"entries": [
+							"At 9th level, you gain a feature granted by your Dragonmark."
+						],
+						"gainSubclassFeature": true
+					}
+				],
+				[
+					{
+						"name": "Overwhelming Will",
+						"entries": [
+							"Starting at 10th level, when you fail a saving throw against an ongoing effect, you gain a cumulative +1 bonus on rolls against it until the effect ends. This bonus not occur until after the initial save. If you are affected by the same effect from multiple sources, the bonus only apply to each source."
+						]
+					},
+					{
+						"name": "Epic Destiny: Eternal Prophecy",
+						"entries": [
+							"At 10th level, you have become integral to the destiny of Eberron. When you complete what the Draconic Prophecy has in store for you, or whatever destiny you wrote into the Prophecy for yourself, you might disappear from the world for a time. But just as prophetic marks appear written on the bones of the earth, your Siberys Mark is part of the world. The Prophecy is Eberron, Eberron is the Prophecy, and you are equally part of both. If the world needs you in the future, you might choose to manifest once more in the flesh. You are forever altered by the mark of prophecy on your skin."
+						]
+					}
+				],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[],
+				[]
+			],
+			"subclassTitle": "Dragonmark",
+			"subclasses": [
+				{
+					"name": "Mark of Shadow",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Mark of Shadow",
+								"entries": [
+									"When you choose this dragonmark at 1st level, Charisma becomes your spellcasting ability for your Siberys spells.",
+									"At each indicated Siberys level, add the listed spells to your spells prepared. They do not count towards your limit.",
+									{
+										"type": "table",
+										"caption": "Mark of Shadow Spells",
+										"colLabels": [
+											"Siberys Level",
+											"Spells"
+										],
+										"colStyles": [
+											"col-3 text-align-center",
+											"col-9"
+										],
+										"rows": [
+											[
+												"1st",
+												"{@spell detect magic}, {@spell magic missile}"
+											],
+											[
+												"3rd",
+												"{@spell magic weapon}, {@spell Nystul's magic aura}"
+											],
+											[
+												"5th",
+												"{@spell dispel magic}, {@spell magic circle}"
+											],
+											[
+												"7th",
+												"{@spell arcane eye}, {@spell Leomund's secret chest}"
+											],
+											[
+												"9th",
+												"{@spell planar binding}, {@spell teleportation circle}"
+											]
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Psychic Assassin",
+										"entries": [
+											"At 1st level, you learn use your Mark's psychic energy to augment your attacks.",
+											"As a bonus action, choose one creature you can see within 120 feet of you. The next time you deal damage to that creature on this turn, all damage dealt becomes psychic damage, and the creature takes extra psychic damage from the attack equal to your intuition die.",
+											"If the next damage you deal is already psychic, when you roll damage, you can treat any 1 on a damage die as a 2."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"name": "Greater Scrying",
+								"entries": [
+									"Starting at 3rd level, your ability to scry a target is stronger. When you cast scry, you gain the following benefits:",
+									{
+										"type": "list",
+										"items": [
+											"Roll your intuition die and add the result to the DC of the scry.",
+											"You can project more senses through the scry. You can smell, sense the temperature, wind direction, and any other sense as if you were physically there.",
+											"You can cast detect good and evil through the scry spell without concentration.",
+											"You can cast detect magic through the scry spell without concentration.",
+											"You can extend the duration of scrying by 10 minutes by casting scry again. The target does not get a new save."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"name": "Illusory Reality",
+								"entries": [
+									"By 7th level, you have learned the secret of weaving your mark of shadows into your illusions to give them a semireality. When you cast an illusion spell of 1st level or higher, you can choose one inanimate, nonmagical object that is part of the illusion and make that object real. You can do this on your turn as a bonus action while the spell is ongoing. The object remains real for 1 minute. For example, you can create an illusion of a bridge over a chasm and then make it real long enough for your allies to cross.",
+									"The object can't deal damage or otherwise directly harm anyone."
+								]
+							}
+						],
+						[
+							{
+								"name": "TODO",
+								"entries": [
+									"TODO: add 9th level ability"
+								]
+							}
+						]
+					],
+					"source": "Brew",
+					"shortName": "Shadow"
+				},
+				{
+					"name": "Mark of Storm",
+					"subclassFeatures": [
+						[
+							{
+								"name": "Mark of Storm",
+								"entries": [
+									"When you choose this dragonmark at 1st level, Charisma becomes your spellcasting ability for your Siberys spells.",
+									"At each indicated Siberys level, add the listed spells to your spells prepared. They do not count towards your limit.",
+									{
+										"type": "table",
+										"caption": "Mark of Storm Spells",
+										"colLabels": [
+											"Siberys Level",
+											"Spells"
+										],
+										"colStyles": [
+											"col-3 text-align-center",
+											"col-9"
+										],
+										"rows": [
+											[
+												"1st",
+												"{@spell detect magic}, {@spell magic missile}"
+											],
+											[
+												"3rd",
+												"{@spell magic weapon}, {@spell Nystul's magic aura}"
+											],
+											[
+												"5th",
+												"{@spell dispel magic}, {@spell magic circle}"
+											],
+											[
+												"7th",
+												"{@spell arcane eye}, {@spell Leomund's secret chest}"
+											],
+											[
+												"9th",
+												"{@spell planar binding}, {@spell teleportation circle}"
+											]
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Storm Vision",
+										"entries": [
+											"Starting at 1st level, you can see through fog, smoke, and heavy rain. You ignore heavy obscurement out to 120 feet."
+										]
+									}
+								]
+							}
+						],
+						[
+							{
+								"name": "Storm heart",
+								"entries": [
+									"At 3rd level, your body has become accustomed to the thunder and lighting that follows you. You gain immunity to Lightning and Thunder Damage"
+								]
+							}
+						],
+						[
+							{
+								"name": "Crackling Energy",
+								"entries": [
+									"At 7th level, you are able to summon the energy of your dragonmark into arcs of energy that surround you.",
+									"As an action, you manifest a field of lighting from your body. This field lasts for 1 minute with concentration and extends 30 feet. At the start of each of your turn, you can select any number of creatures within range and automatically deal lightning damage equal to your intuition die. Additionally creature that makes a melee attack against you takes lightning damage equal to your intuition die."
+								]
+							}
+						],
+						[
+							{
+								"name": "Summon Storm Cloud",
+								"entries": [
+									"When you reach 9th level, the very clouds in the sky do your bidding. As an action, you can summon a small storm cloud that you can mentally control. It can support your weight and has a fly speed of 60 feet. The storm cloud acts on your iniative but takes its own movement. You can use an action to give the cloud the dash action. Lastly, the cloud can be the source of the Crackling Energy Ability."
+								]
+							}
+						]
+					],
+					"source": "Brew",
+					"shortName": "Storm"
+				}
+			]
+		}
+	]
+}

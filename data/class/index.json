@@ -1,5 +1,5 @@
 {
-	"artificer": "class-artificer.json",
+	"arcanic": "class-artificer.json",
 	"barbarian": "class-barbarian.json",
 	"bard": "class-bard.json",
 	"cleric": "class-cleric.json",
@@ -13,5 +13,8 @@
 	"sidekick": "class-sidekick.json",
 	"sorcerer": "class-sorcerer.json",
 	"warlock": "class-warlock.json",
-	"wizard": "class-wizard.json"
+	"wizard": "class-wizard.json",
+	"artificer": "brew-kcaa-artificer.json",
+	"siberys": "brew-acute-magic-2-dragonmark.json",
+	"arcanicrevised": "brew-artificer-revised.json"
 }
