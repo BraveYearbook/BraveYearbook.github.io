@@ -16,6 +16,31 @@
 				"targetSchema": "1.1.2"
 			},
 			{
+				"json": "ERTW",
+				"abbreviation": "ERTW",
+				"full": "Everyday Rituals for Travelling Wizards",
+				"authors": [
+					"A,D, Feltham"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "2.0",
+				"url": "https://www.dmsguild.com/product/184141/Everyday-Rituals-for-Travelling-Wizards",
+				"targetSchema": "1.0.0"
+			},
+			{
+				"json": "BoLS 3pp",
+				"abbreviation": "BoLS (3pp)",
+				"full": "Book of Lost Spells",
+				"authors": [
+					"Frog God Games"
+				],
+				"version": "1.0",
+				"url": "https://www.froggodgames.com/book-lost-spells",
+				"targetSchema": "1.1.2"
+			},
+			{
 				"json": "AM01",
 				"abbreviation": "AM01",
 				"full": "Acute Magic 01: Words of the Lexi",

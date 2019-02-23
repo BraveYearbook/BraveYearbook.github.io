@@ -585,23 +585,23 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell detect magic}, {@spell magic missile}"
+												"{@spell conjure elemental mote|kcaa}, {@spell create or destroy water}"
 											],
 											[
 												"3rd",
-												"{@spell magic weapon}, {@spell Nystul's magic aura}"
+												"{@spell boarding plank|bols 3pp}, {@spell smothering cloud|bols 3pp}"
 											],
 											[
 												"5th",
-												"{@spell dispel magic}, {@spell magic circle}"
+												"{@spell electromagnetic storm|bols 3pp}, {@spell wind wall}"
 											],
 											[
 												"7th",
-												"{@spell arcane eye}, {@spell Leomund's secret chest}"
+												"{@spell charge|bols 3pp}, {@spell scalding sea|bols 3pp}"
 											],
 											[
 												"9th",
-												"{@spell planar binding}, {@spell teleportation circle}"
+												"{@spell billow the sails|bols 3pp}, {@spell conjure elemental}"
 											]
 										]
 									},
