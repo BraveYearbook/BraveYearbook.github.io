@@ -20,7 +20,7 @@ Be sure to close any running Chrome instances (and kill any remaining Chrome pro
 **Advanced:** Host the project locally on a dev webserver, perhaps using [this](https://github.com/cortesi/devd).
 
 ## How to import 5etools creatures/spells/items into Roll20
-1. Get Tampermonkey for ([Firefox](https://tampermonkey.net/?ext=dhdg&browser=firefox)) or ([Chrome](https://tampermonkey.net/)).
+1. Get Tampermonkey for [Firefox](https://tampermonkey.net/?ext=dhdg&browser=firefox) or [Chrome](https://tampermonkey.net/).
 
 2. Click [here](https://get.5e.tools/script/betteR20-5etools.user.js) and install the script.
 
