@@ -1,0 +1,103 @@
+{
+	"subclass": [
+		{
+			"class": "monk",
+			"name": "Way of the Heavenly Bodies",
+			"shortName": "Heavenly Bodies",
+			"source": "AM03",
+			"subclassFeatures": [
+				[
+					{
+						"name": "Way of the Heavenly Bodies",
+						"entries": [
+							"You are part of a long spanning tradition of scholarly monks who study the mechanics of the celestial bodies. Not all who follow this tradition learn the secrets of the stars, but you have meditated on the secrets of the heavens and mastered their movements.",
+							{
+								"type": "entries",
+								"name": "Secret of the Stars",
+								"entries": [
+									"Starting when you choose this tradition at 3rd level, your study of celestial motion and martial arts allows you to blend the two together. This path also includes instruction in the scholarly practice of astronomy. You gain the following benefits.",
+									{
+										"type": "entries",
+										"name": "Star Chunk",
+										"entries": [
+											"You can gather bits of star metal into a 10lbs. chunk and have it orbit your body. As a bonus action, you can disperse the chunk into an invisible cloud of dust that follows you. You can reform the cloud in your space as a bonus action or as part of an attack.",
+											"You can’t have more than a single star metal chunk at a time. You can spend an hour meditating and 100 gold worth of incense to create a new chunk of star metal. If you perform this meditation while you already have a star metal, the old chunk turns to dust."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Offensive Orbit",
+										"entries": [
+											"You can manipulate the orbit of your star metal chunk to strike your foes. You are proficient with star metal chunk which becomes a melee weapon with the reach property and is treated as a monk weapon for you. Its damage is either bludgeoning, piercing or slashing depending on its shape, and its damage die is a d4. This die changes as you gain monk levels, as shown in the Martial Arts column of the Monk table."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Astronomy",
+										"entries": [
+											"You gain proficiency with the navigator’s tools and the telescope if you don’t already have it."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Star Traveler",
+								"entries": [
+									"At 6th level, you can extend your ki into your star chunk, granting the following benefits.",
+									{
+										"type": "entries",
+										"name": "Infused Star Chunk",
+										"entries": [
+											"Your attacks with your star chunk count as magical for the purpose of overcoming resistance and immunity to nonmagical attacks and damage."
+										]
+									},
+									{
+										"type": "entries",
+										"name": "Slingshot Maneuver",
+										"entries": [
+											"You gain the ability to channel your ki into your star metal chunk and hurl it with tremendous force. Immediately after you take the Attack action with the star chunk on your turn, you can spend 2 ki points to launch it with the {@spell catapult|XGE} spell. The spell must launch your star chunk and the chunk follows the same path back to you instead of falling to the ground.",
+											"You can spend additional ki points to cast catapult as a higher-level spell. Each additional ki point you spend increases the spell's level by 1. The maximum number of ki points (2 plus any additional points) that you can spend on the spell equals half your monk level."
+										]
+									}
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Defensive Orbit",
+								"entries": [
+									"Starting at 11th level, you have learned to change the orbit of your star chunk quickly. When you take the dodge action, you have +4 bonus to AC."
+								]
+							}
+						]
+					}
+				],
+				[
+					{
+						"entries": [
+							{
+								"type": "entries",
+								"name": "Bring Down the Heavens",
+								"entries": [
+									"Starting at 17th level, your presence on the planet changes the orbit of any number of unknown celestial bodies. As an action, you can spend 1 to 10 ki points and you summon that many flaming spheres from the heavens. Each sphere lands in on a point with 500 feet that you can see. Each creature within 10-foot-radius sphere centered on each point you choose must make a Dexterity saving throw. A creature takes 1d6 fire damage and 1d6 bludgeoning damage on a failed save, or half as much damage on a successful one. A creature in the area of more than one fiery burst only makes one save but can take damage from multiple blasts."
+								]
+							}
+						]
+					}
+				]
+			]
+		}
+	]
+}

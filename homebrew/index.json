@@ -16,6 +16,7 @@
 		"class/siberys.json"
 	],
 	"toImport": [
-		"meta.json"
+		"meta.json",
+		"_inprogress/class/brew-acute-magic-3-zodiac.json"
 	]
 }
