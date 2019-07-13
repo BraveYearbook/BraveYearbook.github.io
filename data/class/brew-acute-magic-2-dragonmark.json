@@ -491,15 +491,15 @@
 										"rows": [
 											[
 												"1st",
-												"{@spell detect magic}, {@spell magic missile}"
+												"{@spell serpent's gaze | bols 3pp}, {@spell silent image | bols 3pp}"
 											],
 											[
 												"3rd",
-												"{@spell magic weapon}, {@spell Nystul's magic aura}"
+												"{@spell mirror image}, {@spell detect illusion | bols 3pp}"
 											],
 											[
 												"5th",
-												"{@spell dispel magic}, {@spell magic circle}"
+												"{@spell battle double | bols 3pp}, {@spell magic circle}"
 											],
 											[
 												"7th",
